@@ -1,8 +1,11 @@
 import { Link, Outlet } from 'react-router-dom'
 
+import { useCart } from '../../hooks/useCart.js'
 import { ScrollToTop } from '../shared/ScrollToTop.jsx'
 
 export function PublicLayout() {
+  const cart = useCart()
+
   return (
     <div className="min-h-dvh bg-neutral-50 text-neutral-900">
       <ScrollToTop />
@@ -37,8 +40,16 @@ export function PublicLayout() {
             <Link className="text-neutral-700 hover:text-neutral-900" to="/catalog">
               Catalogue
             </Link>
-            <Link className="text-neutral-700 hover:text-neutral-900" to="/cart">
+            <Link className="relative text-neutral-700 hover:text-neutral-900" to="/cart">
               Panier
+              {cart.count > 0 ? (
+                <span
+                  className="ml-2 inline-flex min-w-5 items-center justify-center rounded-full px-1.5 text-[11px] font-semibold text-white"
+                  style={{ backgroundColor: 'var(--medilec-accent)' }}
+                >
+                  {cart.count}
+                </span>
+              ) : null}
             </Link>
             <Link
               className="rounded-lg px-3 py-2 font-medium text-white"

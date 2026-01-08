@@ -1,6 +1,6 @@
 import { ref, serverTimestamp, update } from 'firebase/database'
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import { useAuth } from '../hooks/useAuth.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
@@ -21,6 +21,7 @@ function looksLikePhone(value) {
 
 export function ProfilePage() {
   const navigate = useNavigate()
+  const location = useLocation()
   const { user, loading: authLoading, isAuthConfigured } = useAuth()
 
   const userPath = user?.uid ? `/users/${user.uid}` : null
@@ -129,6 +130,12 @@ export function ProfilePage() {
         <h1 className="text-2xl font-semibold tracking-tight">Mon compte</h1>
         <p className="text-sm text-neutral-600">Gérez vos informations et vos demandes (MVP).</p>
       </header>
+
+      {location?.state?.reason === 'phone-required' ? (
+        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+          Pour envoyer une demande depuis le panier, nous avons besoin de votre numéro de téléphone.
+        </div>
+      ) : null}
 
       <div className="rounded-xl border border-neutral-200 bg-white p-4">
         <div className="text-sm text-neutral-600">Connecté en tant que</div>

@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 
+import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
 
 export function CatalogPage() {
   const { status, data, error } = useRtdbValue('/products')
+  const cart = useCart()
 
   const products = data && typeof data === 'object' ? Object.entries(data) : []
 
@@ -68,6 +70,7 @@ export function CatalogPage() {
                   <button
                     className="rounded-lg px-3 py-2 text-xs font-medium text-white"
                     style={{ backgroundColor: 'var(--medilec-accent)' }}
+                    onClick={() => cart.add({ id: productId, name, brand, priceCents })}
                     type="button"
                   >
                     Ajouter
@@ -77,6 +80,15 @@ export function CatalogPage() {
             )
           })}
         </ul>
+      ) : null}
+
+      {cart.count > 0 ? (
+        <div className="rounded-xl border border-neutral-200 bg-white p-3 text-sm text-neutral-700">
+          Panier: <span className="font-medium">{cart.count}</span> article{cart.count > 1 ? 's' : ''}.{' '}
+          <Link className="text-blue-600 hover:underline" to="/cart">
+            Voir le panier
+          </Link>
+        </div>
       ) : null}
 
       <p className="text-xs text-neutral-500">
