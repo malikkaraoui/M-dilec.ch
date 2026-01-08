@@ -16,6 +16,8 @@ dist-ssr
 .env
 .env.*
 !.env.example
+.env.local
+.env.*.local
 
 # Firebase Admin SDK (hors git)
 serviceAccount*.json
