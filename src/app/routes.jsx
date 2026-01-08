@@ -1,0 +1,35 @@
+import { Navigate, Route, Routes } from 'react-router-dom'
+
+import { AdminLayout } from './layouts/AdminLayout.jsx'
+import { PublicLayout } from './layouts/PublicLayout.jsx'
+
+import { HomePage } from '../features/home/HomePage.jsx'
+import { NotFoundPage } from '../features/not-found/NotFoundPage.jsx'
+
+import { AdminDashboardPage } from '../pages/admin/AdminDashboard.jsx'
+import { AuthLoginPage } from '../pages/AuthLogin.jsx'
+import { CartPage } from '../pages/Cart.jsx'
+import { CatalogPage } from '../pages/Catalog.jsx'
+
+export function AppRoutes() {
+  return (
+    <Routes>
+      <Route element={<PublicLayout />}>
+        <Route index element={<HomePage />} />
+        <Route path="home" element={<Navigate to="/" replace />} />
+
+        {/* MVP: pages publiques */}
+        <Route path="catalog" element={<CatalogPage />} />
+        <Route path="cart" element={<CartPage />} />
+        <Route path="login" element={<AuthLoginPage />} />
+      </Route>
+
+      {/* MVP: admin — guard ajouté plus tard (RequireAdmin) */}
+      <Route path="admin" element={<AdminLayout />}>
+        <Route index element={<AdminDashboardPage />} />
+      </Route>
+
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
+  )
+}

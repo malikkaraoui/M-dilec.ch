@@ -1,0 +1,281 @@
+fichier_instruction_strart_v2.txt — Refonte Medilec.ch (React + Firebase)
+
+CORRECTION IMPORTANTE (DESIGN)
+- Tu as raison : tu n’as jamais demandé un thème sombre ni une couleur émeraude.
+- On part sur un design “médical suisse” : sobre, clair, propre, efficace, pro, confiance.
+
+Référence site actuel
+- Le site actuel medilec.ch est un site catalogue avec catégories (ECG, Spiro, Tension, etc.), nouveautés/promotions/actions, et une page “Qui sommes-nous ?” qui rappelle l’ancrage genevois et l’activité appareils médicaux. (source: medilec.ch) citeturn1view0turn1view1
+
+============================================================
+0) Objectif (MVP)
+============================================================
+
+But : donner à Copilot un plan d’implémentation clair (front + Firebase) pour refaire le site medilec.ch en vitrine avec :
+- Catalogue produits + recherche
+- Panier SANS paiement (le panier est envoyé à Alain)
+- Comptes clients (email/mdp ou Google)
+- Zone admin (/admin) pour gérer produits, gammes, clients, paniers/commandes
+Contrainte : pas de Stripe (aucun SDK paiement).
+
+============================================================
+1) UX / UI — “Medical Swiss” (à respecter)
+============================================================
+
+Thème
+- Fond clair (blanc cassé) + surfaces blanches, beaucoup d’espace, séparation par gris très léger.
+- Accent principal : rouge “Swiss” possible (proposition : #D52B1E) mais avec parcimonie :
+  - boutons primaires, pastilles statut, liens importants
+  - éviter de saturer l’interface en rouge (ça doit rester calme et pro).
+- Couleurs secondaires (neutres) :
+  - Texte principal : gris très foncé (presque noir)
+  - Bordures : gris clair
+  - États : vert discret pour “validé” (optionnel), orange discret pour “en attente”.
+
+Typo (rapide, fine, lisible)
+- Recommandation : Inter (Google Fonts) ou Source Sans 3.
+- Tailles :
+  - Titres : 24/20/18
+  - Texte : 16
+  - Légendes : 13-14
+- Line-height confortable, pas de texte serré.
+
+UI patterns
+- Header simple, logo + recherche + accès compte + panier.
+- Cartes produit : photo (si dispo), nom, marque, catégorie, prix, CTA “Ajouter”.
+- Fiche produit : spécifications, PDF fiche technique, accessoires/consommables liés.
+- Admin : tableaux lisibles, filtres, actions claires, confirmations (modal).
+
+Ton éditorial
+- Français pro, court, rassurant.
+- “Nous vous recontactons pour valider votre besoin et finaliser la commande.”
+
+Accessibilité
+- Contraste suffisant (CTA lisible).
+- Focus visible clavier.
+- Formulaires : erreurs claires, champs obligatoires marqués.
+
+============================================================
+2) Résumé fonctionnel
+============================================================
+
+Parcours client
+1) Rechercher produits :
+   - par marque, constructeur, modèle, année
+   - ou par besoin (ex : tensiomètre, ECG, spiromètre…)
+2) Ajouter au panier (quantités, suppression, note).
+3) Envoyer le panier à Alain :
+   - pas de paiement sur le site
+   - on enregistre la commande (order) et on affiche confirmation
+4) Compte requis pour envoyer :
+   - email/mot de passe : nom, prénom, email, téléphone (avec indicatif)
+   - Google : nom/prénom/email, puis demander le téléphone à la 1ère connexion
+
+Parcours admin (/admin)
+- Ajouter/modifier/supprimer produits (avec PDF en Storage)
+- Gérer gammes / catégories
+- Voir/éditer comptes clients
+- Voir paniers/commandes + statuts (cumulables)
+  - submitted, reviewed, awaitingPayment, paid, cancelled
+
+============================================================
+3) Stack & conventions
+============================================================
+
+Front
+- React + Vite
+- TailwindCSS
+- React Router (SPA)
+
+Firebase
+- Auth : Email/Password + Google
+- Realtime Database (RTDB) : produits, gammes, users, orders
+- Storage : PDF produits
+- Hosting : auto-deploy via GitHub Actions
+
+============================================================
+4) Modèle de données RTDB (proposition)
+============================================================
+
+/products/{productId}
+  name
+  brand
+  manufacturer
+  modelRef
+  year
+  productType
+  rangeId
+  description
+  priceCents
+  weightGrams
+  pdf.storagePath
+  pdf.downloadURL
+  flags.active
+  search.brandKey
+  search.manufacturerKey
+  search.modelKey
+  search.typeKey
+
+/ranges/{rangeId}
+  name
+  sortIndex
+  active
+
+/users/{uid}
+  firstName
+  lastName
+  email
+  phone
+  createdAt
+  lastLoginAt
+
+/orders/{orderId}
+  uid
+  createdAt
+  updatedAt
+  items/{productId}
+    qty
+    unitPriceCents
+    weightGrams
+    nameSnapshot
+  customerNote
+  totals.estimatedWeightGrams
+  totals.estimatedSubtotalCents
+  statusFlags.submitted
+  statusFlags.reviewed
+  statusFlags.awaitingPayment
+  statusFlags.paid
+  statusFlags.cancelled
+  admin.adminNote
+  admin.adjustedWeightGrams (optionnel)
+  admin.adjustedShippingCents (optionnel)
+
+============================================================
+5) Admin sécurisé (Custom Claims) — recommandé
+============================================================
+
+Pourquoi ?
+- Les règles Storage ne peuvent pas lire RTDB -> pour limiter l’upload PDF à l’admin, il faut un claim.
+
+Approche
+- Custom claim admin:true pour Alain
+- Vérification : auth.token.admin == true
+
+Script local : scripts/setAdminClaim.mjs
+(IMPORTANT : serviceAccount JSON hors Git)
+
+Exemple (Copilot doit l’implémenter)
+- SERVICE_ACCOUNT_PATH=./serviceAccount.medilec-ch.json node scripts/setAdminClaim.mjs <UID_ALAIN> true
+- l’utilisateur doit se reconnecter (ou refresh token) pour récupérer le claim.
+
+============================================================
+6) Règles RTDB (MVP)
+============================================================
+
+Objectif : public read sur catalogue, écriture réservée admin, et empêcher un client de s’auto-mettre “paid”.
+
+- /products : read public, write admin
+- /ranges : read public, write admin
+- /users/{uid} : lecture/écriture owner ou admin
+- /orders :
+  - lecture owner ou admin
+  - création par owner (uid == auth.uid)
+  - champs admin et flags “reviewed/awaitingPayment/paid” modifiables uniquement par admin
+
+Copilot : générer database.rules.json cohérent avec ça (approche par validate).
+
+============================================================
+7) Règles Storage (PDF produits)
+============================================================
+
+- Lecture publique des PDFs (ou lecture restreinte si vous préférez)
+- Écriture uniquement admin
+
+Copilot : générer storage.rules.
+
+============================================================
+8) .env / secrets / Git
+============================================================
+
+.env.local
+- mettre la config Firebase (VITE_FIREBASE_...)
+
+.gitignore
+- .env.local
+- serviceAccount*.json
+
+GitHub Actions
+- secret FIREBASE_SERVICE_ACCOUNT_MEDILEC_CH (JSON)
+- jamais commit.
+
+============================================================
+9) Structure de code (proposition)
+============================================================
+
+src/
+  app/routes.jsx
+  lib/firebase.js
+  lib/db.js
+  lib/storage.js
+  lib/auth.js
+  hooks/useAuth.js
+  hooks/useIsAdmin.js
+  pages/Home.jsx
+  pages/Catalog.jsx
+  pages/ProductDetails.jsx
+  pages/Cart.jsx
+  pages/CheckoutSend.jsx
+  pages/AuthLogin.jsx
+  pages/AuthRegister.jsx
+  pages/Profile.jsx
+  pages/admin/AdminLayout.jsx
+  pages/admin/AdminProducts.jsx
+  pages/admin/AdminOrders.jsx
+  pages/admin/AdminUsers.jsx
+  pages/admin/AdminRanges.jsx
+
+============================================================
+10) Panier + Envoi (sans paiement)
+============================================================
+
+- Panier localStorage : medilec_cart_v1
+- Au clic “Envoyer” :
+  1) vérifier connecté + téléphone rempli
+  2) push /orders/{orderId}
+  3) écrire snapshot items + totals
+  4) statusFlags.submitted=true
+  5) vider panier
+  6) afficher confirmation : “nous vous recontactons pour finaliser”
+
+============================================================
+11) Déploiement auto (GitHub -> Firebase Hosting)
+============================================================
+
+firebase.json (SPA rewrite vers index.html)
+GitHub Action :
+- build sur push main
+- deploy hosting live via FirebaseExtended/action-hosting-deploy@v0
+- secret FIREBASE_SERVICE_ACCOUNT_MEDILEC_CH
+
+============================================================
+12) Checklist MVP
+============================================================
+
+Client
+- catalogue + filtres + recherche
+- fiche produit + pdf
+- panier local + envoi
+- auth email + google
+- téléphone obligatoire avant envoi
+
+Admin
+- guard admin (custom claim)
+- CRUD produits + upload pdf
+- CRUD gammes
+- liste commandes + statuts
+- liste users + édition
+
+Directives Copilot
+- Ne pas inventer (pas de Stripe)
+- Design clair, sobre, “Swiss medical”, rouge discret possible
+- Sécurité d’abord : rules RTDB + rules Storage + claims admin
