@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "prepare": "husky",
     "preview": "vite preview",
+    "admin:bootstrap": "node scripts/set-admin-role.mjs --email admin@medilec.ch --role admin",
     "test:rules": "firebase emulators:exec --only database,storage \"vitest run\""
   },
   "dependencies": {

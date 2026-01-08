@@ -1,16 +1,56 @@
-# React + Vite
+# Médilec.ch — Front (Vite + React) + Firebase (Auth/RTDB/Storage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MVP e-commerce “demande de devis” : catalogue, panier, création de demandes, back-office admin.
 
-Currently, two official plugins are available:
+## Prérequis
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js (LTS recommandé)
+- Un projet Firebase (Auth + Realtime Database + Storage)
 
-## React Compiler
+## Démarrage local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1) Installer les dépendances.
 
-## Expanding the ESLint configuration
+2) Créer un fichier `.env.local` (non committé) à partir de `.env.example` et renseigner :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `VITE_FIREBASE_*`
+
+3) Lancer le dev server.
+
+## Admin (compte fixe + tous les droits)
+
+Le modèle final est volontairement simple :
+
+- l’admin se connecte comme un utilisateur via **email/mot de passe**
+- les droits sont accordés via **custom claim** : `role="admin"`
+
+### 1) Créer l’utilisateur `admin@medilec.ch`
+
+Dans Firebase Console > Authentication :
+
+- Créer l’utilisateur `admin@medilec.ch`
+- Définir un mot de passe
+
+### 2) Assigner le rôle `admin`
+
+Il faut poser le custom claim via Admin SDK (une seule fois).
+
+Prérequis:
+
+- Télécharger un **Service Account JSON** depuis Firebase Console > Project settings > Service accounts
+- Exporter `GOOGLE_APPLICATION_CREDENTIALS` vers ce fichier (local)
+
+Le dépôt fournit un script :
+
+- `scripts/set-admin-role.mjs`
+
+La commande npm existe aussi :
+
+- `npm run admin:bootstrap`
+
+> Note: après modification des claims, l’utilisateur doit se reconnecter (ou forcer refresh token) pour recevoir le nouveau rôle.
+
+## Règles sécurité
+
+- RTDB: écriture admin uniquement sur `/products`, lecture publique des produits, commandes privées, admin modifie statuts/notes.
+- Storage: PDFs produits en lecture publique, écriture admin uniquement, PDF-only.
