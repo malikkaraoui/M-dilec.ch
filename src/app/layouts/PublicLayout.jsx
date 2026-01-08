@@ -7,7 +7,7 @@ import { ScrollToTop } from '../shared/ScrollToTop.jsx'
 
 export function PublicLayout() {
   const cart = useCart()
-  const { isAuthenticated, user } = useAuth()
+  const { isAuthenticated, isAdmin, user } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
 
@@ -77,6 +77,12 @@ export function PublicLayout() {
             <Link className="text-neutral-700 hover:text-neutral-900" to="/catalog">
               Catalogue
             </Link>
+
+            {isAdmin ? (
+              <Link className="text-neutral-700 hover:text-neutral-900" to="/admin">
+                Admin
+              </Link>
+            ) : null}
 
             {isAuthenticated ? (
               <Link className="text-neutral-700 hover:text-neutral-900" to="/my-orders">

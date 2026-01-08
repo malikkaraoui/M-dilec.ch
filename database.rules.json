@@ -53,7 +53,7 @@
           ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 2000)"
         },
         "status": {
-          ".validate": "auth != null && (auth.token.admin === true || newData.val() === 'new')"
+          ".validate": "auth != null && ((auth.token.admin === true && (newData.val() === 'new' || newData.val() === 'processing' || newData.val() === 'done' || newData.val() === 'cancelled')) || (auth.token.admin !== true && newData.val() === 'new'))"
         },
         "paid": {
           ".validate": "auth != null && auth.token.admin === true"
