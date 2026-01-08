@@ -1,6 +1,6 @@
 import { ref, serverTimestamp, update } from 'firebase/database'
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
 import { rtdb } from '../../lib/db.js'
@@ -32,9 +32,21 @@ function formatStatus(status) {
   }
 }
 
+const LS_ADMIN_PRODUCTS_SELECTED_KEY = 'medilec_admin_products_selected_v1'
+
+async function copyToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(String(text || ''))
+    return true
+  } catch {
+    return false
+  }
+}
+
 export function AdminOrderDetailsPage() {
   const params = useParams()
   const orderId = typeof params.id === 'string' ? params.id : ''
+  const navigate = useNavigate()
 
   const { status, data, error } = useRtdbValue(orderId ? `/orders/${orderId}` : null)
 
@@ -86,6 +98,24 @@ export function AdminOrderDetailsPage() {
     }
   }
 
+  async function onCopy(value) {
+    if (typeof window === 'undefined') return
+    if (!value) return
+    const ok = await copyToClipboard(value)
+    if (!ok) {
+      // fail-soft
+      window.prompt('Copiez:', String(value))
+    }
+  }
+
+  function onOpenProduct(productId) {
+    if (typeof window === 'undefined') return
+    const id = String(productId || '').trim()
+    if (!id) return
+    window.localStorage.setItem(LS_ADMIN_PRODUCTS_SELECTED_KEY, id)
+    navigate('/admin/products')
+  }
+
   return (
     <section className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -99,9 +129,6 @@ export function AdminOrderDetailsPage() {
         <div className="flex items-center gap-3">
           <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/admin/orders">
             ← Retour
-          </Link>
-          <Link className="text-sm text-blue-600 hover:underline" to={`/my-orders/${orderId}`}>
-            Voir côté client
           </Link>
         </div>
       </div>
@@ -129,7 +156,36 @@ export function AdminOrderDetailsPage() {
                 <div>{data?.user?.email || '—'}</div>
                 <div className="text-neutral-600">{data?.user?.phone || '—'}</div>
               </div>
+
+
               <div className="mt-2 text-xs text-neutral-500">UID: {data?.user?.uid || '—'}</div>
+
+              <div className="mt-3 flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-800 hover:bg-neutral-50"
+                  onClick={() => onCopy(data?.user?.email)}
+                  disabled={!data?.user?.email}
+                >
+                  Copier email
+                </button>
+                <button
+                  type="button"
+                  className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-800 hover:bg-neutral-50"
+                  onClick={() => onCopy(data?.user?.phone)}
+                  disabled={!data?.user?.phone}
+                >
+                  Copier tél.
+                </button>
+                <button
+                  type="button"
+                  className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-800 hover:bg-neutral-50"
+                  onClick={() => onCopy(data?.user?.uid)}
+                  disabled={!data?.user?.uid}
+                >
+                  Copier UID
+                </button>
+              </div>
             </div>
 
             <div className="rounded-2xl border border-neutral-200 bg-white p-4">
@@ -147,6 +203,15 @@ export function AdminOrderDetailsPage() {
                         <div>
                           <div className="text-sm font-semibold text-neutral-900">{it?.name || it?.id || 'Article'}</div>
                           {it?.brand ? <div className="mt-1 text-xs text-neutral-500">{it.brand}</div> : null}
+                          {it?.id ? (
+                            <button
+                              type="button"
+                              className="mt-2 text-xs text-blue-700 hover:underline"
+                              onClick={() => onOpenProduct(it.id)}
+                            >
+                              Ouvrir produit (admin)
+                            </button>
+                          ) : null}
                         </div>
                         <div className="text-sm text-neutral-700">× {it?.qty || 1}</div>
                       </div>
