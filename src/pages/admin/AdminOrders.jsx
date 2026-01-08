@@ -37,6 +37,11 @@ function normalizeText(value) {
 }
 
 const LS_QUERY_KEY = 'medilec_admin_orders_query_v1'
+const LS_STATUS_KEY = 'medilec_admin_orders_status_v1'
+
+function isValidStatusFilter(value) {
+  return value === 'all' || value === 'new' || value === 'processing' || value === 'done' || value === 'cancelled'
+}
 
 export function AdminOrdersPage() {
   const { status, data, error } = useRtdbValue('/orders')
@@ -45,6 +50,11 @@ export function AdminOrdersPage() {
     if (typeof window === 'undefined') return ''
     return window.localStorage.getItem(LS_QUERY_KEY) || ''
   })
+  const [statusFilter, setStatusFilter] = useState(() => {
+    if (typeof window === 'undefined') return 'all'
+    const value = window.localStorage.getItem(LS_STATUS_KEY) || 'all'
+    return isValidStatusFilter(value) ? value : 'all'
+  })
   const [updatingId, setUpdatingId] = useState('')
   const [updateError, setUpdateError] = useState('')
 
@@ -52,6 +62,11 @@ export function AdminOrdersPage() {
     if (typeof window === 'undefined') return
     window.localStorage.setItem(LS_QUERY_KEY, query)
   }, [query])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    window.localStorage.setItem(LS_STATUS_KEY, statusFilter)
+  }, [statusFilter])
 
   const orders = useMemo(() => {
     const raw = data
@@ -77,10 +92,12 @@ export function AdminOrdersPage() {
       })
       .sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0))
 
-    const q = normalizeText(query)
-    if (!q) return list.slice(0, 50)
+    const withStatus = statusFilter === 'all' ? list : list.filter((o) => o.status === statusFilter)
 
-    const filtered = list.filter((o) => {
+    const q = normalizeText(query)
+    if (!q) return withStatus.slice(0, 50)
+
+    const filtered = withStatus.filter((o) => {
       const haystack = normalizeText(
         `${o.id} ${o.status} ${o.email} ${o.phone} ${o.note} ${o.itemCount ?? ''}`,
       )
@@ -88,7 +105,12 @@ export function AdminOrdersPage() {
     })
 
     return filtered.slice(0, 50)
-  }, [data, query])
+  }, [data, query, statusFilter])
+
+  function onResetFilters() {
+    setQuery('')
+    setStatusFilter('all')
+  }
 
   async function onChangeStatus(orderId, nextStatus) {
     setUpdateError('')
@@ -122,19 +144,47 @@ export function AdminOrdersPage() {
           <p className="mt-1 text-sm text-neutral-600">MVP: liste simple + changement de statut.</p>
         </div>
 
-        <div className="w-full sm:w-80">
-          <label className="sr-only" htmlFor="admin-orders-search">
-            Rechercher
-          </label>
-          <input
-            id="admin-orders-search"
-            className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-            style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-            placeholder="Recherche (réf, email, statut…)"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            type="search"
-          />
+        <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:items-end sm:gap-3">
+          <div className="w-full sm:w-80">
+            <label className="sr-only" htmlFor="admin-orders-search">
+              Rechercher
+            </label>
+            <input
+              id="admin-orders-search"
+              className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
+              style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
+              placeholder="Recherche (réf, email, statut…)"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              type="search"
+            />
+          </div>
+
+          <div className="w-full sm:w-48">
+            <label className="block text-xs font-medium text-neutral-600" htmlFor="admin-orders-status-filter">
+              Statut
+            </label>
+            <select
+              id="admin-orders-status-filter"
+              className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm"
+              value={statusFilter}
+              onChange={(e) => setStatusFilter(e.target.value)}
+            >
+              <option value="all">Tous</option>
+              <option value="new">Nouvelle</option>
+              <option value="processing">En traitement</option>
+              <option value="done">Terminée</option>
+              <option value="cancelled">Annulée</option>
+            </select>
+          </div>
+
+          <button
+            type="button"
+            className="h-10 w-full rounded-lg border border-neutral-200 bg-white px-3 text-sm text-neutral-800 hover:bg-neutral-50 sm:w-auto"
+            onClick={onResetFilters}
+          >
+            Réinitialiser
+          </button>
         </div>
       </div>
 
