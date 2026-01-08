@@ -521,7 +521,7 @@ export function AdminProductsPage() {
       </div>
 
       <p className="text-xs text-neutral-500">
-        Notes: la page suppose un claim <code className="font-mono">admin=true</code> pour la lecture/écriture.
+        Notes: la page suppose un claim <code className="font-mono">role="admin"</code> pour la lecture/écriture.
       </p>
     </section>
   )
