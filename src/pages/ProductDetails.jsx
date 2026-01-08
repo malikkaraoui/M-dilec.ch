@@ -1,10 +1,12 @@
 import { Link, useParams } from 'react-router-dom'
 
+import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
 
 export function ProductDetailsPage() {
   const { id } = useParams()
   const { status, data: product, error } = useRtdbValue(id ? `/products/${id}` : '')
+  const cart = useCart()
 
   return (
     <section className="space-y-4">
@@ -41,6 +43,27 @@ export function ProductDetailsPage() {
           <div className="text-sm font-semibold text-neutral-900">{product?.name || id}</div>
           <div className="mt-1 text-sm text-neutral-600">
             {product?.brand ? <span>{product.brand}</span> : <span className="text-neutral-500">—</span>}
+          </div>
+
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <button
+              className="rounded-lg px-3 py-2 text-sm font-medium text-white"
+              style={{ backgroundColor: 'var(--medilec-accent)' }}
+              onClick={() =>
+                cart.add({
+                  id,
+                  name: product?.name || id,
+                  brand: product?.brand,
+                  priceCents: typeof product?.priceCents === 'number' ? product.priceCents : null,
+                })
+              }
+              type="button"
+            >
+              Ajouter au panier
+            </button>
+            <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/cart">
+              Voir le panier
+            </Link>
           </div>
 
           {typeof product?.description === 'string' && product.description.trim() ? (

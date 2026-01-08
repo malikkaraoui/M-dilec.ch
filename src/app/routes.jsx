@@ -11,6 +11,8 @@ import { AuthLoginPage } from '../pages/AuthLogin.jsx'
 import { AuthRegisterPage } from '../pages/AuthRegister.jsx'
 import { CartPage } from '../pages/Cart.jsx'
 import { CatalogPage } from '../pages/Catalog.jsx'
+import { MyOrderDetailsPage } from '../pages/MyOrderDetails.jsx'
+import { MyOrdersPage } from '../pages/MyOrders.jsx'
 import { ProfilePage } from '../pages/Profile.jsx'
 import { ProductDetailsPage } from '../pages/ProductDetails.jsx'
 
@@ -25,6 +27,8 @@ export function AppRoutes() {
         <Route path="catalog" element={<CatalogPage />} />
         <Route path="product/:id" element={<ProductDetailsPage />} />
         <Route path="cart" element={<CartPage />} />
+        <Route path="my-orders/:id" element={<MyOrderDetailsPage />} />
+        <Route path="my-orders" element={<MyOrdersPage />} />
         <Route path="login" element={<AuthLoginPage />} />
         <Route path="register" element={<AuthRegisterPage />} />
         <Route path="profile" element={<ProfilePage />} />
