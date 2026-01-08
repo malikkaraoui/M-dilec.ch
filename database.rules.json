@@ -1,0 +1,94 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "products": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true",
+      ".indexOn": ["name", "brand"],
+
+      "$productId": {
+        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (!newData.child('pdf/downloadURL').exists() || newData.child('pdf/downloadURL').isString()))"
+      }
+    },
+
+    "users": {
+      "$uid": {
+        ".read": "auth != null && (auth.token.admin === true || auth.uid === $uid)",
+        ".write": "auth != null && (auth.token.admin === true || auth.uid === $uid)",
+
+        "phone": {
+          ".validate": "newData.isString() && newData.val().length <= 40"
+        },
+        "email": {
+          ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 200)"
+        },
+        "updatedAt": {
+          ".validate": "newData.exists()"
+        }
+      }
+    },
+
+    "orders": {
+      ".indexOn": ["createdAt", "user/uid"],
+
+      "$orderId": {
+        ".read": "auth != null && (auth.token.admin === true || data.child('user/uid').val() === auth.uid)",
+
+        ".write": "auth != null && (auth.token.admin === true || (!data.exists() && newData.child('user/uid').val() === auth.uid))",
+
+        ".validate": "newData.hasChildren(['id','createdAt','status','user','items']) && newData.child('id').val() === $orderId",
+
+        "id": {
+          ".validate": "newData.isString() && newData.val() === $orderId"
+        },
+        "createdAt": {
+          ".validate": "newData.exists()"
+        },
+        "source": {
+          ".validate": "!newData.exists() || (newData.isString() && newData.val().length <= 40)"
+        },
+        "note": {
+          ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 2000)"
+        },
+        "status": {
+          ".validate": "auth != null && (auth.token.admin === true || newData.val() === 'new')"
+        },
+        "paid": {
+          ".validate": "auth != null && auth.token.admin === true"
+        },
+
+        "user": {
+          "uid": {
+            ".validate": "newData.isString() && auth != null && (auth.token.admin === true || newData.val() === auth.uid)"
+          },
+          "email": {
+            ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 200)"
+          },
+          "phone": {
+            ".validate": "newData.isString() && newData.val().length <= 40"
+          }
+        },
+
+        "items": {
+          ".validate": "newData.hasChildren()",
+          "$idx": {
+            ".validate": "$idx.matches(/^(?:[0-9]|[1-3][0-9]|4[0-9])$/) && newData.hasChildren(['id','qty']) && newData.child('id').isString() && newData.child('id').val().length > 0 && newData.child('id').val().length <= 120 && newData.child('qty').isNumber() && newData.child('qty').val() >= 1 && newData.child('qty').val() <= 999 && (!newData.child('name').exists() || (newData.child('name').isString() && newData.child('name').val().length <= 160)) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber())"
+          }
+        }
+      }
+    },
+
+    "userOrders": {
+      "$uid": {
+        ".read": "auth != null && (auth.token.admin === true || auth.uid === $uid)",
+
+        "$orderId": {
+          ".write": "auth != null && (auth.token.admin === true || auth.uid === $uid) && newData.val() === true",
+          ".validate": "newData.val() === true"
+        }
+      }
+    }
+  }
+}

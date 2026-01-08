@@ -19,8 +19,8 @@ export function AuthLoginPage() {
   useEffect(() => {
     if (authLoading) return
     if (!user) return
-    navigate('/profile', { replace: true })
-  }, [authLoading, user, navigate])
+    navigate(fromPath, { replace: true })
+  }, [authLoading, user, navigate, fromPath])
 
   async function onSubmit(e) {
     e.preventDefault()

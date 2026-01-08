@@ -1,10 +1,12 @@
 import { Link, Outlet } from 'react-router-dom'
 
+import { useAuth } from '../../hooks/useAuth.js'
 import { useCart } from '../../hooks/useCart.js'
 import { ScrollToTop } from '../shared/ScrollToTop.jsx'
 
 export function PublicLayout() {
   const cart = useCart()
+  const { isAuthenticated } = useAuth()
 
   return (
     <div className="min-h-dvh bg-neutral-50 text-neutral-900">
@@ -40,6 +42,13 @@ export function PublicLayout() {
             <Link className="text-neutral-700 hover:text-neutral-900" to="/catalog">
               Catalogue
             </Link>
+
+            {isAuthenticated ? (
+              <Link className="text-neutral-700 hover:text-neutral-900" to="/my-orders">
+                Mes demandes
+              </Link>
+            ) : null}
+
             <Link className="relative text-neutral-700 hover:text-neutral-900" to="/cart">
               Panier
               {cart.count > 0 ? (
@@ -54,7 +63,7 @@ export function PublicLayout() {
             <Link
               className="rounded-lg px-3 py-2 font-medium text-white"
               style={{ backgroundColor: 'var(--medilec-accent)' }}
-              to="/login"
+              to={isAuthenticated ? '/profile' : '/login'}
             >
               Compte
             </Link>

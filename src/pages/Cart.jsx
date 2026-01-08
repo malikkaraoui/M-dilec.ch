@@ -113,6 +113,11 @@ export function CartPage() {
       {sentOrderId ? (
         <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
           Demande envoyée. Référence: <span className="font-mono">{sentOrderId}</span>
+          <div className="mt-2">
+            <Link className="text-blue-700 hover:underline" to="/my-orders">
+              Voir mes demandes
+            </Link>
+          </div>
         </div>
       ) : null}
 
