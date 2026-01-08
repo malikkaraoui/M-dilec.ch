@@ -9,7 +9,7 @@
       ".indexOn": ["name", "brand"],
 
       "$productId": {
-        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (!newData.child('pdf/downloadURL').exists() || newData.child('pdf/downloadURL').isString()))"
+        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (( !newData.child('pdf/storagePath').exists() || (newData.child('pdf/storagePath').isString() && newData.child('pdf/storagePath').val().length <= 500) ) && ( !newData.child('pdf/downloadURL').exists() || (newData.child('pdf/downloadURL').isString() && newData.child('pdf/downloadURL').val().length <= 2000) )))"
       }
     },
 
