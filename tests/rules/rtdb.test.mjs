@@ -121,7 +121,7 @@ describe('Realtime Database rules (orders + admin fields)', () => {
       await set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid }))
     })
 
-    const adminCtx = testEnv.authenticatedContext('admin_1', { admin: true })
+    const adminCtx = testEnv.authenticatedContext('admin_1', { role: 'admin' })
     const db = adminCtx.database()
 
     await assertSucceeds(update(dbRef(db, `orders/${orderId}`), { status: 'processing' }))

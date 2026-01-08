@@ -5,7 +5,7 @@
 
     "products": {
       ".read": true,
-      ".write": "auth != null && auth.token.admin === true",
+      ".write": "auth != null && auth.token.role === 'admin'",
       ".indexOn": ["name", "brand"],
 
       "$productId": {
@@ -14,9 +14,10 @@
     },
 
     "users": {
+      ".read": "auth != null && auth.token.role === 'admin'",
       "$uid": {
-        ".read": "auth != null && (auth.token.admin === true || auth.uid === $uid)",
-        ".write": "auth != null && (auth.token.admin === true || auth.uid === $uid)",
+        ".read": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid)",
+        ".write": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid)",
 
         "phone": {
           ".validate": "newData.isString() && newData.val().length <= 40"
@@ -34,9 +35,9 @@
       ".indexOn": ["createdAt", "user/uid"],
 
       "$orderId": {
-        ".read": "auth != null && (auth.token.admin === true || data.child('user/uid').val() === auth.uid)",
+        ".read": "auth != null && (auth.token.role === 'admin' || data.child('user/uid').val() === auth.uid)",
 
-        ".write": "auth != null && (auth.token.admin === true || (!data.exists() && newData.child('user/uid').val() === auth.uid))",
+        ".write": "auth != null && (auth.token.role === 'admin' || (!data.exists() && newData.child('user/uid').val() === auth.uid))",
 
         ".validate": "newData.hasChildren(['id','createdAt','status','user','items']) && newData.child('id').val() === $orderId",
 
@@ -53,21 +54,21 @@
           ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 2000)"
         },
         "adminNote": {
-          ".validate": "!newData.exists() || (auth != null && auth.token.admin === true && newData.isString() && newData.val().length <= 4000)"
+          ".validate": "!newData.exists() || (auth != null && auth.token.role === 'admin' && newData.isString() && newData.val().length <= 4000)"
         },
         "status": {
-          ".validate": "auth != null && ((auth.token.admin === true && (newData.val() === 'new' || newData.val() === 'processing' || newData.val() === 'done' || newData.val() === 'cancelled')) || (auth.token.admin !== true && newData.val() === 'new'))"
+          ".validate": "auth != null && ((auth.token.role === 'admin' && (newData.val() === 'new' || newData.val() === 'processing' || newData.val() === 'done' || newData.val() === 'cancelled')) || (auth.token.role !== 'admin' && newData.val() === 'new'))"
         },
         "updatedAt": {
-          ".validate": "!newData.exists() || (auth != null && auth.token.admin === true)"
+          ".validate": "!newData.exists() || (auth != null && auth.token.role === 'admin')"
         },
         "paid": {
-          ".validate": "auth != null && auth.token.admin === true"
+          ".validate": "auth != null && auth.token.role === 'admin'"
         },
 
         "user": {
           "uid": {
-            ".validate": "newData.isString() && auth != null && (auth.token.admin === true || newData.val() === auth.uid)"
+            ".validate": "newData.isString() && auth != null && (auth.token.role === 'admin' || newData.val() === auth.uid)"
           },
           "email": {
             ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 200)"
@@ -88,10 +89,10 @@
 
     "userOrders": {
       "$uid": {
-        ".read": "auth != null && (auth.token.admin === true || auth.uid === $uid)",
+        ".read": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid)",
 
         "$orderId": {
-          ".write": "auth != null && (auth.token.admin === true || auth.uid === $uid) && newData.val() === true",
+          ".write": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid) && newData.val() === true",
           ".validate": "newData.val() === true"
         }
       }

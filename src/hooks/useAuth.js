@@ -91,7 +91,8 @@ export function useAuth() {
   }, [])
 
   const isAuthenticated = Boolean(state.user)
-  const isAdmin = Boolean(state.claims && state.claims.admin === true)
+  const role = state.claims && typeof state.claims.role === 'string' ? state.claims.role : ''
+  const isAdmin = role === 'admin'
 
   return useMemo(
     () => ({
@@ -103,6 +104,7 @@ export function useAuth() {
       claims: state.claims,
       claimsLoading: state.claimsLoading,
       claimsError: state.claimsError,
+      role,
       isAdmin,
       async refreshClaims() {
         if (!state.user) return
@@ -130,6 +132,6 @@ export function useAuth() {
         }
       },
     }),
-    [state.user, state.loading, state.error, state.claims, state.claimsLoading, state.claimsError, isAuthenticated, isAdmin],
+    [state.user, state.loading, state.error, state.claims, state.claimsLoading, state.claimsError, isAuthenticated, role, isAdmin],
   )
 }

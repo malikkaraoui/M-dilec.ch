@@ -29,7 +29,7 @@ export function AdminDashboardPage() {
       </div>
 
       <p className="text-xs text-neutral-500">
-        Accès protégé par le claim <code className="font-mono">admin=true</code>.
+        Accès protégé par le claim <code className="font-mono">role="admin"</code>.
       </p>
     </section>
   )

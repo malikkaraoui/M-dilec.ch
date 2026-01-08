@@ -35,7 +35,7 @@ afterAll(async () => {
 
 describe('Storage rules (product PDFs)', () => {
   it('admin can upload a PDF under product-pdfs/{productId}/', async () => {
-    const adminCtx = testEnv.authenticatedContext('admin_1', { admin: true })
+    const adminCtx = testEnv.authenticatedContext('admin_1', { role: 'admin' })
     const storage = adminCtx.storage()
 
     const fileRef = storageRef(storage, 'product-pdfs/p1/fiche.pdf')
@@ -71,7 +71,7 @@ describe('Storage rules (product PDFs)', () => {
   })
 
   it('admin upload is rejected if contentType is not application/pdf', async () => {
-    const adminCtx = testEnv.authenticatedContext('admin_2', { admin: true })
+    const adminCtx = testEnv.authenticatedContext('admin_2', { role: 'admin' })
     const storage = adminCtx.storage()
 
     const fileRef = storageRef(storage, 'product-pdfs/p3/fiche.pdf')
