@@ -1,11 +1,8 @@
-fichier_instruction_strart_v2.txt — Refonte Medilec.ch (React + Firebase)
+fichier_instruction_strart_v3.txt — Refonte Medilec.ch (React + Firebase)
 
 CORRECTION IMPORTANTE (DESIGN)
-- Tu as raison : tu n’as jamais demandé un thème sombre ni une couleur émeraude.
 - On part sur un design “médical suisse” : sobre, clair, propre, efficace, pro, confiance.
-
-Référence site actuel
-- Le site actuel medilec.ch est un site catalogue avec catégories (ECG, Spiro, Tension, etc.), nouveautés/promotions/actions, et une page “Qui sommes-nous ?” qui rappelle l’ancrage genevois et l’activité appareils médicaux. (source: medilec.ch) citeturn1view0turn1view1
+- Accent couleur : rouge “Swiss” possible (ex: #D52B1E) mais discret (CTA, statuts, liens importants).
 
 ============================================================
 0) Objectif (MVP)
@@ -24,13 +21,8 @@ Contrainte : pas de Stripe (aucun SDK paiement).
 
 Thème
 - Fond clair (blanc cassé) + surfaces blanches, beaucoup d’espace, séparation par gris très léger.
-- Accent principal : rouge “Swiss” possible (proposition : #D52B1E) mais avec parcimonie :
-  - boutons primaires, pastilles statut, liens importants
-  - éviter de saturer l’interface en rouge (ça doit rester calme et pro).
-- Couleurs secondaires (neutres) :
-  - Texte principal : gris très foncé (presque noir)
-  - Bordures : gris clair
-  - États : vert discret pour “validé” (optionnel), orange discret pour “en attente”.
+- Accent rouge discret (CTA, badges, hover).
+- Couleurs neutres : texte gris très foncé, bordures gris clair.
 
 Typo (rapide, fine, lisible)
 - Recommandation : Inter (Google Fonts) ou Source Sans 3.
@@ -43,17 +35,12 @@ Typo (rapide, fine, lisible)
 UI patterns
 - Header simple, logo + recherche + accès compte + panier.
 - Cartes produit : photo (si dispo), nom, marque, catégorie, prix, CTA “Ajouter”.
-- Fiche produit : spécifications, PDF fiche technique, accessoires/consommables liés.
-- Admin : tableaux lisibles, filtres, actions claires, confirmations (modal).
+- Fiche produit : spécifications, PDF fiche technique.
+- Admin : tableaux lisibles, filtres, actions claires, confirmations.
 
 Ton éditorial
 - Français pro, court, rassurant.
 - “Nous vous recontactons pour valider votre besoin et finaliser la commande.”
-
-Accessibilité
-- Contraste suffisant (CTA lisible).
-- Focus visible clavier.
-- Formulaires : erreurs claires, champs obligatoires marqués.
 
 ============================================================
 2) Résumé fonctionnel
@@ -164,7 +151,7 @@ Approche
 Script local : scripts/setAdminClaim.mjs
 (IMPORTANT : serviceAccount JSON hors Git)
 
-Exemple (Copilot doit l’implémenter)
+Usage :
 - SERVICE_ACCOUNT_PATH=./serviceAccount.medilec-ch.json node scripts/setAdminClaim.mjs <UID_ALAIN> true
 - l’utilisateur doit se reconnecter (ou refresh token) pour récupérer le claim.
 
@@ -188,7 +175,7 @@ Copilot : générer database.rules.json cohérent avec ça (approche par validat
 7) Règles Storage (PDF produits)
 ============================================================
 
-- Lecture publique des PDFs (ou lecture restreinte si vous préférez)
+- Lecture publique des PDFs (ou lecture restreinte si souhaité)
 - Écriture uniquement admin
 
 Copilot : générer storage.rules.
@@ -275,7 +262,80 @@ Admin
 - liste commandes + statuts
 - liste users + édition
 
-Directives Copilot
-- Ne pas inventer (pas de Stripe)
-- Design clair, sobre, “Swiss medical”, rouge discret possible
-- Sécurité d’abord : rules RTDB + rules Storage + claims admin
+============================================================
+13) AJOUT — Bonnes pratiques React Router (comme les pros)
+============================================================
+
+Objectif : routing propre, maintenable, rapide, URLs partageables.
+
+A) Structure “clean”
+1) Un seul fichier source de vérité : src/app/routes.jsx
+   - route map centralisée
+   - pas de routes “éparpillées” dans chaque page
+2) Layout routes + Outlet
+   - Un Layout public (Header/Footer)
+   - Un Layout admin (menu + table layout)
+3) Pages “lazy loaded” (code splitting)
+   - React.lazy + Suspense pour réduire le bundle initial
+
+B) Router v6 : recommandations
+- Utiliser react-router-dom v6+
+- Préférer des routes nested :
+  /              -> Home
+  /catalog       -> Catalogue + filtres
+  /product/:id   -> Fiche produit
+  /cart          -> Panier
+  /checkout/send -> Envoi panier
+  /login, /register, /profile
+  /admin/*       -> back-office
+
+C) URLs “pro” (partageables)
+- Mettre les filtres catalogue dans l’URL (query params) :
+  /catalog?type=ecg&brand=omron&year=2024&q=portable
+Avantages :
+- lien partageable
+- back/forward navigateur cohérent
+- historique propre
+
+D) Navigation
+- Toujours utiliser <Link> / <NavLink> (jamais window.location)
+- Utiliser useNavigate() uniquement pour redirections “logiques” (auth, après submit)
+- Pour les redirections post-login : navigate("/admin", { replace:true })
+
+E) Routes protégées (guards)
+- RequireAuth : bloque pages “envoyer panier” si pas connecté
+- RequireAdmin : bloque /admin/* si claim admin absent
+Pattern :
+- Le guard rend <Outlet/> si OK
+- Sinon redirect vers /login (ou /)
+
+F) 404 + erreurs
+- Ajouter une page NotFound (route "*")
+- Ajouter un ErrorBoundary (au minimum sur /admin) pour éviter un blanc total en cas d’erreur runtime
+
+G) Scroll / UX
+- ScrollToTop component : remonter en haut à chaque changement de route (surtout sur mobile)
+
+H) Exemple (pseudo-code) pour routes.jsx
+- Router :
+  - PublicLayout -> nested routes
+  - AdminLayout (RequireAdmin) -> nested routes
+- Lazy import pages :
+  const Catalog = lazy(() => import("../pages/Catalog.jsx"));
+
+I) Checklist routing
+- [ ] rewrites Hosting vers /index.html OK (SPA)
+- [ ] NotFound OK
+- [ ] /admin protégé (custom claim)
+- [ ] /checkout/send protégé (auth + téléphone)
+- [ ] filtres dans l’URL via searchParams
+- [ ] lazy loading pages
+
+============================================================
+14) Directives Copilot
+============================================================
+
+- Ne pas inventer (pas de Stripe).
+- Design clair, sobre, “Swiss medical”, rouge discret possible.
+- Sécurité d’abord : rules RTDB + rules Storage + claims admin.
+- Routing pro : routes centralisées, layouts, guards, lazy load, filtres en URL.

@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dataconnect/generated": "file:src/dataconnect-generated",
     "@tailwindcss/vite": "^4.1.18",
     "firebase": "^12.7.0",
     "react": "^19.2.0",

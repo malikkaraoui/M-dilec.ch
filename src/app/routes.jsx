@@ -10,6 +10,7 @@ import { AdminDashboardPage } from '../pages/admin/AdminDashboard.jsx'
 import { AuthLoginPage } from '../pages/AuthLogin.jsx'
 import { CartPage } from '../pages/Cart.jsx'
 import { CatalogPage } from '../pages/Catalog.jsx'
+import { ProductDetailsPage } from '../pages/ProductDetails.jsx'
 
 export function AppRoutes() {
   return (
@@ -20,6 +21,7 @@ export function AppRoutes() {
 
         {/* MVP: pages publiques */}
         <Route path="catalog" element={<CatalogPage />} />
+        <Route path="product/:id" element={<ProductDetailsPage />} />
         <Route path="cart" element={<CartPage />} />
         <Route path="login" element={<AuthLoginPage />} />
       </Route>
