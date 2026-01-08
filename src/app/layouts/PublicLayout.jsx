@@ -2,11 +2,12 @@ import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom'
 
 import { useAuth } from '../../hooks/useAuth.js'
 import { useCart } from '../../hooks/useCart.js'
+import { signOutUser } from '../../lib/auth.js'
 import { ScrollToTop } from '../shared/ScrollToTop.jsx'
 
 export function PublicLayout() {
   const cart = useCart()
-  const { isAuthenticated } = useAuth()
+  const { isAuthenticated, user } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
 
@@ -94,13 +95,35 @@ export function PublicLayout() {
                 </span>
               ) : null}
             </Link>
-            <Link
-              className="rounded-lg px-3 py-2 font-medium text-white"
-              style={{ backgroundColor: 'var(--medilec-accent)' }}
-              to={isAuthenticated ? '/profile' : '/login'}
-            >
-              Compte
-            </Link>
+            {isAuthenticated ? (
+              <div className="flex items-center gap-3">
+                <Link className="text-neutral-700 hover:text-neutral-900" to="/profile">
+                  {user?.email || 'Compte'}
+                </Link>
+                <button
+                  className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
+                  onClick={async () => {
+                    try {
+                      await signOutUser()
+                      navigate('/')
+                    } catch {
+                      // fail-soft
+                    }
+                  }}
+                  type="button"
+                >
+                  Déconnexion
+                </button>
+              </div>
+            ) : (
+              <Link
+                className="rounded-lg px-3 py-2 font-medium text-white"
+                style={{ backgroundColor: 'var(--medilec-accent)' }}
+                to="/login"
+              >
+                Compte
+              </Link>
+            )}
           </nav>
         </div>
       </header>
