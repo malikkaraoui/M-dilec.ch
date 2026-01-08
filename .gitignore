@@ -23,6 +23,10 @@ serviceAccount*.json
 # Firebase local cache
 .firebase/
 
+# Data Connect (ignoré pour le MVP)
+dataconnect/
+src/dataconnect-generated/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
