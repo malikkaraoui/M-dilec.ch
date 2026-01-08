@@ -1,13 +1,27 @@
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
 
 export function CatalogPage() {
+  const [searchParams, setSearchParams] = useSearchParams()
   const { status, data, error } = useRtdbValue('/products')
   const cart = useCart()
 
+  const q = (searchParams.get('q') || '').trim()
+  const qLower = q.toLowerCase()
+
   const products = data && typeof data === 'object' ? Object.entries(data) : []
+  const filteredProducts = qLower
+    ? products.filter(([productId, p]) => {
+        const name = typeof p?.name === 'string' ? p.name : ''
+        const brand = typeof p?.brand === 'string' ? p.brand : ''
+        const description = typeof p?.description === 'string' ? p.description : ''
+
+        const haystack = `${productId} ${name} ${brand} ${description}`.toLowerCase()
+        return haystack.includes(qLower)
+      })
+    : products
 
   return (
     <section className="space-y-2">
@@ -42,8 +56,42 @@ export function CatalogPage() {
       ) : null}
 
       {status === 'success' && products.length > 0 ? (
+        <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-neutral-600">
+          <div>
+            {q ? (
+              <>
+                Résultats pour <span className="font-medium text-neutral-900">“{q}”</span> :{' '}
+                <span className="font-medium text-neutral-900">{filteredProducts.length}</span>
+              </>
+            ) : (
+              <>
+                Produits: <span className="font-medium text-neutral-900">{products.length}</span>
+              </>
+            )}
+          </div>
+
+          {q ? (
+            <button
+              className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-neutral-900"
+              onClick={() => setSearchParams({})}
+              type="button"
+            >
+              Effacer la recherche
+            </button>
+          ) : null}
+        </div>
+      ) : null}
+
+      {status === 'success' && products.length > 0 && filteredProducts.length === 0 ? (
+        <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
+          Aucun résultat.
+          <div className="mt-2 text-neutral-600">Essayez un autre mot-clé.</div>
+        </div>
+      ) : null}
+
+      {status === 'success' && filteredProducts.length > 0 ? (
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map(([productId, p]) => {
+          {filteredProducts.map(([productId, p]) => {
             const name = p?.name || productId
             const brand = p?.brand
             const priceCents = typeof p?.priceCents === 'number' ? p.priceCents : null
