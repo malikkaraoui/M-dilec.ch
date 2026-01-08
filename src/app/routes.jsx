@@ -24,6 +24,7 @@ const AdminDashboardPage = lazyNamed(() => import('../pages/admin/AdminDashboard
 const AdminProductsPage = lazyNamed(() => import('../pages/admin/AdminProducts.jsx'), 'AdminProductsPage')
 const AdminOrdersPage = lazyNamed(() => import('../pages/admin/AdminOrders.jsx'), 'AdminOrdersPage')
 const AdminOrderDetailsPage = lazyNamed(() => import('../pages/admin/AdminOrderDetails.jsx'), 'AdminOrderDetailsPage')
+const AdminCartsPage = lazyNamed(() => import('../pages/admin/AdminCarts.jsx'), 'AdminCartsPage')
 
 export function AppRoutes() {
   return (
@@ -51,6 +52,7 @@ export function AppRoutes() {
             <Route path="products" element={<AdminProductsPage />} />
             <Route path="orders" element={<AdminOrdersPage />} />
             <Route path="orders/:id" element={<AdminOrderDetailsPage />} />
+            <Route path="carts" element={<AdminCartsPage />} />
           </Route>
         </Route>
 

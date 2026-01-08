@@ -119,6 +119,12 @@ export function CartPage() {
         </div>
       ) : null}
 
+      {cart.syncError ? (
+        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+          Synchronisation panier (serveur) : {cart.syncError}
+        </div>
+      ) : null}
+
       {cart.items.length === 0 ? (
         <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
           Votre panier est vide.

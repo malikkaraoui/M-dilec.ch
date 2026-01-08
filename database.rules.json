@@ -9,7 +9,7 @@
       ".indexOn": ["name", "brand"],
 
       "$productId": {
-        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (( !newData.child('pdf/storagePath').exists() || (newData.child('pdf/storagePath').isString() && newData.child('pdf/storagePath').val().length <= 500) ) && ( !newData.child('pdf/downloadURL').exists() || (newData.child('pdf/downloadURL').isString() && newData.child('pdf/downloadURL').val().length <= 2000) )))"
+        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (( !newData.child('pdf/storagePath').exists() || (newData.child('pdf/storagePath').isString() && newData.child('pdf/storagePath').val().length <= 500) ) && ( !newData.child('pdf/downloadURL').exists() || (newData.child('pdf/downloadURL').isString() && newData.child('pdf/downloadURL').val().length <= 2000) ))) && (!newData.child('image').exists() || (( !newData.child('image/storagePath').exists() || (newData.child('image/storagePath').isString() && newData.child('image/storagePath').val().length <= 500) ) && ( !newData.child('image/downloadURL').exists() || (newData.child('image/downloadURL').isString() && newData.child('image/downloadURL').val().length <= 2000) )))"
       }
     },
 
@@ -45,7 +45,7 @@
           ".validate": "newData.isString() && newData.val() === $orderId"
         },
         "createdAt": {
-          ".validate": "newData.exists()"
+          ".validate": "newData.isNumber() || (newData.hasChild('.sv') && newData.child('.sv').val() === 'timestamp')"
         },
         "source": {
           ".validate": "!newData.exists() || (newData.isString() && newData.val().length <= 40)"
@@ -94,6 +94,55 @@
         "$orderId": {
           ".write": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid) && newData.val() === true",
           ".validate": "newData.val() === true"
+        }
+      }
+    }
+    ,
+    "carts": {
+      ".read": "auth != null && auth.token.role === 'admin'",
+
+      "$uid": {
+        ".read": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid)",
+        ".write": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid)",
+
+        ".validate": "newData.hasChildren(['uid','updatedAt','items']) && newData.child('uid').val() === $uid",
+
+        "uid": {
+          ".validate": "newData.isString() && newData.val() === $uid"
+        },
+        "updatedAt": {
+          ".validate": "newData.isNumber() || (newData.hasChild('.sv') && newData.child('.sv').val() === 'timestamp')"
+        },
+        "items": {
+          ".validate": "newData.exists()",
+          "$productId": {
+            ".validate": "newData.hasChildren(['id','qty']) && newData.child('id').isString() && newData.child('id').val() === $productId && newData.child('qty').isNumber() && newData.child('qty').val() >= 1 && newData.child('qty').val() <= 999 && (!newData.child('name').exists() || (newData.child('name').isString() && newData.child('name').val().length <= 160)) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber())"
+          }
+        }
+      }
+    },
+
+    "guestCarts": {
+      ".read": "auth != null && auth.token.role === 'admin'",
+      ".write": false,
+
+      "$cartId": {
+        ".read": true,
+        ".write": true,
+
+        ".validate": "newData.hasChildren(['cartId','updatedAt','items']) && newData.child('cartId').val() === $cartId",
+
+        "cartId": {
+          ".validate": "newData.isString() && newData.val() === $cartId"
+        },
+        "updatedAt": {
+          ".validate": "newData.isNumber() || (newData.hasChild('.sv') && newData.child('.sv').val() === 'timestamp')"
+        },
+        "items": {
+          ".validate": "newData.exists()",
+          "$productId": {
+            ".validate": "newData.hasChildren(['id','qty']) && newData.child('id').isString() && newData.child('id').val() === $productId && newData.child('qty').isNumber() && newData.child('qty').val() >= 1 && newData.child('qty').val() <= 999 && (!newData.child('name').exists() || (newData.child('name').isString() && newData.child('name').val().length <= 160)) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber())"
+          }
         }
       }
     }

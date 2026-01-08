@@ -144,3 +144,70 @@ describe('Realtime Database rules (orders + admin fields)', () => {
     await assertFails(get(dbRef(db, `orders/${orderId}`)))
   })
 })
+
+describe('Realtime Database rules (carts)', () => {
+  it('user can write their own cart (/carts/{uid})', async () => {
+    const uid = 'cart_user_1'
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+
+    await assertSucceeds(
+      set(dbRef(db, `carts/${uid}`), {
+        uid,
+        updatedAt: Date.now(),
+        items: {
+          p1: { id: 'p1', qty: 2, name: 'Produit', brand: 'Marque', priceCents: 12990 },
+        },
+      }),
+    )
+  })
+
+  it('user cannot write another user cart', async () => {
+    const ownerUid = 'cart_user_2'
+    const otherUid = 'cart_user_3'
+
+    const otherCtx = testEnv.authenticatedContext(otherUid)
+    const db = otherCtx.database()
+
+    await assertFails(
+      set(dbRef(db, `carts/${ownerUid}`), {
+        uid: ownerUid,
+        updatedAt: Date.now(),
+        items: { p1: { id: 'p1', qty: 1 } },
+      }),
+    )
+  })
+
+  it('admin can read carts root', async () => {
+    const uid = 'cart_user_4'
+
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      const db = ctx.database()
+      await set(dbRef(db, `carts/${uid}`), {
+        uid,
+        updatedAt: Date.now(),
+        items: { p1: { id: 'p1', qty: 1 } },
+      })
+    })
+
+    const adminCtx = testEnv.authenticatedContext('admin_cart_1', { role: 'admin' })
+    const db = adminCtx.database()
+    await assertSucceeds(get(dbRef(db, 'carts')))
+  })
+
+  it('guest can write and read their own guest cart (/guestCarts/{cartId})', async () => {
+    const cartId = 'guest_cart_1'
+    const anonCtx = testEnv.unauthenticatedContext()
+    const db = anonCtx.database()
+
+    await assertSucceeds(
+      set(dbRef(db, `guestCarts/${cartId}`), {
+        cartId,
+        updatedAt: Date.now(),
+        items: { p1: { id: 'p1', qty: 1 } },
+      }),
+    )
+
+    await assertSucceeds(get(dbRef(db, `guestCarts/${cartId}`)))
+  })
+})
