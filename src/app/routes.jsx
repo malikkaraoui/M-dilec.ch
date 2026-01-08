@@ -8,8 +8,10 @@ import { NotFoundPage } from '../features/not-found/NotFoundPage.jsx'
 
 import { AdminDashboardPage } from '../pages/admin/AdminDashboard.jsx'
 import { AuthLoginPage } from '../pages/AuthLogin.jsx'
+import { AuthRegisterPage } from '../pages/AuthRegister.jsx'
 import { CartPage } from '../pages/Cart.jsx'
 import { CatalogPage } from '../pages/Catalog.jsx'
+import { ProfilePage } from '../pages/Profile.jsx'
 import { ProductDetailsPage } from '../pages/ProductDetails.jsx'
 
 export function AppRoutes() {
@@ -24,6 +26,8 @@ export function AppRoutes() {
         <Route path="product/:id" element={<ProductDetailsPage />} />
         <Route path="cart" element={<CartPage />} />
         <Route path="login" element={<AuthLoginPage />} />
+        <Route path="register" element={<AuthRegisterPage />} />
+        <Route path="profile" element={<ProfilePage />} />
       </Route>
 
       {/* MVP: admin — guard ajouté plus tard (RequireAdmin) */}
