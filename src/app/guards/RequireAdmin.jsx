@@ -8,9 +8,11 @@ export function RequireAdmin() {
     isAuthConfigured,
     isAuthenticated,
     isAdmin,
+    role,
     loading: authLoading,
     claimsLoading,
     claimsError,
+    refreshClaims,
   } = useAuth()
 
   if (!isAuthConfigured) {
@@ -64,6 +66,36 @@ export function RequireAdmin() {
         <p className="text-sm text-neutral-600">
           Cette zone est réservée à l’administration.
         </p>
+
+        <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
+          <div>
+            Rôle actuel:{' '}
+            <span className="font-mono text-xs">{role ? `role="${role}"` : 'role=(absent)'}</span>
+          </div>
+          <div className="mt-2 text-xs text-neutral-500">
+            Si vous venez juste d’attribuer le rôle admin, rafraîchissez vos droits (token) ou reconnectez-vous.
+          </div>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50 disabled:opacity-60"
+              onClick={async () => {
+                try {
+                  await refreshClaims()
+                } catch {
+                  // fail-soft
+                }
+              }}
+              disabled={claimsLoading}
+            >
+              {claimsLoading ? 'Rafraîchissement…' : 'Rafraîchir mes droits'}
+            </button>
+            <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/profile">
+              Ouvrir mon compte
+            </Link>
+          </div>
+        </div>
+
         <div className="flex flex-wrap gap-3">
           <Link
             className="rounded-lg px-3 py-2 text-sm font-medium text-white"
@@ -71,9 +103,6 @@ export function RequireAdmin() {
             to="/"
           >
             Retour à l’accueil
-          </Link>
-          <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/profile">
-            Mon compte
           </Link>
         </div>
       </section>

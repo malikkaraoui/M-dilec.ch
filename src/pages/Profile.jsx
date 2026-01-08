@@ -22,7 +22,7 @@ function looksLikePhone(value) {
 export function ProfilePage() {
   const navigate = useNavigate()
   const location = useLocation()
-  const { user, loading: authLoading, isAuthConfigured } = useAuth()
+  const { user, loading: authLoading, isAuthConfigured, role, refreshClaims, claimsLoading } = useAuth()
 
   const userPath = user?.uid ? `/users/${user.uid}` : null
   const { data: profileData, status: profileStatus, error: profileError } = useRtdbValue(userPath)
@@ -141,6 +141,28 @@ export function ProfilePage() {
         <div className="text-sm text-neutral-600">Connecté en tant que</div>
         <div className="mt-1 font-medium">{user.email || user.uid}</div>
         <div className="mt-2 text-xs text-neutral-500">UID: {user.uid}</div>
+
+
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <div className="text-sm text-neutral-700">
+            Rôle:{' '}
+            <span className="font-mono text-xs">{role ? `role="${role}"` : 'role=(absent)'}</span>
+          </div>
+          <button
+            className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50 disabled:opacity-60"
+            onClick={async () => {
+              try {
+                await refreshClaims()
+              } catch {
+                // fail-soft
+              }
+            }}
+            disabled={claimsLoading}
+            type="button"
+          >
+            {claimsLoading ? 'Rafraîchissement…' : 'Rafraîchir mes droits'}
+          </button>
+        </div>
       </div>
 
       <div className="rounded-xl border border-neutral-200 bg-white p-4">
