@@ -1,4 +1,4 @@
-import { push, ref, serverTimestamp, set, update } from 'firebase/database'
+import { push, ref, serverTimestamp, set } from 'firebase/database'
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
@@ -87,9 +87,7 @@ export function CartPage() {
       }
 
       await set(orderRef, payload)
-      await update(ref(rtdb), {
-        [`userOrders/${user.uid}/${orderId}`]: true,
-      })
+      await set(ref(rtdb, `userOrders/${user.uid}/${orderId}`), true)
 
       setSentOrderId(orderId)
       cart.clear()
