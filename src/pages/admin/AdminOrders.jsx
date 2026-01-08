@@ -1,5 +1,5 @@
 import { ref, update } from 'firebase/database'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
@@ -36,12 +36,22 @@ function normalizeText(value) {
   return String(value || '').trim().toLowerCase()
 }
 
+const LS_QUERY_KEY = 'medilec_admin_orders_query_v1'
+
 export function AdminOrdersPage() {
   const { status, data, error } = useRtdbValue('/orders')
 
-  const [query, setQuery] = useState('')
+  const [query, setQuery] = useState(() => {
+    if (typeof window === 'undefined') return ''
+    return window.localStorage.getItem(LS_QUERY_KEY) || ''
+  })
   const [updatingId, setUpdatingId] = useState('')
   const [updateError, setUpdateError] = useState('')
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    window.localStorage.setItem(LS_QUERY_KEY, query)
+  }, [query])
 
   const orders = useMemo(() => {
     const raw = data
@@ -199,8 +209,8 @@ export function AdminOrdersPage() {
                     </td>
                     <td className="px-4 py-3">
                       <div className="flex flex-wrap gap-2">
-                        <Link className="text-sm text-blue-600 hover:underline" to={`/my-orders/${o.id}`}>
-                          Voir
+                        <Link className="text-sm text-blue-600 hover:underline" to={`/admin/orders/${o.id}`}>
+                          Détail
                         </Link>
                       </div>
                     </td>

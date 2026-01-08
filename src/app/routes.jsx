@@ -8,6 +8,7 @@ import { HomePage } from '../features/home/HomePage.jsx'
 import { NotFoundPage } from '../features/not-found/NotFoundPage.jsx'
 
 import { AdminDashboardPage } from '../pages/admin/AdminDashboard.jsx'
+import { AdminOrderDetailsPage } from '../pages/admin/AdminOrderDetails.jsx'
 import { AdminOrdersPage } from '../pages/admin/AdminOrders.jsx'
 import { AdminProductsPage } from '../pages/admin/AdminProducts.jsx'
 import { AuthLoginPage } from '../pages/AuthLogin.jsx'
@@ -43,6 +44,7 @@ export function AppRoutes() {
           <Route index element={<AdminDashboardPage />} />
           <Route path="products" element={<AdminProductsPage />} />
           <Route path="orders" element={<AdminOrdersPage />} />
+          <Route path="orders/:id" element={<AdminOrderDetailsPage />} />
         </Route>
       </Route>
 

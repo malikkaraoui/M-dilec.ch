@@ -52,8 +52,14 @@
         "note": {
           ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 2000)"
         },
+        "adminNote": {
+          ".validate": "!newData.exists() || (auth != null && auth.token.admin === true && newData.isString() && newData.val().length <= 4000)"
+        },
         "status": {
           ".validate": "auth != null && ((auth.token.admin === true && (newData.val() === 'new' || newData.val() === 'processing' || newData.val() === 'done' || newData.val() === 'cancelled')) || (auth.token.admin !== true && newData.val() === 'new'))"
+        },
+        "updatedAt": {
+          ".validate": "!newData.exists() || (auth != null && auth.token.admin === true)"
         },
         "paid": {
           ".validate": "auth != null && auth.token.admin === true"
