@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Bloque le push si la qualité (lint) ou le build échoue.
+# Objectif: éviter de casser la CI/CD et le déploiement prod.
+
+echo "[husky] pre-push: lint"
+npm run lint
+
+echo "[husky] pre-push: build"
+npm run build
