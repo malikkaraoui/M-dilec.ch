@@ -12,6 +12,17 @@ dist
 dist-ssr
 *.local
 
+# Env (ne jamais committer les secrets)
+.env
+.env.*
+!.env.example
+
+# Firebase Admin SDK (hors git)
+serviceAccount*.json
+
+# Firebase local cache
+.firebase/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
