@@ -197,9 +197,14 @@ export function MyOrdersPage() {
                   </div>
                 </div>
 
-                <Link className="text-sm text-blue-600 hover:underline" to={`/profile`}>
-                  Mettre à jour mon téléphone
-                </Link>
+                <div className="flex items-center gap-3">
+                  <Link className="text-sm text-blue-600 hover:underline" to={`/my-orders/${o.id}`}>
+                    Voir le détail
+                  </Link>
+                  <Link className="text-sm text-neutral-700 hover:text-neutral-900" to={`/profile`}>
+                    Profil
+                  </Link>
+                </div>
               </div>
 
               {o.missing ? (
