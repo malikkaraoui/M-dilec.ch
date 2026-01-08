@@ -3,7 +3,12 @@ import { useEffect, useMemo, useState } from 'react'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
 import { rtdb } from '../../lib/db.js'
-import { deletePdfByStoragePath, uploadProductPdf } from '../../lib/storage.js'
+import {
+  deleteImageByStoragePath,
+  deletePdfByStoragePath,
+  uploadProductImage,
+  uploadProductPdf,
+} from '../../lib/storage.js'
 
 const LS_QUERY_KEY = 'medilec_admin_products_query_v1'
 const LS_SELECTED_KEY = 'medilec_admin_products_selected_v1'
@@ -45,6 +50,12 @@ export function AdminProductsPage() {
   const [deletingPdf, setDeletingPdf] = useState(false)
   const [deletePdfError, setDeletePdfError] = useState('')
 
+  const [uploadingImage, setUploadingImage] = useState(false)
+  const [uploadImageProgress, setUploadImageProgress] = useState(0)
+  const [uploadImageError, setUploadImageError] = useState('')
+  const [deletingImage, setDeletingImage] = useState(false)
+  const [deleteImageError, setDeleteImageError] = useState('')
+
   const products = useMemo(() => {
     const raw = data
     if (!raw || typeof raw !== 'object') return []
@@ -56,6 +67,7 @@ export function AdminProductsPage() {
       description: typeof p?.description === 'string' ? p.description : '',
       priceCents: typeof p?.priceCents === 'number' ? p.priceCents : null,
       pdf: p?.pdf && typeof p.pdf === 'object' ? p.pdf : null,
+      image: p?.image && typeof p.image === 'object' ? p.image : null,
     }))
 
     list.sort((a, b) => {
@@ -223,6 +235,70 @@ export function AdminProductsPage() {
       setUploadError(err?.message || 'Upload impossible.')
     } finally {
       setUploading(false)
+    }
+  }
+
+  async function onUploadImage(file) {
+    setUploadImageError('')
+    setUploadImageProgress(0)
+
+    if (!selectedId) return
+    if (!file) return
+
+    if (!rtdb) {
+      setUploadImageError('Realtime Database non configurée (VITE_FIREBASE_DATABASE_URL).')
+      return
+    }
+
+    try {
+      setUploadingImage(true)
+      const result = await uploadProductImage({
+        productId: selectedId,
+        file,
+        onProgress: ({ pct }) => setUploadImageProgress(pct),
+      })
+
+      await update(ref(rtdb, `products/${selectedId}`), {
+        image: {
+          storagePath: result.storagePath,
+          downloadURL: result.downloadURL,
+        },
+      })
+    } catch (err) {
+      setUploadImageError(err?.message || 'Upload image impossible.')
+    } finally {
+      setUploadingImage(false)
+    }
+  }
+
+  async function onDeleteImage() {
+    setDeleteImageError('')
+    if (!selectedId) return
+    if (!selected?.image) return
+
+    const storagePath = typeof selected.image?.storagePath === 'string' ? selected.image.storagePath : ''
+    const ok = window.confirm('Supprimer la photo de ce produit ?')
+    if (!ok) return
+
+    if (!rtdb) {
+      setDeleteImageError('Realtime Database non configurée (VITE_FIREBASE_DATABASE_URL).')
+      return
+    }
+
+    try {
+      setDeletingImage(true)
+
+      if (storagePath) {
+        await deleteImageByStoragePath(storagePath)
+      }
+
+      await update(ref(rtdb, `products/${selectedId}`), {
+        image: null,
+      })
+    } catch (err) {
+      setDeleteImageError(err?.message || 'Suppression image impossible.')
+    } finally {
+      setDeletingImage(false)
     }
   }
 
@@ -449,10 +525,89 @@ export function AdminProductsPage() {
               </form>
 
               <div className="mt-6 border-t border-neutral-200 pt-4">
+                <h3 className="text-sm font-semibold text-neutral-900">Photo</h3>
+                <p className="mt-1 text-xs text-neutral-500">Upload direct via le navigateur (Firebase Storage). Lecture publique.</p>
+
+                {uploadImageError ? (
+                  <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+                    {uploadImageError}
+                  </div>
+                ) : null}
+
+                {deleteImageError ? (
+                  <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+                    {deleteImageError}
+                  </div>
+                ) : null}
+
+                <div className="mt-3 space-y-2">
+                  {selected?.image?.downloadURL ? (
+                    <div className="space-y-2">
+                      <img
+                        alt="Photo produit"
+                        className="h-36 w-full rounded-lg border border-neutral-200 object-cover"
+                        src={selected.image.downloadURL}
+                        loading="lazy"
+                      />
+                      <a
+                        className="inline-flex items-center rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
+                        href={selected.image.downloadURL}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Ouvrir l’image
+                      </a>
+                    </div>
+                  ) : (
+                    <div className="text-sm text-neutral-600">Aucune photo attachée.</div>
+                  )}
+
+                  <div>
+                    <label className="block text-xs font-medium text-neutral-700" htmlFor="admin-product-image">
+                      Importer / remplacer
+                    </label>
+                    <input
+                      id="admin-product-image"
+                      className="mt-1 block w-full text-sm"
+                      type="file"
+                      accept="image/*"
+                      disabled={uploadingImage}
+                      onChange={(e) => {
+                        const file = e.currentTarget.files && e.currentTarget.files[0]
+                        if (!file) return
+                        onUploadImage(file)
+                        e.currentTarget.value = ''
+                      }}
+                    />
+                    {uploadingImage ? (
+                      <div className="mt-2 text-xs text-neutral-500">Upload… {uploadImageProgress}%</div>
+                    ) : null}
+                  </div>
+
+                  {selected?.image ? (
+                    <button
+                      className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50 disabled:opacity-60"
+                      disabled={deletingImage}
+                      onClick={onDeleteImage}
+                      type="button"
+                    >
+                      {deletingImage ? 'Suppression…' : 'Supprimer la photo'}
+                    </button>
+                  ) : null}
+                </div>
+              </div>
+
+              <div className="mt-6 border-t border-neutral-200 pt-4">
               <h3 className="text-sm font-semibold text-neutral-900">PDF (fiche technique)</h3>
               <p className="mt-1 text-xs text-neutral-500">
                 Upload direct via le navigateur (Firebase Storage). Lecture publique.
               </p>
+
+              {!selected?.pdf?.downloadURL ? (
+                <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900">
+                  PDF manquant. Pour le catalogue final, chaque produit devrait avoir sa fiche PDF.
+                </div>
+              ) : null}
 
               {uploadError ? (
                 <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">

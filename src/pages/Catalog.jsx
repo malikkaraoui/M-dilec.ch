@@ -1,10 +1,11 @@
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
 
 export function CatalogPage() {
   const [searchParams, setSearchParams] = useSearchParams()
+  const navigate = useNavigate()
   const { status, data, error } = useRtdbValue('/products')
   const cart = useCart()
 
@@ -95,9 +96,31 @@ export function CatalogPage() {
             const name = p?.name || productId
             const brand = p?.brand
             const priceCents = typeof p?.priceCents === 'number' ? p.priceCents : null
+            const imageURL = typeof p?.image?.downloadURL === 'string' ? p.image.downloadURL : ''
 
             return (
-              <li key={productId} className="rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm">
+              <li
+                key={productId}
+                className="cursor-pointer rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition hover:border-neutral-300 hover:shadow"
+                role="link"
+                tabIndex={0}
+                onClick={() => navigate(`/product/${productId}`)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    navigate(`/product/${productId}`)
+                  }
+                }}
+              >
+                {imageURL ? (
+                  <img
+                    alt={name}
+                    className="mb-3 h-36 w-full rounded-xl border border-neutral-200 object-cover"
+                    src={imageURL}
+                    loading="lazy"
+                  />
+                ) : null}
+
                 <div className="text-sm font-semibold text-neutral-900">{name}</div>
                 {brand ? <div className="mt-1 text-xs text-neutral-500">{brand}</div> : null}
                 {priceCents != null ? (
@@ -112,13 +135,17 @@ export function CatalogPage() {
                   <Link
                     className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-xs font-medium text-neutral-900 hover:bg-neutral-50"
                     to={`/product/${productId}`}
+                    onClick={(e) => e.stopPropagation()}
                   >
                     Détails
                   </Link>
                   <button
                     className="rounded-lg px-3 py-2 text-xs font-medium text-white"
                     style={{ backgroundColor: 'var(--medilec-accent)' }}
-                    onClick={() => cart.add({ id: productId, name, brand, priceCents })}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      cart.add({ id: productId, name, brand, priceCents })
+                    }}
                     type="button"
                   >
                     Ajouter

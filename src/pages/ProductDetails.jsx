@@ -40,6 +40,15 @@ export function ProductDetailsPage() {
 
       {status === 'success' && product ? (
         <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+          {typeof product?.image?.downloadURL === 'string' && product.image.downloadURL ? (
+            <img
+              alt={product?.name || id}
+              className="mb-4 h-56 w-full rounded-2xl border border-neutral-200 object-cover"
+              src={product.image.downloadURL}
+              loading="lazy"
+            />
+          ) : null}
+
           <div className="text-sm font-semibold text-neutral-900">{product?.name || id}</div>
           <div className="mt-1 text-sm text-neutral-600">
             {product?.brand ? <span>{product.brand}</span> : <span className="text-neutral-500">—</span>}
