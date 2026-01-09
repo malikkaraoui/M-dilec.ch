@@ -31,6 +31,41 @@ function formatStatus(status) {
   }
 }
 
+function normalizeItems(items) {
+  const raw = items && typeof items === 'object' ? items : null
+  if (!raw) return []
+
+  if (Array.isArray(raw)) {
+    return raw
+      .map((it, idx) => {
+        if (!it || typeof it !== 'object') return null
+        const id = typeof it.id === 'string' && it.id.trim() ? it.id : String(idx)
+        return { ...it, id }
+      })
+      .filter(Boolean)
+  }
+
+  const entries = Object.entries(raw).filter(([, it]) => it && typeof it === 'object')
+  const allNumericKeys = entries.length > 0 && entries.every(([k]) => /^\d+$/.test(k))
+
+  entries.sort((a, b) => {
+    if (allNumericKeys) return Number(a[0]) - Number(b[0])
+
+    const aIt = a[1]
+    const bIt = b[1]
+    const aKey = String(aIt?.name || aIt?.id || a[0] || '').toLowerCase()
+    const bKey = String(bIt?.name || bIt?.id || b[0] || '').toLowerCase()
+    return aKey.localeCompare(bKey, 'fr')
+  })
+
+  return entries
+    .map(([k, it]) => {
+      const id = typeof it.id === 'string' && it.id.trim() ? it.id : String(k)
+      return { ...it, id }
+    })
+    .filter(Boolean)
+}
+
 export function MyOrderDetailsPage() {
   const navigate = useNavigate()
   const location = useLocation()
@@ -42,13 +77,7 @@ export function MyOrderDetailsPage() {
   const { status, data, error } = useRtdbValue(orderId ? `/orders/${orderId}` : null)
 
   const items = useMemo(() => {
-    const raw = data?.items
-    if (!raw || typeof raw !== 'object') return []
-
-    return Object.keys(raw)
-      .sort((a, b) => Number(a) - Number(b))
-      .map((k) => raw[k])
-      .filter(Boolean)
+    return normalizeItems(data?.items)
   }, [data])
 
   useEffect(() => {

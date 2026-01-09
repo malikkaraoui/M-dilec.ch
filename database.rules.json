@@ -32,6 +32,7 @@
     },
 
     "orders": {
+      ".read": "auth != null && auth.token.role === 'admin'",
       ".indexOn": ["createdAt", "user/uid"],
 
       "$orderId": {

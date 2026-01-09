@@ -32,6 +32,71 @@ function formatStatus(status) {
   }
 }
 
+function normalizeItems(items) {
+  const raw = items && typeof items === 'object' ? items : null
+  if (!raw) return []
+
+  if (Array.isArray(raw)) {
+    return raw
+      .map((it, idx) => {
+        if (!it || typeof it !== 'object') return null
+        const id = typeof it.id === 'string' && it.id.trim() ? it.id : String(idx)
+        return { ...it, id }
+      })
+      .filter(Boolean)
+  }
+
+  const entries = Object.entries(raw).filter(([, it]) => it && typeof it === 'object')
+  const allNumericKeys = entries.length > 0 && entries.every(([k]) => /^\d+$/.test(k))
+
+  entries.sort((a, b) => {
+    if (allNumericKeys) return Number(a[0]) - Number(b[0])
+
+    const aIt = a[1]
+    const bIt = b[1]
+    const aKey = String(aIt?.name || aIt?.id || a[0] || '').toLowerCase()
+    const bKey = String(bIt?.name || bIt?.id || b[0] || '').toLowerCase()
+    return aKey.localeCompare(bKey, 'fr')
+  })
+
+  return entries
+    .map(([k, it]) => {
+      const id = typeof it.id === 'string' && it.id.trim() ? it.id : String(k)
+      return { ...it, id }
+    })
+    .filter(Boolean)
+}
+
+function sanitizeItem(it) {
+  if (!it || typeof it !== 'object') return null
+
+  const id = String(it.id || '').trim()
+  const qty = Number(it.qty)
+  if (!id) return null
+  if (!Number.isFinite(qty)) return null
+
+  return {
+    id,
+    qty: Math.max(1, Math.min(999, Math.trunc(qty))),
+    name: typeof it.name === 'string' ? it.name : null,
+    brand: typeof it.brand === 'string' ? it.brand : null,
+    priceCents: typeof it.priceCents === 'number' ? it.priceCents : it.priceCents === null ? null : null,
+  }
+}
+
+function itemsArrayToIndexedObject(items) {
+  const out = {}
+  const list = Array.isArray(items) ? items : []
+  let idx = 0
+  for (const it of list) {
+    const clean = sanitizeItem(it)
+    if (!clean) continue
+    out[idx] = clean
+    idx += 1
+  }
+  return out
+}
+
 const LS_ADMIN_PRODUCTS_SELECTED_KEY = 'medilec_admin_products_selected_v1'
 
 async function copyToClipboard(text) {
@@ -51,14 +116,12 @@ export function AdminOrderDetailsPage() {
   const { status, data, error } = useRtdbValue(orderId ? `/orders/${orderId}` : null)
 
   const items = useMemo(() => {
-    const raw = data?.items
-    if (!raw || typeof raw !== 'object') return []
-
-    return Object.keys(raw)
-      .sort((a, b) => Number(a) - Number(b))
-      .map((k) => raw[k])
-      .filter(Boolean)
+    return normalizeItems(data?.items)
   }, [data])
+
+  const [editItems, setEditItems] = useState(() => [])
+  const [addItemId, setAddItemId] = useState('')
+  const [addItemQty, setAddItemQty] = useState('1')
 
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
@@ -70,6 +133,7 @@ export function AdminOrderDetailsPage() {
     if (!data) return
     setAdminNote(typeof data.adminNote === 'string' ? data.adminNote : '')
     setStatusValue(typeof data.status === 'string' ? data.status : 'new')
+    setEditItems(normalizeItems(data.items))
   }, [data])
 
   async function onSave() {
@@ -84,11 +148,19 @@ export function AdminOrderDetailsPage() {
 
     const nextAdminNote = String(adminNote || '').trim()
 
+    // items: on sauvegarde une version “figée” (indexée 0..n-1)
+    const nextItems = itemsArrayToIndexedObject(editItems)
+    if (Object.keys(nextItems).length === 0) {
+      setSaveError('La commande doit contenir au moins 1 article.')
+      return
+    }
+
     try {
       setSaving(true)
       await update(ref(rtdb, `orders/${orderId}`), {
         status: statusValue,
         adminNote: nextAdminNote || null,
+        items: nextItems,
         updatedAt: serverTimestamp(),
       })
     } catch (err) {
@@ -96,6 +168,60 @@ export function AdminOrderDetailsPage() {
     } finally {
       setSaving(false)
     }
+  }
+
+  function onChangeQty(itemId, nextQty) {
+    setEditItems((prev) =>
+      (Array.isArray(prev) ? prev : []).map((it) => {
+        if (!it || typeof it !== 'object') return it
+        if (it.id !== itemId) return it
+        const qty = Number(nextQty)
+        if (!Number.isFinite(qty)) return { ...it, qty: 1 }
+        return { ...it, qty: Math.max(1, Math.min(999, Math.trunc(qty))) }
+      }),
+    )
+  }
+
+  function onRemoveItem(itemId) {
+    setEditItems((prev) => (Array.isArray(prev) ? prev : []).filter((it) => it?.id !== itemId))
+  }
+
+  function onAddItem() {
+    const id = String(addItemId || '').trim()
+    const qty = Number(addItemQty)
+    if (!id) {
+      setSaveError('ID produit requis pour ajouter un article.')
+      return
+    }
+    if (!Number.isFinite(qty) || qty < 1) {
+      setSaveError('Quantité invalide.')
+      return
+    }
+
+    setSaveError('')
+
+    setEditItems((prev) => {
+      const list = Array.isArray(prev) ? [...prev] : []
+      const existing = list.find((x) => x?.id === id)
+      if (existing) {
+        return list.map((x) => (x?.id === id ? { ...x, qty: Math.min(999, (Number(x.qty) || 0) + Math.trunc(qty)) } : x))
+      }
+
+      // best-effort: on récupère les infos visibles dans la commande actuelle (ou fallback)
+      const fromCurrent = items.find((x) => x?.id === id)
+      list.push({
+        id,
+        qty: Math.max(1, Math.min(999, Math.trunc(qty))),
+        name: fromCurrent?.name || null,
+        brand: fromCurrent?.brand || null,
+        priceCents: typeof fromCurrent?.priceCents === 'number' ? fromCurrent.priceCents : null,
+      })
+
+      return list
+    })
+
+    setAddItemId('')
+    setAddItemQty('1')
   }
 
   async function onCopy(value) {
@@ -190,11 +316,11 @@ export function AdminOrderDetailsPage() {
 
             <div className="rounded-2xl border border-neutral-200 bg-white p-4">
               <div className="text-sm font-semibold text-neutral-900">Articles</div>
-              {items.length === 0 ? (
+              {editItems.length === 0 ? (
                 <div className="mt-2 text-sm text-neutral-600">Aucun article.</div>
               ) : (
                 <ul className="mt-3 space-y-2">
-                  {items.map((it, idx) => (
+                  {editItems.map((it, idx) => (
                     <li
                       key={`${it?.id || 'item'}-${idx}`}
                       className="rounded-xl border border-neutral-200 bg-neutral-50 p-3"
@@ -213,12 +339,76 @@ export function AdminOrderDetailsPage() {
                             </button>
                           ) : null}
                         </div>
-                        <div className="text-sm text-neutral-700">× {it?.qty || 1}</div>
+                        <div className="flex items-center gap-2">
+                          <label className="sr-only" htmlFor={`admin-order-qty-${it?.id || idx}`}>Quantité</label>
+                          <input
+                            id={`admin-order-qty-${it?.id || idx}`}
+                            className="w-20 rounded-lg border border-neutral-200 bg-white px-2 py-1 text-sm"
+                            min={1}
+                            max={999}
+                            value={Number(it?.qty) || 1}
+                            onChange={(e) => onChangeQty(it?.id, e.target.value)}
+                            type="number"
+                            inputMode="numeric"
+                          />
+                          <button
+                            type="button"
+                            className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-sm hover:bg-neutral-50"
+                            onClick={() => onRemoveItem(it?.id)}
+                          >
+                            Retirer
+                          </button>
+                        </div>
                       </div>
                     </li>
                   ))}
                 </ul>
               )}
+
+              <div className="mt-4 rounded-xl border border-neutral-200 bg-white p-3">
+                <div className="text-xs font-semibold text-neutral-700">Ajouter un article</div>
+                <div className="mt-2 flex flex-wrap items-end gap-2">
+                  <div className="min-w-0 flex-1">
+                    <label className="block text-xs text-neutral-600" htmlFor="admin-add-item-id">ID produit</label>
+                    <input
+                      id="admin-add-item-id"
+                      className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm"
+                      placeholder="ex: -OiVW… (id RTDB produit)"
+                      value={addItemId}
+                      onChange={(e) => setAddItemId(e.target.value)}
+                      type="text"
+                    />
+                  </div>
+
+                  <div className="w-28">
+                    <label className="block text-xs text-neutral-600" htmlFor="admin-add-item-qty">Qté</label>
+                    <input
+                      id="admin-add-item-qty"
+                      className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm"
+                      min={1}
+                      max={999}
+                      value={addItemQty}
+                      onChange={(e) => setAddItemQty(e.target.value)}
+                      type="number"
+                      inputMode="numeric"
+                    />
+                  </div>
+
+                  <button
+                    type="button"
+                    className="h-10 rounded-lg px-3 text-sm font-medium text-white disabled:opacity-60"
+                    style={{ backgroundColor: 'var(--medilec-accent)' }}
+                    onClick={onAddItem}
+                    disabled={saving}
+                  >
+                    Ajouter
+                  </button>
+                </div>
+
+                <div className="mt-2 text-xs text-neutral-500">
+                  Astuce: pour ajouter un produit, copie son ID depuis Admin → Produits.
+                </div>
+              </div>
             </div>
 
             {data?.note ? (

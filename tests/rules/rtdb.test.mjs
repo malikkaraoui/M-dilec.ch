@@ -61,6 +61,34 @@ afterAll(async () => {
 })
 
 describe('Realtime Database rules (orders + admin fields)', () => {
+  it('admin can read /orders list', async () => {
+    const uid = 'user_orders_list_1'
+    const orderId = 'order_orders_list_1'
+
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      const db = ctx.database()
+      await set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid }))
+    })
+
+    const adminCtx = testEnv.authenticatedContext('admin_orders_list_1', { role: 'admin' })
+    const db = adminCtx.database()
+    await assertSucceeds(get(dbRef(db, 'orders')))
+  })
+
+  it('user cannot read /orders list', async () => {
+    const uid = 'user_orders_list_2'
+    const orderId = 'order_orders_list_2'
+
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      const db = ctx.database()
+      await set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid }))
+    })
+
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+    await assertFails(get(dbRef(db, 'orders')))
+  })
+
   it('admin can create an order for any user', async () => {
     const uid = 'user_target_1'
     const orderId = 'order_admin_create_1'

@@ -36,6 +36,25 @@ function normalizeText(value) {
   return String(value || '').trim().toLowerCase()
 }
 
+function sumItemsQty(items) {
+  const raw = items && typeof items === 'object' ? items : null
+  if (!raw) return null
+
+  const values = Array.isArray(raw) ? raw : Object.values(raw)
+
+  let sum = 0
+  let any = false
+  for (const it of values) {
+    if (!it || typeof it !== 'object') continue
+    const qty = Number(it.qty)
+    if (!Number.isFinite(qty)) continue
+    sum += qty
+    any = true
+  }
+
+  return any ? sum : null
+}
+
 const LS_QUERY_KEY = 'medilec_admin_orders_query_v1'
 const LS_STATUS_KEY = 'medilec_admin_orders_status_v1'
 
@@ -78,7 +97,7 @@ export function AdminOrdersPage() {
         const email = typeof o?.user?.email === 'string' ? o.user.email : ''
         const phone = typeof o?.user?.phone === 'string' ? o.user.phone : ''
 
-        const itemCount = o?.items && typeof o.items === 'object' ? Object.keys(o.items).length : null
+        const itemCount = sumItemsQty(o?.items)
 
         return {
           id,

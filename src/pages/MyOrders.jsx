@@ -33,6 +33,25 @@ function formatStatus(status) {
   }
 }
 
+function sumItemsQty(items) {
+  const raw = items && typeof items === 'object' ? items : null
+  if (!raw) return null
+
+  const values = Array.isArray(raw) ? raw : Object.values(raw)
+
+  let sum = 0
+  let any = false
+  for (const it of values) {
+    if (!it || typeof it !== 'object') continue
+    const qty = Number(it.qty)
+    if (!Number.isFinite(qty)) continue
+    sum += qty
+    any = true
+  }
+
+  return any ? sum : null
+}
+
 export function MyOrdersPage() {
   const navigate = useNavigate()
   const location = useLocation()
@@ -109,8 +128,7 @@ export function MyOrdersPage() {
             id: value.id || orderIds[i],
             createdAt: value.createdAt,
             status: value.status,
-            itemCount:
-              value.items && typeof value.items === 'object' ? Object.keys(value.items).length : null,
+            itemCount: sumItemsQty(value.items),
             raw: value,
           })
         }
