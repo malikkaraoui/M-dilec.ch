@@ -61,6 +61,16 @@ afterAll(async () => {
 })
 
 describe('Realtime Database rules (orders + admin fields)', () => {
+  it('admin can create an order for any user', async () => {
+    const uid = 'user_target_1'
+    const orderId = 'order_admin_create_1'
+
+    const adminCtx = testEnv.authenticatedContext('admin_create_1', { role: 'admin' })
+    const db = adminCtx.database()
+
+    await assertSucceeds(set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid })))
+  })
+
   it('user can write their own profile (/users/{uid})', async () => {
     const uid = 'user_profile_1'
     const userCtx = testEnv.authenticatedContext(uid)
@@ -75,14 +85,17 @@ describe('Realtime Database rules (orders + admin fields)', () => {
     )
   })
 
-  it.skip(
-    'user can create an order (skip: comportement instable avec l’émulateur RTDB + rules-unit-testing sur ce repo)',
-    async () => {
-      // À valider manuellement côté app:
-      // - un user authentifié doit pouvoir créer `/orders/{orderId}` (status=new)
-      // - et écrire `/userOrders/{uid}/{orderId}` = true
-    },
-  )
+  it('user can create an order (and link it in /userOrders)', async () => {
+    const uid = 'user_create_1'
+    const orderId = 'order_create_1'
+
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+
+    await assertSucceeds(set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid })))
+
+    await assertSucceeds(set(dbRef(db, `userOrders/${uid}/${orderId}`), true))
+  })
 
   it('user can read their own order', async () => {
     const uid = 'user_1'

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
@@ -8,6 +9,14 @@ export function CatalogPage() {
   const navigate = useNavigate()
   const { status, data, error } = useRtdbValue('/products')
   const cart = useCart()
+
+  const [recentlyAddedId, setRecentlyAddedId] = useState('')
+
+  useEffect(() => {
+    if (!recentlyAddedId) return
+    const t = window.setTimeout(() => setRecentlyAddedId(''), 900)
+    return () => window.clearTimeout(t)
+  }, [recentlyAddedId])
 
   const q = (searchParams.get('q') || '').trim()
   const qLower = q.toLowerCase()
@@ -101,7 +110,8 @@ export function CatalogPage() {
             return (
               <li
                 key={productId}
-                className="cursor-pointer rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition hover:border-neutral-300 hover:shadow"
+                className="group cursor-pointer rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition-transform duration-200 ease-out will-change-transform hover:-translate-y-1 hover:border-neutral-300 hover:shadow-lg focus-within:ring-2"
+                style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
                 role="link"
                 tabIndex={0}
                 onClick={() => navigate(`/product/${productId}`)}
@@ -140,15 +150,23 @@ export function CatalogPage() {
                     Détails
                   </Link>
                   <button
-                    className="rounded-lg px-3 py-2 text-xs font-medium text-white"
-                    style={{ backgroundColor: 'var(--medilec-accent)' }}
+                    className={
+                      recentlyAddedId === productId
+                        ? 'rounded-lg px-3 py-2 text-xs font-medium text-white ring-2 ring-offset-2 transition-transform active:scale-[0.98]'
+                        : 'rounded-lg px-3 py-2 text-xs font-medium text-white transition-transform active:scale-[0.98]'
+                    }
+                    style={{
+                      backgroundColor: 'var(--medilec-accent)',
+                      '--tw-ring-color': 'rgba(213, 43, 30, 0.28)',
+                    }}
                     onClick={(e) => {
                       e.stopPropagation()
                       cart.add({ id: productId, name, brand, priceCents })
+                      setRecentlyAddedId(productId)
                     }}
                     type="button"
                   >
-                    Ajouter
+                    {recentlyAddedId === productId ? 'Ajouté' : 'Ajouter'}
                   </button>
                 </div>
               </li>

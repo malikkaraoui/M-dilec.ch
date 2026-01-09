@@ -1,4 +1,4 @@
-import { push, ref, serverTimestamp, set } from 'firebase/database'
+import { push, ref, set } from 'firebase/database'
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
@@ -66,7 +66,7 @@ export function CartPage() {
 
       const payload = {
         id: orderId,
-        createdAt: serverTimestamp(),
+        createdAt: Date.now(),
         status: 'new',
         source: 'web',
 

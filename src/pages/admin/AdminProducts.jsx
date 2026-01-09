@@ -1,5 +1,5 @@
 import { push, ref, remove, set, update } from 'firebase/database'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
 import { rtdb } from '../../lib/db.js'
@@ -26,6 +26,9 @@ function safeInt(value) {
 export function AdminProductsPage() {
   const { status, data, error } = useRtdbValue('/products')
 
+  const imageInputRef = useRef(null)
+  const pdfInputRef = useRef(null)
+
   const [query, setQuery] = useState(() => {
     if (typeof window === 'undefined') return ''
     return window.localStorage.getItem(LS_QUERY_KEY) || ''
@@ -40,6 +43,7 @@ export function AdminProductsPage() {
 
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
+  const [saveOk, setSaveOk] = useState(false)
 
   const [deletingId, setDeletingId] = useState('')
   const [deleteError, setDeleteError] = useState('')
@@ -141,6 +145,7 @@ export function AdminProductsPage() {
 
   async function onSave() {
     setSaveError('')
+    setSaveOk(false)
 
     if (!selectedId) return
 
@@ -174,6 +179,9 @@ export function AdminProductsPage() {
         description: description || null,
         priceCents,
       })
+
+      setSaveOk(true)
+      window.setTimeout(() => setSaveOk(false), 1200)
     } catch (err) {
       setSaveError(err?.message || 'Enregistrement impossible.')
     } finally {
@@ -444,6 +452,7 @@ export function AdminProductsPage() {
             <>
               <form
                 className="mt-4 space-y-3"
+                id="admin-product-form"
                 onSubmit={(e) => {
                   e.preventDefault()
                   onSave()
@@ -513,15 +522,6 @@ export function AdminProductsPage() {
                     {saveError}
                   </div>
                 ) : null}
-
-                <button
-                  className="w-full rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
-                  style={{ backgroundColor: 'var(--medilec-accent)' }}
-                  disabled={saving}
-                  type="submit"
-                >
-                  {saving ? 'Enregistrement…' : 'Enregistrer'}
-                </button>
               </form>
 
               <div className="mt-6 border-t border-neutral-200 pt-4">
@@ -563,15 +563,13 @@ export function AdminProductsPage() {
                   )}
 
                   <div>
-                    <label className="block text-xs font-medium text-neutral-700" htmlFor="admin-product-image">
-                      Importer / remplacer
-                    </label>
                     <input
                       id="admin-product-image"
-                      className="mt-1 block w-full text-sm"
+                      className="sr-only"
                       type="file"
                       accept="image/*"
                       disabled={uploadingImage}
+                      ref={imageInputRef}
                       onChange={(e) => {
                         const file = e.currentTarget.files && e.currentTarget.files[0]
                         if (!file) return
@@ -579,6 +577,15 @@ export function AdminProductsPage() {
                         e.currentTarget.value = ''
                       }}
                     />
+
+                    <button
+                      className="mt-1 inline-flex items-center justify-center rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50 disabled:opacity-60"
+                      disabled={uploadingImage}
+                      onClick={() => imageInputRef.current?.click?.()}
+                      type="button"
+                    >
+                      {selected?.image ? 'Remplacer la photo…' : 'Ajouter une photo…'}
+                    </button>
                     {uploadingImage ? (
                       <div className="mt-2 text-xs text-neutral-500">Upload… {uploadImageProgress}%</div>
                     ) : null}
@@ -636,15 +643,13 @@ export function AdminProductsPage() {
                 )}
 
                 <div>
-                  <label className="block text-xs font-medium text-neutral-700" htmlFor="admin-product-pdf">
-                    Importer / remplacer
-                  </label>
                   <input
                     id="admin-product-pdf"
-                    className="mt-1 block w-full text-sm"
+                    className="sr-only"
                     type="file"
                     accept="application/pdf"
                     disabled={uploading}
+                    ref={pdfInputRef}
                     onChange={(e) => {
                       const file = e.currentTarget.files && e.currentTarget.files[0]
                       if (!file) return
@@ -653,6 +658,15 @@ export function AdminProductsPage() {
                       e.currentTarget.value = ''
                     }}
                   />
+
+                  <button
+                    className="mt-1 inline-flex items-center justify-center rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50 disabled:opacity-60"
+                    disabled={uploading}
+                    onClick={() => pdfInputRef.current?.click?.()}
+                    type="button"
+                  >
+                    {selected?.pdf ? 'Remplacer le PDF…' : 'Ajouter un PDF…'}
+                  </button>
                   {uploading ? (
                     <div className="mt-2 text-xs text-neutral-500">Upload… {uploadProgress}%</div>
                   ) : null}
@@ -668,6 +682,29 @@ export function AdminProductsPage() {
                     {deletingPdf ? 'Suppression…' : 'Supprimer le PDF'}
                   </button>
                 ) : null}
+              </div>
+            </div>
+
+            <div className="mt-6 border-t border-neutral-200 pt-4">
+              <button
+                className={
+                  saveOk
+                    ? 'w-full rounded-lg px-3 py-2 text-sm font-semibold text-white ring-2 ring-offset-2 disabled:opacity-60'
+                    : 'w-full rounded-lg px-3 py-2 text-sm font-semibold text-white disabled:opacity-60'
+                }
+                style={{
+                  backgroundColor: 'var(--medilec-accent)',
+                  '--tw-ring-color': 'rgba(213, 43, 30, 0.28)',
+                }}
+                disabled={saving}
+                form="admin-product-form"
+                type="submit"
+              >
+                {saving ? 'Enregistrement…' : saveOk ? 'Enregistré' : 'Enregistrer'}
+              </button>
+
+              <div className="mt-2 text-xs text-neutral-500">
+                Astuce: vous pouvez aussi appuyer sur Entrée dans les champs.
               </div>
             </div>
             </>

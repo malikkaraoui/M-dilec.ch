@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
@@ -7,6 +8,14 @@ export function ProductDetailsPage() {
   const { id } = useParams()
   const { status, data: product, error } = useRtdbValue(id ? `/products/${id}` : '')
   const cart = useCart()
+
+  const [justAdded, setJustAdded] = useState(false)
+
+  useEffect(() => {
+    if (!justAdded) return
+    const t = window.setTimeout(() => setJustAdded(false), 900)
+    return () => window.clearTimeout(t)
+  }, [justAdded])
 
   return (
     <section className="space-y-4">
@@ -56,19 +65,28 @@ export function ProductDetailsPage() {
 
           <div className="mt-4 flex flex-wrap items-center gap-2">
             <button
-              className="rounded-lg px-3 py-2 text-sm font-medium text-white"
-              style={{ backgroundColor: 'var(--medilec-accent)' }}
-              onClick={() =>
+              className={
+                justAdded
+                  ? 'rounded-lg px-3 py-2 text-sm font-medium text-white ring-2 ring-offset-2 transition-transform active:scale-[0.98]'
+                  : 'rounded-lg px-3 py-2 text-sm font-medium text-white transition-transform active:scale-[0.98]'
+              }
+              style={{
+                backgroundColor: 'var(--medilec-accent)',
+                '--tw-ring-color': 'rgba(213, 43, 30, 0.28)',
+              }}
+              disabled={justAdded}
+              onClick={() => {
                 cart.add({
                   id,
                   name: product?.name || id,
                   brand: product?.brand,
                   priceCents: typeof product?.priceCents === 'number' ? product.priceCents : null,
                 })
-              }
+                setJustAdded(true)
+              }}
               type="button"
             >
-              Ajouter au panier
+              {justAdded ? 'Ajouté' : 'Ajouter au panier'}
             </button>
             <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/cart">
               Voir le panier

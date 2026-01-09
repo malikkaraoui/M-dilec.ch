@@ -1,4 +1,4 @@
-import { get, ref as dbRef, remove, serverTimestamp, set } from 'firebase/database'
+import { get, ref as dbRef, remove, set } from 'firebase/database'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import {
@@ -118,7 +118,7 @@ async function upsertServerCart({ path, idKey, idValue, items }) {
 
   const payload = {
     [idKey]: idValue,
-    updatedAt: serverTimestamp(),
+    updatedAt: Date.now(),
     items: itemsArrayToMap(items),
   }
 

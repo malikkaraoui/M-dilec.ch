@@ -57,7 +57,7 @@
           ".validate": "!newData.exists() || (auth != null && auth.token.role === 'admin' && newData.isString() && newData.val().length <= 4000)"
         },
         "status": {
-          ".validate": "auth != null && ((auth.token.role === 'admin' && (newData.val() === 'new' || newData.val() === 'processing' || newData.val() === 'done' || newData.val() === 'cancelled')) || (auth.token.role !== 'admin' && newData.val() === 'new'))"
+          ".validate": "auth != null && ((auth.token.role === 'admin' && (newData.val() === 'new' || newData.val() === 'processing' || newData.val() === 'done' || newData.val() === 'cancelled')) || (auth.token.role != 'admin' && newData.val() === 'new'))"
         },
         "updatedAt": {
           ".validate": "!newData.exists() || (auth != null && auth.token.role === 'admin')"
@@ -79,9 +79,9 @@
         },
 
         "items": {
-          ".validate": "newData.hasChildren()",
+          ".validate": "newData.exists()",
           "$idx": {
-            ".validate": "$idx.matches(/^(?:[0-9]|[1-3][0-9]|4[0-9])$/) && newData.hasChildren(['id','qty']) && newData.child('id').isString() && newData.child('id').val().length > 0 && newData.child('id').val().length <= 120 && newData.child('qty').isNumber() && newData.child('qty').val() >= 1 && newData.child('qty').val() <= 999 && (!newData.child('name').exists() || (newData.child('name').isString() && newData.child('name').val().length <= 160)) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber())"
+            ".validate": "newData.hasChildren(['id','qty']) && newData.child('id').isString() && newData.child('id').val().length > 0 && newData.child('id').val().length <= 120 && newData.child('qty').isNumber() && newData.child('qty').val() >= 1 && newData.child('qty').val() <= 999 && (!newData.child('name').exists() || (newData.child('name').isString() && newData.child('name').val().length <= 160)) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber())"
           }
         }
       }
