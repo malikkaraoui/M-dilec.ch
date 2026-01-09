@@ -9,7 +9,7 @@
       ".indexOn": ["name", "brand"],
 
       "$productId": {
-        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (( !newData.child('pdf/storagePath').exists() || (newData.child('pdf/storagePath').isString() && newData.child('pdf/storagePath').val().length <= 500) ) && ( !newData.child('pdf/downloadURL').exists() || (newData.child('pdf/downloadURL').isString() && newData.child('pdf/downloadURL').val().length <= 2000) ))) && (!newData.child('image').exists() || (( !newData.child('image/storagePath').exists() || (newData.child('image/storagePath').isString() && newData.child('image/storagePath').val().length <= 500) ) && ( !newData.child('image/downloadURL').exists() || (newData.child('image/downloadURL').isString() && newData.child('image/downloadURL').val().length <= 2000) )))"
+        ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('slug').exists() || (newData.child('slug').isString() && newData.child('slug').val().length <= 120 && newData.child('slug').val().matches(/^[a-z0-9]+(-[a-z0-9]+)*$/))) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (( !newData.child('pdf/storagePath').exists() || (newData.child('pdf/storagePath').isString() && newData.child('pdf/storagePath').val().length <= 500) ) && ( !newData.child('pdf/downloadURL').exists() || (newData.child('pdf/downloadURL').isString() && newData.child('pdf/downloadURL').val().length <= 2000) ))) && (!newData.child('image').exists() || (( !newData.child('image/storagePath').exists() || (newData.child('image/storagePath').isString() && newData.child('image/storagePath').val().length <= 500) ) && ( !newData.child('image/downloadURL').exists() || (newData.child('image/downloadURL').isString() && newData.child('image/downloadURL').val().length <= 2000) )))"
       }
     },
 
@@ -24,6 +24,15 @@
         },
         "email": {
           ".validate": "newData.val() === null || (newData.isString() && newData.val().length <= 200)"
+        },
+        "firstName": {
+          ".validate": "newData.val() === null || (newData.isString() && newData.val().length > 0 && newData.val().length <= 80)"
+        },
+        "lastName": {
+          ".validate": "newData.val() === null || (newData.isString() && newData.val().length > 0 && newData.val().length <= 80)"
+        },
+        "shippingAddress": {
+          ".validate": "newData.val() === null || (newData.hasChildren(['name','street','streetNo','postalCode','city','country']) && newData.child('name').isString() && newData.child('name').val().length > 0 && newData.child('name').val().length <= 120 && newData.child('street').isString() && newData.child('street').val().length > 0 && newData.child('street').val().length <= 120 && newData.child('streetNo').isString() && newData.child('streetNo').val().length > 0 && newData.child('streetNo').val().length <= 20 && newData.child('postalCode').isString() && newData.child('postalCode').val().length >= 2 && newData.child('postalCode').val().length <= 12 && newData.child('postalCode').val().matches(/^[0-9A-Za-z -]+$/) && newData.child('city').isString() && newData.child('city').val().length > 0 && newData.child('city').val().length <= 80 && newData.child('country').isString() && newData.child('country').val().length > 0 && newData.child('country').val().length <= 60)"
         },
         "updatedAt": {
           ".validate": "newData.exists()"
@@ -77,6 +86,10 @@
           "phone": {
             ".validate": "newData.isString() && newData.val().length <= 40"
           }
+        },
+
+        "shippingAddress": {
+          ".validate": "!newData.exists() || (newData.hasChildren(['name','street','streetNo','postalCode','city','country']) && newData.child('name').isString() && newData.child('name').val().length > 0 && newData.child('name').val().length <= 120 && newData.child('street').isString() && newData.child('street').val().length > 0 && newData.child('street').val().length <= 120 && newData.child('streetNo').isString() && newData.child('streetNo').val().length > 0 && newData.child('streetNo').val().length <= 20 && newData.child('postalCode').isString() && newData.child('postalCode').val().length >= 2 && newData.child('postalCode').val().length <= 12 && newData.child('postalCode').val().matches(/^[0-9A-Za-z -]+$/) && newData.child('city').isString() && newData.child('city').val().length > 0 && newData.child('city').val().length <= 80 && newData.child('country').isString() && newData.child('country').val().length > 0 && newData.child('country').val().length <= 60)"
         },
 
         "items": {

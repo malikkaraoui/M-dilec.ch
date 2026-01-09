@@ -3,6 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
+import { slugify } from '../lib/slug.js'
 
 export function CatalogPage() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -106,6 +107,7 @@ export function CatalogPage() {
             const brand = p?.brand
             const priceCents = typeof p?.priceCents === 'number' ? p.priceCents : null
             const imageURL = typeof p?.image?.downloadURL === 'string' ? p.image.downloadURL : ''
+            const href = `/product/${productId}/${slugify(name)}`
 
             return (
               <li
@@ -114,11 +116,11 @@ export function CatalogPage() {
                 style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
                 role="link"
                 tabIndex={0}
-                onClick={() => navigate(`/product/${productId}`)}
+                onClick={() => navigate(href)}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault()
-                    navigate(`/product/${productId}`)
+                    navigate(href)
                   }
                 }}
               >
@@ -144,7 +146,7 @@ export function CatalogPage() {
                 <div className="mt-4 flex gap-2">
                   <Link
                     className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-xs font-medium text-neutral-900 hover:bg-neutral-50"
-                    to={`/product/${productId}`}
+                    to={href}
                     onClick={(e) => e.stopPropagation()}
                   >
                     Détails

@@ -36,6 +36,7 @@ export function AppRoutes() {
 
           {/* MVP: pages publiques */}
           <Route path="catalog" element={<CatalogPage />} />
+          <Route path="product/:id/:slug" element={<ProductDetailsPage />} />
           <Route path="product/:id" element={<ProductDetailsPage />} />
           <Route path="cart" element={<CartPage />} />
           <Route path="my-orders/:id" element={<MyOrderDetailsPage />} />

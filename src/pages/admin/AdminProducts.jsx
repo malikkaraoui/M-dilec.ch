@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
 import { rtdb } from '../../lib/db.js'
+import { slugify } from '../../lib/slug.js'
 import {
   deleteImageByStoragePath,
   deletePdfByStoragePath,
@@ -130,6 +131,7 @@ export function AdminProductsPage() {
 
       await set(productRef, {
         name: 'Nouveau produit',
+        slug: slugify('Nouveau produit'),
         brand: '',
         description: '',
         priceCents: null,
@@ -175,6 +177,7 @@ export function AdminProductsPage() {
 
       await update(ref(rtdb, `products/${selectedId}`), {
         name,
+        slug: slugify(name),
         brand: brand || null,
         description: description || null,
         priceCents,

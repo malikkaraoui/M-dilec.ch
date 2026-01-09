@@ -29,6 +29,8 @@ serviceAccount*.json
 dataconnect/
 src/dataconnect-generated/
 
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

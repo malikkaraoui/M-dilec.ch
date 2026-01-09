@@ -113,6 +113,40 @@ describe('Realtime Database rules (orders + admin fields)', () => {
     )
   })
 
+  it('user can write firstName/lastName in profile', async () => {
+    const uid = 'user_profile_name_1'
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+
+    await assertSucceeds(
+      update(dbRef(db, `users/${uid}`), {
+        firstName: 'Jean',
+        lastName: 'Dupont',
+        updatedAt: Date.now(),
+      }),
+    )
+  })
+
+  it('user can write their shipping address in profile', async () => {
+    const uid = 'user_profile_addr_1'
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+
+    await assertSucceeds(
+      update(dbRef(db, `users/${uid}`), {
+        shippingAddress: {
+          name: 'Dupont SA',
+          street: 'Rue de la Gare',
+          streetNo: '12',
+          postalCode: '1000',
+          city: 'Lausanne',
+          country: 'CH',
+        },
+        updatedAt: Date.now(),
+      }),
+    )
+  })
+
   it('user can create an order (and link it in /userOrders)', async () => {
     const uid = 'user_create_1'
     const orderId = 'order_create_1'
@@ -123,6 +157,28 @@ describe('Realtime Database rules (orders + admin fields)', () => {
     await assertSucceeds(set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid })))
 
     await assertSucceeds(set(dbRef(db, `userOrders/${uid}/${orderId}`), true))
+  })
+
+  it('user can create an order with shippingAddress', async () => {
+    const uid = 'user_create_addr_1'
+    const orderId = 'order_create_addr_1'
+
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+
+    await assertSucceeds(
+      set(dbRef(db, `orders/${orderId}`), {
+        ...makeOrder({ id: orderId, uid }),
+        shippingAddress: {
+          name: 'Dupont SA',
+          street: 'Rue de la Gare',
+          streetNo: '12',
+          postalCode: '1000',
+          city: 'Lausanne',
+          country: 'CH',
+        },
+      }),
+    )
   })
 
   it('user can read their own order', async () => {
@@ -183,6 +239,34 @@ describe('Realtime Database rules (orders + admin fields)', () => {
     const db = otherCtx.database()
 
     await assertFails(get(dbRef(db, `orders/${orderId}`)))
+  })
+})
+
+describe('Realtime Database rules (products slug)', () => {
+  it('admin can write a product with a valid slug', async () => {
+    const adminCtx = testEnv.authenticatedContext('admin_products_slug_1', { role: 'admin' })
+    const db = adminCtx.database()
+
+    await assertSucceeds(
+      set(dbRef(db, 'products/p_slug_ok_1'), {
+        name: 'Produit Test',
+        slug: 'produit-test',
+        priceCents: 12990,
+      }),
+    )
+  })
+
+  it('admin cannot write a product with an invalid slug', async () => {
+    const adminCtx = testEnv.authenticatedContext('admin_products_slug_2', { role: 'admin' })
+    const db = adminCtx.database()
+
+    await assertFails(
+      set(dbRef(db, 'products/p_slug_bad_1'), {
+        name: 'Produit Test',
+        slug: 'Produit Test !',
+        priceCents: 12990,
+      }),
+    )
   })
 })
 

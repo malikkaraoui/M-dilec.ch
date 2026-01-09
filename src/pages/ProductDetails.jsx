@@ -1,11 +1,14 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
+import { slugify } from '../lib/slug.js'
 
 export function ProductDetailsPage() {
-  const { id } = useParams()
+  const { id, slug } = useParams()
+  const navigate = useNavigate()
+  const location = useLocation()
   const { status, data: product, error } = useRtdbValue(id ? `/products/${id}` : '')
   const cart = useCart()
 
@@ -16,6 +19,20 @@ export function ProductDetailsPage() {
     const t = window.setTimeout(() => setJustAdded(false), 900)
     return () => window.clearTimeout(t)
   }, [justAdded])
+
+  // URL canonique: /product/:id/:slug (le slug suit le nom courant)
+  useEffect(() => {
+    if (!id) return
+    if (status !== 'success') return
+    if (!product) return
+
+    const canonicalSlug = slugify(product?.name || id)
+    if (slug === canonicalSlug) return
+
+    const search = location.search || ''
+    const hash = location.hash || ''
+    navigate(`/product/${id}/${canonicalSlug}${search}${hash}`, { replace: true })
+  }, [id, slug, status, product, navigate, location.search, location.hash])
 
   return (
     <section className="space-y-4">

@@ -14,8 +14,8 @@ export function AdminLayout() {
       <header className="border-b border-neutral-200 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
           <div className="flex items-center gap-3">
-            <Link className="font-semibold tracking-tight" to="/">
-              Médilec.ch
+            <Link className="inline-flex items-center font-semibold tracking-tight" to="/">
+              <img alt="Médilec" src="/logo.png" className="h-10 w-auto" loading="eager" decoding="async" />
             </Link>
             <span className="text-sm text-neutral-500">Admin</span>
           </div>

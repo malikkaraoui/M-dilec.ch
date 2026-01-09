@@ -1,16 +1,24 @@
-import { push, ref, set } from 'firebase/database'
-import { useMemo, useState } from 'react'
+import { push, ref, serverTimestamp, set, update } from 'firebase/database'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
+import { PhoneInput } from '../components/PhoneInput.jsx'
+import { ShippingAddressForm } from '../components/ShippingAddressForm.jsx'
 import { useAuth } from '../hooks/useAuth.js'
 import { useCart } from '../hooks/useCart.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
 import { rtdb } from '../lib/db.js'
+import { composePhone, looksLikePhone, parsePhoneParts } from '../lib/phone.js'
+import { isShippingAddressComplete, normalizeShippingAddress } from '../lib/shippingAddress.js'
+import { slugify } from '../lib/slug.js'
 
 function formatPrice(priceCents) {
   if (typeof priceCents !== 'number') return null
   return `${(priceCents / 100).toFixed(2)} CHF`
 }
+
+const SHIPPING_CENTS = 1100
+const VAT_RATE = 0.077
 
 export function CartPage() {
   const navigate = useNavigate()
@@ -22,16 +30,52 @@ export function CartPage() {
   const userPath = user?.uid ? `/users/${user.uid}` : null
   const { data: profileData } = useRtdbValue(userPath)
 
+  const initialPhoneParts = useMemo(() => parsePhoneParts(profileData?.phone || ''), [profileData?.phone])
+  const initialAddress = useMemo(
+    () => normalizeShippingAddress(profileData?.shippingAddress || {}),
+    [profileData?.shippingAddress],
+  )
+
+  const [phoneParts, setPhoneParts] = useState(() => ({ dialCode: '+41', national: '' }))
+  const [shippingAddress, setShippingAddress] = useState(() => ({
+    name: '',
+    street: '',
+    streetNo: '',
+    postalCode: '',
+    city: '',
+    country: 'CH',
+  }))
+
   const [note, setNote] = useState('')
   const [sending, setSending] = useState(false)
   const [sendError, setSendError] = useState('')
   const [sentOrderId, setSentOrderId] = useState('')
+
+  useEffect(() => {
+    setPhoneParts(initialPhoneParts)
+  }, [initialPhoneParts])
+
+  useEffect(() => {
+    setShippingAddress(initialAddress)
+  }, [initialAddress])
 
   const totalKnownCents = useMemo(() => {
     const allKnown = cart.items.every((x) => typeof x.priceCents === 'number')
     if (!allKnown) return null
     return cart.items.reduce((sum, x) => sum + x.qty * (x.priceCents || 0), 0)
   }, [cart.items])
+
+  const totals = useMemo(() => {
+    if (totalKnownCents == null) return null
+
+    const subTotalCents = totalKnownCents
+    const shippingCents = SHIPPING_CENTS
+    const baseCents = subTotalCents + shippingCents
+    const vatCents = Math.round(baseCents * VAT_RATE)
+    const totalCents = baseCents + vatCents
+
+    return { subTotalCents, shippingCents, vatCents, totalCents }
+  }, [totalKnownCents])
 
   async function onSend() {
     setSendError('')
@@ -44,9 +88,21 @@ export function CartPage() {
       return
     }
 
-    const phone = typeof profileData?.phone === 'string' ? profileData.phone.trim() : ''
-    if (!phone) {
-      navigate('/profile', { state: { from: location.pathname, reason: 'phone-required' } })
+    const nextPhone = composePhone(phoneParts)
+    const nextAddress = normalizeShippingAddress(shippingAddress)
+
+    if (!String(phoneParts?.national || '').trim()) {
+      setSendError('Veuillez renseigner votre numéro de téléphone pour envoyer une demande.')
+      return
+    }
+
+    if (!looksLikePhone(nextPhone)) {
+      setSendError('Numéro de téléphone invalide (au moins 8 chiffres).')
+      return
+    }
+
+    if (!isShippingAddressComplete(nextAddress)) {
+      setSendError('Pour toute envoi de commande, veuillez remplir votre adresse de livraison.')
       return
     }
 
@@ -64,6 +120,18 @@ export function CartPage() {
       const orderId = orderRef.key
       if (!orderId) throw new Error('Impossible de générer un identifiant de commande.')
 
+      // Sauvegarde aussi dans le profil pour la prochaine fois (fail-soft)
+      try {
+        await update(ref(rtdb, `users/${user.uid}`), {
+          email: user.email || null,
+          phone: nextPhone,
+          shippingAddress: nextAddress,
+          updatedAt: serverTimestamp(),
+        })
+      } catch {
+        // fail-soft: l’envoi doit rester possible si l’update profil échoue
+      }
+
       const payload = {
         id: orderId,
         createdAt: Date.now(),
@@ -73,8 +141,10 @@ export function CartPage() {
         user: {
           uid: user.uid,
           email: user.email || null,
-          phone,
+          phone: nextPhone,
         },
+
+        shippingAddress: nextAddress,
 
         note: note.trim() || null,
         items: cart.items.map((x) => ({
@@ -174,7 +244,10 @@ export function CartPage() {
                   </div>
 
                   <div className="mt-3">
-                    <Link className="text-xs text-blue-600 hover:underline" to={`/product/${item.id}`}>
+                    <Link
+                      className="text-xs text-blue-600 hover:underline"
+                      to={`/product/${item.id}/${slugify(item.name || item.id)}`}
+                    >
                       Voir la fiche
                     </Link>
                   </div>
@@ -198,8 +271,28 @@ export function CartPage() {
             </p>
 
             {totalKnownCents != null ? (
-              <div className="mt-3 text-sm">
-                Total estimé: <span className="font-semibold">{formatPrice(totalKnownCents)}</span>
+              <div className="mt-4 space-y-2 text-sm">
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-neutral-700">Sous-total</span>
+                  <span className="font-medium text-neutral-900">{formatPrice(totals?.subTotalCents)}</span>
+                </div>
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-neutral-700">Frais de port</span>
+                  <span className="font-medium text-neutral-900">{formatPrice(totals?.shippingCents)}</span>
+                </div>
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-neutral-700">TVA (7.7%)</span>
+                  <span className="font-medium text-neutral-900">{formatPrice(totals?.vatCents)}</span>
+                </div>
+
+                <div className="my-2 h-px bg-neutral-200" aria-hidden="true" />
+
+                <div className="flex items-center justify-between gap-4">
+                  <span className="font-semibold text-neutral-900">Total</span>
+                  <span className="text-base font-semibold" style={{ color: 'var(--medilec-accent)' }}>
+                    {formatPrice(totals?.totalCents)}
+                  </span>
+                </div>
               </div>
             ) : (
               <div className="mt-3 text-xs text-neutral-500">Total à confirmer (prix sur demande possible).</div>
@@ -219,6 +312,28 @@ export function CartPage() {
               />
             </div>
 
+            <div className="mt-4 space-y-3">
+              <PhoneInput
+                idPrefix="order-phone"
+                label="Téléphone"
+                dialCode={phoneParts.dialCode}
+                national={phoneParts.national}
+                onChange={setPhoneParts}
+                placeholder="79 123 45 67"
+              />
+
+              <div className="rounded-xl border border-neutral-200 bg-white p-4">
+                <ShippingAddressForm
+                  variant="plain"
+                  value={shippingAddress}
+                  onChange={setShippingAddress}
+                  requiredNotice={
+                    'Pour toute envoi de commande, veuillez remplir votre adresse de livraison.'
+                  }
+                />
+              </div>
+            </div>
+
             {sendError ? (
               <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
                 {sendError}
@@ -236,7 +351,7 @@ export function CartPage() {
             </button>
 
             <div className="mt-3 text-xs text-neutral-500">
-              Si vous n’êtes pas connecté, vous serez invité à vous connecter. Le téléphone est requis.
+              Si vous n’êtes pas connecté, vous serez invité à vous connecter. Téléphone et adresse sont requis.
             </div>
           </aside>
         </div>
