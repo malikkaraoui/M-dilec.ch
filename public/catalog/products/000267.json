@@ -1,0 +1,113 @@
+{
+  "id": 267,
+  "slug": "essai-2",
+  "active": true,
+  "reference": "ESSAI2",
+  "name": "ESSAI 2",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2</p>",
+    "long_html": "ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2ESSAI 2"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 222222.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 25,
+    "name": "Zetmed's Gsundheitsgarten"
+  },
+  "categories": [
+    {
+      "id": 140,
+      "name": "Actions"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "admin",
+        "source_id_image": null,
+        "files": [
+          "assets/products/267__essai-2/images/cover-large_default.png"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

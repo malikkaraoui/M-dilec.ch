@@ -33,6 +33,23 @@ Le back-office admin peut publier directement dans `public/catalog/` via un serv
 
 > Important: après modification de `.env.local`, redémarrer Vite (les variables Vite sont injectées au build/dev-server).
 
+### Démarrage en 1 commande
+
+Depuis la racine du repo :
+
+- `npm run dev:full`
+
+Cela démarre :
+
+- Vite sur `http://localhost:5173`
+- le publisher sur `http://127.0.0.1:8787` (et Vite proxy `/api` vers ce port)
+
+Le script lit `.env.local` et injecte automatiquement `ADMIN_TOKEN` à partir de `VITE_ADMIN_TOKEN`.
+
+### Runbook
+
+Voir `docs/RUNBOOK_PUBLISH_LOCALHOST.md` (checklist 2 minutes + troubleshooting).
+
 ### Vérification rapide
 
 - `GET /api/catalog/ping` doit répondre `{ "ok": true }`.

@@ -3116,5 +3116,19 @@
       120
     ],
     "cover_image": "assets/products/266__papier-pour-ecg-schiller-cardiovit-at-1/images/1140-large_default.jpg"
+  },
+  {
+    "id": 267,
+    "slug": "essai-2",
+    "active": true,
+    "name": "ESSAI 2",
+    "price_ht": 222222.0,
+    "manufacturer_name": "Zetmed's Gsundheitsgarten",
+    "category_ids": [
+      140,
+      62,
+      159
+    ],
+    "cover_image": "assets/products/267__essai-2/images/cover-large_default.png"
   }
 ]

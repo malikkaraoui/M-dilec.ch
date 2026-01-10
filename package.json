@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:publisher": "./.venv/bin/python -m uvicorn publisher.app:app --host 127.0.0.1 --port 8787 --reload",
+    "dev:full": "node scripts/dev_full.mjs",
     "build": "vite build",
     "lint": "eslint .",
     "prepare": "husky",
