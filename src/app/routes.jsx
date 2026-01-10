@@ -23,7 +23,9 @@ const MyOrderDetailsPage = lazyNamed(() => import('../pages/MyOrderDetails.jsx')
 const ProfilePage = lazyNamed(() => import('../pages/Profile.jsx'), 'ProfilePage')
 
 const AdminDashboardPage = lazyNamed(() => import('../pages/admin/AdminDashboard.jsx'), 'AdminDashboardPage')
-const AdminProductsPage = lazyNamed(() => import('../pages/admin/AdminProducts.jsx'), 'AdminProductsPage')
+const AdminProductsPage = lazyNamed(() => import('../pages/admin/AdminProductsCatalog.jsx'), 'AdminProductsPage')
+const AdminProductNewPage = lazyNamed(() => import('../pages/admin/AdminProductNew.jsx'), 'AdminProductNewPage')
+const AdminProductEditPage = lazyNamed(() => import('../pages/admin/AdminProductEdit.jsx'), 'AdminProductEditPage')
 const AdminOrdersPage = lazyNamed(() => import('../pages/admin/AdminOrders.jsx'), 'AdminOrdersPage')
 const AdminOrderDetailsPage = lazyNamed(() => import('../pages/admin/AdminOrderDetails.jsx'), 'AdminOrderDetailsPage')
 const AdminCartsPage = lazyNamed(() => import('../pages/admin/AdminCarts.jsx'), 'AdminCartsPage')
@@ -54,6 +56,8 @@ export function AppRoutes() {
         <Route element={<RequireAdmin />}>
           <Route path="admin" element={<AdminLayout />}>
             <Route index element={<AdminDashboardPage />} />
+            <Route path="products/new" element={<AdminProductNewPage />} />
+            <Route path="products/:id/edit" element={<AdminProductEditPage />} />
             <Route path="products" element={<AdminProductsPage />} />
             <Route path="orders" element={<AdminOrdersPage />} />
             <Route path="orders/:id" element={<AdminOrderDetailsPage />} />

@@ -33,6 +33,15 @@ src/dataconnect-generated/
 public/catalog/assets/
 
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
 
 # Editor directories and files
 .vscode/*

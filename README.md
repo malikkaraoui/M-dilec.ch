@@ -17,6 +17,27 @@ MVP e-commerce “demande de devis” : catalogue, panier, création de demandes
 
 3) Lancer le dev server.
 
+## Publisher catalogue (localhost)
+
+Le back-office admin peut publier directement dans `public/catalog/` via un service local (FastAPI) exposé derrière le proxy Vite sur `/api`.
+
+### Setup “propre-propre” (recommandé)
+
+1) Dans `.env.local` (front Vite), définir un token :
+
+- `VITE_ADMIN_TOKEN=...`
+
+2) Démarrer le publisher avec **le même token** côté serveur :
+
+- `ADMIN_TOKEN=...` (même valeur que `VITE_ADMIN_TOKEN`)
+
+> Important: après modification de `.env.local`, redémarrer Vite (les variables Vite sont injectées au build/dev-server).
+
+### Vérification rapide
+
+- `GET /api/catalog/ping` doit répondre `{ "ok": true }`.
+- Quand vous publiez depuis l’admin, un panneau affiche le statut/progrès du job et confirme la fin de publication.
+
 ## Admin (compte fixe + tous les droits)
 
 Le modèle final est volontairement simple :

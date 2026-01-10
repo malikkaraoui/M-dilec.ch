@@ -27,6 +27,9 @@ export function AdminLayout() {
             <Link className="text-neutral-700 hover:text-neutral-900" to="/admin/products">
               Produits
             </Link>
+            <Link className="text-neutral-700 hover:text-neutral-900" to="/admin/products/new">
+              Nouveau produit
+            </Link>
             <Link className="text-neutral-700 hover:text-neutral-900" to="/admin/orders">
               Commandes
             </Link>

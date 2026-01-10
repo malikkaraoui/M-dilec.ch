@@ -1,391 +1,319 @@
-import { push, ref, remove, set, update } from 'firebase/database'
-import { useEffect, useMemo, useRef, useState } from 'react'
+/*
+import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 
-import { useRtdbValue } from '../../hooks/useRtdbValue.js'
-import { listCategories, listManufacturers } from '../../lib/catalog.js'
-import { rtdb } from '../../lib/db.js'
-import { slugify } from '../../lib/slug.js'
-import {
-  deleteImageByStoragePath,
-  deletePdfByStoragePath,
-  uploadProductImage,
-  uploadProductPdf,
-} from '../../lib/storage.js'
-
-const LS_QUERY_KEY = 'medilec_admin_products_query_v1'
-const LS_SELECTED_KEY = 'medilec_admin_products_selected_v1'
+import { PublishJobPanel } from '../../components/admin/PublishJobPanel.jsx'
+import { deleteCatalogProduct } from '../../lib/catalogPublisher.js'
+import { clearCatalogCache, listProductsIndex, pad6 } from '../../lib/catalog.js'
 
 function normalizeText(value) {
   return String(value || '').trim().toLowerCase()
 }
 
-function safeInt(value) {
-  const n = Number(value)
-  if (!Number.isFinite(n)) return null
-  return Math.trunc(n)
-}
+export function AdminProductsPage() {
+  const [status, setStatus] = useState('loading')
+  const [error, setError] = useState('')
+  const [items, setItems] = useState(() => [])
 
-function uniqSlugs(list) {
-  const out = []
-  const seen = new Set()
-  for (const x of Array.isArray(list) ? list : []) {
-    const s = String(x || '').trim()
-    if (!s) continue
-    if (seen.has(s)) continue
-    seen.add(s)
-    out.push(s)
+  const [query, setQuery] = useState('')
+
+  const [jobId, setJobId] = useState('')
+  const [actionError, setActionError] = useState('')
+
+  async function reloadIndex({ cacheBust } = {}) {
+    setError('')
+    setStatus('loading')
+    try {
+      const idx = await listProductsIndex(cacheBust ? { cacheBust } : undefined)
+      setItems(Array.isArray(idx) ? idx : [])
+      setStatus('success')
+    } catch (e) {
+      setItems([])
+      setStatus('error')
+      setError(String(e?.message || e))
+    }
   }
-  return out
-}
 
-function uniqStrings(list) {
-  const out = []
-  const seen = new Set()
-  for (const x of Array.isArray(list) ? list : []) {
-    const s = String(x || '').trim()
-    if (!s) continue
-    const key = normalizeText(s)
-    if (seen.has(key)) continue
-    seen.add(key)
-    out.push(s)
-  }
-  return out
-}
+  useEffect(() => {
+    reloadIndex()
+  }, [])
 
-const BRAND_OTHER_VALUE = '__other__'
+  const filtered = useMemo(() => {
+    const q = normalizeText(query)
+    const list = Array.isArray(items) ? items : []
+    if (!q) return list
+    return list.filter((p) =>
+      normalizeText(`${p?.id ?? ''} ${p?.name ?? ''} ${p?.manufacturer_name ?? ''} ${p?.slug ?? ''}`).includes(q),
+    )
+  }, [items, query])
 
-function normalizeBrand(value) {
-  const s = String(value || '').trim().replace(/\s+/g, ' ')
-  if (!s) return ''
-  const first = s.slice(0, 1)
-  const rest = s.slice(1)
-  return `${first.toLocaleUpperCase('fr')}${rest}`
+  return (
+    <section className="space-y-6">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight">Produits (catalogue)</h1>
+          <p className="mt-1 text-sm text-neutral-600">
+            Source de vérité: <span className="font-mono text-xs">public/catalog</span> (index JSON). Actions via publisher localhost.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          <Link
+            className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium hover:bg-neutral-50"
+            to="/admin/products/new"
+          >
+            + Ajouter
+          </Link>
+          <button
+            type="button"
+            className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium hover:bg-neutral-50"
+            onClick={() => reloadIndex({ cacheBust: Date.now() })}
+          >
+            Rafraîchir
+          </button>
+        </div>
+      </div>
+
+      <label className="block">
+        <div className="text-sm font-medium">Recherche</div>
+        <input
+          className="mt-1 w-full rounded-lg border border-neutral-200 px-3 py-2"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Nom, fabricant, slug…"
+        />
+      </label>
+
+      {status === 'loading' ? <p className="text-sm text-neutral-600">Chargement…</p> : null}
+      {status === 'error' ? (
+        <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">{error}</div>
+      ) : null}
+
+      {actionError ? (
+        <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">{actionError}</div>
+      ) : null}
+
+      {jobId ? (
+        <PublishJobPanel
+          jobId={jobId}
+          onDone={(state) => {
+            if (state?.status === 'success') {
+              clearCatalogCache()
+              reloadIndex({ cacheBust: jobId })
+            }
+          }}
+        />
+      ) : null}
+
+      <div className="overflow-auto rounded-xl border border-neutral-200 bg-white">
+        <table className="min-w-full text-sm">
+          <thead className="bg-neutral-50 text-left text-xs text-neutral-600">
+            <tr>
+              <th className="px-3 py-2">ID</th>
+              <th className="px-3 py-2">Nom</th>
+              <th className="px-3 py-2">Fabricant</th>
+              <th className="px-3 py-2">Prix HT</th>
+              <th className="px-3 py-2">Actif</th>
+              <th className="px-3 py-2">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filtered.map((p) => (
+              <tr key={p?.id} className="border-t border-neutral-100">
+                <td className="px-3 py-2 font-mono text-xs">{pad6(p?.id)}</td>
+                <td className="px-3 py-2">
+                  <div className="font-medium text-neutral-900">{p?.name}</div>
+                  <div className="text-xs text-neutral-500 font-mono">{p?.slug}</div>
+                </td>
+                <td className="px-3 py-2">{p?.manufacturer_name || '—'}</td>
+                <td className="px-3 py-2 font-mono text-xs">{p?.price_ht != null ? Number(p.price_ht).toFixed(2) : '—'}</td>
+                <td className="px-3 py-2">{p?.active ? 'oui' : 'non'}</td>
+                <td className="px-3 py-2">
+                  <div className="flex flex-wrap gap-2">
+*/
+
+import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
+
+import { PublishJobPanel } from '../../components/admin/PublishJobPanel.jsx'
+import { deleteCatalogProduct } from '../../lib/catalogPublisher.js'
+import { clearCatalogCache, listProductsIndex, pad6 } from '../../lib/catalog.js'
+
+function normalizeText(value) {
+  return String(value || '').trim().toLowerCase()
 }
 
 export function AdminProductsPage() {
-  const { status, data, error } = useRtdbValue('/products')
-  const { status: taxStatus, data: taxCategoriesData, error: taxError } = useRtdbValue('/taxonomies/categories')
-  const {
-    status: taxMStatus,
-    data: taxManufacturersData,
-    error: taxMError,
-  } = useRtdbValue('/taxonomies/manufacturers')
+                  const [status, setStatus] = useState('loading')
+                  const [error, setError] = useState('')
+                  const [items, setItems] = useState(() => [])
 
-  const [categoriesIndex, setCategoriesIndex] = useState(() => [])
-  const [categoriesLoadError, setCategoriesLoadError] = useState('')
+                  const [query, setQuery] = useState('')
 
-  const [manufacturersIndex, setManufacturersIndex] = useState(() => [])
-  const [manufacturersLoadError, setManufacturersLoadError] = useState('')
+                  const [jobId, setJobId] = useState('')
+                  const [actionError, setActionError] = useState('')
 
-  const imageInputRef = useRef(null)
-  const pdfInputRef = useRef(null)
+                  async function reloadIndex({ cacheBust } = {}) {
+                    setError('')
+                    setStatus('loading')
+                    try {
+                      const idx = await listProductsIndex(cacheBust ? { cacheBust } : undefined)
+                      setItems(Array.isArray(idx) ? idx : [])
+                      setStatus('success')
+                    } catch (e) {
+                      setItems([])
+                      setStatus('error')
+                      setError(String(e?.message || e))
+                    }
+                  }
 
-  const [query, setQuery] = useState(() => {
-    if (typeof window === 'undefined') return ''
-    return window.localStorage.getItem(LS_QUERY_KEY) || ''
-  })
-  const [selectedId, setSelectedId] = useState(() => {
-    if (typeof window === 'undefined') return ''
-    return window.localStorage.getItem(LS_SELECTED_KEY) || ''
-  })
+                  useEffect(() => {
+                    reloadIndex()
+                  }, [])
 
-  const [creating, setCreating] = useState(false)
-  const [createError, setCreateError] = useState('')
-  const [lastCreatedId, setLastCreatedId] = useState('')
+                  const filtered = useMemo(() => {
+                    const q = normalizeText(query)
+                    const list = Array.isArray(items) ? items : []
+                    if (!q) return list
+                    return list.filter((p) =>
+                      normalizeText(`${p?.id ?? ''} ${p?.name ?? ''} ${p?.manufacturer_name ?? ''} ${p?.slug ?? ''}`).includes(q),
+                    )
+                  }, [items, query])
 
-  const [saving, setSaving] = useState(false)
-  const [saveError, setSaveError] = useState('')
-  const [saveOk, setSaveOk] = useState(false)
+                  return (
+                    <section className="space-y-6">
+                      <div className="flex flex-wrap items-center justify-between gap-3">
+                        <div>
+                          <h1 className="text-2xl font-semibold tracking-tight">Produits (catalogue)</h1>
+                          <p className="mt-1 text-sm text-neutral-600">
+                            Source de vérité: <span className="font-mono text-xs">public/catalog</span> (index JSON). Actions via publisher localhost.
+                          </p>
+                        </div>
 
-  const [deletingId, setDeletingId] = useState('')
-  const [deleteError, setDeleteError] = useState('')
+                        <div className="flex flex-wrap gap-2">
+                          <Link
+                            className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium hover:bg-neutral-50"
+                            to="/admin/products/new"
+                          >
+                            + Ajouter
+                          </Link>
+                          <button
+                            type="button"
+                            className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium hover:bg-neutral-50"
+                            onClick={() => reloadIndex({ cacheBust: Date.now() })}
+                          >
+                            Rafraîchir
+                          </button>
+                        </div>
+                      </div>
 
-  const [uploading, setUploading] = useState(false)
-  const [uploadProgress, setUploadProgress] = useState(0)
-  const [uploadError, setUploadError] = useState('')
-  const [deletingPdf, setDeletingPdf] = useState(false)
-  const [deletePdfError, setDeletePdfError] = useState('')
+                      <label className="block">
+                        <div className="text-sm font-medium">Recherche</div>
+                        <input
+                          className="mt-1 w-full rounded-lg border border-neutral-200 px-3 py-2"
+                          value={query}
+                          onChange={(e) => setQuery(e.target.value)}
+                          placeholder="Nom, fabricant, slug…"
+                        />
+                      </label>
 
-  const [uploadingImage, setUploadingImage] = useState(false)
-  const [uploadImageProgress, setUploadImageProgress] = useState(0)
-  const [uploadImageError, setUploadImageError] = useState('')
-  const [deletingImage, setDeletingImage] = useState(false)
-  const [deleteImageError, setDeleteImageError] = useState('')
+                      {status === 'loading' ? <p className="text-sm text-neutral-600">Chargement…</p> : null}
+                      {status === 'error' ? (
+                        <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">{error}</div>
+                      ) : null}
 
-  const products = useMemo(() => {
-    const raw = data
-    if (!raw || typeof raw !== 'object') return []
+                      {actionError ? (
+                        <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">{actionError}</div>
+                      ) : null}
 
-    const list = Object.entries(raw).map(([id, p]) => ({
-      id,
-      name: typeof p?.name === 'string' ? p.name : '',
-      brand: typeof p?.brand === 'string' ? p.brand : '',
-      description: typeof p?.description === 'string' ? p.description : '',
-      priceCents: typeof p?.priceCents === 'number' ? p.priceCents : null,
-      categorySlugs: Array.isArray(p?.categorySlugs) ? uniqSlugs(p.categorySlugs) : [],
-      pdf: p?.pdf && typeof p.pdf === 'object' ? p.pdf : null,
-      image: p?.image && typeof p.image === 'object' ? p.image : null,
-    }))
+                      {jobId ? (
+                        <PublishJobPanel
+                          jobId={jobId}
+                          onDone={(state) => {
+                            if (state?.status === 'success') {
+                              clearCatalogCache()
+                              reloadIndex({ cacheBust: jobId })
+                            }
+                          }}
+                        />
+                      ) : null}
 
-    list.sort((a, b) => {
-      const an = normalizeText(a.name || a.id)
-      const bn = normalizeText(b.name || b.id)
-      return an.localeCompare(bn, 'fr')
-    })
+                      <div className="overflow-auto rounded-xl border border-neutral-200 bg-white">
+                        <table className="min-w-full text-sm">
+                          <thead className="bg-neutral-50 text-left text-xs text-neutral-600">
+                            <tr>
+                              <th className="px-3 py-2">ID</th>
+                              <th className="px-3 py-2">Nom</th>
+                              <th className="px-3 py-2">Fabricant</th>
+                              <th className="px-3 py-2">Prix HT</th>
+                              <th className="px-3 py-2">Actif</th>
+                              <th className="px-3 py-2">Actions</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {filtered.map((p) => (
+                              <tr key={p?.id} className="border-t border-neutral-100">
+                                <td className="px-3 py-2 font-mono text-xs">{pad6(p?.id)}</td>
+                                <td className="px-3 py-2">
+                                  <div className="font-medium text-neutral-900">{p?.name}</div>
+                                  <div className="text-xs text-neutral-500 font-mono">{p?.slug}</div>
+                                </td>
+                                <td className="px-3 py-2">{p?.manufacturer_name || '—'}</td>
+                                <td className="px-3 py-2 font-mono text-xs">{p?.price_ht != null ? Number(p.price_ht).toFixed(2) : '—'}</td>
+                                <td className="px-3 py-2">{p?.active ? 'oui' : 'non'}</td>
+                                <td className="px-3 py-2">
+                                  <div className="flex flex-wrap gap-2">
+                                    <Link
+                                      className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs font-medium hover:bg-neutral-50"
+                                      to={`/admin/products/${encodeURIComponent(String(p?.id))}/edit`}
+                                    >
+                                      Éditer
+                                    </Link>
+                                    <button
+                                      type="button"
+                                      className="rounded-lg border border-red-200 bg-white px-3 py-1.5 text-xs font-medium text-red-700 hover:bg-red-50"
+                                      onClick={async () => {
+                                        const ok = window.confirm(`Supprimer le produit #${p?.id} ?`)
+                                        if (!ok) return
+                                        try {
+                                          setActionError('')
+                                          const jid = await deleteCatalogProduct({ id: p?.id })
+                                          if (!jid) throw new Error('jobId manquant')
+                                          setJobId(String(jid))
+                                        } catch (e) {
+                                          setActionError(String(e?.message || e))
+                                        }
+                                      }}
+                                    >
+                                      Supprimer
+                                    </button>
+                                  </div>
+                                </td>
+                              </tr>
+                            ))}
+                            {!filtered.length && status === 'success' ? (
+                              <tr>
+                                <td className="px-3 py-6 text-center text-sm text-neutral-600" colSpan={6}>
+                                  Aucun produit.
+                                </td>
+                              </tr>
+                            ) : null}
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  )
+                }
 
-    const q = normalizeText(query)
-    if (!q) return list
+/*
+ * LEGACY (Firebase/RTDB)
+ * ---------------------
+ * Ancienne version de l'écran admin produits. Conservée temporairement
+ * pour référence mais désactivée : désormais, le CRUD catalogue passe
+ * par `public/catalog` + publisher localhost.
+ *
 
-    return list.filter((p) =>
-      normalizeText(`${p.id} ${p.name} ${p.brand} ${p.description}`).includes(q),
-    )
-  }, [data, query])
-
-  const selected = useMemo(() => products.find((p) => p.id === selectedId) || null, [products, selectedId])
-
-  const [edit, setEdit] = useState(() => ({ name: '', brand: '', description: '', priceCents: '', categorySlugs: [] }))
-
-  const brandOptions = useMemo(() => {
-    const raw = data
-    if (!raw || typeof raw !== 'object') return []
-
-    const brands = []
-    for (const p of Object.values(raw)) {
-      if (!p || typeof p !== 'object') continue
-
-      const b1 = typeof p.brand === 'string' ? p.brand : ''
-      if (b1 && b1.trim()) brands.push(b1)
-
-      // fallback: produits importés du catalogue
-      const b2 = typeof p.catalog?.manufacturer_name === 'string' ? p.catalog.manufacturer_name : ''
-      if (b2 && b2.trim()) brands.push(b2)
-    }
-
-    for (const m of Array.isArray(manufacturersIndex) ? manufacturersIndex : []) {
-      const name = typeof m?.name === 'string' ? m.name : ''
-      if (name && name.trim()) brands.push(name)
-    }
-
-    const unique = uniqStrings(brands)
-    unique.sort((a, b) => a.localeCompare(b, 'fr'))
-    return unique
-  }, [data, manufacturersIndex])
-
-  const [brandChoice, setBrandChoice] = useState('')
-  const [brandAddError, setBrandAddError] = useState('')
-  const [addedBrands, setAddedBrands] = useState(() => [])
-
-  const allBrandOptions = useMemo(() => {
-    return uniqStrings([...(brandOptions || []), ...(addedBrands || [])]).sort((a, b) => a.localeCompare(b, 'fr'))
-  }, [brandOptions, addedBrands])
-
-  useEffect(() => {
-    let cancelled = false
-    const ctrl = new AbortController()
-
-    async function run() {
-      setCategoriesLoadError('')
-
-      const fromRtdb = taxCategoriesData
-      const rtdbCats = Array.isArray(fromRtdb?.categories) ? fromRtdb.categories : null
-      if (rtdbCats && rtdbCats.length) {
-        if (!cancelled) setCategoriesIndex(rtdbCats)
-        return
-      }
-
-      // si la RTDB répond mais sans données, on tente le fallback statique.
-      // si la RTDB est en erreur (permission/config), on tente aussi le fallback.
-      try {
-        const catIdx = await listCategories({ signal: ctrl.signal })
-        const cats = Array.isArray(catIdx?.categories) ? catIdx.categories : []
-        if (!cancelled) setCategoriesIndex(cats)
-      } catch {
-        if (cancelled) return
-        // fail-soft: l'admin produits doit rester utilisable même si les taxonomies sont KO
-        setCategoriesIndex([])
-        if (taxStatus === 'error' || taxError) {
-          setCategoriesLoadError('Catégories indisponibles (Firebase). Importez les taxonomies dans la RTDB.')
-        } else {
-          setCategoriesLoadError('Catégories indisponibles (catalogue).')
-        }
-      }
-    }
-
-    run()
-
-    return () => {
-      cancelled = true
-      ctrl.abort()
-    }
-  }, [taxCategoriesData, taxStatus, taxError])
-
-  useEffect(() => {
-    let cancelled = false
-    const ctrl = new AbortController()
-
-    async function run() {
-      setManufacturersLoadError('')
-
-      const fromRtdb = taxManufacturersData
-      const rtdbList = Array.isArray(fromRtdb?.manufacturers) ? fromRtdb.manufacturers : null
-      if (rtdbList && rtdbList.length) {
-        if (!cancelled) setManufacturersIndex(rtdbList)
-        return
-      }
-
-      try {
-        const mIdx = await listManufacturers({ signal: ctrl.signal })
-        const ms = Array.isArray(mIdx?.manufacturers) ? mIdx.manufacturers : []
-        if (!cancelled) setManufacturersIndex(ms)
-      } catch {
-        if (cancelled) return
-        setManufacturersIndex([])
-        if (taxMStatus === 'error' || taxMError) {
-          setManufacturersLoadError('Marques indisponibles (Firebase). Importez les taxonomies dans la RTDB.')
-        } else {
-          setManufacturersLoadError('Marques indisponibles (catalogue).')
-        }
-      }
-    }
-
-    run()
-
-    return () => {
-      cancelled = true
-      ctrl.abort()
-    }
-  }, [taxManufacturersData, taxMStatus, taxMError])
-
-  const categoryOptions = useMemo(() => {
-    const all = Array.isArray(categoriesIndex) ? categoriesIndex : []
-    if (!all.length) return []
-
-    const byId = new Map()
-    for (const c of all) {
-      if (c && typeof c === 'object' && c.id != null) byId.set(Number(c.id), c)
-    }
-
-    const home = all.find((c) => String(c?.slug || '') === 'home')
-    const homeId = home?.id != null ? Number(home.id) : null
-
-    const cache = new Map()
-    function pathLabel(cat) {
-      const id = Number(cat?.id)
-      if (!Number.isFinite(id)) return ''
-      if (cache.has(id)) return cache.get(id)
-
-      const names = []
-      let cur = cat
-      let guard = 0
-      while (cur && guard < 20) {
-        const name = String(cur?.name || '').trim()
-        if (name) names.push(name)
-        const pid = Number(cur?.id_parent)
-        if (!Number.isFinite(pid) || pid <= 0) break
-        if (homeId != null && pid === homeId) {
-          // on coupe au niveau Home (on n'affiche pas Root/Home)
-          break
-        }
-        cur = byId.get(pid)
-        guard += 1
-      }
-
-      const label = names.reverse().join(' › ')
-      cache.set(id, label)
-      return label
-    }
-
-    const options = all
-      .filter((c) => {
-        if (!c || typeof c !== 'object') return false
-        if (c.active === false) return false
-        const slug = String(c.slug || '').trim()
-        if (!slug || slug === 'root' || slug === 'home') return false
-        return true
-      })
-      .map((c) => ({
-        slug: String(c.slug || '').trim(),
-        label: pathLabel(c) || String(c.name || c.slug || '').trim(),
-        depth: Number(c.level_depth) || 0,
-      }))
-      .filter((o) => o.slug && o.label)
-
-    options.sort((a, b) => a.label.localeCompare(b.label, 'fr'))
-    return options
-  }, [categoriesIndex])
-
-  const defaultCategorySlug = useMemo(() => {
-    return categoryOptions.length ? categoryOptions[0].slug : ''
-  }, [categoryOptions])
-
-  const selectedCategorySlugs = useMemo(() => uniqSlugs(edit.categorySlugs), [edit.categorySlugs])
-
-  const categoryLabelBySlug = useMemo(() => {
-    const m = new Map()
-    for (const o of categoryOptions) {
-      if (!o?.slug) continue
-      m.set(o.slug, o.label || o.slug)
-    }
-    return m
-  }, [categoryOptions])
-
-  // Synchronisation soft: quand on change d’item, on recharge le form.
-  useEffect(() => {
-    if (!selected) return
-    setEdit({
-      name: selected.name || '',
-      brand: selected.brand || '',
-      description: selected.description || '',
-      priceCents: selected.priceCents == null ? '' : String(selected.priceCents),
-      categorySlugs: Array.isArray(selected.categorySlugs) ? uniqSlugs(selected.categorySlugs) : [],
-    })
-  }, [selectedId, selected])
-
-  // Synchronisation select "marque": si la marque courante n’est pas dans la liste, on bascule sur "Autre".
-  useEffect(() => {
-    const b = String(selected?.brand || '').trim()
-    if (!b) {
-      setBrandChoice('')
-      return
-    }
-
-    const has = allBrandOptions.some((x) => x === b)
-    setBrandChoice(has ? b : BRAND_OTHER_VALUE)
-  }, [selectedId, selected?.brand, allBrandOptions])
-
-  function onAddBrand() {
-    setBrandAddError('')
-
-    const next = normalizeBrand(edit.brand)
-    if (!next) {
-      setBrandAddError('Saisissez une marque.')
-      return
-    }
-
-    const exists = allBrandOptions.some((b) => normalizeText(b) === normalizeText(next))
-    if (!exists) {
-      setAddedBrands((prev) => uniqStrings([...(prev || []), next]))
-    }
-
-    setEdit((prev) => ({ ...prev, brand: next }))
-    setBrandChoice(next)
-  }
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return
-    window.localStorage.setItem(LS_QUERY_KEY, query)
-  }, [query])
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return
-    if (selectedId) window.localStorage.setItem(LS_SELECTED_KEY, selectedId)
-    else window.localStorage.removeItem(LS_SELECTED_KEY)
-  }, [selectedId])
-
-  async function onCreate() {
-    setCreateError('')
-
-    if (!rtdb) {
+   if (!rtdb) {
       setCreateError('Realtime Database non configurée (VITE_FIREBASE_DATABASE_URL).')
       return
     }
@@ -1167,3 +1095,5 @@ export function AdminProductsPage() {
     </section>
   )
 }
+
+*/

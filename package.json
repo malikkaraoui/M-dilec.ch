@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "prepare": "husky",
     "preview": "vite preview",
+    "catalog:publish": "node scripts/catalog_publish.mjs",
     "admin:bootstrap": "node scripts/set-admin-role.mjs --email admin@medilec.ch --role admin",
     "admin:import-catalog": "node scripts/import-catalog-products.mjs",
     "admin:import-categories": "node scripts/import-catalog-categories.mjs",

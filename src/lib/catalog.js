@@ -79,6 +79,17 @@ let _catalogPromise = null
 let _categoriesPromise = null
 let _manufacturersPromise = null
 
+/**
+ * Invalide les caches mémoire (utile après un publish en localhost).
+ */
+export function clearCatalogCache() {
+  _productsIndexPromise = null
+  _searchIndexPromise = null
+  _catalogPromise = null
+  _categoriesPromise = null
+  _manufacturersPromise = null
+}
+
 export async function getCatalog(options) {
   if (!_catalogPromise) {
     _catalogPromise = fetchJSON(`${BASE}/catalog.json`, options)
@@ -92,16 +103,26 @@ export async function getCatalog(options) {
 }
 
 export async function listProductsIndex(options) {
-  if (!_productsIndexPromise) {
-    _productsIndexPromise = fetchJSON(`${BASE}/index.products.json`, options)
-  }
+  const cacheBust = options && typeof options === 'object' ? options.cacheBust : null
+  const url = cacheBust
+    ? `${BASE}/index.products.json?v=${encodeURIComponent(String(cacheBust))}`
+    : `${BASE}/index.products.json`
+
+  // Si cacheBust est présent, on bypass le cache (sinon on reste sur le comportement existant).
   let data
-  try {
-    data = await _productsIndexPromise
-  } catch (err) {
-    // Permet de retenter après un abort/réseau KO.
-    _productsIndexPromise = null
-    throw err
+  if (cacheBust) {
+    data = await fetchJSON(url, options)
+  } else {
+    if (!_productsIndexPromise) {
+      _productsIndexPromise = fetchJSON(url, options)
+    }
+    try {
+      data = await _productsIndexPromise
+    } catch (err) {
+      // Permet de retenter après un abort/réseau KO.
+      _productsIndexPromise = null
+      throw err
+    }
   }
   if (!Array.isArray(data)) {
     throw new Error('index.products.json: format inattendu (tableau attendu)')
@@ -110,15 +131,24 @@ export async function listProductsIndex(options) {
 }
 
 export async function listSearchIndex(options) {
-  if (!_searchIndexPromise) {
-    _searchIndexPromise = fetchJSON(`${BASE}/index.search.json`, options)
-  }
+  const cacheBust = options && typeof options === 'object' ? options.cacheBust : null
+  const url = cacheBust
+    ? `${BASE}/index.search.json?v=${encodeURIComponent(String(cacheBust))}`
+    : `${BASE}/index.search.json`
+
   let data
-  try {
-    data = await _searchIndexPromise
-  } catch (err) {
-    _searchIndexPromise = null
-    throw err
+  if (cacheBust) {
+    data = await fetchJSON(url, options)
+  } else {
+    if (!_searchIndexPromise) {
+      _searchIndexPromise = fetchJSON(url, options)
+    }
+    try {
+      data = await _searchIndexPromise
+    } catch (err) {
+      _searchIndexPromise = null
+      throw err
+    }
   }
   if (!Array.isArray(data)) {
     throw new Error('index.search.json: format inattendu (tableau attendu)')
@@ -151,7 +181,11 @@ export async function listManufacturers(options) {
 }
 
 export async function getProductById(id, options) {
-  return await fetchJSON(`${BASE}/products/${pad6(id)}.json`, options)
+  const cacheBust = options && typeof options === 'object' ? options.cacheBust : null
+  const url = cacheBust
+    ? `${BASE}/products/${pad6(id)}.json?v=${encodeURIComponent(String(cacheBust))}`
+    : `${BASE}/products/${pad6(id)}.json`
+  return await fetchJSON(url, options)
 }
 
 export async function findProductIdBySlug(slug, options) {
