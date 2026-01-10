@@ -10,7 +10,19 @@
 
       "$productId": {
         ".validate": "newData.hasChild('name') && newData.child('name').isString() && newData.child('name').val().length <= 120 && (!newData.child('slug').exists() || (newData.child('slug').isString() && newData.child('slug').val().length <= 120 && newData.child('slug').val().matches(/^[a-z0-9]+(-[a-z0-9]+)*$/))) && (!newData.child('brand').exists() || (newData.child('brand').isString() && newData.child('brand').val().length <= 80)) && (!newData.child('description').exists() || (newData.child('description').isString() && newData.child('description').val().length <= 4000)) && (!newData.child('priceCents').exists() || newData.child('priceCents').isNumber()) && (!newData.child('pdf').exists() || (( !newData.child('pdf/storagePath').exists() || (newData.child('pdf/storagePath').isString() && newData.child('pdf/storagePath').val().length <= 500) ) && ( !newData.child('pdf/downloadURL').exists() || (newData.child('pdf/downloadURL').isString() && newData.child('pdf/downloadURL').val().length <= 2000) ))) && (!newData.child('image').exists() || (( !newData.child('image/storagePath').exists() || (newData.child('image/storagePath').isString() && newData.child('image/storagePath').val().length <= 500) ) && ( !newData.child('image/downloadURL').exists() || (newData.child('image/downloadURL').isString() && newData.child('image/downloadURL').val().length <= 2000) )))"
+        ,
+        "categorySlugs": {
+          ".validate": "newData.val() === null || (newData.exists() && (newData.hasChild('0') || newData.hasChild('1') || newData.hasChild('2') || newData.hasChild('3') || newData.hasChild('4')))",
+          "$idx": {
+            ".validate": "$idx.matches(/^[0-4]$/) && newData.isString() && newData.val().length > 0 && newData.val().length <= 80"
+          }
+        }
       }
+    },
+
+    "taxonomies": {
+      ".read": "auth != null && auth.token.role === 'admin'",
+      ".write": "auth != null && auth.token.role === 'admin'"
     },
 
     "users": {
@@ -49,7 +61,7 @@
 
         ".write": "auth != null && (auth.token.role === 'admin' || (!data.exists() && newData.child('user/uid').val() === auth.uid))",
 
-        ".validate": "newData.hasChildren(['id','createdAt','status','user','items']) && newData.child('id').val() === $orderId",
+        ".validate": "(!newData.exists() && auth != null && auth.token.role === 'admin') || (newData.hasChildren(['id','createdAt','status','user','items']) && newData.child('id').val() === $orderId)",
 
         "id": {
           ".validate": "newData.isString() && newData.val() === $orderId"
@@ -106,8 +118,8 @@
         ".read": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid)",
 
         "$orderId": {
-          ".write": "auth != null && (auth.token.role === 'admin' || auth.uid === $uid) && newData.val() === true",
-          ".validate": "newData.val() === true"
+          ".write": "auth != null && (auth.token.role === 'admin' || (auth.uid === $uid && newData.val() === true))",
+          ".validate": "(!newData.exists() && auth != null && auth.token.role === 'admin') || (newData.val() === true)"
         }
       }
     }

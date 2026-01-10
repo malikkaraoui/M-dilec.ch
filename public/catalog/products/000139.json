@@ -1,0 +1,244 @@
+{
+  "id": 139,
+  "slug": "montre-cardio-polar-m400-hr",
+  "active": false,
+  "reference": "",
+  "name": "Montre Cardio Polar M400 HR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar M400 HR (avec émetteur de fréquence cardiaque) montre GPS de course à pied</strong></p>\r\n<p>La Polar M400 est une montre adaptée à la course à pied, avec GPS et suiveur de condition physique. Elle peut vous aider à planifier des entraînements optimaux, à battre vos records et même à retrouver votre chemin au retour d'une course.</p>",
+    "long_html": "<p><strong>Polar M400 HR (avec émetteur de fréquence cardiaque) montre GPS de course à pied</strong></p>\r\n<p>La Polar M400 est une montre adaptée à la course à pied, avec GPS et suiveur de condition physique. Elle peut vous aider à planifier des entraînements optimaux, à battre vos records et même à retrouver votre chemin au retour d'une course.</p>\r\n<p><strong>Avec vous à chaque étape</strong></p>\r\n<p>La M400 HR est un compagnon de course à pied performant et une source de motivation au quotidien. Le suivi de l'activité 24h/24 et 7j/7 enregistre chacun de vos mouvements pour vous emmener vers de nouveaux sommets. Grâce au GPS et à la fonction « Retour au point de départ », vous pouvez découvrir de nouveaux itinéraires de course à pied en toute sérénité.</p>\r\n<p><strong>Personnalisez votre appareil</strong></p>\r\n<p>Personnalisez votre M400 HR pour optimiser vos résultats. Créez des vues personnalisées pour chaque profil sportif et concentrez-vous sur ce qui compte vraiment pour vous.</p>\r\n<p><strong>S'améliorer tous les jours</strong></p>\r\n<p>La M400 HR sauvegarde toutes vos données d'entraînement dans le service Web Polar Flow exclusif de Polar. Vous pouvez suivre vos progrès en ligne ou via une application mobile. Les données détaillées vous aident à systématiser vos entraînements et à garder la motivation.</p>\r\n<p><strong>Nouveaux records personnels</strong></p>\r\n<p>Dépassez-vous grâce aux objectifs d'entraînement individuels de la M400 HR, aux fonctions Smart Coaching et aux chronomètres. La M400 sait quand vous vous êtes surpassé et vous le fait savoir.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 213.463324,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 129,
+      "name": "Montres + Ceinture"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 129,
+        "name": "Montres + Ceinture"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 404,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/404.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 405,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/405.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 406,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/406.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 407,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/407.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 410,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/410.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 411,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/411.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 412,
+        "files": [
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-tm_cart_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-tm_home_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-tm_large_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-tm_medium_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-tm_small_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412-tm_thickbox_default.jpg",
+          "assets/products/139__montre-cardio-polar-m400-hr/images/412.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 68,
+        "name": "Medilec-FR-Polar-M400-Demarrage",
+        "mime": "application/pdf",
+        "file": "a7e8005e7f96ac615eb55b4fd6f6235f1253cdbc"
+      },
+      {
+        "id_attachment": 69,
+        "name": "Medilec-FR-Polar-M400-Manuel",
+        "mime": "application/pdf",
+        "file": "2f4617c2051e9438af7549eb45204de01ee6151f"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

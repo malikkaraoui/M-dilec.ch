@@ -1,0 +1,241 @@
+{
+  "id": 158,
+  "slug": "spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie",
+  "active": true,
+  "reference": "",
+  "name": "Spiromètre MIR Spirobank II Advanced Plus avec le capteur d'Oxymétrie",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong><strong>New Spirobank II Advanced Plus</strong> avec le capteur d'Oxymétrie, le spiromètre qui fonctionne aussi bien en mode autonome que branché à un PC via Bluetooth® 2.1 ou USB, test de marche 6 minutes (6MWT), test du sommeil, test Holter (24h).</p>",
+    "long_html": "<p><strong></strong><strong>New Spirobank II Advanced Plus</strong> avec le capteur d'Oxymétrie, le spiromètre qui fonctionne aussi bien en mode autonome que branché à un PC via Bluetooth® 2.1 ou USB, test de marche 6 minutes (6MWT), test du sommeil, test Holter (24h).</p>\r\n<p>Minilab portable pour pneumologues et thérapeutes respiratoires.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Comparaison PRE et POST Bronchodilatateur.</li>\r\n<li>Interprétation du test de Spirométrie, capteur de température intégré pour la conversion BTPS.</li>\r\n<li>Mémoire allant jusqu'à 10 000 tests de Spirométrie ou 900 heures d'enregistrement d'oxymétrie (si disponible) associées à des services de recherche puissants et flexibles.</li>\r\n<li>Batterie Rechargeable longue durée.</li>\r\n<li>Indicateur d'état de santé à feu tricolore pour une interprétation immédiate du test.</li>\r\n<li>Écran rétroéclairé haute résolution avec résultats et courbes directement sur l'écran pour une évaluation immédiate des données.</li>\r\n<li>Logiciel Winspiro PRO® pour PC (Toujours inclus), comprend les mises à jour téléchargeables gratuitement, fournit le Flux/Volume en temps réel et les courbes Débit/Volume avec comparaison PRE/POST Bronchodilatateur sur votre PC; valeurs théoriques Quanjer 2012–GLI avec LLN et Z-score.</li>\r\n<li>Disponible avec la turbine à USAGE UNIQUE et la turbine REUTILISABLE.</li>\r\n</ul><p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1856.081708,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 611,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 612,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/612.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 613,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/613.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 614,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/614.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 615,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/615.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 616,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/616.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 617,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/617.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 618,
+        "files": [
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-tm_cart_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-tm_home_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-tm_large_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-tm_medium_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-tm_small_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618-tm_thickbox_default.jpg",
+          "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/618.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 77,
+        "name": "Medilec-FR-Mir-Spirobank-II",
+        "mime": "application/pdf",
+        "file": "adf92d58382aefb4b500ada9684bc946974f158e"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193,
+      197,
+      198
+    ]
+  }
+}

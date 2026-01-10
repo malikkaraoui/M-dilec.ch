@@ -1,0 +1,203 @@
+{
+  "id": 159,
+  "slug": "spirometre-mir-spirotel",
+  "active": false,
+  "reference": "30.0136",
+  "name": "Spiromètre MIR Spirotel",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Spirotel</strong>, un laboratoire au creux de la main. Dispositif de soins à domicile de poche pour une analyse respiratoire complète.</p>",
+    "long_html": "<p><strong>Spirotel</strong>, un laboratoire au creux de la main. Dispositif de soins à domicile de poche pour une analyse respiratoire complète.</p>\r\n<p>Spiromètre à écran tactile, oxymètre de pouls Oximeter 3D, oxymètre triaxial, journal des symptômes. Compact et facile à utiliser, il est le compagnon fidèle des patients qui ont besoin d'un traitement à domicile. Tout ce que vous avez toujours voulu d'un laboratoire portable.</p>\r\n<p><strong>Médecin et patient</strong></p>\r\n<p>L'idéal pour les soins à domicile et la télémédecine.<br />L'interface intuitive et le journal électronique aident le patient à réaliser les tests. La transmission des résultats est simple et rapide par connexion Internet, et les technologies USB et Bluetooth.</p>\r\n<p><strong>Entreprises pharmaceutiques / Organismes de recherche</strong></p>\r\n<p>Personnalisation maximum du matériel et des logiciels, Spirotel® déjà été choisi pour de nombreux essais cliniques et est également conçu pour les organismes de recherche ou les organismes de recherche sous contrat (CRO). Ceci en raison de son extrême flexibilité.<br />Dans ce domaine, l'excellente capacité de personnalisation de l'appareil est un atout de taille, il n'est donc pas étonnant que Spirotel® ait été adopté par plusieurs sociétés comme solution OEM (Original Equipment Manufacturer).<br />L'expérience acquise sur plus de 20 ans a permis à MIR de concevoir Spirotel¨, qui assure aux CRO la possibilité d'offrir aux entreprises pharmaceutiques des services clés-en-main avec une qualité garantie pour toutes les phases d'essais cliniques.</p>\r\n<p><strong>Patients greffés</strong></p>\r\n<p style=\"margin-top:10px;\">Plusieurs pays remboursent Spirotel aux patients ayant reçu une greffe de poumon ou de moelle osseuse. En France, Spirotel® est le seul dispositif dont le ministère de la Santé autorise le remboursement pour le suivi des patients ayant reçu une greffe de poumon.<br />En France, Spirotel® est actuellement utilisé dans les hôpitaux suivants : HEGP, Hôpital Foch, CC Marie-Lannelongue, CHU Bordeaux Haut-Lévêque, Hôpital Sainte Marguerite de Marseille, CHU de Grenoble Michalon, CHU de Toulouse.<br />L'un des signes précoces connus de rejet d'un organe greffé est la bronchiolite, une infection des voies aériennes qui cause une réduction importante du paramètre FEF25/75.<br />Le spiromètre est un moyen économique et non invasif d'aider les patients à haut risque.</p>\r\n<p style=\"margin-top:10px;\"><strong>Fonctionnement :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Spirométrie pour évaluer la fonction respiratoire. Le débitmètre à turbine avec embout buccal en plastique s'enlève facilement pour le nettoyage. Il est robuste et peut être réutilisé, assurant ainsi des mesures précises pendant toute la durée de vie du produit.</li>\r\n<li>Journal électronique pour le suivi des traitements à domicile. Cette fonction aide le patient à répondre aux questionnaires et rapports standard ou personnalisés, qui peuvent servir à évaluer son état de santé et à communiquer avec les professionnels de la santé.</li>\r\n<li>Oxymétrie pour la mesure de la saturation d'oxygène et de la fréquence du pouls. L'oxymètre de pouls Oximeter® 3D est un brevet exclusif MIR qui corrèle la mesure de SpO2 aux fonctions de l'accéléromètre triaxial qui détectent l'activité physique et la position du patient lors de l'enregistrement d'épisodes de désaturation : quand le patient est au repos, marche ou dort, les résultats s'affichent directement à l'écran.</li>\r\n<li>Accéléromètre triaxial avec analyse du mouvement. Le podomètre intégré mesure l'activité physique, et le dispositif peut mesurer des valeurs telles que la distance parcourue pendant un test et la position du corps pendant le sommeil.</li>\r\n</ul><p><strong>Communication complète (transmet par USB, Bluetooth®, email, FTP)</strong></p>\r\n<p>Les résultats des analyses de Spirotel® peuvent être envoyés par câble USB à tout ordinateur, même lorsque le patient se déplace.<br />Une application logicielle extrait ensuite les données et les envoie à un serveur.<br />Spirotel® peut également transmettre des données à courte distance par Bluetooth Bluetooth® standard: il s'agit d'un mode de transmission de données sûr et pratique ne nécessitant pas de câblage complexe.</p>\r\n<p><strong>Technologie sans fil, les avantages d'une connexion en continu</strong></p>\r\n<p>La santé et le bien-être peuvent bénéficier des avantages offerts par la technologie sans fil.<br />La commande à distance peut aider à prendre des mesures préventives pour réduire les rechutes, l'hospitalisation et les consultations externes des patients, ce qui permet de réduire les coûts associés.</p>\r\n<p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 834.726091,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 619,
+        "files": [
+          "assets/products/159__spirometre-mir-spirotel/images/619-cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-tm_cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-tm_home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-tm_large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-tm_medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-tm_small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619-tm_thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/619.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 620,
+        "files": [
+          "assets/products/159__spirometre-mir-spirotel/images/620-cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-tm_cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-tm_home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-tm_large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-tm_medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-tm_small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620-tm_thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/620.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 621,
+        "files": [
+          "assets/products/159__spirometre-mir-spirotel/images/621-cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-tm_cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-tm_home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-tm_large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-tm_medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-tm_small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621-tm_thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/621.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 622,
+        "files": [
+          "assets/products/159__spirometre-mir-spirotel/images/622-cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-tm_cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-tm_home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-tm_large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-tm_medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-tm_small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622-tm_thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/622.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 623,
+        "files": [
+          "assets/products/159__spirometre-mir-spirotel/images/623-cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-tm_cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-tm_home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-tm_large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-tm_medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-tm_small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623-tm_thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/623.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 624,
+        "files": [
+          "assets/products/159__spirometre-mir-spirotel/images/624-cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-tm_cart_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-tm_home_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-tm_large_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-tm_medium_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-tm_small_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624-tm_thickbox_default.jpg",
+          "assets/products/159__spirometre-mir-spirotel/images/624.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 78,
+        "name": "Medilec-FR-Mir-Spirotel",
+        "mime": "application/pdf",
+        "file": "5bd188b3e3dfa351ae9c87f82e5b452f51d30bbd"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193,
+      197,
+      198
+    ]
+  }
+}

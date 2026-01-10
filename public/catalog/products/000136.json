@@ -1,0 +1,205 @@
+{
+  "id": 136,
+  "slug": "pince-crocodile-isolee-ak10-hirschmann",
+  "active": true,
+  "reference": "1.0073",
+  "name": "Pince crocodile isolée AK10 Hirschmann",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Pinces crocodiles, pinces pour accumulateur pince crocodile (<strong>Hirschmann</strong>) 16 A 48 V entièrement isolée, surface pour fil fin longueur 53 mm.</p>",
+    "long_html": "<p>Pinces crocodiles, pinces pour accumulateur pince crocodile (<strong>Hirschmann</strong>) 16 A 48 V entièrement isolée, surface pour fil fin longueur 53 mm.</p>\r\n<p>Technique d'insertion : 4 mm<br /> Pince crocodile : oui<br /> Raccordement de ligne de mesure : non<br /> Capacité de charge de courant : 16 A<br /> Ligne de mesure : non<br /> Pointe d'essai : non<br /> Isolant : PVC</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 3.62117,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 36,
+    "name": "Hirschmann - Belden Inc"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 370,
+        "files": [
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-cart_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-home_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-large_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-medium_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-small_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-thickbox_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-tm_cart_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-tm_home_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-tm_large_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-tm_medium_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-tm_small_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-tm_thickbox_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 369,
+        "files": [
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-cart_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-home_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-large_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-medium_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-small_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-thickbox_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-tm_cart_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-tm_home_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-tm_large_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-tm_medium_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-tm_small_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369-tm_thickbox_default.jpg",
+          "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/369.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39,
+      41,
+      49,
+      55,
+      59,
+      64,
+      68,
+      76,
+      106
+    ]
+  }
+}

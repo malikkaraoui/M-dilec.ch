@@ -1,0 +1,169 @@
+{
+  "id": 250,
+  "slug": "1-masques-protection-kn95-testes-ffp2",
+  "active": false,
+  "reference": "",
+  "name": "20 Masques protection KN95 testés FFP2",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Masque facial non tissé à quatre couches. Les couches intérieure et extérieure sont en polypropylène filé-lié, soufflé par fusion. Contient un nez réglable et un élastique d'oreille. Norme EN 149-2001, CN KN95 GB2626-2006, testé comme FFP2 européen (BFE au moins 94%)</p>",
+    "long_html": "<p style=\"padding-bottom:20px;\">Dans le milieu médical et sanitaire, <span>comme protection contre les coronavirus,</span> mais aussi dans le cadre de certains métiers, la protection des voies respiratoires contre l’inhalation de particules et de poussière est un enjeu majeur. Nos masques respiratoires de type KN95 (testé comme FFP2) permettent ainsi d’assurer des conditions d’hygiène et de sécurité optimales :</p>\r\n<ul><li>Masque facial non tissé à quatre couches</li>\r\n<li>Les couches intérieure et extérieure sont en polypropylène filé-lié, soufflé par fusion</li>\r\n<li>Contient un nez réglable et un élastique d'oreille</li>\r\n<li>Contour précis pour étanchéité avec la peau</li>\r\n<li>Confort pour une respiration ainsi qu'une élocution facile</li>\r\n<li>Norme EN 149-2001, CN KN95 GB2626-2006, testé comme FFP2 en Europe (BFE au moins 94%)</li>\r\n</ul><p style=\"padding-top:20px;\"><em><strong>Remarques : les masques sont homologués et actuellement stockés en Suisse. Ils ont été contrôlés, importés et dédouanés officiellement. Certificats livrés avec les masques.</strong></em></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 3.806871,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 155,
+      "name": "Nouveauté"
+    },
+    {
+      "id": 187,
+      "name": "Masques"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 186,
+      "name": "Masques"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      },
+      {
+        "id": 187,
+        "name": "Masques"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 186,
+        "name": "Masques"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1091,
+        "files": [
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-cart_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-home_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-large_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-medium_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-small_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-standard_default .jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-thickbox_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-tm_cart_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-tm_home_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-tm_large_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-tm_medium_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-tm_small_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-tm_thickbox_default.jpg",
+          "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 133,
+        "name": "3M_Comparison_FFP2_KN95_N95",
+        "mime": "application/pdf",
+        "file": "6e9fc65f1b81b71f1640280de52ca72a5ed27151"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": 261,
+  "slug": "thermometre-infrarouge-spengler-tempo-duo",
+  "active": true,
+  "reference": "",
+  "name": "Thermomètre Infrarouge Spengler Tempo Duo",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Thermomètre Infrarouge Spengler Tempo Duo</strong>, électronique, permet une prise de température par le biais de rayons infrarouges, sous la forme de 2 mesures, frontale et auriculaire</p>",
+    "long_html": "<p><strong>Thermomètre Infrarouge Spengler Tempo Duo</strong>, électronique, permet une prise de température par le biais de rayons infrarouges, sous la forme de 2 mesures, frontale et auriculaire</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>10 mémoires</li>\r\n<li>Voyant lumineux</li>\r\n<li>Affichage rétro-éclairé en mode frontal 3 couleurs selon les valeurs : vert, orange et rouge</li>\r\n<li>Livré avec 2 piles LR03 (AAA)</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 30.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1109,
+        "files": [
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-cart_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-home_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-large_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-medium_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-small_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-standard_default .jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-thickbox_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-tm_cart_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-tm_home_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-tm_large_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-tm_medium_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-tm_small_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-tm_thickbox_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1110,
+        "files": [
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-cart_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-home_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-large_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-medium_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-small_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-standard_default .jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-thickbox_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-tm_cart_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-tm_home_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-tm_large_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-tm_medium_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-tm_small_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110-tm_thickbox_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1110.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1111,
+        "files": [
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-cart_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-home_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-large_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-medium_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-small_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-standard_default .jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-thickbox_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-tm_cart_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-tm_home_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-tm_large_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-tm_medium_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-tm_small_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111-tm_thickbox_default.jpg",
+          "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1111.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": 41,
+  "slug": "cable-patient-10-pistes-schiller-ecg-2m",
+  "active": true,
+  "reference": "1.0026",
+  "name": "Câble patient 10 pistes Schiller ECG 2m",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Câble patient 10 pistes ECG 2m, compatible pour les modèles CARDIOVIT MS-2007, MS-2010, MS-2015, AT-1, AT-2, AT-2 plus AT-4, AT-101, AT-102, AT-104, AT-110</p>",
+    "long_html": "<p>Câble patient 10 pistes ECG 2m.</p>\r\n<p style=\"margin-top:10px;\">Compatible pour les modèles CARDIOVIT :</p>\r\n<ul style=\"margin-left:14px;\"><li>MS-2007, MS-2010, MS-2015</li>\r\n<li>AT-1, AT-2, AT-2 plus, AT-4, AT-101, AT-102, AT-104, AT-110</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 167.038069,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 176,
+        "files": [
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-cart_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-home_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-large_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-medium_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-small_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-thickbox_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-tm_cart_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-tm_home_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-tm_large_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-tm_medium_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-tm_small_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-tm_thickbox_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 306,
+        "files": [
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-cart_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-home_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-large_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-medium_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-small_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-thickbox_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-tm_cart_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-tm_home_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-tm_large_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-tm_medium_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-tm_small_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306-tm_thickbox_default.jpg",
+          "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/306.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39,
+      49,
+      55,
+      59,
+      64,
+      68,
+      72,
+      76,
+      106
+    ]
+  }
+}

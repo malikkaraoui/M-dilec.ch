@@ -1,0 +1,164 @@
+{
+  "id": 224,
+  "slug": "sac-a-bandouliere-pour-inogen-one-g3",
+  "active": true,
+  "reference": "CA-300",
+  "name": "Sac à bandoulière pour Inogen One G3",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong>Transportez votre concentrateur d’oxygène Inogen One G3 dans ce sac doté d’une poignée pour un port à la main et d’une sangle pour un port sur l’épaule. <br /><br /></p>",
+    "long_html": "<p><strong></strong>Transportez votre concentrateur d’oxygène Inogen One G3 dans ce sac doté d’une poignée pour un port à la main et d’une sangle pour un port sur l’épaule.</p>\r\n<p>La fenêtre transparente vous permet d’utiliser le concentrateur quand il est rangé dans le sac. Une ouverture a été créée à côté de cette fenêtre pour le branchement de la canule nasale.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 119.777159,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 40,
+    "name": "Inogen"
+  },
+  "categories": [
+    {
+      "id": 161,
+      "name": "Accessoires"
+    },
+    {
+      "id": 164,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 161,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 164,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 936,
+        "files": [
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-cart_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-home_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-large_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-medium_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-small_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-standard_default .jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-thickbox_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-tm_cart_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-tm_home_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-tm_large_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-tm_medium_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-tm_small_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-tm_thickbox_default.jpg",
+          "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      219
+    ]
+  }
+}

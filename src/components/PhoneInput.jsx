@@ -4,6 +4,16 @@ function toStr(v) {
   return String(v || '').trim()
 }
 
+function digitsOnly(v) {
+  return String(v || '').replace(/\D/g, '')
+}
+
+function formatAsPairs(digits) {
+  const d = digitsOnly(digits)
+  // Groupe par 2 chiffres: 0651214782 -> "06 51 21 47 82"
+  return d.replace(/(\d{2})(?=\d)/g, '$1 ').trim()
+}
+
 export function PhoneInput({
   dialCode,
   national,
@@ -14,6 +24,8 @@ export function PhoneInput({
 }) {
   const dc = toStr(dialCode) || '+41'
   const nat = toStr(national)
+  const natDigits = digitsOnly(nat)
+  const natDisplay = formatAsPairs(natDigits)
 
   return (
     <div className="space-y-1">
@@ -33,18 +45,21 @@ export function PhoneInput({
               {x.label}
             </option>
           ))}
-          <option value={dc}>Autre</option>
         </select>
 
         <input
           id={`${idPrefix}-national`}
           className="min-w-0 flex-1 rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
           style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-          value={nat}
-          onChange={(e) => onChange?.({ dialCode: dc, national: e.target.value })}
+          value={natDisplay}
+          onChange={(e) => {
+            const nextDigits = digitsOnly(e.target.value)
+            onChange?.({ dialCode: dc, national: nextDigits })
+          }}
           type="tel"
           placeholder={placeholder}
           autoComplete="tel"
+          inputMode="numeric"
         />
       </div>
       <div className="text-xs text-neutral-500">Format: {dc} …</div>

@@ -1,0 +1,129 @@
+{
+  "id": 173,
+  "slug": "ophtalmoscope-heine-beta-200-led",
+  "active": false,
+  "reference": "",
+  "name": "Ophtalmoscope Heine BETA200 LED",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Ophtalmoscope <strong>Heine BETA200 LED</strong>, optique asphérique de pointe maintenant avec éclairage LED-HQ. La conception unique étanche à la poussière protège l’optique de précision et permet une utilisation sans entretien. Les ophtalmoscopes BETA200 / 200 S sont les seuls appareils avec support en aluminium...</p>",
+    "long_html": "<p>Ophtalmoscope <strong>Heine BETA200 LED</strong>, optique asphérique de pointe maintenant avec éclairage LED-HQ. La conception unique étanche à la poussière protège l’optique de précision et permet une utilisation sans entretien. Les ophtalmoscopes BETA200 / 200 S sont les seuls appareils avec support en aluminium. Les composants optiques sont intégrés dans un bâti en fonte d’aluminium qui évite le décentrage et rend l’instrument résistant aux chocs. Le BETA200 LED est équipé d’une LED d’une durée de vie pratiquement illimitée (jusqu’à 100.000 heures), pas de changement d’ampoule nécessaire.</p>\r\n<p>Plage de correction: Disque de 27 lentilles allant de -35D à +40D. Diaphragmes sans point. Régulation unique et en continue de la luminosité entre 100 % et 3 % (brevet en instance), d’un seul doigt. Pas de lumière parasite grâce à la fenêtre d’observation multicouche encastrée – pour un diagnostic fiable. Manipulation précise de l’instrument d’une seule main. Le design ergonomique offre de la souplesse pendant l’examen. Utilisable pour des pupilles dilatées et non dilatées. La forme ergonomique s’adapte confortablement à l’orbite et isole l’oeil de la lumière ambiante.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 678,
+        "files": [
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-cart_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-home_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-large_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-medium_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-small_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-standard_default .jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-thickbox_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-tm_cart_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-tm_home_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-tm_large_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-tm_medium_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-tm_small_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-tm_thickbox_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 679,
+        "files": [
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-cart_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-home_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-large_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-medium_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-small_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-standard_default .jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-thickbox_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-tm_cart_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-tm_home_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-tm_large_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-tm_medium_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-tm_small_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679-tm_thickbox_default.jpg",
+          "assets/products/173__ophtalmoscope-heine-beta-200-led/images/679.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 42,
+        "name": "Medilec-FR-Heine-Beta-200S-Led",
+        "mime": "application/pdf",
+        "file": "96c37f6f7958c31e2724ce1aa3a184b0fd2ec885"
+      },
+      {
+        "id_attachment": 43,
+        "name": "Medilec-FR-Beta-200-200S-Tech",
+        "mime": "application/pdf",
+        "file": "8f84f52636d9fe3e3bc021af25c395d79bb3bef5"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

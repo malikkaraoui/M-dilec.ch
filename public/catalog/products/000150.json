@@ -1,0 +1,96 @@
+{
+  "id": 150,
+  "slug": "service-ecg-de-24h-mapa-remler",
+  "active": true,
+  "reference": "",
+  "name": "Service MAPA / Remler",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>La mesure ambulatoire de la pression artérielle (<strong>MAPA</strong>), ou encore appelé <strong>Remler</strong>, est une méthode plus fiable qui informe sur les variations de la PA dans le cadre de vie habituel et qui reflète mieux le RCV auquel est exposé le patient...</p>",
+    "long_html": "<p>La mesure de la pression artérielle (PA) lors d’une consultation médicale est un geste courant dont le résultat ne reflète pas toujours la charge tensionnelle réelle à laquelle un patient est exposé durant une journée. Cette méthode manque de reproductibilité et de fiabilité.</p>\r\n<p style=\"margin-top:5px;\">La mesure ambulatoire de la pression artérielle (<strong>MAPA</strong>), ou encore appelé <strong>Remler</strong>, est une méthode plus fiable qui informe sur les variations de la PA dans le cadre de vie habituel et qui reflète mieux le RCV auquel est exposé le patient.</p>\r\n<p style=\"margin-top:5px;\">La méthode <strong>MAPA</strong> consiste à enregistrer la pression artérielle d'un patient à intervalles réguliers pendant 24 heures.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques examinées :</p>\r\n<ul style=\"margin-left:14px;\"><li>Variabilité respiratoire</li>\r\n<li>Variabilité cyclique courte (chémorécepteur)</li>\r\n<li>Variabilité cyclique moyenne (tonus sympathique)</li>\r\n<li>Rythme circadien</li>\r\n<li>Variabilité saisonnière</li>\r\n<li>Position</li>\r\n<li>Stimulation mentale</li>\r\n<li>Activité physique</li>\r\n<li>Alimentation : baisse tensionnelle post prandiale</li>\r\n<li>Toxique : nicotine, cocaïne, ...</li>\r\n<li>Variabilité pharmacologique</li>\r\n</ul><p style=\"margin-top:10px;\">Les grands avantages de la MAPA :</p>\r\n<ul style=\"margin-left:14px;\"><li>Méthode non invasive qui apporte le plus d’informations, d’avantage que l’ATM et a fortiori que la simple mesure clinique.</li>\r\n<li>Détermine la PA durant 24h mais aussi le jour et la nuit.</li>\r\n<li>Compare les valeurs de PA diurne et nocturne, ce qui a permis à O’BRIEN AND COLL EN 1988 de définir les statuts : DIPPER et NON DIPPER.</li>\r\n<li>Détecte une HTA paroxystique.</li>\r\n<li>Intérêt pronostic bien démontre.</li>\r\n</ul><p style=\"margin-top:5px;\">Médilec est un partenaire compétent et offre prestations et services professionnelles qui permettent une prise en charge efficace du patient.</p>\r\n<p><strong>Plus d'informations<strong></strong></strong></p>\r\n<p style=\"margin-top:5px;\"><a href=\"/index.php?controller=contact\">Contactez-nous pour plus d'information</a>.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 145,
+      "name": "Services Tension artérielle"
+    },
+    {
+      "id": 167,
+      "name": "MAPA /Remler"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 145,
+        "name": "Services Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 145,
+        "name": "Services Tension artérielle"
+      },
+      {
+        "id": 167,
+        "name": "MAPA /Remler"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 996,
+        "files": [
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-cart_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-home_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-large_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-medium_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-small_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-standard_default .jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-thickbox_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-tm_cart_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-tm_home_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-tm_large_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-tm_medium_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-tm_small_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-tm_thickbox_default.jpg",
+          "assets/products/150__service-ecg-de-24h-mapa-remler/images/996.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": 190,
+  "slug": "ecg-schiller-cardiovit-at-170",
+  "active": false,
+  "reference": "",
+  "name": "ECG Schiller Cardiovit AT-170",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Cardiovit AT-170</strong> est une station de travail multi-usage réunissant large écran tactile et excellence clinique en un seul appareil.</p>",
+    "long_html": "<p><span id=\"result_box\" xml:lang=\"fr\" lang=\"fr\"><span><strong>Cardiovit AT-170</strong> est une station de travail multi-usage réunissant large écran tactile et excellence clinique en un seul appareil.</span></span></p>\r\n<p style=\"margin-top:10px;\">Le nouvel électrocardiographe AT-170 de SCHILLER vient compléter la gamme de produits AT de qualité éprouvée. Il offre un design robuste pour les hôpitaux les plus fréquentés ainsi qu’un ensemble d’applications qui en font la station de travail multi-usage idéale pour la pratique privée.</p>\r\n<p>Équipé d’un écran tactile 19 po réactif et à haute résolution (le plus large écran disponible pour électrocardiographes mobiles) ainsi qu’un clavier anti-bactérien pouvant être programmé en fonction d’un grand nombre de langues, le CARDIOVIT AT-170 se distingue par sa facilité d’utilisation.</p>\r\n<p>A cela s’ajoute une marche à suivre simple du processus d’enregistrement des ECG.<br />Des applications facultatives sont également disponibles, telles que l’épreuve d’effort et le signal d’ECG moyenné.</p>\r\n<p>CARDIOVIT AT-170 poursuite la tradition d’excellence clinique de SCHILLER, avec des caractéristiques telles que l’algorithme d’interprétation ETM ainsi que l’acquisition et l’analyse 16 dérivations.</p>\r\n<p style=\"margin-top:10px;\">Le CARDIOVIT AT-170 émet également un message d’avertissement en cas d’inversion des électrodes, caractéristique inestimable pour les services d’urgence :</p>\r\n<ul style=\"margin-left:14px;\"><li>Large écran tactile haute résolution pour une meilleure vue d’ensemble des ECG</li>\r\n<li>Clavier de taille standard avec protection anti-bactérienne</li>\r\n<li>Outils cliniques avancés (ex. option épreuve d’effort, acquisition et analyse 16 dérivations)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 8022.284123,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 77,
+      "name": "Schiller AT et FT..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 77,
+        "name": "Schiller AT et FT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 715,
+        "files": [
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-cart_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-home_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-large_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-medium_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-small_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-standard_default .jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-thickbox_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-tm_cart_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-tm_home_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-tm_large_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-tm_medium_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-tm_small_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-tm_thickbox_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/715.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 716,
+        "files": [
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-cart_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-home_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-large_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-medium_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-small_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-standard_default .jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-thickbox_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-tm_cart_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-tm_home_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-tm_large_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-tm_medium_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-tm_small_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716-tm_thickbox_default.jpg",
+          "assets/products/190__ecg-schiller-cardiovit-at-170/images/716.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 92,
+        "name": "Medilec-FR-Schiller-AT-170",
+        "mime": "application/pdf",
+        "file": "aaad1e0adb0837cebde6e786b6c47f52fa05fc28"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      189
+    ]
+  }
+}

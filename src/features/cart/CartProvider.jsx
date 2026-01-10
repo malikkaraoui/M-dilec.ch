@@ -77,7 +77,10 @@ function itemsMapToArray(itemsMap) {
     .filter(Boolean)
 }
 
-function mergeCartItems(a, b) {
+// Merge “safe” pour éviter le x2: pour un même produit, on prend la quantité max
+// (au lieu de sommer). Ça permet de combiner un panier local/guest avec un panier user
+// sans risquer de doubler à chaque ré-hydratation.
+function mergeCartItemsMax(a, b) {
   const map = new Map()
 
   for (const it of Array.isArray(a) ? a : []) {
@@ -102,8 +105,7 @@ function mergeCartItems(a, b) {
 
     map.set(id, {
       ...existing,
-      qty: (Number(existing.qty) || 0) + qty,
-      // garde les méta les plus “riches”
+      qty: Math.max(Number(existing.qty) || 0, qty),
       name: existing.name || it.name,
       brand: existing.brand || it.brand,
       priceCents: typeof existing.priceCents === 'number' ? existing.priceCents : it.priceCents,
@@ -134,6 +136,7 @@ export function CartProvider({ children }) {
   const guestCartIdRef = useRef('')
   const hydratingRef = useRef(false)
   const writeTimerRef = useRef(null)
+  const prevIsAuthenticatedRef = useRef(null)
 
   useEffect(() => {
     writeCart(items)
@@ -154,6 +157,11 @@ export function CartProvider({ children }) {
     if (!rtdb) return undefined
     if (!isAuthConfigured) return undefined
 
+    // IMPORTANT: éviter de re-fusionner (et donc de doubler) au refresh.
+    // On ne fait un merge additif que lors d'une transition guest -> user (login).
+    const wasAuthenticated = prevIsAuthenticatedRef.current
+    prevIsAuthenticatedRef.current = isAuthenticated
+
     let cancelled = false
 
     async function hydrate() {
@@ -164,13 +172,25 @@ export function CartProvider({ children }) {
         if (isAuthenticated && user?.uid) {
           const snap = await get(dbRef(rtdb, `carts/${user.uid}`))
           const remote = snap.exists() ? itemsMapToArray(snap.val()?.items) : []
-          const merged = mergeCartItems(remote, items)
-          if (!cancelled) setItems(merged)
+
+          // ATTENTION: au refresh, Firebase Auth peut passer brièvement par "guest" puis redevenir
+          // authentifié. Un simple (false -> true) ne doit PAS déclencher un merge additif,
+          // sinon on double les quantités.
+          // Stratégie:
+          // - remote non vide => source de vérité
+          //   - si on vient d'un état guest, on combine remote + local avec un merge "max" (sans x2)
+          // - remote vide => on migre le local
+          const nextItems = remote.length > 0
+            ? (wasAuthenticated === false && items.length > 0 ? mergeCartItemsMax(remote, items) : remote)
+            : items
+
+          if (!cancelled) setItems(nextItems)
 
           // Déplacer le guest cart -> user cart si présent
           const guestId = guestCartIdRef.current || getOrCreateGuestCartId()
           guestCartIdRef.current = guestId
-          await upsertServerCart({ path: `carts/${user.uid}`, idKey: 'uid', idValue: user.uid, items: merged })
+
+          await upsertServerCart({ path: `carts/${user.uid}`, idKey: 'uid', idValue: user.uid, items: nextItems })
           await remove(dbRef(rtdb, `guestCarts/${guestId}`)).catch(() => {})
           return
         }
@@ -181,14 +201,17 @@ export function CartProvider({ children }) {
 
         const snap = await get(dbRef(rtdb, `guestCarts/${guestId}`))
         const remote = snap.exists() ? itemsMapToArray(snap.val()?.items) : []
-        const merged = mergeCartItems(remote, items)
-        if (!cancelled) setItems(merged)
+
+        // Guest: le local est la source de vérité (même browser). On ne prend le remote
+        // que si le local est vide (ex: nouvel onglet / nettoyage localStorage).
+        const nextItems = items.length > 0 ? items : remote
+        if (!cancelled) setItems(nextItems)
 
         await upsertServerCart({
           path: `guestCarts/${guestId}`,
           idKey: 'cartId',
           idValue: guestId,
-          items: merged,
+          items: nextItems,
         })
       } catch (err) {
         if (!cancelled) setSyncError(err?.message || 'Synchronisation panier impossible.')

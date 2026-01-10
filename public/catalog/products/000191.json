@@ -1,0 +1,154 @@
+{
+  "id": 191,
+  "slug": "ecg-schiller-cardiovit-at-170-avec-logiciel-expert",
+  "active": false,
+  "reference": "",
+  "name": "ECG Schiller Cardiovit AT-170 avec logiciel expert",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Cardiovit AT-170</strong> est une station de travail multi-usage réunissant large écran tactile et excellence clinique en un seul appareil. Compris <span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>logiciel exercice</span> <span>expert</span>.<span></span></span></p>",
+    "long_html": "<p><span id=\"result_box\" xml:lang=\"fr\" lang=\"fr\"><span><strong></strong><strong>Cardiovit AT-170</strong> est une station de travail multi-usage réunissant large écran tactile et excellence clinique en un seul appareil. Compris logiciel <span class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>exercice</span> <span>expert</span>.</span><br /></span></span></p>\r\n<p style=\"margin-top:10px;\">Le nouvel électrocardiographe AT-170 de SCHILLER vient compléter la gamme de produits AT de qualité éprouvée. Il offre un design robuste pour les hôpitaux les plus fréquentés ainsi qu’un ensemble d’applications qui en font la station de travail multi-usage idéale pour la pratique privée.</p>\r\n<p>Équipé d’un écran tactile 19 po réactif et à haute résolution (le plus large écran disponible pour électrocardiographes mobiles) ainsi qu’un clavier anti-bactérien pouvant être programmé en fonction d’un grand nombre de langues, le CARDIOVIT AT-170 se distingue par sa facilité d’utilisation.</p>\r\n<p>A cela s’ajoute une marche à suivre simple du processus d’enregistrement des ECG.<br />Des applications facultatives sont également disponibles, telles que l’épreuve d’effort et le signal d’ECG moyenné.</p>\r\n<p>CARDIOVIT AT-170 poursuite la tradition d’excellence clinique de SCHILLER, avec des caractéristiques telles que l’algorithme d’interprétation ETM ainsi que l’acquisition et l’analyse 16 dérivations.</p>\r\n<p style=\"margin-top:10px;\">Le CARDIOVIT AT-170 émet également un message d’avertissement en cas d’inversion des électrodes, caractéristique inestimable pour les services d’urgence :</p>\r\n<ul style=\"margin-left:14px;\"><li>Large écran tactile haute résolution pour une meilleure vue d’ensemble des ECG</li>\r\n<li>Clavier de taille standard avec protection anti-bactérienne</li>\r\n<li>Outils cliniques avancés</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Software SCHILLER Exercise 12-lead ECG EXEC Expert AT-170</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Full disclosure</li>\r\n<li>Real-time continuous ST-measurement</li>\r\n<li>Re-analyze possibility of complete exercise test with ST, HR and BP trends</li>\r\n<li>Enlarged QRS presentation</li>\r\n<li>User definable protocols to control bicycle or treadmill ergometer</li>\r\n<li>Veterans specific activity questionnaire</li>\r\n<li>Artifact/noise processing</li>\r\n<li>Heart rate calculation</li>\r\n<li>ST ref. / ST amplitude / ST ampl. slope trend / HR BP load trend</li>\r\n<li>Results / documentation during recovery phase with configurable text modules</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 11030.640669,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 85,
+      "name": "Schiller AT... et DT..."
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 85,
+        "name": "Schiller AT... et DT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 713,
+        "files": [
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-cart_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-home_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-large_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-medium_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-small_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-standard_default .jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-thickbox_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-tm_cart_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-tm_home_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-tm_large_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-tm_medium_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-tm_small_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-tm_thickbox_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 714,
+        "files": [
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-cart_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-home_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-large_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-medium_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-small_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-standard_default .jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-thickbox_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-tm_cart_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-tm_home_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-tm_large_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-tm_medium_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-tm_small_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714-tm_thickbox_default.jpg",
+          "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/714.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 92,
+        "name": "Medilec-FR-Schiller-AT-170",
+        "mime": "application/pdf",
+        "file": "aaad1e0adb0837cebde6e786b6c47f52fa05fc28"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      189
+    ]
+  }
+}

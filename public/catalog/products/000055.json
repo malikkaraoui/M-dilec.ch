@@ -1,0 +1,154 @@
+{
+  "id": 55,
+  "slug": "ecg-schiller-cardiovit-at-10-plus",
+  "active": false,
+  "reference": "",
+  "name": "ECG Schiller Cardiovit AT-10 plus C avec logiciel de thrombolyse",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Inégalé de par le monde : Le <strong>CARDIOVIT AT-10 plus</strong> combine, en un seul système, l’ECG de repos, l’ECG d’effort, la mesure de stimulateur cardiaque, l’analyse de la variabilité de la fréquence cardiaque, l’analyse du signal d’ECG moyenné, un logiciel de thrombolyse et la spirométrie - comme son prédécesseur légendaire, le CARDIOVIT AT-10.</p>",
+    "long_html": "<p>Inégalé de par le monde : Le <strong>CARDIOVIT AT-10 plus</strong> combine, en un seul système, l’ECG de repos, l’ECG d’effort, la mesure de stimulateur cardiaque, l’analyse de la variabilité de la fréquence cardiaque, l’analyse du signal d’ECG moyenné, un logiciel de thrombolyse et la spirométrie - comme son prédécesseur légendaire, le CARDIOVIT AT-10.</p>\r\n<p>L’<strong>AT-10 plus</strong> est fabriqué par SCHILLER, un leader mondial de la fabrication de systèmes de diagnostic cardio-pulmonaires. Associant une qualité très élevée à une utilisation facile, l’appareil peut être utilisé partout où des données d’ECG et spirométriques doivent répondre aux plus hautes exigences. Ce n’est pas sans raison que son célèbre prédécesseur, le CARDIOVIT AT-10, est utilisé dans de nombreux hôpitaux et cabinets médicaux, et même dans la station spatiale internationale (ISS) et ses centres de contrôle. Les armées de l’OTAN font, elles aussi, confiance à la qualité SCHILLER. Elles utilisent plus de 20 000 appareils de par le monde.</p>\r\n<p style=\"margin-top:10px;\">Inégalé, le <strong>CARDIOVIT AT-10 plus</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>ECG de repos</li>\r\n<li>ECG d’effort (ergométrie)</li>\r\n<li>Mesure de stimulateur cardiaque</li>\r\n<li>Variabilité de la fréquence cardiaque</li>\r\n<li>Analyse du signal d’ECG moyenné (SAECG)</li>\r\n<li>Logiciel de thrombolyse</li>\r\n<li>Cardiographie vectorielle (combinée à SEMA)</li>\r\n<li>Comparaison d’ECG en série (combinée à SEMA)</li>\r\n<li>Tests spirométriques complets</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 9260.724234,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 85,
+      "name": "Schiller AT... et DT..."
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 85,
+        "name": "Schiller AT... et DT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 192,
+        "files": [
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-cart_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-home_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-large_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-medium_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-small_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-thickbox_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-tm_cart_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-tm_home_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-tm_large_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-tm_medium_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-tm_small_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-tm_thickbox_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 191,
+        "files": [
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-cart_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-home_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-large_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-medium_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-small_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-thickbox_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-tm_cart_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-tm_home_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-tm_large_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-tm_medium_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-tm_small_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191-tm_thickbox_default.jpg",
+          "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/191.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 17,
+        "name": "Medilec-FR-Schiller-AT-10-Plus",
+        "mime": "application/pdf",
+        "file": "454d59bb3dbd90d77f5b6abff3f7f4e3179fe9da"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      56,
+      57,
+      75
+    ]
+  }
+}

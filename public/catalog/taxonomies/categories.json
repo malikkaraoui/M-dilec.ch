@@ -1,0 +1,1157 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "id_parent": 0,
+      "level_depth": 0,
+      "active": true,
+      "name": "Root",
+      "slug": "root",
+      "children_ids": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "id_parent": 1,
+      "level_depth": 1,
+      "active": true,
+      "name": "Home",
+      "slug": "home",
+      "children_ids": [
+        62,
+        65,
+        67,
+        70,
+        74,
+        120,
+        121,
+        126,
+        135,
+        137,
+        140,
+        145,
+        152,
+        155,
+        159,
+        180
+      ]
+    },
+    {
+      "id": 62,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "ECG",
+      "slug": "ecg",
+      "children_ids": [
+        63,
+        64
+      ]
+    },
+    {
+      "id": 65,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Spirométrie",
+      "slug": "spirometrie",
+      "children_ids": [
+        94,
+        95,
+        136,
+        139,
+        150
+      ]
+    },
+    {
+      "id": 67,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Défibrillateurs",
+      "slug": "defibrillateurs",
+      "children_ids": [
+        68,
+        69,
+        101
+      ]
+    },
+    {
+      "id": 70,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Tension artérielle",
+      "slug": "tension-arterielle",
+      "children_ids": [
+        71,
+        72,
+        102,
+        149,
+        184,
+        185
+      ]
+    },
+    {
+      "id": 74,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Diagnostique",
+      "slug": "diagnostique",
+      "children_ids": [
+        75,
+        76,
+        103,
+        125,
+        188,
+        189
+      ]
+    },
+    {
+      "id": 120,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Fournitures",
+      "slug": "fournitures",
+      "children_ids": [
+        104,
+        105,
+        169,
+        174
+      ]
+    },
+    {
+      "id": 121,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Ergospirométrie",
+      "slug": "ergospirometrie",
+      "children_ids": [
+        122,
+        123,
+        124
+      ]
+    },
+    {
+      "id": 126,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Cardio Montres",
+      "slug": "cardio-montres",
+      "children_ids": [
+        127,
+        128,
+        129,
+        132,
+        133
+      ]
+    },
+    {
+      "id": 135,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Services ECG",
+      "slug": "services-ecg",
+      "children_ids": [
+        143,
+        144,
+        148,
+        168
+      ]
+    },
+    {
+      "id": 137,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Options spiro pour",
+      "slug": "options-spiro-pour",
+      "children_ids": [
+        91
+      ]
+    },
+    {
+      "id": 140,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Actions",
+      "slug": "actions",
+      "children_ids": [
+        141,
+        147
+      ]
+    },
+    {
+      "id": 145,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Services Tension artérielle",
+      "slug": "services-tension-arterielle",
+      "children_ids": [
+        146,
+        167
+      ]
+    },
+    {
+      "id": 152,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Promotions",
+      "slug": "promotions",
+      "children_ids": [
+        153,
+        154,
+        173
+      ]
+    },
+    {
+      "id": 155,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Nouveauté",
+      "slug": "nouveaute",
+      "children_ids": [
+        156,
+        157,
+        158,
+        177,
+        187
+      ]
+    },
+    {
+      "id": 159,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Oxymétrie",
+      "slug": "oxymetrie",
+      "children_ids": [
+        160,
+        161,
+        162,
+        176,
+        179
+      ]
+    },
+    {
+      "id": 180,
+      "id_parent": 2,
+      "level_depth": 2,
+      "active": true,
+      "name": "Service Spirométrie",
+      "slug": "service-spirometrie",
+      "children_ids": [
+        181
+      ]
+    },
+    {
+      "id": 63,
+      "id_parent": 62,
+      "level_depth": 3,
+      "active": true,
+      "name": "ECG d'effort",
+      "slug": "ecg-d-effort",
+      "children_ids": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        151
+      ]
+    },
+    {
+      "id": 64,
+      "id_parent": 62,
+      "level_depth": 3,
+      "active": true,
+      "name": "ECG de repos",
+      "slug": "ecg-de-repos",
+      "children_ids": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        100
+      ]
+    },
+    {
+      "id": 94,
+      "id_parent": 65,
+      "level_depth": 3,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 95,
+      "id_parent": 65,
+      "level_depth": 3,
+      "active": true,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 136,
+      "id_parent": 65,
+      "level_depth": 3,
+      "active": true,
+      "name": "MIR",
+      "slug": "mir",
+      "children_ids": []
+    },
+    {
+      "id": 139,
+      "id_parent": 65,
+      "level_depth": 3,
+      "active": true,
+      "name": "Autre",
+      "slug": "autre",
+      "children_ids": []
+    },
+    {
+      "id": 150,
+      "id_parent": 65,
+      "level_depth": 3,
+      "active": true,
+      "name": "Schiller",
+      "slug": "schiller",
+      "children_ids": []
+    },
+    {
+      "id": 68,
+      "id_parent": 67,
+      "level_depth": 3,
+      "active": true,
+      "name": "Défibrillateurs",
+      "slug": "defibrillateurs",
+      "children_ids": []
+    },
+    {
+      "id": 69,
+      "id_parent": 67,
+      "level_depth": 3,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 101,
+      "id_parent": 67,
+      "level_depth": 3,
+      "active": true,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 71,
+      "id_parent": 70,
+      "level_depth": 3,
+      "active": true,
+      "name": "Tension artérielle",
+      "slug": "tension-arterielle",
+      "children_ids": []
+    },
+    {
+      "id": 72,
+      "id_parent": 70,
+      "level_depth": 3,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 102,
+      "id_parent": 70,
+      "level_depth": 3,
+      "active": false,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 149,
+      "id_parent": 70,
+      "level_depth": 3,
+      "active": true,
+      "name": "Tension 24h",
+      "slug": "tension-24h",
+      "children_ids": []
+    },
+    {
+      "id": 184,
+      "id_parent": 70,
+      "level_depth": 3,
+      "active": true,
+      "name": "Schiller",
+      "slug": "schiller",
+      "children_ids": []
+    },
+    {
+      "id": 185,
+      "id_parent": 70,
+      "level_depth": 3,
+      "active": true,
+      "name": "Boso",
+      "slug": "boso",
+      "children_ids": []
+    },
+    {
+      "id": 75,
+      "id_parent": 74,
+      "level_depth": 3,
+      "active": false,
+      "name": "Diagnostique",
+      "slug": "diagnostique",
+      "children_ids": []
+    },
+    {
+      "id": 76,
+      "id_parent": 74,
+      "level_depth": 3,
+      "active": false,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 103,
+      "id_parent": 74,
+      "level_depth": 3,
+      "active": true,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 125,
+      "id_parent": 74,
+      "level_depth": 3,
+      "active": true,
+      "name": "Ophtalmologie",
+      "slug": "ophtalmologie",
+      "children_ids": []
+    },
+    {
+      "id": 188,
+      "id_parent": 74,
+      "level_depth": 3,
+      "active": true,
+      "name": "Oxymétrie",
+      "slug": "oxymetrie",
+      "children_ids": []
+    },
+    {
+      "id": 189,
+      "id_parent": 74,
+      "level_depth": 3,
+      "active": true,
+      "name": "Thermomètres",
+      "slug": "thermometres",
+      "children_ids": []
+    },
+    {
+      "id": 104,
+      "id_parent": 120,
+      "level_depth": 3,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": [
+        106,
+        107,
+        108,
+        114,
+        119,
+        164
+      ]
+    },
+    {
+      "id": 105,
+      "id_parent": 120,
+      "level_depth": 3,
+      "active": true,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": [
+        113,
+        115,
+        116,
+        117,
+        118,
+        130,
+        131,
+        163
+      ]
+    },
+    {
+      "id": 169,
+      "id_parent": 120,
+      "level_depth": 3,
+      "active": true,
+      "name": "Mobilier",
+      "slug": "mobilier",
+      "children_ids": [
+        170,
+        171,
+        172,
+        178
+      ]
+    },
+    {
+      "id": 174,
+      "id_parent": 120,
+      "level_depth": 3,
+      "active": true,
+      "name": "Autre",
+      "slug": "autre",
+      "children_ids": [
+        175,
+        182,
+        183,
+        186
+      ]
+    },
+    {
+      "id": 122,
+      "id_parent": 121,
+      "level_depth": 3,
+      "active": true,
+      "name": "Ergospirométrie",
+      "slug": "ergospirometrie",
+      "children_ids": []
+    },
+    {
+      "id": 123,
+      "id_parent": 121,
+      "level_depth": 3,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 124,
+      "id_parent": 121,
+      "level_depth": 3,
+      "active": false,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 127,
+      "id_parent": 126,
+      "level_depth": 3,
+      "active": true,
+      "name": "Changement de pile et SAV",
+      "slug": "changement-de-pile-et-sav",
+      "children_ids": []
+    },
+    {
+      "id": 128,
+      "id_parent": 126,
+      "level_depth": 3,
+      "active": false,
+      "name": "Montres + Cardio au poignet",
+      "slug": "montres-cardio-au-poignet",
+      "children_ids": []
+    },
+    {
+      "id": 129,
+      "id_parent": 126,
+      "level_depth": 3,
+      "active": false,
+      "name": "Montres + Ceinture",
+      "slug": "montres-ceinture",
+      "children_ids": []
+    },
+    {
+      "id": 132,
+      "id_parent": 126,
+      "level_depth": 3,
+      "active": true,
+      "name": "Garmin",
+      "slug": "garmin",
+      "children_ids": []
+    },
+    {
+      "id": 133,
+      "id_parent": 126,
+      "level_depth": 3,
+      "active": true,
+      "name": "Polar",
+      "slug": "polar",
+      "children_ids": []
+    },
+    {
+      "id": 143,
+      "id_parent": 135,
+      "level_depth": 3,
+      "active": true,
+      "name": "R-Test / ECG de 7 jours",
+      "slug": "r-test-ecg-de-7-jours",
+      "children_ids": []
+    },
+    {
+      "id": 144,
+      "id_parent": 135,
+      "level_depth": 3,
+      "active": true,
+      "name": "ODim contrôle technique dispositifs ECG",
+      "slug": "odim-controle-technique-dispositifs-ecg",
+      "children_ids": []
+    },
+    {
+      "id": 148,
+      "id_parent": 135,
+      "level_depth": 3,
+      "active": true,
+      "name": "Holter / ECG de 24h",
+      "slug": "holter-ecg-de-24h",
+      "children_ids": []
+    },
+    {
+      "id": 168,
+      "id_parent": 135,
+      "level_depth": 3,
+      "active": false,
+      "name": "Location appareils médicaux",
+      "slug": "location-appareils-medicaux",
+      "children_ids": []
+    },
+    {
+      "id": 91,
+      "id_parent": 137,
+      "level_depth": 3,
+      "active": true,
+      "name": "Schiller AT / MS / CS",
+      "slug": "schiller-at-ms-cs",
+      "children_ids": []
+    },
+    {
+      "id": 141,
+      "id_parent": 140,
+      "level_depth": 3,
+      "active": true,
+      "name": "Spirométrie",
+      "slug": "spirometrie",
+      "children_ids": []
+    },
+    {
+      "id": 147,
+      "id_parent": 140,
+      "level_depth": 3,
+      "active": true,
+      "name": "ECG",
+      "slug": "ecg",
+      "children_ids": []
+    },
+    {
+      "id": 146,
+      "id_parent": 145,
+      "level_depth": 3,
+      "active": true,
+      "name": "ODim contrôle technique Tensiomètres",
+      "slug": "odim-controle-technique-tensiometres",
+      "children_ids": []
+    },
+    {
+      "id": 167,
+      "id_parent": 145,
+      "level_depth": 3,
+      "active": true,
+      "name": "MAPA /Remler",
+      "slug": "mapa-remler",
+      "children_ids": []
+    },
+    {
+      "id": 153,
+      "id_parent": 152,
+      "level_depth": 3,
+      "active": true,
+      "name": "Défibrillateurs",
+      "slug": "defibrillateurs",
+      "children_ids": []
+    },
+    {
+      "id": 154,
+      "id_parent": 152,
+      "level_depth": 3,
+      "active": true,
+      "name": "Cardio Montres",
+      "slug": "cardio-montres",
+      "children_ids": []
+    },
+    {
+      "id": 173,
+      "id_parent": 152,
+      "level_depth": 3,
+      "active": true,
+      "name": "Tension artérielle",
+      "slug": "tension-arterielle",
+      "children_ids": []
+    },
+    {
+      "id": 156,
+      "id_parent": 155,
+      "level_depth": 3,
+      "active": true,
+      "name": "ECG",
+      "slug": "ecg",
+      "children_ids": []
+    },
+    {
+      "id": 157,
+      "id_parent": 155,
+      "level_depth": 3,
+      "active": true,
+      "name": "Cardio Montres",
+      "slug": "cardio-montres",
+      "children_ids": []
+    },
+    {
+      "id": 158,
+      "id_parent": 155,
+      "level_depth": 3,
+      "active": true,
+      "name": "Spirométrie",
+      "slug": "spirometrie",
+      "children_ids": []
+    },
+    {
+      "id": 177,
+      "id_parent": 155,
+      "level_depth": 3,
+      "active": true,
+      "name": "Oxymétrie",
+      "slug": "oxymetrie",
+      "children_ids": []
+    },
+    {
+      "id": 187,
+      "id_parent": 155,
+      "level_depth": 3,
+      "active": true,
+      "name": "Masques",
+      "slug": "masques",
+      "children_ids": []
+    },
+    {
+      "id": 160,
+      "id_parent": 159,
+      "level_depth": 3,
+      "active": true,
+      "name": "Oxymétrie",
+      "slug": "oxymetrie",
+      "children_ids": []
+    },
+    {
+      "id": 161,
+      "id_parent": 159,
+      "level_depth": 3,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 162,
+      "id_parent": 159,
+      "level_depth": 3,
+      "active": false,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 176,
+      "id_parent": 159,
+      "level_depth": 3,
+      "active": true,
+      "name": "Concentrateur d’oxygène",
+      "slug": "concentrateur-doxygene",
+      "children_ids": []
+    },
+    {
+      "id": 179,
+      "id_parent": 159,
+      "level_depth": 3,
+      "active": true,
+      "name": "Orthopedie respiratoire",
+      "slug": "orthopedie-respiratoire",
+      "children_ids": []
+    },
+    {
+      "id": 181,
+      "id_parent": 180,
+      "level_depth": 3,
+      "active": true,
+      "name": "ODim contrôle technique Spiromètres",
+      "slug": "odim-controle-technique-spirometres",
+      "children_ids": []
+    },
+    {
+      "id": 85,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller AT... et DT...",
+      "slug": "schiller-at-et-dt",
+      "children_ids": []
+    },
+    {
+      "id": 86,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller CS...",
+      "slug": "schiller-cs",
+      "children_ids": []
+    },
+    {
+      "id": 87,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller tapis roulants",
+      "slug": "schiller-tapis-roulants",
+      "children_ids": []
+    },
+    {
+      "id": 88,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller vélos",
+      "slug": "schiller-velos",
+      "children_ids": []
+    },
+    {
+      "id": 89,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 90,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 151,
+      "id_parent": 63,
+      "level_depth": 4,
+      "active": true,
+      "name": "Cardiolex",
+      "slug": "cardiolex",
+      "children_ids": []
+    },
+    {
+      "id": 77,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller AT et FT...",
+      "slug": "schiller-at-et-ft",
+      "children_ids": []
+    },
+    {
+      "id": 78,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller MS-20...",
+      "slug": "schiller-ms-20",
+      "children_ids": []
+    },
+    {
+      "id": 79,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Schiller CS...",
+      "slug": "schiller-cs",
+      "children_ids": []
+    },
+    {
+      "id": 80,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Cardiolex",
+      "slug": "cardiolex",
+      "children_ids": []
+    },
+    {
+      "id": 81,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Sur Windows",
+      "slug": "sur-windows",
+      "children_ids": []
+    },
+    {
+      "id": 82,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Sur MAC",
+      "slug": "sur-mac",
+      "children_ids": []
+    },
+    {
+      "id": 83,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "children_ids": []
+    },
+    {
+      "id": 84,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "Consommables",
+      "slug": "consommables",
+      "children_ids": []
+    },
+    {
+      "id": 100,
+      "id_parent": 64,
+      "level_depth": 4,
+      "active": true,
+      "name": "De poche",
+      "slug": "de-poche",
+      "children_ids": []
+    },
+    {
+      "id": 106,
+      "id_parent": 104,
+      "level_depth": 4,
+      "active": true,
+      "name": "ECG",
+      "slug": "ecg",
+      "children_ids": []
+    },
+    {
+      "id": 107,
+      "id_parent": 104,
+      "level_depth": 4,
+      "active": true,
+      "name": "Défibrillateurs",
+      "slug": "defibrillateurs",
+      "children_ids": []
+    },
+    {
+      "id": 108,
+      "id_parent": 104,
+      "level_depth": 4,
+      "active": true,
+      "name": "Tension artérielle",
+      "slug": "tension-arterielle",
+      "children_ids": []
+    },
+    {
+      "id": 114,
+      "id_parent": 104,
+      "level_depth": 4,
+      "active": true,
+      "name": "Spirométrie",
+      "slug": "spirometrie",
+      "children_ids": []
+    },
+    {
+      "id": 119,
+      "id_parent": 104,
+      "level_depth": 4,
+      "active": false,
+      "name": "Diagnostique",
+      "slug": "diagnostique",
+      "children_ids": []
+    },
+    {
+      "id": 164,
+      "id_parent": 104,
+      "level_depth": 4,
+      "active": true,
+      "name": "Oxymétrie",
+      "slug": "oxymetrie",
+      "children_ids": []
+    },
+    {
+      "id": 113,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": true,
+      "name": "Diagnostique",
+      "slug": "diagnostique",
+      "children_ids": []
+    },
+    {
+      "id": 115,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": true,
+      "name": "ECG autre",
+      "slug": "ecg-autre",
+      "children_ids": []
+    },
+    {
+      "id": 116,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": true,
+      "name": "Spirométrie",
+      "slug": "spirometrie",
+      "children_ids": []
+    },
+    {
+      "id": 117,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": true,
+      "name": "Défibrillateurs",
+      "slug": "defibrillateurs",
+      "children_ids": []
+    },
+    {
+      "id": 118,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": false,
+      "name": "Tension artérielle",
+      "slug": "tension-arterielle",
+      "children_ids": []
+    },
+    {
+      "id": 130,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": true,
+      "name": "ECG papier",
+      "slug": "ecg-papier",
+      "children_ids": []
+    },
+    {
+      "id": 131,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": true,
+      "name": "ECG électrodes",
+      "slug": "ecg-electrodes",
+      "children_ids": []
+    },
+    {
+      "id": 163,
+      "id_parent": 105,
+      "level_depth": 4,
+      "active": false,
+      "name": "Oxymétrie",
+      "slug": "oxymetrie",
+      "children_ids": []
+    },
+    {
+      "id": 170,
+      "id_parent": 169,
+      "level_depth": 4,
+      "active": true,
+      "name": "Divans",
+      "slug": "divans",
+      "children_ids": []
+    },
+    {
+      "id": 171,
+      "id_parent": 169,
+      "level_depth": 4,
+      "active": true,
+      "name": "Chariots",
+      "slug": "chariots",
+      "children_ids": []
+    },
+    {
+      "id": 172,
+      "id_parent": 169,
+      "level_depth": 4,
+      "active": true,
+      "name": "Tabourets",
+      "slug": "tabourets",
+      "children_ids": []
+    },
+    {
+      "id": 178,
+      "id_parent": 169,
+      "level_depth": 4,
+      "active": true,
+      "name": "Fauteuil",
+      "slug": "fauteuil",
+      "children_ids": []
+    },
+    {
+      "id": 175,
+      "id_parent": 174,
+      "level_depth": 4,
+      "active": true,
+      "name": "Balances électroniques",
+      "slug": "balances-electroniques",
+      "children_ids": []
+    },
+    {
+      "id": 182,
+      "id_parent": 174,
+      "level_depth": 4,
+      "active": true,
+      "name": "Stéthoscopes",
+      "slug": "stethoscopes",
+      "children_ids": []
+    },
+    {
+      "id": 183,
+      "id_parent": 174,
+      "level_depth": 4,
+      "active": true,
+      "name": "Thermomètres",
+      "slug": "thermometres",
+      "children_ids": []
+    },
+    {
+      "id": 186,
+      "id_parent": 174,
+      "level_depth": 4,
+      "active": true,
+      "name": "Masques",
+      "slug": "masques",
+      "children_ids": []
+    }
+  ]
+}

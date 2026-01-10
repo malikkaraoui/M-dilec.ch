@@ -1,0 +1,168 @@
+{
+  "id": 163,
+  "slug": "turbine-jetable-flowmir",
+  "active": true,
+  "reference": "30.0155",
+  "name": "Turbine jetable FlowMIR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>FlowMir</strong>, le Capteur Idéal pour la Spirométrie : simple, précis, hygiénique de la respiration.<br />Maintenant disponible avec embout buccal carton intégré pour une hygiène garantie à 100%.</p>",
+    "long_html": "<p><strong>FlowMir</strong>, le Capteur Idéal pour la Spirométrie : simple, précis, hygiénique de la respiration.<br />Maintenant disponible avec embout buccal carton intégré pour une hygiène garantie à 100%.</p>\r\n<p>Produit exclusif MIR (brevet international)</p>\r\n<p>Le test de spirométrie nécessite une hygiène et une précision maximale. FlowMir® est la réponse à ces deux exigences. Chaque turbine est calibrée en usine avec un système informatisé et est emballée individuellement en salle blanche. FlowMIR®est une alternative moins coûteuse qu'un capteur réutilisable et ne nécessite pas de filtre anti-bactérien. Hygiène 100% garantie!</p>\r\n<p>Conforme aux dernières normes ATS / ERS</p>\r\n<p>Une session complète de spirométrie peut être effectuée, avec test Broncho Challenge et POST bronchodilatateur. Après le test, la turbine et l'embout bucal sont jetés.</p>\r\n<p style=\"margin-top:10px;\"><strong>Le Capteur Idéal pour la Spirométrie</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Emballage confortable</li>\r\n<li>Testé et emballé individuellement</li>\r\n<li>100% précis et hygiénique</li>\r\n<li>Aucun entretien nécessaire</li>\r\n<li>Pas d'étalonnage nécessaire</li>\r\n<li>Pas de stérilisation nécessaire</li>\r\n<li>Pas de filtre antibactérien nécessaire</li>\r\n<li>Pas de contamination croisée</li>\r\n<li>Non affecté par condensation de la vapeur</li>\r\n<li>Non affecté par les conditions ambiantes</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 138.347261,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 116,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 95,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 116,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 95,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 723,
+        "files": [
+          "assets/products/163__turbine-jetable-flowmir/images/723-cart_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-home_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-large_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-medium_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-small_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-standard_default .jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-thickbox_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-tm_cart_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-tm_home_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-tm_large_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-tm_medium_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-tm_small_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723-tm_thickbox_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/723.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 724,
+        "files": [
+          "assets/products/163__turbine-jetable-flowmir/images/724-cart_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-home_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-large_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-medium_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-small_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-standard_default .jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-thickbox_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-tm_cart_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-tm_home_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-tm_large_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-tm_medium_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-tm_small_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724-tm_thickbox_default.jpg",
+          "assets/products/163__turbine-jetable-flowmir/images/724.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 81,
+        "name": "Medilec-EN-Mir-FlowMir",
+        "mime": "application/pdf",
+        "file": "22f40bf6f2d8e3f20b60e8a2ec9e41e8ac84b0d5"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      164,
+      194,
+      195,
+      196
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": 118,
+  "slug": "action-neuf-ecg-corscience-bt-12-bluetooth",
+  "active": true,
+  "reference": "33.0021",
+  "name": "Action : Neuf : ECG Corscience BT-12 bluetooth",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>La solution la plus sûre pour obtenir un ECG sans câble, fiable !<br /> Le système ECG aujourd'hui est généralement composé d'un appareil ou d'un système PC qui transmet par un câble les signaux électriques du coeur du patient.<br /> Le module <strong>ECG BT-12 Bluetooth</strong> qu'a développé CORSCIENCE est une alternative optimale.</p>",
+    "long_html": "<p>La solution la plus sûre pour obtenir un ECG sans câble, fiable !</p>\r\n<p>Le système ECG aujourd'hui est généralement composé d'un appareil ou d'un système PC qui transmet par un câble les signaux électriques du coeur du patient.</p>\r\n<p>Les câbles patients sont chers et susceptibles de se détériorer; de plus ils entravent le mouvement du malade ce qui engendre des artéfacts, qui peuvent mener à une fausse interprétation. Aussi, un isolement potentiel complexe est nécessaire pour des raisons de sécurité. Le module ECG Bluetooth qu'a développé CORSCIENCE est une alternative optimale. Il détecte l'ECG près du corps le digitalise et transfert le signal \"wireless\" à un système de monitoring.</p>\r\n<p>Le module ECG Bluetooth est un ECG compacts qui peut être porté sur le corps. Il peut transférer des ECG 3 -6 ou 12 pistes, ceci sans fil sur une distance maximum de 25 m à un moniteur, tel qu'un PC ou autre. Le standard Bluetooth est utilisé pour la transmission des données. L'appareil se distingue par sa forme compacte et par sa simplicité d' utilisation. Une pince amovible autorise l'appareil être attaché à un vêtement, ou à un lit de l'hôpital. L'écran intégré signale les problèmes du contact, la fréquence cardiaque du patient ainsi que le niveau de la batterie et la qualité du signal de réception télémétrique. Un signal acoustique est associé au rythme cardiaque.</p>\r\n<p>Le temps du fonctionnement de la version 12 pistes (<strong>BT-12</strong>), avec deux piles standards AA et un taux de l'échantillonnage de 500 Hz est de plus de 10 heures. Bien sûr, il est aussi possible d'utiliser des piles rechargeables. Une utilisation plus longue peut être atteinte en réduisant le nombre de pistes ou en sélectionnant un taux de l'échantillonnage plus bas. Avec le logiciel de la visualisation, le BT 12 offre une alternative idéale un prix attractif par rapport aux appareils ECG conventionnels sur PC.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques de l'ECG Bluetooth <strong>BT-12</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>12–pistes ECG (en plus dérivation de Wilson V1–V6) par un câble 10-pin</li>\r\n<li>Mesure continue de l'ECG</li>\r\n<li>Calcul de la fréquence cardiaque avec signal audible</li>\r\n<li>Mesure du contact sur l'écran</li>\r\n<li>Alimentation: 2 piles AA</li>\r\n<li>Mode commun de réjection: &gt; 94 dB• consommation du courant</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Version PDA</strong> :<br /> BT-12 complet avec câble patient fisches buttons pression, logiciel pour PDA start/stop, enregistrer avec mémoire pour 1 fichier en PDF, 12 dérivations 5 secondes.</p>\r\n<p style=\"margin-top:10px;\"><strong>Version smartphone</strong> :<br /> BT-12 complet avec câble patient, logiciel pour smartphone HTC DIAMOND 2.</p>\r\n<p style=\"margin-top:10px;\"><strong>Version clé bluetooth</strong> :<br /> BT-12 complet avec câble patient, détachable, 1 sachet d'électrodes, une clé bluetooth avec logiciel pour PC VM 300, mode d'emploi, valise de transport.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1578.458682,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 30,
+    "name": "Corscience GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 140,
+      "name": "Actions"
+    },
+    {
+      "id": 147,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      },
+      {
+        "id": 147,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 307,
+        "files": [
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-cart_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-home_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-large_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-medium_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-small_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-thickbox_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-tm_cart_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-tm_home_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-tm_large_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-tm_medium_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-tm_small_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-tm_thickbox_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 309,
+        "files": [
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-cart_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-home_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-large_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-medium_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-small_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-thickbox_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-tm_cart_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-tm_home_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-tm_large_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-tm_medium_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-tm_small_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309-tm_thickbox_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/309.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 308,
+        "files": [
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-cart_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-home_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-large_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-medium_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-small_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-thickbox_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-tm_cart_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-tm_home_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-tm_large_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-tm_medium_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-tm_small_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308-tm_thickbox_default.jpg",
+          "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/308.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 39,
+        "name": "Medilec-EN-BT-3-6-BT-12",
+        "mime": "application/pdf",
+        "file": "1130397022c2fc946c63c5f90306c0f5a08ee328"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

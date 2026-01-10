@@ -1,0 +1,317 @@
+{
+  "id": 155,
+  "slug": "spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad",
+  "active": false,
+  "reference": "",
+  "name": "Spiromètre MIR Spirobank II Smart",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>New Spirobank II Smart</strong> avec en option l'Oxymétrie, pour iPad, le spirometre à écran tactile et Oxymètre 3D, test de marche 6 minutes (6MWT), test du sommeil, test Holter (24h).</p>",
+    "long_html": "<p><strong>New Spirobank II Smart</strong> avec en option l'Oxymétrie, pour iPad, le spirometre à écran tactile et Oxymètre 3D, test de marche 6 minutes (6MWT), test du sommeil, test Holter (24h).</p>\r\n<p>MIR Spiro (iOS Based), test en temps réel de Spirométrie ou d'Oxymétrie directement sur votre iPad/iPad Mini. Langues disponibles : Español, Français, Deutsch, Italiano, Portughese, Русски.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Comparaison PRE et POST Bronchodilatateur.</li>\r\n<li>Interprétation du test de Spirométrie, capteur de température intégré pour la conversion BTPS.</li>\r\n<li>Mémoire allant jusqu'à 10 000 tests de Spirométrie ou 900 heures d'enregistrement d'oxymétrie (si disponible) associées à des services de recherche puissants et flexibles.</li>\r\n<li>Batterie Rechargeable longue durée.</li>\r\n<li>Indicateur d'état de santé à feu tricolore pour une interprétation immédiate du test.</li>\r\n<li>Écran rétroéclairé haute résolution avec résultats et courbes directement sur l'écran pour une évaluation immédiate des données.</li>\r\n<li>Logiciel Winspiro PRO® pour PC (Toujours inclus), comprend les mises à jour téléchargeables gratuitement, fournit le Flux/Volume en temps réel et les courbes Débit/Volume avec comparaison PRE/POST Bronchodilatateur sur votre PC; valeurs théoriques Quanjer 2012–GLI avec LLN et Z-score.</li>\r\n<li>Disponible avec la turbine à USAGE UNIQUE et la turbine REUTILISABLE.</li>\r\n</ul><p><strong>Un spécialiste à vos côtés</strong></p>\r\n<p>L'un des obstacles à la diffusion de la spirométrie réside dans la conformité requise du patient pendant le test et la difficulté d'interprétation.<br />D'un simple clic, l'App de Spirobank II Smart fournit un Assistant Virtuel hautement innovant qui accompagne l'opérateur avant, pendant et après le test de spiromètre.</p>\r\n<p><strong>Emulateur pédiatrique avec animations</strong></p>\r\n<p>L'utilisation d'un système breveté par MIR vous permet d'afficher une « animation » directement sur l'App, ce qui est utile pour améliorer la bonne collaboration du patient lors d'un test de spirométrie.<br />Le niveau de difficulté de l'émulateur peut être modifié en fonction de l'âge et de l'état de santé du patient.<br />Cette fonction est particulièrement utile pour apporter des soins primaires à des patients en externe.</p>\r\n<p><strong>Partager pour soigner</strong></p>\r\n<p>L'application crée des fichiers facilement imprimables, transférables par courrier électronique ou téléchargeables et vers un dossier de santé électronique (DSE) pour référence future.<br /><br /></p>\r\n<p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1187.558032,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 585,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 586,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/586.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 587,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/587.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 588,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/588.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 589,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/589.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 590,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/590.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 591,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/591.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 592,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/592.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 593,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/593.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 594,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/594.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 595,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/595.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 596,
+        "files": [
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-tm_cart_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-tm_home_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-tm_large_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-tm_medium_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-tm_small_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596-tm_thickbox_default.jpg",
+          "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/596.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 77,
+        "name": "Medilec-FR-Mir-Spirobank-II",
+        "mime": "application/pdf",
+        "file": "adf92d58382aefb4b500ada9684bc946974f158e"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193,
+      197,
+      198
+    ]
+  }
+}

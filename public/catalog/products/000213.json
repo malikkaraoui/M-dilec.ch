@@ -1,0 +1,471 @@
+{
+  "id": 213,
+  "slug": "montre-cardio-garmin-forerunner-35",
+  "active": false,
+  "reference": "PNFR35",
+  "name": "Montre Cardio Garmin Forerunner 35",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong style=\"font-weight:bold;padding-bottom:10px;\">Montre GPS de course à pied, intuitive et connectée, avec cardio poignet</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Surveille la fréquence cardiaque1 au poignet, le jour comme la nuit, à l'aide de la technologie de fréquence cardiaque au poignet Garmin Elevate™</li>\r\n<li>GPS intégré qui enregistre votre vitesse de course, la distance et votre position<strong></strong>...</li>\r\n</ul>",
+    "long_html": "<p style=\"font-weight:bold;padding-bottom:10px;\">Montre GPS de course à pied, intuitive et connectée, avec cardio poignet</p>\r\n<ul style=\"margin-left:14px;\"><li>Surveille la fréquence cardiaque1 au poignet, le jour comme la nuit, à l'aide de la technologie de fréquence cardiaque au poignet Garmin Elevate™</li>\r\n<li>GPS intégré qui enregistre votre vitesse de course, la distance et votre position</li>\r\n<li>Fonctions connectées2 : Smart Notifications, téléchargement automatique des données vers Garmin Connect™, LiveTrack (Suivi en temps réel) et contrôle de la musique</li>\r\n<li>Suivi d’activité au quotidienne1 : Le nombre de pas, de calories, de minutes intensives et analyse votre sommeil.</li>\r\n<li>Profils de sport préchargés pour la course, le tapis de course, le vélo et le cardio</li>\r\n<li>Téléchargement automatique2 de vos données sur Garmin Connect, notre communauté sportive en ligne gratuite, où vous pouvez participer à des challenges, recevoir des données Insights (conseils personnalisés) et partager vos progrès à mesure que vous atteignez vos objectifs</li>\r\n</ul><p><strong>Courez de tout votre cœur</strong></p>\r\n<p>Lorsqu'elle est couplée avec un smartphone compatible, votre Forerunner 35 fournit des Smart Notifications pratiques, ainsi que d'autres fonctions connectées. Vous pouvez ainsi courir sans être interrompu2. Restez connecté à vos proches grâce à la fonction LiveTrack qui leur permet de suivre vos parcours en temps réel. La Forerunner 35 effectue automatiquement ses mises à jour logicielles et vous permet, entre autres, de contrôler la musique depuis votre smartphone.</p>\r\n<p><strong>Personnalisation et connexion</strong></p>\r\n<p>La Forerunner 35 vous permet de télécharger automatiquement vos statistiques et courses sur notre communauté sportive gratuite en ligne Garmin Connect, où vous pouvez consulter vos progrès et les partager sur les réseaux sociaux. Ce logiciel gratuit est disponible pour votre ordinateur ou votre smartphone, avec l'application Garmin Connect™ Mobile.</p>\r\n<p><strong>Diversifiez vos entraînements</strong></p>\r\n<p>Vous pouvez garder la forme sans vous borner à effectuer toujours la même routine. La Forerunner 35 intègre des profils d'activité pour la course à pied en salle et en extérieur, mais vous pouvez varier les plaisirs. Quand vous voulez ajouter un peu de piment à votre routine, vous pouvez utiliser le profil cyclisme et sortir pédaler dans le voisinage ou opter pour le profil cardio et tenter un entraînement intensif sur un vélo elliptique.</p>\r\n<p><strong>Suivi d'activité de jour comme de nuit</strong></p>\r\n<p>Vous pouvez sans problème porter votre Forerunner 35 tous les jours et profiter de ses nombreuses fonctions de suivi d'activité. Elle compte vos pas, vos calories et vos minutes intensives, calcule la distance parcourue, surveille votre sommeil et contrôle en permanence votre fréquence cardiaque. Elle repère aussi vos périodes d'inactivité et vous envoie des alertes par vibration pour vous inviter à bouger.</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 203.342618,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 33,
+    "name": "Garmin - Bucher Walt SA"
+  },
+  "categories": [
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 132,
+      "name": "Garmin"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 154,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 152,
+      "name": "Promotions"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 132,
+        "name": "Garmin"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 154,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 879,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/879.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 880,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/880.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 881,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/881.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 882,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/882.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 883,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/883.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 884,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/884.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 885,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/885.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 886,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/886.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 887,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/887.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 888,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/888.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 889,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/889.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 890,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/890.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 891,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/891.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 892,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/892.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 893,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/893.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 894,
+        "files": [
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-standard_default .jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-tm_cart_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-tm_home_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-tm_large_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-tm_medium_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-tm_small_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894-tm_thickbox_default.jpg",
+          "assets/products/213__montre-cardio-garmin-forerunner-35/images/894.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 106,
+        "name": "Medilec-FR-Forerunner-35-Manuel",
+        "mime": "application/pdf",
+        "file": "8c6cb7671029db0180b895bca04655342fed2724"
+      },
+      {
+        "id_attachment": 107,
+        "name": "Medilec-FR-Forerunner-35-Info",
+        "mime": "application/pdf",
+        "file": "e5ebd1cd495bbfb3462297378059d86b16801d7c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

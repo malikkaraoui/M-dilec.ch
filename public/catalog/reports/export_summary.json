@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-01-10T08:44:07.656274Z",
+  "finished_at": "2026-01-10T08:44:12.706599Z",
+  "duration_seconds": 5.050325,
+  "counts": {
+    "products": 213,
+    "products_without_images": 1,
+    "images_copied_files": 10347,
+    "products_with_attachments_meta": 120,
+    "pdf_meta_only_products": 120,
+    "categories": 113,
+    "manufacturers": 21
+  },
+  "pdf_copy_enabled": false,
+  "paths": {
+    "catalog": "catalog.json",
+    "products_dir": "products",
+    "assets_products_dir": "assets/products",
+    "reports_dir": "reports",
+    "missing_assets_log": "reports/missing_assets.log"
+  }
+}

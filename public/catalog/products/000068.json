@@ -1,0 +1,137 @@
+{
+  "id": 68,
+  "slug": "ecg-schiller-cardiovit-at-102-plus-m",
+  "active": true,
+  "reference": "",
+  "name": "ECG Schiller Cardiovit AT-102 M plus",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Grâce à 35 ans d’expérience et à une étroite collaboration avec les plus éminents cardiologues et médecins du monde entier exerçant dans le domaine de l’électrocardiographie, le <strong>CARDIOVIT AT-102 plus</strong> de SCHILLER est le plus récent d’une longue série de systèmes d’ECG innovants. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>",
+    "long_html": "<p>Grâce à 35 ans d’expérience et à une étroite collaboration avec les plus éminents cardiologues et médecins du monde entier exerçant dans le domaine de l’électrocardiographie, le <strong>CARDIOVIT AT-102 plus</strong> de SCHILLER est le plus récent d’une longue série de systèmes d’ECG innovants. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>\r\n<p>Le nouveau CARDIOVIT AT-102 plus offre de nombreux avantages :</p>\r\n<ul style=\"margin-left:14px;\"><li><strong>Déroulement des opérations simplifié</strong> : l’appareil peut être connecté au système d’information SEMA de SCHILLER ou au SIH.</li>\r\n<li><strong>Extensible</strong> : le CARDIOVIT AT-102 plus peut être étendu à tout moment pour se transformer en un dispositif de test de la fonction pulmonaire.</li>\r\n<li><strong>Diagnostics fiables</strong> grâce à sa haute performance et à sa technologie éprouvée. Le CARDIOVIT AT-102 plus augmente la fiabilité du diagnostic grâce au Programme d’Interprétation de SCHILLER éprouvé, cliniquement validé et réputé dans le monde entier.</li>\r\n<li>ECG de repos</li>\r\n<li>Logiciel de thrombolyse</li>\r\n<li>Mesure du stimulateur cardiaque</li>\r\n<li>Mesures de la fonction pulmonaire</li>\r\n<li>Enregistrement de rythme</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5430.82637,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 85,
+      "name": "Schiller AT... et DT..."
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 85,
+        "name": "Schiller AT... et DT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 212,
+        "files": [
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-cart_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-home_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-large_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-medium_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-small_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-thickbox_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-tm_cart_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-tm_home_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-tm_large_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-tm_medium_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-tm_small_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-tm_thickbox_default.jpg",
+          "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 20,
+        "name": "Medilec-FR-Schiller-AT-102-plus",
+        "mime": "application/pdf",
+        "file": "8a10b751367b71151bb58ac5c0db0397fb9b4c78"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      65,
+      70,
+      88,
+      89,
+      90
+    ]
+  }
+}

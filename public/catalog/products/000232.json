@@ -1,0 +1,135 @@
+{
+  "id": 232,
+  "slug": "embout-jetable-medikro-spirosafe-90-pieces",
+  "active": false,
+  "reference": "",
+  "name": "Embout jetable Medikro SpiroSafe 90 pieces",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Sans filtres, sans stérilisation. Sécurité du patient. Bon rapport coût-efficacité et écologique. Système Twist-to-Connect facile.</p>",
+    "long_html": "<p>Sans filtres, sans stérilisation. Sécurité du patient. Bon rapport coût-efficacité et écologique. Système Twist-to-Connect facile.</p>\r\n<p>Le capteur Medikro SpiroSafe est un pneumotachographe à usage unique. Grâce aux capteurs Medikro SpiroSafe, le système ne requiert pas de filtres antibactériens, de stérilisation ni d'embouts buccaux supplémentaires en carton.</p>\r\n<p>Cela accroît les performances du patient et permet de réduire les coûts d'exploitation. La précision de chaque capteur a été vérifiée.</p>\r\n<p>Le capteur SpiroSafe est conçu pour augmenter la sécurité en évitant la contamination croisée de patient à patient. Les capteurs SpiroSafe contribuent à protéger l'environnement en produisant jusqu'à 78 % moins de déchets que les filtres antibactériens standard.</p>\r\n<p>Les capteurs à usage unique de Medikro sont fabriqués en polyéthylène et peuvent être éliminés par incinération sans produire d'émissions toxiques.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 144.846797,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 95,
+      "name": "Consommables"
+    },
+    {
+      "id": 116,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 95,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 116,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1001,
+        "files": [
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-cart_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-home_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-large_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-medium_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-small_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-standard_default .jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-thickbox_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-tm_cart_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-tm_home_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-tm_large_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-tm_medium_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-tm_small_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-tm_thickbox_default.jpg",
+          "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 115,
+        "name": "Medilec-FR-Medikro-SpiroSafe",
+        "mime": "application/pdf",
+        "file": "72d97672186394d1f86aeaf9545b4b3d4d53ff83"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      231
+    ]
+  }
+}

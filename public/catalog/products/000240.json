@@ -1,0 +1,145 @@
+{
+  "id": 240,
+  "slug": "tensiometre-pour-bras-boso-medicus-vital",
+  "active": true,
+  "reference": "5.0193",
+  "name": "Tensiomètre pour bras Boso Medicus Vital",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>Boso Medicus Vital</strong> est un tensiomètre pour bras simple à utiliser qui comprend les fonctions les plus importantes. Il mesure la tension de manière entièrement automatique, reconnait des troubles du rythme cardiaque, indique si des mouvements erronés ont lieu pendant le mesurage et enregistre jusqu'à 60 valeurs.</p>",
+    "long_html": "<p>Le <strong>Boso Medicus Vital</strong> est un tensiomètre pour bras simple à utiliser qui comprend les fonctions les plus importantes. Il mesure la tension de manière entièrement automatique, reconnait des troubles du rythme cardiaque, indique si des mouvements erronés ont lieu pendant le mesurage et enregistre jusqu'à 60 valeurs. Le Boso Medicus Vital est livré avec une manchette universelle pour des circonférences de bras de 22-42 cm.</p>\r\n<p><strong>Caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Tensiomètre entièrement automatique pour mesurage au bras</li>\r\n<li>Reconnaissance d'arythmie - indique des troubles du rythme cardiaque et leur fréquenc.</li>\r\n<li>Dispositif de pompage automatique intelligent pour un mesurage avec un pompage immédiatement correct</li>\r\n<li>Un capteur de mouvement empêche le mesurage de valeurs fausses.</li>\r\n<li>Grand écran affichant 3 valeurs</li>\r\n<li>Mémoire pour 60 valeurs respectivement pour profil à long avec date et heure</li>\r\n<li>Echelle d'évaluation selon l'OMS</li>\r\n<li>Avec manchette universelle pour circonférence de bras de 22-42 cm</li>\r\n<li>Avec étui, piles et carnet de contrôle de la tension</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 101.207057,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 185,
+      "name": "Boso"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 185,
+        "name": "Boso"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1019,
+        "files": [
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-cart_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-home_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-large_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-medium_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-small_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-standard_default .jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-thickbox_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-tm_cart_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-tm_home_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-tm_large_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-tm_medium_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-tm_small_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-tm_thickbox_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1020,
+        "files": [
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-cart_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-home_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-large_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-medium_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-small_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-standard_default .jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-thickbox_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-tm_cart_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-tm_home_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-tm_large_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-tm_medium_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-tm_small_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020-tm_thickbox_default.jpg",
+          "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1020.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 123,
+        "name": "Medilec-Boso-Medicus-Vital",
+        "mime": "application/pdf",
+        "file": "874384ce5ff254af98f7e09e0a9a706a53c83801"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

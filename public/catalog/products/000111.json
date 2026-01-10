@@ -1,0 +1,147 @@
+{
+  "id": 111,
+  "slug": "ergometre-schiller-erg-910-s-plus",
+  "active": false,
+  "reference": "31.0067",
+  "name": "Ergomètre Schiller ERG 910 S plus",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Les nouvelles bicyclettes ergométriques de SCHILLER sont extrêmement silencieuses, requièrent très peu de maintenance et sont très simples à utiliser. Elles ont été développées conformément aux directives européennes les plus récentes applicables aux ergomètres médicaux.</p>",
+    "long_html": "<p>Les nouvelles bicyclettes ergométriques de SCHILLER sont extrêmement silencieuses, requièrent très peu de maintenance et sont très simples à utiliser. Elles ont été développées conformément aux directives européennes les plus récentes applicables aux ergomètres médicaux.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Compatibles avec tous les appareils d’ECG d’effort de SCHILLER.</li>\r\n<li>Tous les ergomètres de SCHILLER sont équipés de larges affichages graphiques (10 cm x 7,5 cm).</li>\r\n<li>Fixation de selle standardisée pour une utilisation flexible.</li>\r\n<li>Contrôle automatique par ordinateur via l’interface RS-232 isolée par galvanisation.</li>\r\n<li>Fonctionnement quasi silencieux.</li>\r\n<li>Conception solide et moderne.</li>\r\n<li>Construction en acier stable pour un poids maximal de 160 kg.</li>\r\n<li>Charge indépendante de la vitesse.</li>\r\n<li>Revêtement superficiel facile à nettoyer.</li>\r\n</ul><p style=\"margin-top:10px;\">Avantages :</p>\r\n<ul style=\"margin-left:14px;\"><li>Durée de vie très longue grâce à une qualité de fabrication exceptionnelle.</li>\r\n<li>Boîtier robuste avec revêtement acrylique facile à nettoyer.</li>\r\n<li>Excellent rapport prix/performance.</li>\r\n<li>Sécurité extrêmement élevée.</li>\r\n<li>Fonctionnement ne nécessitant aucune maintenance.</li>\r\n<li>Pédalage confortable.</li>\r\n<li>Utilisation simple même pour les patients âgés ou handicapés grâce au cadre bas.</li>\r\n<li>Paramètres ergométriques faciles à programmer.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4019.498607,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 88,
+      "name": "Schiller vélos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 88,
+        "name": "Schiller vélos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 295,
+        "files": [
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-cart_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-home_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-large_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-medium_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-small_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-thickbox_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-tm_cart_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-tm_home_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-tm_large_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-tm_medium_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-tm_small_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-tm_thickbox_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 296,
+        "files": [
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-cart_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-home_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-large_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-medium_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-small_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-thickbox_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-tm_cart_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-tm_home_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-tm_large_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-tm_medium_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-tm_small_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296-tm_thickbox_default.jpg",
+          "assets/products/111__ergometre-schiller-erg-910-s-plus/images/296.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 38,
+        "name": "Medilec-FR-Schiller-Ergometre",
+        "mime": "application/pdf",
+        "file": "e2682bb17900de2241aace3f0b389e75fbf66e97"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

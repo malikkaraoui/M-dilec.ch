@@ -1,0 +1,370 @@
+{
+  "id": 129,
+  "slug": "montre-cardio-garmin-forerunner-230",
+  "active": false,
+  "reference": "PN6230",
+  "name": "Montre Cardio Garmin Forerunner 230",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong style=\"font-weight:bold;padding-bottom:10px;\">Montre GPS de course à pied, connectée avec fonctions de coaching</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Calcul la distance parcourue, l'allure, le temps, la fréquence cardiaque¹ et de la VO2 max¹</li>\r\n<li>Fonctions connectées² : téléchargements automatiques des données vers Garmin Connect™, suivi en temps réel (LiveTrack), commentaires audio...</li>\r\n</ul>",
+    "long_html": "<p><strong>Montre GPS de course à pied, connectée avec fonctions de coaching</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Calcul la distance parcourue, l'allure, le temps, la fréquence cardiaque¹ et de la VO2 max¹</li>\r\n<li>Fonctions connectées² : téléchargements automatiques des données vers Garmin Connect™, suivi en temps réel (LiveTrack), commentaires audio, Smart Notifications (SMS, appels, e-mails…) et partage sur les réseaux sociaux</li>\r\n<li>Le suivi d'activité³ compte le nombre de pas quotidiens, la distance, les calories et analyse le sommeil</li>\r\n<li>Autonomie de 16h en GPS / 12h avec GLONASS et 5 semaines en mode montre, avec un grand écran couleur HD</li>\r\n<li>Compatible Connect IQ™ : Personnalisez votre montre en téléchargeant des champs de données, des cadrans de montre, des widgets et des applications depuis votre smartphone</li>\r\n</ul><p><strong>Personnalisez votre montre et votre entraînement</strong></p>\r\n<p>Pas deux coureurs ne se ressemblent, et c'est exactement pareil pour leurs buts. Pour vous préparer à atteindre les vôtres, téléchargez des séances et des plans d'entraînement avancés vers votre montre sur Garmin Connect. Vous pouvez même personnaliser vos champs de données, télécharger des cadrans de montre, des widgets et des applications, le tout gratuitement, sur Connect IQ.</p>\r\n<p><strong>Course à pied sur route et hors route</strong></p>\r\n<p>Un accéléromètre intégré enregistre des données de distance et d'allure lorsque vous courez en salle ou sur un tapis de course. Ainsi, vous n'avez pas à acquérir un accéléromètre en option. Dès que vous avez terminé de courir, la montre se dédouble en un outil de suivi d'activité³, qui compte vos pas et les calories éliminées tout au long de la journée. Elle vous rappelle également quand il est temps de bouger si vous êtes assis depuis plus d'une heure. Compatible avec les satellites GPS et GLONASS, la Forerunner 230 situe votre position rapidement et avec précision, que vous vous trouviez au fin fond d'une forêt ou au pied d'un immeuble. Son interface graphique basée sur des couleurs permet de visualiser votre zone de fréquence cardiaque et les battements par minute¹ d'un seul coup d'œil.</p>\r\n<p><strong>Connectez-vous sans plus attendre</strong></p>\r\n<p>Lorsque vous téléchargez l'application gratuite Garmin Connect Mobile vers votre smartphone, la Forerunner 230 offre des téléchargements automatiques² vers notre communauté en ligne, où vous pouvez enregistrer, planifier et partager vos activités. Vous pouvez également voir vos données sur un ordinateur de bureau en lui branchant votre appareil et en ouvrant Garmin Connect dans un navigateur web. D'autres fonctions connectées sont disponibles, comme le suivi en temps réel. Celui-ci permet à vos amis et à vos fans de vous suivre et d'accéder à vos statistiques en temps réel. Si vous courez avec votre smartphone⁴, des avertissements audio vous aident à maintenir l'allure avec des rappels de circuit et de compteur de circuit.</p>\r\n<p>¹Si utilisée avec un moniteur de fréquence cardiaque. Inclus avec certains modèles, vendu séparément sur d'autres.</p>\r\n<p>²Si couplée avec un smartphone compatible</p>\r\n<p>³Précision du suivi des activités</p>\r\n<p>⁴Si couplée avec l'application Garmin Connect Mobile</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 259.052925,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 33,
+    "name": "Garmin - Bucher Walt SA"
+  },
+  "categories": [
+    {
+      "id": 154,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 132,
+      "name": "Garmin"
+    },
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 154,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 132,
+        "name": "Garmin"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 496,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/496.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 497,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/497.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 498,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/498.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 499,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/499.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 500,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/500.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 501,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/501.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 502,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/502.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 503,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/503.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 504,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/504.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 505,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/505.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 506,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/506.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 507,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/507.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 508,
+        "files": [
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-tm_cart_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-tm_home_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-tm_large_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-tm_medium_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-tm_small_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508-tm_thickbox_default.jpg",
+          "assets/products/129__montre-cardio-garmin-forerunner-230/images/508.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 51,
+        "name": "Medilec-Forerunner-230-235-Info",
+        "mime": "application/pdf",
+        "file": "74482a815594ca16a31ff49412a4b5c21a2852f5"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

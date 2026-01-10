@@ -50,6 +50,21 @@ La commande npm existe aussi :
 
 > Note: après modification des claims, l’utilisateur doit se reconnecter (ou forcer refresh token) pour recevoir le nouveau rôle.
 
+## Import du catalogue vers RTDB (/products)
+
+Pour alimenter la base produits Firebase à partir de l’export sous `public/catalog/`, le dépôt fournit un script d’import.
+
+Prérequis (local):
+
+- `GOOGLE_APPLICATION_CREDENTIALS` vers un Service Account JSON
+- `VITE_FIREBASE_DATABASE_URL` (ou `FIREBASE_DATABASE_URL`)
+
+Commandes:
+
+- `npm run admin:import-catalog -- --dry-run` (aperçu)
+- `npm run admin:import-catalog` (ajoute uniquement les produits manquants)
+- `npm run admin:import-catalog -- --overwrite` (met à jour/écrase aussi l’existant)
+
 ## Règles sécurité
 
 - RTDB: écriture admin uniquement sur `/products`, lecture publique des produits, commandes privées, admin modifie statuts/notes.

@@ -1,0 +1,175 @@
+{
+  "id": 77,
+  "slug": "sac-de-transport-pour-ecg-cardiovit-ms-2007",
+  "active": false,
+  "reference": "",
+  "name": "Logiciel C pour ECG Schiller Cardiovit CS-200",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>12 dérivations de repos interprétation de l'ECG pour les enfants et les adultes : mesures d'ECG, complexes moyens et des marqueurs de mesure, les résultats de mesure tableau détaillé, déclarations d'interprétation</p>",
+    "long_html": "<p>12 dérivations de repos interprétation de l'ECG pour les enfants et les adultes :</p>\r\n<ul style=\"margin-left:14px;\"><li>Mesures d'ECG</li>\r\n<li>Complexes moyens et des marqueurs de mesure</li>\r\n<li>Les résultats de mesure tableau détaillé</li>\r\n<li>Déclarations d'interprétation</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 902.506964,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 223,
+        "files": [
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-cart_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-home_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-large_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-medium_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-small_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-thickbox_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-tm_cart_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-tm_home_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-tm_large_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-tm_medium_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-tm_small_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-tm_thickbox_default.jpg",
+          "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      76
+    ]
+  }
+}

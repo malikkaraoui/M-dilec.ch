@@ -1,0 +1,143 @@
+{
+  "id": 84,
+  "slug": "defibrillateur-schiller-fred-easyport",
+  "active": true,
+  "reference": "8.0072",
+  "name": "Défibrillateur Schiller FRED Easyport",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le nouveau défibrillateur externe, <strong>FRED Easyport</strong>, tout en étant si petit et si léger qu’il tient dans toutes les poches de manteaux ou trousses de médecin, satisfait pleinement aux exigences d‘un défibrillateur automatique externe (Automatic External Defibrillator – AED).</p>",
+    "long_html": "<p>Le nouveau défibrillateur externe, <strong>FRED Easyport</strong>, tout en étant si petit et si léger qu’il tient dans toutes les poches de manteaux ou trousses de médecin, satisfait pleinement aux exigences d‘un défibrillateur automatique externe (Automatic External Defibrillator – AED).</p>\r\n<p>Grâce à la technologie MULTIPULSE BIOWAVE® (émission d’énergie efficace préservant le myocarde), ce défibrillateur de poche incroyablement petit est une avancée importante dans l’histoire de la défibrillation. (1,2,3) Des études indépendantes ont aussi montré que MULTIPULSE BIOWAVE® provoque beaucoup moins d’altérations du segment ST dans l’ECG [4] et déclenche sensiblement moins de CK et de myoglobine dans le sang [5]. Le risque d’endommager le myocarde est réduit, ce qui augmente les chances de survie, en particulier dans les cas de cardiopathie ischémique [6]. La phase post-choc est extrêmement courte, ce qui reflète l’excellente efficacité de la défibrillation :</p>\r\n<ul style=\"margin-left:14px;\"><li>Écran LCD haute résolution</li>\r\n<li>Impulsion biphasique pulsée (Multipulse Biowave®)</li>\r\n<li>Valeurs d´énergie standard configurables pour adultes et enfants</li>\r\n<li>Commutation automatique au valeur d´énergie standard pour les enfants par insertion des électrodes enfants</li>\r\n<li>Léger, seulement 490 g (avec les piles)</li>\r\n<li>Petit, seulement 133 x 126 x 35 mm</li>\r\n<li>Pochette de protection et transport en nylon</li>\r\n<li>Option mode manuel</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2301.76416,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 232,
+        "files": [
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-cart_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-home_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-large_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-medium_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-small_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-thickbox_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-tm_cart_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-tm_home_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-tm_large_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-tm_medium_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-tm_small_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-tm_thickbox_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/232.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 233,
+        "files": [
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-cart_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-home_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-large_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-medium_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-small_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-thickbox_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-tm_cart_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-tm_home_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-tm_large_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-tm_medium_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-tm_small_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233-tm_thickbox_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/233.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 800,
+        "files": [
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-cart_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-home_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-large_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-medium_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-small_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-standard_default .jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-thickbox_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-tm_cart_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-tm_home_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-tm_large_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-tm_medium_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-tm_small_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800-tm_thickbox_default.jpg",
+          "assets/products/84__defibrillateur-schiller-fred-easyport/images/800.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 24,
+        "name": "Medilec-FR-Schiller-Fred-Easyp",
+        "mime": "application/pdf",
+        "file": "194bfc68bcdaf1fdbbd3b1a621ff9e20aa0d6d52"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      94
+    ]
+  }
+}

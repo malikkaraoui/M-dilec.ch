@@ -1,0 +1,232 @@
+{
+  "id": 210,
+  "slug": "polar-balance-pese-personne",
+  "active": false,
+  "reference": "",
+  "name": "Polar Balance pèse-personne",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Balance Polar Service de gestion du poids</strong></p>\r\n<p><strong>Polar Balance</strong> est plus qu'un pèse-personne intelligent. Elle assure un service de contrôle du poids de type holistique pour simplifier la gestion de votre alimentation et de votre entraînement. Connectez votre tracker d'activité Polar au pèse-personne intelligent Polar Balance et au service Polar Flow gratuit pour suivre les conseils.</p>",
+    "long_html": "<p><strong>Balance Polar Service de gestion du poids</strong></p>\r\n<p><strong>Polar Balance</strong> est plus qu'un pèse-personne intelligent. Elle assure un service de contrôle du poids de type holistique pour simplifier la gestion de votre alimentation et de votre entraînement. Connectez votre tracker d'activité Polar au pèse-personne intelligent Polar Balance et au service Polar Flow gratuit pour suivre les conseils.</p>\r\n<p><strong>Objectif d'activité avancé</strong></p>\r\n<p>La balance Polar fournit un objectif d'activité quotidien personnalisé pour vous aider à atteindre votre poids idéal. Cet objectif, automatiquement mis à jour, s'affiche sur votre récepteur.</p>\r\n<p><strong>Design esthétique</strong></p>\r\n<p>a balance Polar a été conçue pour répondre à vos besoins quotidiens. L'écran large permet de lire facilement les chiffres. Avec son verre élégant résistant aux éclaboussures, elle s'adaptera parfaitement à votre intérieur et vous motivera pendant longtemps.</p>\r\n<p><strong>Utilisateurs multiples</strong></p>\r\n<p>La balance Polar prend soin de toute la famille. Elle peut être utilisée par 10 personnes maximum.</p>\r\n<p><strong>Courbe de poids</strong></p>\r\n<p>Suivez l'évolution de votre poids grâce au service Web et à l'application Polar Flow. Découvrez la courbe de votre poids au fil du temps et déterminez l'impact de vos habitudes et efforts quotidiens.</p>\r\n<p><strong>Indice de masse corporelle</strong></p>\r\n<p>Suivez l'évolution de votre indice de masse corporelle (IMC) grâce au service Web et à l'application Polar Flow. Découvrez votre progression et trouvez la motivation nécessaire à une gestion efficace de votre poids.</p>\r\n<p><strong>Synchronisation sans fil</strong></p>\r\n<p>La balance Polar se connecte sans fil à votre dispositif ou application mobile Polar avec Bluetooth Smart.</p>\r\n<p><strong>Caractéristiques techniques</strong></p>\r\n<p>Poids maximal : 180 kg<br /> Précision du poids affiché : 0,1 kg<br /> Température ambiante requise : de 0 °C à 45 °C</p>\r\n<p style=\"margin-top:10px;\"><strong>Connectivité</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Synchronisation sans fil facile via l'application Polar Flow avec Bluetooth® Smart</li>\r\n<li>Bluetooth® Smart</li>\r\n<li>Compatibilité du service Web Polar Flow avec Mac OS X 10.6 ou version ultérieure, et PC Windows XP, Windows 7 ou Windows 8</li>\r\n<li>Langues disponibles pour l'interface utilisateur Polar Flow : anglais, espagnol, portugais, français, danois, néerlandais, suédois, norvégien, allemand, italien, finnois, polonais, russe, chinois et japonais</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Moniteurs d'activité compatibles avec la balance Polar</strong></p>\r\n<ul style=\"margin-left:14px;\"><li><a class=\"btn btn-default\" href=\"http://medilec.ch/index.php?id_product=138&amp;controller=product\">Polar A360</a></li>\r\n<li><a class=\"btn btn-default\" href=\"http://medilec.ch/index.php?id_product=137&amp;controller=product\">Polar A300</a></li>\r\n<li>Polar Loop Crystal</li>\r\n<li>Polar Loop 2</li>\r\n<li>Polar Loop</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 111.327762,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 175,
+      "name": "Balances électroniques"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 175,
+        "name": "Balances électroniques"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 810,
+        "files": [
+          "assets/products/210__polar-balance-pese-personne/images/810-cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-standard_default .jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-tm_cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-tm_home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-tm_large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-tm_medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-tm_small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810-tm_thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/810.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 809,
+        "files": [
+          "assets/products/210__polar-balance-pese-personne/images/809-cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-standard_default .jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-tm_cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-tm_home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-tm_large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-tm_medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-tm_small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809-tm_thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/809.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 811,
+        "files": [
+          "assets/products/210__polar-balance-pese-personne/images/811-cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-standard_default .jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-tm_cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-tm_home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-tm_large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-tm_medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-tm_small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811-tm_thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/811.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 813,
+        "files": [
+          "assets/products/210__polar-balance-pese-personne/images/813-cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-standard_default .jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-tm_cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-tm_home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-tm_large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-tm_medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-tm_small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813-tm_thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/813.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 812,
+        "files": [
+          "assets/products/210__polar-balance-pese-personne/images/812-cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-standard_default .jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-tm_cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-tm_home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-tm_large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-tm_medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-tm_small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812-tm_thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/812.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 814,
+        "files": [
+          "assets/products/210__polar-balance-pese-personne/images/814-cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-standard_default .jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-tm_cart_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-tm_home_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-tm_large_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-tm_medium_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-tm_small_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814-tm_thickbox_default.jpg",
+          "assets/products/210__polar-balance-pese-personne/images/814.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 101,
+        "name": "Medilec-FR-Polar-Balance-Manuel",
+        "mime": "application/pdf",
+        "file": "9772a39bf468d21b8c151ad2d2879905fbe9ccd7"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      137,
+      138
+    ]
+  }
+}

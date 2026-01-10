@@ -13,7 +13,9 @@ const NotFoundPage = lazyNamed(() => import('../features/not-found/NotFoundPage.
 
 const AuthLoginPage = lazyNamed(() => import('../pages/AuthLogin.jsx'), 'AuthLoginPage')
 const AuthRegisterPage = lazyNamed(() => import('../pages/AuthRegister.jsx'), 'AuthRegisterPage')
-const CatalogPage = lazyNamed(() => import('../pages/Catalog.jsx'), 'CatalogPage')
+const CatalogPage = lazyNamed(() => import('../pages/CatalogPage.jsx'), 'CatalogPage')
+const ProductPage = lazyNamed(() => import('../pages/ProductPage.jsx'), 'ProductPage')
+// Compat: anciennes routes /product/:id(/:slug)
 const ProductDetailsPage = lazyNamed(() => import('../pages/ProductDetails.jsx'), 'ProductDetailsPage')
 const CartPage = lazyNamed(() => import('../pages/Cart.jsx'), 'CartPage')
 const MyOrdersPage = lazyNamed(() => import('../pages/MyOrders.jsx'), 'MyOrdersPage')
@@ -25,6 +27,7 @@ const AdminProductsPage = lazyNamed(() => import('../pages/admin/AdminProducts.j
 const AdminOrdersPage = lazyNamed(() => import('../pages/admin/AdminOrders.jsx'), 'AdminOrdersPage')
 const AdminOrderDetailsPage = lazyNamed(() => import('../pages/admin/AdminOrderDetails.jsx'), 'AdminOrderDetailsPage')
 const AdminCartsPage = lazyNamed(() => import('../pages/admin/AdminCarts.jsx'), 'AdminCartsPage')
+const AdminCartDetailsPage = lazyNamed(() => import('../pages/admin/AdminCartDetails.jsx'), 'AdminCartDetailsPage')
 
 export function AppRoutes() {
   return (
@@ -36,6 +39,7 @@ export function AppRoutes() {
 
           {/* MVP: pages publiques */}
           <Route path="catalog" element={<CatalogPage />} />
+          <Route path="p/:slug" element={<ProductPage />} />
           <Route path="product/:id/:slug" element={<ProductDetailsPage />} />
           <Route path="product/:id" element={<ProductDetailsPage />} />
           <Route path="cart" element={<CartPage />} />
@@ -54,6 +58,7 @@ export function AppRoutes() {
             <Route path="orders" element={<AdminOrdersPage />} />
             <Route path="orders/:id" element={<AdminOrderDetailsPage />} />
             <Route path="carts" element={<AdminCartsPage />} />
+            <Route path="carts/:kind/:id" element={<AdminCartDetailsPage />} />
           </Route>
         </Route>
 

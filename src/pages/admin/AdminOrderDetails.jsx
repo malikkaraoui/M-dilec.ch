@@ -1,5 +1,5 @@
 import { ref, serverTimestamp, update } from 'firebase/database'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
@@ -67,6 +67,25 @@ function normalizeItems(items) {
     .filter(Boolean)
 }
 
+function sumItemsQty(items) {
+  const raw = items && typeof items === 'object' ? items : null
+  if (!raw) return null
+
+  const values = Array.isArray(raw) ? raw : Object.values(raw)
+
+  let sum = 0
+  let any = false
+  for (const it of values) {
+    if (!it || typeof it !== 'object') continue
+    const qty = Number(it.qty)
+    if (!Number.isFinite(qty)) continue
+    sum += qty
+    any = true
+  }
+
+  return any ? sum : null
+}
+
 function sanitizeItem(it) {
   if (!it || typeof it !== 'object') return null
 
@@ -108,12 +127,58 @@ async function copyToClipboard(text) {
   }
 }
 
+function normalizePhoneForTel(value) {
+  return String(value || '').replace(/[^+0-9]/g, '')
+}
+
+function isSmallScreen() {
+  if (typeof window === 'undefined') return false
+  try {
+    return window.matchMedia('(max-width: 640px)').matches
+  } catch {
+    return window.innerWidth <= 640
+  }
+}
+
 export function AdminOrderDetailsPage() {
   const params = useParams()
   const orderId = typeof params.id === 'string' ? params.id : ''
   const navigate = useNavigate()
 
   const { status, data, error } = useRtdbValue(orderId ? `/orders/${orderId}` : null)
+
+  const historyKey = useMemo(() => {
+    const uid = typeof data?.user?.uid === 'string' ? data.user.uid : ''
+    const email = typeof data?.user?.email === 'string' ? data.user.email : ''
+    return uid ? `uid:${uid}` : email ? `email:${email}` : ''
+  }, [data])
+
+  const { status: allOrdersStatus, data: allOrdersData } = useRtdbValue(historyKey ? '/orders' : null)
+
+  const history = useMemo(() => {
+    if (!historyKey) return []
+    const raw = allOrdersData && typeof allOrdersData === 'object' ? allOrdersData : null
+    if (!raw) return []
+
+    const [mode, value] = historyKey.split(':')
+    const list = Object.entries(raw)
+      .map(([id, o]) => {
+        const createdAt = typeof o?.createdAt === 'number' ? o.createdAt : null
+        const uid = typeof o?.user?.uid === 'string' ? o.user.uid : ''
+        const email = typeof o?.user?.email === 'string' ? o.user.email : ''
+        const status = typeof o?.status === 'string' ? o.status : ''
+        const itemCount = sumItemsQty(o?.items)
+        return { id, createdAt, uid, email, status, itemCount }
+      })
+      .filter((o) => {
+        if (mode === 'uid') return o.uid && o.uid === value
+        if (mode === 'email') return o.email && o.email === value
+        return false
+      })
+      .sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0))
+
+    return list
+  }, [allOrdersData, historyKey])
 
   const items = useMemo(() => {
     return normalizeItems(data?.items)
@@ -125,8 +190,18 @@ export function AdminOrderDetailsPage() {
 
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
+  const [deleting, setDeleting] = useState(false)
+  const [deleteError, setDeleteError] = useState('')
+  const [copiedKey, setCopiedKey] = useState('')
+  const copiedTimeoutRef = useRef(null)
   const [adminNote, setAdminNote] = useState('')
   const [statusValue, setStatusValue] = useState('new')
+
+  useEffect(() => {
+    return () => {
+      if (copiedTimeoutRef.current) clearTimeout(copiedTimeoutRef.current)
+    }
+  }, [])
 
   // sync soft quand la data arrive
   useEffect(() => {
@@ -167,6 +242,52 @@ export function AdminOrderDetailsPage() {
       setSaveError(err?.message || 'Enregistrement impossible.')
     } finally {
       setSaving(false)
+    }
+  }
+
+  async function onDeleteOrder() {
+    setDeleteError('')
+
+    if (!orderId) return
+
+    if (!rtdb) {
+      setDeleteError('Realtime Database non configurée. Vérifiez VITE_FIREBASE_DATABASE_URL dans `.env.local`.')
+      return
+    }
+
+    if (typeof window !== 'undefined') {
+      const ok = window.confirm(
+        `Supprimer définitivement cette commande ?\n\nRéférence: ${orderId}\n\nCette action est irréversible.`,
+      )
+      if (!ok) return
+    }
+
+    const uid = typeof data?.user?.uid === 'string' ? data.user.uid : ''
+
+    try {
+      setDeleting(true)
+
+      // Suppression ciblée (plus fiable avec les règles en prod que le multi-path update à la racine).
+      await update(ref(rtdb, 'orders'), {
+        [orderId]: null,
+      })
+
+      // Nettoyage best-effort: lien "Mes commandes" côté utilisateur
+      if (uid) {
+        try {
+          await update(ref(rtdb, `userOrders/${uid}`), {
+            [orderId]: null,
+          })
+        } catch {
+          // fail-soft: la suppression de la commande est prioritaire
+        }
+      }
+
+      navigate('/admin/orders')
+    } catch (err) {
+      setDeleteError(err?.message || 'Suppression impossible.')
+    } finally {
+      setDeleting(false)
     }
   }
 
@@ -224,14 +345,29 @@ export function AdminOrderDetailsPage() {
     setAddItemQty('1')
   }
 
-  async function onCopy(value) {
+  async function onCopy(key, value) {
     if (typeof window === 'undefined') return
     if (!value) return
     const ok = await copyToClipboard(value)
     if (!ok) {
       // fail-soft
       window.prompt('Copiez:', String(value))
+      return
     }
+
+    setCopiedKey(key)
+    if (copiedTimeoutRef.current) clearTimeout(copiedTimeoutRef.current)
+    copiedTimeoutRef.current = setTimeout(() => setCopiedKey(''), 1200)
+  }
+
+  async function onPhoneClick(phone) {
+    const raw = String(phone || '').trim()
+    if (!raw) return
+    if (isSmallScreen() && typeof window !== 'undefined') {
+      window.location.href = `tel:${normalizePhoneForTel(raw)}`
+      return
+    }
+    await onCopy('phone', raw)
   }
 
   function onOpenProduct(productId) {
@@ -279,8 +415,29 @@ export function AdminOrderDetailsPage() {
             <div className="rounded-2xl border border-neutral-200 bg-white p-4">
               <div className="text-sm font-semibold text-neutral-900">Client</div>
               <div className="mt-2 text-sm text-neutral-800">
-                <div>{data?.user?.email || '—'}</div>
-                <div className="text-neutral-600">{data?.user?.phone || '—'}</div>
+                <div>
+                  {data?.user?.email ? (
+                    <a className="text-blue-700 hover:underline" href={`mailto:${data.user.email}`}>
+                      {data.user.email}
+                    </a>
+                  ) : (
+                    '—'
+                  )}
+                </div>
+                <div className="text-neutral-600">
+                  {data?.user?.phone ? (
+                    <button
+                      type="button"
+                      className="text-left hover:underline"
+                      onClick={() => onPhoneClick(data.user.phone)}
+                      title={isSmallScreen() ? 'Appeler' : 'Copier'}
+                    >
+                      {data.user.phone}
+                    </button>
+                  ) : (
+                    '—'
+                  )}
+                </div>
               </div>
 
 
@@ -290,26 +447,26 @@ export function AdminOrderDetailsPage() {
                 <button
                   type="button"
                   className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-800 hover:bg-neutral-50"
-                  onClick={() => onCopy(data?.user?.email)}
+                  onClick={() => onCopy('email', data?.user?.email)}
                   disabled={!data?.user?.email}
                 >
-                  Copier email
+                  {copiedKey === 'email' ? 'Copié !' : 'Copier email'}
                 </button>
                 <button
                   type="button"
                   className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-800 hover:bg-neutral-50"
-                  onClick={() => onCopy(data?.user?.phone)}
+                  onClick={() => onCopy('phone', data?.user?.phone)}
                   disabled={!data?.user?.phone}
                 >
-                  Copier tél.
+                  {copiedKey === 'phone' ? 'Copié !' : 'Copier tél.'}
                 </button>
                 <button
                   type="button"
                   className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-800 hover:bg-neutral-50"
-                  onClick={() => onCopy(data?.user?.uid)}
+                  onClick={() => onCopy('uid', data?.user?.uid)}
                   disabled={!data?.user?.uid}
                 >
-                  Copier UID
+                  {copiedKey === 'uid' ? 'Copié !' : 'Copier UID'}
                 </button>
               </div>
             </div>
@@ -417,6 +574,68 @@ export function AdminOrderDetailsPage() {
                 <div className="mt-2 whitespace-pre-wrap text-sm text-neutral-700">{data.note}</div>
               </div>
             ) : null}
+
+            <div className="rounded-2xl border border-neutral-200 bg-white p-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="text-sm font-semibold text-neutral-900">Historique client</div>
+                <div className="text-xs text-neutral-500">Tous statuts</div>
+              </div>
+
+              {!historyKey ? (
+                <div className="mt-2 text-sm text-neutral-600">
+                  UID/email manquant sur cette commande: historique indisponible.
+                </div>
+              ) : null}
+
+              {historyKey && allOrdersStatus === 'loading' ? (
+                <div className="mt-2 text-sm text-neutral-600">Chargement de l’historique…</div>
+              ) : null}
+
+              {historyKey && allOrdersStatus === 'success' && history.length === 0 ? (
+                <div className="mt-2 text-sm text-neutral-600">Aucune autre commande trouvée.</div>
+              ) : null}
+
+              {historyKey && history.length > 0 ? (
+                <div className="mt-3 overflow-hidden rounded-xl border border-neutral-200">
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full text-left text-sm">
+                      <thead className="border-b border-neutral-200 bg-neutral-50 text-xs uppercase tracking-wide text-neutral-500">
+                        <tr>
+                          <th className="px-3 py-2">Référence</th>
+                          <th className="px-3 py-2">Créée le</th>
+                          <th className="px-3 py-2">Articles</th>
+                          <th className="px-3 py-2">Statut</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-neutral-200">
+                        {history.slice(0, 50).map((h) => (
+                          <tr key={h.id} className={h.id === orderId ? 'bg-neutral-50' : undefined}>
+                            <td className="px-3 py-2">
+                              <Link
+                                className="font-mono text-xs text-blue-700 hover:underline"
+                                to={`/admin/orders/${h.id}`}
+                              >
+                                {h.id}
+                              </Link>
+                              {h.id === orderId ? (
+                                <span className="ml-2 rounded-full bg-neutral-200 px-2 py-0.5 text-[10px] text-neutral-700">
+                                  Actuelle
+                                </span>
+                              ) : null}
+                            </td>
+                            <td className="px-3 py-2 text-neutral-700">{formatDate(h.createdAt)}</td>
+                            <td className="px-3 py-2 text-neutral-700">
+                              {typeof h.itemCount === 'number' ? h.itemCount : '—'}
+                            </td>
+                            <td className="px-3 py-2 text-neutral-700">{formatStatus(h.status)}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ) : null}
+            </div>
           </div>
 
           <aside className="rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm">
@@ -463,15 +682,36 @@ export function AdminOrderDetailsPage() {
                 </div>
               ) : null}
 
+              {deleteError ? (
+                <div className="rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+                  {deleteError}
+                </div>
+              ) : null}
+
               <button
                 className="mt-2 w-full rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
                 style={{ backgroundColor: 'var(--medilec-accent)' }}
-                disabled={saving}
+                disabled={saving || deleting}
                 onClick={onSave}
                 type="button"
               >
                 {saving ? 'Enregistrement…' : 'Enregistrer'}
               </button>
+
+              <div className="mt-3 border-t border-neutral-200 pt-3">
+                <div className="text-xs font-semibold text-neutral-700">Zone dangereuse</div>
+                <button
+                  className="mt-2 w-full rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm font-medium text-red-800 hover:bg-red-100 disabled:opacity-60"
+                  disabled={saving || deleting}
+                  onClick={onDeleteOrder}
+                  type="button"
+                >
+                  {deleting ? 'Suppression…' : 'Supprimer la commande'}
+                </button>
+                <div className="mt-1 text-xs text-neutral-500">
+                  Supprime la commande et nettoie le lien côté utilisateur.
+                </div>
+              </div>
             </div>
           </aside>
         </div>

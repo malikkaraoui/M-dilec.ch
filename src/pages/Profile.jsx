@@ -1,5 +1,5 @@
 import { ref, serverTimestamp, update } from 'firebase/database'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import { useAuth } from '../hooks/useAuth.js'
@@ -8,8 +8,9 @@ import { PhoneInput } from '../components/PhoneInput.jsx'
 import { ShippingAddressForm } from '../components/ShippingAddressForm.jsx'
 import { signOutUser } from '../lib/auth.js'
 import { rtdb } from '../lib/db.js'
-import { composePhone, looksLikePhone, parsePhoneParts } from '../lib/phone.js'
+import { composePhone, dialCodeForCountry, looksLikePhone, parsePhoneParts } from '../lib/phone.js'
 import { isShippingAddressComplete } from '../lib/shippingAddress.js'
+import { normalizeCountryCode } from '../lib/countries.js'
 
 function normalizeText(value) {
   return String(value || '').trim().replace(/\s+/g, ' ')
@@ -23,7 +24,7 @@ function normalizeAddress(value) {
     streetNo: String(a.streetNo || '').trim(),
     postalCode: String(a.postalCode || '').trim(),
     city: String(a.city || '').trim(),
-    country: String(a.country || 'CH').trim() || 'CH',
+    country: normalizeCountryCode(String(a.country || 'CH').trim() || 'CH'),
   }
 }
 
@@ -50,6 +51,7 @@ export function ProfilePage() {
   const [saveIdentityOk, setSaveIdentityOk] = useState(false)
 
   const [phoneParts, setPhoneParts] = useState(() => ({ dialCode: '+41', national: '' }))
+  const lastAutoDialRef = useRef('+41')
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
   const [saveOk, setSaveOk] = useState(false)
@@ -77,7 +79,34 @@ export function ProfilePage() {
 
   useEffect(() => {
     setShippingAddress(initialAddress)
+    // Initialise la référence "auto" sur le pays de l'adresse (sans forcer le téléphone).
+    lastAutoDialRef.current = dialCodeForCountry(initialAddress?.country || 'CH')
   }, [initialAddress])
+
+  // Liaison Pays (adresse) -> indicatif (téléphone)
+  useEffect(() => {
+    const country = normalizeCountryCode(shippingAddress?.country || 'CH')
+    const nextAuto = dialCodeForCountry(country)
+
+    // On auto-change uniquement si:
+    // - le numéro n'a pas encore été saisi (national vide), OU
+    // - l'indicatif actuel est celui qu'on avait auto-appliqué précédemment
+    //   (donc l'utilisateur ne l'a pas explicitement "décorrélé").
+    const national = String(phoneParts?.national || '').trim()
+    const dial = String(phoneParts?.dialCode || '').trim() || '+41'
+
+    const shouldAuto = !national || dial === lastAutoDialRef.current
+    if (shouldAuto && dial !== nextAuto) {
+      setPhoneParts((prev) => ({
+        dialCode: nextAuto,
+        national: String(prev?.national || ''),
+      }))
+    }
+
+    // On met à jour la référence même si on n'a pas auto-changé:
+    // si l'utilisateur aligne manuellement l'indicatif sur le pays, l'auto redeviendra naturelle.
+    lastAutoDialRef.current = nextAuto
+  }, [phoneParts.dialCode, phoneParts.national, shippingAddress?.country])
 
   async function onSavePhone(e) {
     e.preventDefault()

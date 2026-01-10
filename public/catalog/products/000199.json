@@ -1,0 +1,255 @@
+{
+  "id": 199,
+  "slug": "ecg-beurer-me-90-mobile",
+  "active": true,
+  "reference": "12.0434",
+  "name": "ECG Beurer ME 90 mobile",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L’ECG <strong>Beurer ME 90</strong> sert à déterminer le rythme cardiaque, à la maison ou en déplacement. L’appareil vous informe sur votre pouls moyen et vous indique tout écart éventuel par rapport à un ECG normal. Pour une interprétation précise et une présentation détaillée des données de mesure fournies, il est possible de connecter l’appareil à un PC via la prise USB intégrée.</p>",
+    "long_html": "<p><strong></strong>L’ECG <strong>Beurer ME 90</strong> sert à déterminer le rythme cardiaque, à la maison ou en déplacement. L’appareil vous informe sur votre pouls moyen et vous indique tout écart éventuel par rapport à un ECG normal. Pour une interprétation précise et une présentation détaillée des données de mesure fournies, il est possible de connecter l’appareil à un PC via la prise USB intégrée. Grâce au logiciel Beurer CardioExpert fourni avec l’appareil, il est possible de faire apparaître les résultats de l’enregistrement sous forme graphique et de les imprimer afin de les remettre à votre médecin. Vous avez également la possibilité de transférer les mesures enregistrées via Bluetooth© Smart sur votre smartphone.</p>\r\n<p style=\"margin-top:10px;\">Les plus du produit :</p>\r\n<ul style=\"margin-left:14px;\"><li>Appareil ECG mobile à 1 canal pour l'enregistrement du rythme cardiaque.</li>\r\n<li>Contrôle optimal du rythme cardiaque via l'application et le logiciel.</li>\r\n<li>Particulièrement adapté aux personnes présentant un risque aggravé de santé dû à :\r\n<ul style=\"margin-left:24px;\"><li>hypertension, hypercholestérolémie, cas de diabète, antécédents familiaux;</li>\r\n<li>surpoids, manque d'activité physique, forte consommation de tabac, états de stress, troubles du sommeil;</li>\r\n<li>antécédents personnels d'infarctus du myocarde et/ou d'accident vasculaire cérébral.</li>\r\n</ul></li>\r\n<li>Commande à un seul bouton/facile d'utilisation.</li>\r\n<li>Petit et pratique.</li>\r\n<li>Écran LCD facile à lire.</li>\r\n<li>Durée d'enregistrement : 30 secondes.</li>\r\n<li>Enregistrement sur : poitrine-bras-main ou main-bras-torse-bras-main.</li>\r\n<li>Information immédiate sur le rythme cardiaque au terme de l'enregistrement.</li>\r\n<li>Dépiste les arythmies et modifie les formes d'ondes modifiées.</li>\r\n<li>36 emplacements de sauvegarde.</li>\r\n<li>Interface USB et câble USB.</li>\r\n<li>Configuration requise : Bluetooth 4.0, iOS à partir de la version 7.0, appareils Android à partir de la version 4.3 avec Bluetooth Smart Ready.</li>\r\n<li>Indicateur du niveau de batterie.</li>\r\n<li>Arrêt automatique.</li>\r\n<li>Date et heure.</li>\r\n<li>Produit médical.</li>\r\n<li>2 pile CR2032 incluse</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 231.197772,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 38,
+    "name": "BEURER France SAS"
+  },
+  "categories": [
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 100,
+      "name": "De poche"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    },
+    {
+      "id": 81,
+      "name": "Sur Windows"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 100,
+        "name": "De poche"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 81,
+        "name": "Sur Windows"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 760,
+        "files": [
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-standard_default .jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-tm_cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-tm_home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-tm_large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-tm_medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-tm_small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760-tm_thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/760.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 761,
+        "files": [
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-standard_default .jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-tm_cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-tm_home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-tm_large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-tm_medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-tm_small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761-tm_thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/761.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 762,
+        "files": [
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-standard_default .jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-tm_cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-tm_home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-tm_large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-tm_medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-tm_small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762-tm_thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/762.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 763,
+        "files": [
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-standard_default .jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-tm_cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-tm_home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-tm_large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-tm_medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-tm_small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763-tm_thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/763.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 764,
+        "files": [
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-standard_default .jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-tm_cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-tm_home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-tm_large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-tm_medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-tm_small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764-tm_thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/764.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 765,
+        "files": [
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-standard_default .jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-tm_cart_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-tm_home_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-tm_large_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-tm_medium_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-tm_small_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765-tm_thickbox_default.jpg",
+          "assets/products/199__ecg-beurer-me-90-mobile/images/765.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 95,
+        "name": "Medilec-FR-Beurer-ME-90",
+        "mime": "application/pdf",
+        "file": "0fca519575e5db3c434c9d84cd6c27dc53003ae1"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

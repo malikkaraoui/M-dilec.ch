@@ -1,0 +1,203 @@
+{
+  "id": 248,
+  "slug": "defibrillateur-schiller-argus-pro-lifecare-2",
+  "active": false,
+  "reference": "8.0111",
+  "name": "Défibrillateur Schiller Argus Pro LifeCare 2",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le modèle <strong>ARGUS PRO LifeCare 2</strong> est un appareil compact avec défibrillateur, moniteur pour patients, stimulateur cardiaque et ECG : soins d'urgence, transfert patient intra- ou inter-hospitalier, ARGUS PRO LifeCare 2 vous garantit une assistance sans faille. Toute cette puissance est concentrée dans un design compact unique de 4.4 kg.</p>",
+    "long_html": "<p>Le modèle <strong>ARGUS PRO LifeCare 2</strong> est un appareil compact avec défibrillateur, moniteur pour patients, stimulateur cardiaque et ECG : soins d'urgence, transfert patient intra- ou inter-hospitalier, ARGUS PRO LifeCare 2 vous garantit une assistance sans faille. Toute cette puissance est concentrée dans un design compact unique de 4.4 kg.</p>\r\n<p>Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>ECG diagnostic complet (I, II, III, aVR, aVL, aVF, V1-V6)</li>\r\n<li>PNI</li>\r\n<li>SpO2 par pléthysmographie et indice de perfusion</li>\r\n<li>etCO2 par capnogramme</li>\r\n<li>2 températures</li>\r\n<li>4 tensions artérielles invasive (2 sur 4 en préparation)</li>\r\n<li>Défibrillateur avec mode DEA et mode manuel</li>\r\n<li>Stimulateur cardiaque par voie transcutanée</li>\r\n<li>Imprimante thermique à 6 pistes intégrée</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 13760.445682,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 153,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 153,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1068,
+        "files": [
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-standard_default .jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-tm_cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-tm_home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-tm_large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-tm_medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-tm_small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-tm_thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1069,
+        "files": [
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-standard_default .jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-tm_cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-tm_home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-tm_large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-tm_medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-tm_small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069-tm_thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1069.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1070,
+        "files": [
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-standard_default .jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-tm_cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-tm_home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-tm_large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-tm_medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-tm_small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070-tm_thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1070.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1071,
+        "files": [
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-standard_default .jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-tm_cart_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-tm_home_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-tm_large_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-tm_medium_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-tm_small_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071-tm_thickbox_default.jpg",
+          "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1071.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 130,
+        "name": "Medilec-FR-Schiller-ArgusPro2",
+        "mime": "application/pdf",
+        "file": "612c94fbbf0c5b9b66e34817ea11ae0fe1fd8e1c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

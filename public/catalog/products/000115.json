@@ -1,0 +1,173 @@
+{
+  "id": 115,
+  "slug": "skintact-ecg-spray-pour-les-electrodes",
+  "active": true,
+  "reference": "6.0039",
+  "name": "SKINTACT ECG spray pour les électrodes",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Spray électroconducteur à haute conductivité et à usage externe. Le <strong>ECG SPRAY SKINTACT</strong> assure une conductivité optimal des signaux électriques. Il nettoie et dégraisse la peau. Il ne tâche pas et ne laisse aucun dépôt sur les électrodes.</p>\r\n<p>En flacon de 230 ml de Spray.</p>",
+    "long_html": "<p>Spray électroconducteur à haute conductivité et à usage externe. Le <strong>ECG SPRAY SKINTACT</strong> assure une conductivité optimal des signaux électriques. Il nettoie et dégraisse la peau. Il ne tâche pas et ne laisse aucun dépôt sur les électrodes.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Conducteur en Spray pour ECG, EEC et EMG.</li>\r\n<li>Permets recyclage de l'électrode sans nettoyage régulièrement.</li>\r\n<li>Changement hygiénique entre patient.</li>\r\n<li>Nettoie et dégraisse l'électrode.</li>\r\n<li>Augmente la durée du service de l'électrode.</li>\r\n</ul><p>En flacon de 230 ml de Spray.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 14.763231,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 29,
+    "name": "Leonhard Lang GmbH"
+  },
+  "categories": [
+    {
+      "id": 115,
+      "name": "ECG autre"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 115,
+        "name": "ECG autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 301,
+        "files": [
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-cart_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-home_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-large_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-medium_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-small_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-thickbox_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-tm_cart_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-tm_home_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-tm_large_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-tm_medium_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-tm_small_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-tm_thickbox_default.jpg",
+          "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

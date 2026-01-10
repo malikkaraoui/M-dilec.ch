@@ -1,0 +1,149 @@
+{
+  "id": 233,
+  "slug": "stethoscope-double-pavillon-cardiologie-bososcope-cardio",
+  "active": true,
+  "reference": "",
+  "name": "Stéthoscope double pavillon cardiologie Bososcope Cardio",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><span id=\"product-description-no-js_420807\" class=\"product-description-no-js\">Le <strong>Bososcope cardio</strong> est un stéthoscope double pavillon de cardiologie et possède un pavillon en acier inoxydable. La membrane et l'entonnoir sont munis d'anneaux de protection contre le froid, passe l'écoute aussi agréable que possible. Les embouts assurent un confort optimal et garantit une très bonne acoustique.</span></p>",
+    "long_html": "<p><span id=\"product-description-no-js_420807\" class=\"product-description-no-js\">Le <strong>Bososcope cardio</strong> est un stéthoscope double pavillon de cardiologie et possède un pavillon en acier inoxydable. La membrane et l'entonnoir sont munis d'anneaux de protection contre le froid, passe l'écoute aussi agréable que possible. Les embouts assurent un confort optimal et garantit une très bonne acoustique.</span></p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Stéthoscope double pavillon de cardiologie</li>\r\n<li>Confortables avec embouts</li>\r\n<li>Pavillon en acier inoxydable de qualité</li>\r\n<li>Avec une acoustique très bonne</li>\r\n<li>Bague anti-froid pour membrane et entonnoir</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 119.777159,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 182,
+      "name": "Stéthoscopes"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 182,
+        "name": "Stéthoscopes"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1002,
+        "files": [
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-cart_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-home_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-large_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-medium_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-small_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-standard_default .jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-thickbox_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-tm_cart_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-tm_home_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-tm_large_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-tm_medium_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-tm_small_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-tm_thickbox_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1003,
+        "files": [
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-cart_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-home_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-large_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-medium_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-small_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-standard_default .jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-thickbox_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-tm_cart_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-tm_home_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-tm_large_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-tm_medium_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-tm_small_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003-tm_thickbox_default.jpg",
+          "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1003.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 116,
+        "name": "Medilec-EN-DE-Boso-Instruments",
+        "mime": "application/pdf",
+        "file": "6e5962feb1135a700d1f1efc39b69bdbc9c50889"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

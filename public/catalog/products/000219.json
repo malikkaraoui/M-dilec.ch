@@ -1,0 +1,149 @@
+{
+  "id": 219,
+  "slug": "inogen-one-g3-concentrateur-d-oxygene-portable",
+  "active": true,
+  "reference": "IS-300",
+  "name": "Inogen One G3 concentrateur d'oxygène portable",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Concentrateur d'oxygène portable <strong>Inogen One G3</strong>. Il a 5 positions de débit d'oxygène et est incroyablement petit et léger. Il est économe en énergie et facile à utiliser.</p>",
+    "long_html": "<p>Concentrateur d'oxygène portable <strong>Inogen One G3</strong>. Il a 5 positions de débit d'oxygène et est incroyablement petit et léger. Il est économe en énergie et facile à utiliser.</p>\r\n<p><strong>Petit et léger</strong></p>\r\n<p>Vous aurez du mal à en croire vos yeux : pour un poids de 2,2 kg, petite batterie comprise, l’Inogen One G3 ne mesure que 27 cm de long et 24 cm de haut. C’est le plus petit et le plus léger concentrateur d’oxygène de sa catégorie. Ne laissez pas l’oxygénothérapie vous empêcher de quitter votre domicile ! Avec le G3, allez où bon vous semble. Emportez le concentrateur dans la sacoche de transport fournie ou dans le sac à dos en option.</p>\r\n<p><strong>Options d’alimentation</strong></p>\r\n<p>Batteries ion-lithium rechargeables simples et doubles. La batterie alimente l’Inogen One® G3 sans que vous ayez à le brancher sur un circuit d’alimentation externe. Chargée à fond, une batterie simple permet jusqu'à 4.5 heures d’utilisation ; tandis qu'une batterie double permet jusqu'à 9 heures d’utilisation. La batterie se recharge lorsqu’elle est correctement installée dans l’Inogen One® G3 et que le concentrateur est branché sur l’alimentation c.a ou c.c. Le temps de recharge est de 4 heures au maximum pour une batterie simple et de 8 heures maximum pour une batterie double. Reportez-vous à la section « Entretien et maintenance de la batterie ».</p>\r\n<p></p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Dimension : 22 x 8 x 18 cm (LxLxH)</li>\r\n<li>Poids : 2.2 kg (inclusif petite batterie)</li>\r\n<li>Poids : 2.6 kg (inclusif grande batterie)</li>\r\n<li>Debit d'oxygene : 5 positions</li>\r\n<li>Bruit : 39 Décibels</li>\r\n<li>Tension électrique : 100-240 V, 50-60 Hz (Auto Sensing technologie pour utilisation dans le monde entier)</li>\r\n<li>Alimentation DC : DC câble</li>\r\n<li>Batterie : 8 cellules (jusqu'à 4,5 heures d'autonomie)</li>\r\n<li>Batterie : 16 cellules (jusqu'à 9 heures d'autonomie)</li>\r\n<li>Utilisation : À la maison ou en promenade</li>\r\n<li>Garantie concentrateur : 3 ans</li>\r\n<li>Garantie lits de tamis : 1 ans</li>\r\n</ul><p></p>\r\n<p style=\"margin-top:10px;\"><strong>Livré avec</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>1 sac bandoulière</li>\r\n<li>1 chargeur</li>\r\n<li>1 prise allume cigare</li>\r\n<li>1 manuel utilisateur</li>\r\n<li>1 bloc et cordon d'alimentation</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2970.287837,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 40,
+    "name": "Inogen"
+  },
+  "categories": [
+    {
+      "id": 176,
+      "name": "Concentrateur d’oxygène"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 176,
+        "name": "Concentrateur d’oxygène"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 924,
+        "files": [
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-cart_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-home_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-large_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-medium_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-small_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-standard_default .jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-thickbox_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-tm_cart_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-tm_home_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-tm_large_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-tm_medium_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-tm_small_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-tm_thickbox_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 925,
+        "files": [
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-cart_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-home_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-large_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-medium_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-small_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-standard_default .jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-thickbox_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-tm_cart_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-tm_home_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-tm_large_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-tm_medium_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-tm_small_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925-tm_thickbox_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/925.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 926,
+        "files": [
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-cart_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-home_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-large_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-medium_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-small_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-standard_default .jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-thickbox_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-tm_cart_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-tm_home_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-tm_large_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-tm_medium_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-tm_small_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926-tm_thickbox_default.jpg",
+          "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/926.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 112,
+        "name": "Medilec-FR-Inogen-One-G3",
+        "mime": "application/pdf",
+        "file": "bd2ab28b59ff5987c95994b50b46dfdf240cdb15"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      220,
+      221,
+      222,
+      223,
+      224
+    ]
+  }
+}

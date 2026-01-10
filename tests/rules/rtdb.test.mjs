@@ -240,6 +240,56 @@ describe('Realtime Database rules (orders + admin fields)', () => {
 
     await assertFails(get(dbRef(db, `orders/${orderId}`)))
   })
+
+  it('admin can delete an order and cleanup /userOrders link', async () => {
+    const uid = 'user_delete_1'
+    const orderId = 'order_delete_1'
+
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      const db = ctx.database()
+      await set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid }))
+      await set(dbRef(db, `userOrders/${uid}/${orderId}`), true)
+    })
+
+    const adminCtx = testEnv.authenticatedContext('admin_delete_1', { role: 'admin' })
+    const db = adminCtx.database()
+
+    await assertSucceeds(
+      update(dbRef(db), {
+        [`orders/${orderId}`]: null,
+        [`userOrders/${uid}/${orderId}`]: null,
+      }),
+    )
+
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      const db2 = ctx.database()
+      const orderSnap = await get(dbRef(db2, `orders/${orderId}`))
+      const linkSnap = await get(dbRef(db2, `userOrders/${uid}/${orderId}`))
+      if (orderSnap.exists()) throw new Error('Order should have been deleted')
+      if (linkSnap.exists()) throw new Error('userOrders link should have been deleted')
+    })
+  })
+
+  it('user cannot delete an existing order (even owner)', async () => {
+    const uid = 'user_delete_2'
+    const orderId = 'order_delete_2'
+
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      const db = ctx.database()
+      await set(dbRef(db, `orders/${orderId}`), makeOrder({ id: orderId, uid }))
+      await set(dbRef(db, `userOrders/${uid}/${orderId}`), true)
+    })
+
+    const userCtx = testEnv.authenticatedContext(uid)
+    const db = userCtx.database()
+
+    await assertFails(
+      update(dbRef(db), {
+        [`orders/${orderId}`]: null,
+        [`userOrders/${uid}/${orderId}`]: null,
+      }),
+    )
+  })
 })
 
 describe('Realtime Database rules (products slug)', () => {

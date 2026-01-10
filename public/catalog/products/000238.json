@@ -1,0 +1,171 @@
+{
+  "id": 238,
+  "slug": "thermometre-avec-sonde-rigide-bosotherm-primus",
+  "active": false,
+  "reference": "",
+  "name": "Thermomètre avec sonde rigide Bosotherm Primus",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Bosotherm Basic</strong> est le thermomètre pour la mesure de la température corporelle. Mesures orales, rectales et axillaires possibles. Affichage en continu de la température jusqu'à établissement de la mesure définitive. Eteignez l'appareil après chaque utilisation pour augmenter la durée de vie de la pile.</p>",
+    "long_html": "<p><strong>Bosotherm Primus</strong> est le thermomètre pour la mesure de la température corporelle.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Pour mesurer la fièvre précisément</li>\r\n<li>Mémoire de la dernière mesure</li>\r\n<li>Certification : Distributeur DM</li>\r\n<li>Dispositif médical : Classe IIa</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4.642526,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1014,
+        "files": [
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-cart_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-home_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-large_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-medium_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-small_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-standard_default .jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-thickbox_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-tm_cart_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-tm_home_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-tm_large_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-tm_medium_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-tm_small_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-tm_thickbox_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1015,
+        "files": [
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-cart_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-home_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-large_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-medium_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-small_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-standard_default .jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-thickbox_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-tm_cart_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-tm_home_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-tm_large_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-tm_medium_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-tm_small_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015-tm_thickbox_default.jpg",
+          "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1015.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 121,
+        "name": "Medilec-Bosotherm-Primus",
+        "mime": "application/pdf",
+        "file": "5dc10efb0ad4008bc793a534716791b9978dfc4a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

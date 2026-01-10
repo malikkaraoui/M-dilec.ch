@@ -1,0 +1,129 @@
+{
+  "id": 204,
+  "slug": "tabouret-pivotant-comfort",
+  "active": true,
+  "reference": "21.0092",
+  "name": "Tabouret pivotant comfort",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Tabouret médical à hauteur variable sur roulettes comfort.</p>\r\n<p>Siège rembourré. Pied à 5 branches en aluminium poli, avec roulettes doubles pour sols lisses, avec frein de sécurité. Réglable en hauteur par pompe à gaz. Commande à main. Charge maximale d‘utilisation : 135 kg.</p>",
+    "long_html": "<p>Tabouret médical à hauteur variable sur roulettes comfort.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques tabouret pivotant</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Siège rembourré.</li>\r\n<li>Pied à 5 branches en aluminium poli, avec roulettes doubles pour sols lisses, avec frein de sécurité.</li>\r\n<li>Réglable en hauteur par pompe à gaz ANATOMIC-LIFT.</li>\r\n<li>Commande à main.</li>\r\n<li>Charge maximale d‘utilisation : 135 kg.</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Sur demande</strong></p>\r\n<p>Roulettes doubles pour sols recouverts de moquette.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 370.473538,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 39,
+    "name": "Schmitz u. Söhne"
+  },
+  "categories": [
+    {
+      "id": 169,
+      "name": "Mobilier"
+    },
+    {
+      "id": 172,
+      "name": "Tabourets"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      },
+      {
+        "id": 172,
+        "name": "Tabourets"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 791,
+        "files": [
+          "assets/products/204__tabouret-pivotant-comfort/images/791-cart_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-home_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-large_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-medium_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-small_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-standard_default .jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-thickbox_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-tm_cart_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-tm_home_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-tm_large_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-tm_medium_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-tm_small_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791-tm_thickbox_default.jpg",
+          "assets/products/204__tabouret-pivotant-comfort/images/791.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 99,
+        "name": "Medilec-FR-Schmitz-Mobilier",
+        "mime": "application/pdf",
+        "file": "b0f53a49a8bd13d294a5e901df616baa6d208f24"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

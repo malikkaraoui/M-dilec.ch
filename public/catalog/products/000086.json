@@ -1,0 +1,144 @@
+{
+  "id": 86,
+  "slug": "defibrillateur-schiller-fred-easy-semi-automatique",
+  "active": false,
+  "reference": "8.0062",
+  "name": "Défibrillateur Schiller FRED Easy semi-automatique",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le défibrillateur automatique externe <strong>FRED easy</strong> est le meilleur outil de sauvetage pour tous les services d’urgence : services de secours, ambulances, pompiers… Il est léger, robuste, simple d’utilisation et donc adapté à toutes les situations.</p>",
+    "long_html": "<p>Le défibrillateur automatique externe <strong>FRED easy</strong> est le meilleur outil de sauvetage pour tous les services d’urgence : services de secours, ambulances, pompiers… Il est léger, robuste, simple d’utilisation et donc adapté à toutes les situations.</p>\r\n<p>Le FRED easy se décline en plusieurs versions et options afin de répondre à tous les besoins du secouriste :</p>\r\n<ul style=\"margin-left:14px;\"><li>Version semi- ou entièrement automatique</li>\r\n<li>Métronome : cette option fournit le rythme approprié pour les compressions thoraciques</li>\r\n<li>Reprise en mode manuel : les médecins peuvent désactiver le mode automatique et décider s’ils souhaitent la défibrillation ou non</li>\r\n<li>Écran LCD, 100 mm x 37 mm, haute définition, rétro éclairé avec affichage du texte (affichage ECG proposé en option)</li>\r\n<li>Pile Li-MnO2 ou batterie rechargeable NiCd</li>\r\n<li>Pochette de protection et transport en nylon</li>\r\n<li>Dimensions : H 7 x L 23 x P 22 cm</li>\r\n<li>Poids : 1,5 kg avec pile</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2153.203343,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 236,
+        "files": [
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-cart_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-home_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-large_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-medium_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-small_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-thickbox_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-tm_cart_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-tm_home_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-tm_large_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-tm_medium_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-tm_small_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-tm_thickbox_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 798,
+        "files": [
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-cart_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-home_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-large_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-medium_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-small_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-standard_default .jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-thickbox_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-tm_cart_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-tm_home_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-tm_large_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-tm_medium_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-tm_small_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798-tm_thickbox_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/798.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 799,
+        "files": [
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-cart_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-home_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-large_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-medium_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-small_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-standard_default .jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-thickbox_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-tm_cart_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-tm_home_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-tm_large_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-tm_medium_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-tm_small_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799-tm_thickbox_default.jpg",
+          "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/799.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 26,
+        "name": "Medilec-FR-Schiller-Fred-Easy",
+        "mime": "application/pdf",
+        "file": "6a04208a58d739702e90da749450783a013ff594"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      92
+    ]
+  }
+}

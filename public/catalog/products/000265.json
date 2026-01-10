@@ -1,0 +1,196 @@
+{
+  "id": 265,
+  "slug": "tensiometre-boso-tm-2450",
+  "active": true,
+  "reference": "5.0232",
+  "name": "Tensiomètre Boso TM-2450",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le tensiomètre sur 24 heures exploite une technologie ultra moderne de mesure par ordinateur de la tension artérielle. Cet appareil a été spécialement conçu pour mesurer la tension artérielle sur 24 heures et fonctionne selon le principe oscillométrique.</p>",
+    "long_html": "<p>Le tensiomètre sur 24 heures exploite une technologie ultra moderne de mesure par ordinateur de la tension artérielle. Cet appareil a été spécialement conçu pour mesurer la tension artérielle sur 24 heures et fonctionne selon le principe oscillométrique.</p>\r\n<p style=\"margin-top:10px;\">Performances :</p>\r\n<ul style=\"margin-left:14px;\"><li>Faible poids</li>\r\n<li>Dimensions compactes</li>\r\n<li>Mémoire pour jusqu'à 600 mesures</li>\r\n<li>Facile à programmer à travers d'un logiciel</li>\r\n<li>Avec touche sommeil</li>\r\n<li>Pour brassard de 20 à 31 cm</li>\r\n</ul><p></p>\r\n<p>Livré complet avec accessoires : manchette, sacoche, piles, chargeur et mode d'emploi</p>\r\n<p>Nous serions très heureux de vous faire une démonstration de cet appareil ou de vous envoyer une documentation complète.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1670.380687,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 149,
+      "name": "Tension 24h"
+    },
+    {
+      "id": 185,
+      "name": "Boso"
+    },
+    {
+      "id": 155,
+      "name": "Nouveauté"
+    },
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 149,
+        "name": "Tension 24h"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 185,
+        "name": "Boso"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1128,
+        "files": [
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-standard_default .jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-tm_cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-tm_home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-tm_large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-tm_medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-tm_small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128-tm_thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1128.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1133,
+        "files": [
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-standard_default .jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-tm_cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-tm_home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-tm_large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-tm_medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-tm_small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133-tm_thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1133.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1134,
+        "files": [
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-standard_default .jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-tm_cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-tm_home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-tm_large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-tm_medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-tm_small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134-tm_thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1134.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1135,
+        "files": [
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-standard_default .jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-tm_cart_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-tm_home_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-tm_large_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-tm_medium_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-tm_small_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135-tm_thickbox_default.jpg",
+          "assets/products/265__tensiometre-boso-tm-2450/images/1135.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

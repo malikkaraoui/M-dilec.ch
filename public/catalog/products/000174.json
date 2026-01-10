@@ -1,0 +1,111 @@
+{
+  "id": 174,
+  "slug": "otoscope-heine-beta200-led-fo",
+  "active": false,
+  "reference": "",
+  "name": "Otoscope Heine BETA200 LED F.O.",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Otoscope <strong>Heine BETA200 LED</strong>, précision, netteté, rendu des couleurs et luminosité avec LED HQ. Otoscope à boîtier métallique robuste et lentilles résistantes aux rayures pour une durée de vie extraordinairement longue et des résultats d’examens constants de qualité...</p>",
+    "long_html": "<p>Otoscope <strong>Heine BETA200 LED</strong>, précision, netteté, rendu des couleurs et luminosité avec LED HQ. Otoscope à boîtier métallique robuste et lentilles résistantes aux rayures pour une durée de vie extraordinairement longue et des résultats d’examens constants de qualité. LED d’une durée de vie pratiquement illimitée (jusqu'à 100 000 heures), pas de changement d’ampoule nécessaire. Grossissement 3 x : la fenêtre d'observation en verre multi couche fournit des images aux contours nets, sans distorsions. Eclairage par fibre optique. Permet un éclairage uniforme et parfait ainsi qu’une vision sans ombres de l’oreille et du tympan. LED en HQ – La nouvelle référence en matière d’éclairage à LED produit une lumière claire et parfaitement homogène avec un rendu fidèle des couleurs pour un diagnostic plus précis. Le rouge reste rouge, le blue reste bleu. Température de couleur de 3 500 K, indice de rendu des couleurs (IRC) &gt; 97 sur une échelle de 100, spécialement pour les tons rouges (R9) &gt; 93. L’éclairage LED s’adapte précisément au système optique et l’ensemble fournit un éclairage lumineux (77 000 lux avec spéculum) et homogène pour un diagnostic fiable. Régulation unique et en continue de la luminosité entre 100 % et 3 % (brevet eninstance), d’un seul doigt. Fenêtre d’observation solidement intégrée et pivotante, pour une instrumentation et un nettoyage faciles de la tête d’instrument. Raccord de soufflerie intégré. Empêche les fuites d’air indésirables lors de l’otoscopie pneumatique. Le parfait fonctionnement du BETA200 LED est garanti avec les poignées rechargeables BETA actuelles et le chargeur murale EN100.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 681,
+        "files": [
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-cart_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-home_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-large_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-medium_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-small_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-standard_default .jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-thickbox_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-tm_cart_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-tm_home_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-tm_large_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-tm_medium_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-tm_small_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681-tm_thickbox_default.jpg",
+          "assets/products/174__otoscope-heine-beta200-led-fo/images/681.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 87,
+        "name": "Medilec-FR-Beta-200S-Led-Oto",
+        "mime": "application/pdf",
+        "file": "5ea4e9b2edcd8fab61630f8168f81ae38e6594cd"
+      },
+      {
+        "id_attachment": 88,
+        "name": "Medilec-FR-Beta-200-200S-Use-Oto",
+        "mime": "application/pdf",
+        "file": "c88aa3db191a13bf95a9b520dcf9cfbd78729f70"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      125
+    ]
+  }
+}

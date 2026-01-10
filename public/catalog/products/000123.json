@@ -1,0 +1,105 @@
+{
+  "id": 123,
+  "slug": "ergospirometrie-schiller-ganshorn-powercube",
+  "active": true,
+  "reference": "30.0111",
+  "name": "Ergospirométrie Schiller Ganshorn PowerCube",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Qu'il s'agisse d'un diagnostic différentiel ou de l'encadrement médical de sportifs : l'ergospirométrie est devenu un outil indispensable à l'exploration fonctionnelle cardio-respiratoire. Des examens importants complètent l'éventail de performances du <strong>PowerCube® Ergo</strong> déjà dans la version de base.</p>",
+    "long_html": "<p>Qu'il s'agisse d'un diagnostic différentiel ou de l'encadrement médical de sportifs : l'ergospirométrie est devenu un outil indispensable à l'exploration fonctionnelle cardio-respiratoire. Des examens importants complètent l'éventail de performances du <strong>PowerCube® Ergo</strong> déjà dans la version de base. Il est possible d'utiliser séparément la spirométrie pour le diagnostic de base; la courbe de débit-volume à l'effort (intra breath) peut également servir à déterminer la limitation pulmonaire.</p>\r\n<p style=\"margin-top:10px;\"><strong>CARACTÉRISTIQUES</strong><br /><span>En ergospirométrie, la ventilation maximale (VMM) revêt une importance particulière car elle permet de déterminer la réserve ventilatoire. Grâce à un assistant profil, il est possible de générer très simplement des profils de charge</span> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Standard system with Spirometry, Flow-Volume, MVV as well as \"ErgoCheck\" software for result validation</li>\r\n<li>Further options are e.g. evaluation software LFSport, SpO2, Oscillatory resistance, ergometry system etc.</li>\r\n<li>Simultaneous display of the 9-panel-diagram according to Wasserman – also on-screen during the measurement</li>\r\n<li>Automated determination of the anaerobic threshold by set method (V-Slope, CO2-excess, EQO2 Minimum, RQ=1) or manually in the diagrams</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 32089.13649,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 123,
+      "name": "Accessoires"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 121,
+        "name": "Ergospirométrie"
+      },
+      {
+        "id": 123,
+        "name": "Accessoires"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 699,
+        "files": [
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-cart_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-home_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-large_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-medium_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-small_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-standard_default .jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-thickbox_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-tm_cart_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-tm_home_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-tm_large_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-tm_medium_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-tm_small_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-tm_thickbox_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 700,
+        "files": [
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-cart_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-home_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-large_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-medium_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-small_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-standard_default .jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-thickbox_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-tm_cart_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-tm_home_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-tm_large_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-tm_medium_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-tm_small_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700-tm_thickbox_default.jpg",
+          "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/700.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 40,
+        "name": "Medilec-EN-Schiller-Catalogue",
+        "mime": "application/pdf",
+        "file": "016b3a09ec9c9032938b00efbe66e3a2de0d4629"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

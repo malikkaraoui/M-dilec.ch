@@ -1,0 +1,206 @@
+{
+  "id": 140,
+  "slug": "montre-cardio-polar-v800-hr",
+  "active": true,
+  "reference": "",
+  "name": "Montre Cardio Polar V800 HR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar V800 HR (avec émetteur de fréquence cardiaque) montre de sport GPS</strong></p>\r\n<p>Le Polar V800 est une montre multisports GPS sophistiquée destinée aux sportifs assidus et aux athlètes professionnels désireux d'atteindre leurs performances maximales. #daretowin</p>",
+    "long_html": "<p><strong>Polar V800 HR (avec émetteur de fréquence cardiaque) montre de sport GPS</strong></p>\r\n<p>Le Polar V800 est une montre multisports GPS sophistiquée destinée aux sportifs assidus et aux athlètes professionnels désireux d'atteindre leurs performances maximales. #daretowin</p>\r\n<p><strong>Objectifs d'entraînement individuels</strong></p>\r\n<p>La préparation est la clé du succès. Créez des objectifs détaillés pour différents types d'entraînement et synchronisez-les avec votre V800 HR pour obtenir des indications en temps réel pendant vos entraînements. Utilisez le test orthostatique et le statut de récupération pour vérifier que votre corps est prêt pour le prochain défi.</p>\r\n<p><strong>S'entraîner</strong></p>\r\n<p>Créez différents profils de sport pour observer et enregistrer des données pertinentes pour chaque sport, de la course à la natation en eau libre. Obtenez des conseils en temps réel en fonction de vos objectifs. Analysez toutes les données, de l'altitude à votre fréquence cardiaque.</p>\r\n<p><strong>S'améliorer tous les jours</strong></p>\r\n<p>Polar Flow enregistre chaque séance d'entraînement et affiche les données rapidement sur l'application mobile ou de façon plus détaillée en ligne. La fonctionnalité de charge d'entraînement indique le degré de difficulté de votre entraînement et la durée de récupération requise.</p>\r\n<p><strong>Nouveaux records personnels</strong></p>\r\n<p>Assurez-vous que votre entraînement vous conduit dans la bonne direction. Accédez à Polar Flow pour afficher votre Running Index, les résultats du test de fitness et de nombreuses autres informations détaillées.</p>\r\n<p><strong>Suivez votre activité</strong></p>\r\n<p>Découvrez comment votre activité quotidienne affecte votre état de récupération et trouvez l'équilibre parfait entre entraînement et repos : en combinant la charge d'entraînement de votre exercice avec les petites activités que vous accomplissez au quotidien, vous connaîtrez votre temps de récupération réel et saurez quand vous pourrez vous entraîner à nouveau.</p>\r\n<p><strong>Suivez vos calories</strong></p>\r\n<p>Découvrez votre consommation de calories quotidienne et assurez-vous d'avoir assez d'énergie. Le V800 suit la quantité totale d'énergie que vous consommez en calories d'entraînement, en calories basées sur l'activité et par métabolisme de base.</p>\r\n<p><strong>Définir des alertes d’inactivité</strong></p>\r\n<p>Pour préparer votre corps pour l'entraînement, le Polar V800 vous indique si vous êtes assis depuis trop longtemps. Le fait de rester assis pendant longtemps est néfaste pour la santé, même les jours où vous vous entraînez et pratiquez une activité quotidienne suffisante. La station assise affecte votre circulation sanguine, votre métabolisme, votre dépense énergétique et la préparation de votre corps pour l'entraînement.</p>\r\n<p><strong>Surveiller la durée et la qualité du sommeil</strong></p>\r\n<p>Le sommeil et la quantité de repos requise sont très individuels et affectés par plusieurs facteurs tels que la charge d'entraînement, le stress, l'état physique et les différences individuelles. L'application mobile et le service Web Polar Flow indiquent combien de temps vous avez dormi et si votre sommeil a été réparateur. En suivant vos habitudes de sommeil, vous pouvez constater si elles sont affectées par des changements dans votre vie quotidienne.</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 482.729805,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 129,
+      "name": "Montres + Ceinture"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 129,
+        "name": "Montres + Ceinture"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 420,
+        "files": [
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-tm_cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-tm_home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-tm_large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-tm_medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-tm_small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420-tm_thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/420.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 421,
+        "files": [
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-tm_cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-tm_home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-tm_large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-tm_medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-tm_small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421-tm_thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/421.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 422,
+        "files": [
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-tm_cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-tm_home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-tm_large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-tm_medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-tm_small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422-tm_thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/422.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 423,
+        "files": [
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-tm_cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-tm_home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-tm_large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-tm_medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-tm_small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423-tm_thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/423.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 424,
+        "files": [
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-tm_cart_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-tm_home_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-tm_large_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-tm_medium_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-tm_small_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424-tm_thickbox_default.jpg",
+          "assets/products/140__montre-cardio-polar-v800-hr/images/424.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 70,
+        "name": "Medilec-FR-Polar-V800-Demarrage",
+        "mime": "application/pdf",
+        "file": "80e037e93cb10bcd758034c8e24bfd1dbbb41eb2"
+      },
+      {
+        "id_attachment": 71,
+        "name": "Medilec-FR-Polar-V800-Manuel",
+        "mime": "application/pdf",
+        "file": "02d426cde3d88d08bfd104aaf6b34add7fe9a32b"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": 78,
+  "slug": "papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7",
+  "active": true,
+  "reference": "22.0015",
+  "name": "Papier pour ECG Schiller Cardiovit AT-3, AT-3/1 et ARGUS TM-7",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Papier pour appareils ECG <strong>Cardiovit AT-3</strong>,<strong> AT-3/1</strong> et<strong> ARGUS TM-7</strong>.<br />Dimensions : 70mm x 100mm.<br />Plis : 200</p>",
+    "long_html": "<p>Papier pour appareils ECG <strong>Cardiovit AT-3</strong>,<strong> AT-3/1</strong> et<strong> ARGUS TM-7</strong>.<br />Dimensions : 70mm x 100mm.<br />Plis : 200</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 25.905292,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 24,
+    "name": "Diagramma Dietikon AG"
+  },
+  "categories": [
+    {
+      "id": 130,
+      "name": "ECG papier"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 130,
+        "name": "ECG papier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 226,
+        "files": [
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-cart_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-home_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-large_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-medium_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-small_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-thickbox_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-tm_cart_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-tm_home_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-tm_large_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-tm_medium_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-tm_small_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-tm_thickbox_default.jpg",
+          "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

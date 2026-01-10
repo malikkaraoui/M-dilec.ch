@@ -1,0 +1,165 @@
+{
+  "id": 241,
+  "slug": "tensiometre-boso-medicus-x",
+  "active": true,
+  "reference": "5.0194",
+  "name": "Tensiomètre Boso Medicus X",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>Boso medicus X</strong> est un tensiomètre entièrement automatique pour la mesure de la pression artérielle oscillométrique au bras, qui dispose de toutes les fonctions de base, comme p. ex. une mémoire pour 30 valeurs et une détection de battements du coeur irréguliers.</p>",
+    "long_html": "<p>Le <strong>Boso medicus X</strong> est un tensiomètre entièrement automatique pour la mesure de la pression artérielle oscillométrique au bras, qui dispose de toutes les fonctions de base, comme p. ex. une mémoire pour 30 valeurs et une détection de battements du coeur irréguliers. Grâce à ses dimensions compactes et son design moderne, minimaliste il est parfaitement approprié comme dispositif de table en des salles de consultation. Boso medicus X est livré avec un brassard standard pour des circonférences de bras de 22 à 32cm.</p>\r\n<p><strong>Caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>tensiomètre entièrement automatique</li>\r\n<li>dispose de toutes les fonctions de base</li>\r\n<li>écran affiche les systoles, diastoles et le pouls</li>\r\n<li>mémoire pour 30 valeurs mesurées</li>\r\n<li>affichage de la moyenne</li>\r\n<li>à reconnaissance de battements de coeur irréguliers (affiche des troubles du rythme cardiaque comme symbole clignotant sur l'écran)</li>\r\n<li>échelle de valeurs tensionnelles de l'OMS aident lors de la classification der résultats de mesure</li>\r\n<li>brassard universel pour des circonférences bras de 22 à 32cm</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 82.636955,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 185,
+      "name": "Boso"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 185,
+        "name": "Boso"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1021,
+        "files": [
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-cart_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-home_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-large_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-medium_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-small_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-standard_default .jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-thickbox_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-tm_cart_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-tm_home_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-tm_large_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-tm_medium_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-tm_small_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021-tm_thickbox_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1021.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1022,
+        "files": [
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-cart_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-home_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-large_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-medium_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-small_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-standard_default .jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-thickbox_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-tm_cart_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-tm_home_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-tm_large_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-tm_medium_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-tm_small_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022-tm_thickbox_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1022.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1023,
+        "files": [
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-cart_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-home_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-large_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-medium_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-small_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-standard_default .jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-thickbox_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-tm_cart_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-tm_home_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-tm_large_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-tm_medium_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-tm_small_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023-tm_thickbox_default.jpg",
+          "assets/products/241__tensiometre-boso-medicus-x/images/1023.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 124,
+        "name": "Medilec-Boso-Medicus-X",
+        "mime": "application/pdf",
+        "file": "a845ca1f9597ea110e9dfc24f0663d55f79cb82c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

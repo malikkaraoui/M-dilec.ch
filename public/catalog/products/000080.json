@@ -1,0 +1,147 @@
+{
+  "id": 80,
+  "slug": "papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200",
+  "active": true,
+  "reference": "22.0018",
+  "name": "Papier pour ECG Schiller Cardiovit AT-6 et Spirovit SP-200",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Papier pour appareils ECG <strong>Cardiovit AT-6</strong> et<strong> Spirovit SP-200</strong><strong></strong>.<br />Dimensions : 145mm x 100mm.<br />Longueur : 50,75m</p>",
+    "long_html": "<p>Papier pour appareils ECG <strong>Cardiovit AT-6</strong> et<strong> Spirovit SP-200</strong><strong></strong>.<br />Dimensions : 145mm x 100mm.<br />Longueur : 50,75m</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 14.763231,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 24,
+    "name": "Diagramma Dietikon AG"
+  },
+  "categories": [
+    {
+      "id": 130,
+      "name": "ECG papier"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 130,
+        "name": "ECG papier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 227,
+        "files": [
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-cart_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-home_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-large_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-medium_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-small_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-thickbox_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-tm_cart_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-tm_home_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-tm_large_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-tm_medium_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-tm_small_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-tm_thickbox_default.jpg",
+          "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "id": 138,
+  "slug": "montre-cardio-polar-a360",
+  "active": false,
+  "reference": "",
+  "name": "Montre Cardio Polar A360",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar A360, tracker fitness avec fréquence cardiaque au poignet</strong></p>\r\n<p>Ce tracker fitness étanche est le premier à être équipé d'un cardiofréquencemètre au poignet, d'une assistance personnalisée à l'entraînement Polar, ainsi que d'un suivi de l'activité 24h/24, 7j/7. Des fonctions de montre connectée sont également disponibles...</p>",
+    "long_html": "<p><strong>Polar A360, tracker fitness avec fréquence cardiaque au poignet</strong></p>\r\n<p>Ce tracker fitness étanche est le premier à être équipé d'un cardiofréquencemètre au poignet, d'une assistance personnalisée à l'entraînement Polar, ainsi que d'un suivi de l'activité 24h/24, 7j/7. Des fonctions de montre connectée sont également disponibles, telles que les notifications smartphone et un écran tactile couleur.</p>\r\n<p><strong>Polar A360 + Polar Smart Coaching = résultats</strong></p>\r\n<p>Le Polar A360 est le suiveur de condition physique le plus polyvalent. Conjointement avec Polar Smart Coaching, vous pouvez évaluer votre niveau de condition physique au jour le jour, planifier des entraînements individuels, de travailler à l'intensité appropriée et recevoir des comptes-rendus instantanés, conçus pour optimiser la satisfaction et la motivation lors de l'entraînement.</p>\r\n<p><strong>Ne ratez rien</strong></p>\r\n<p>Avec le Polar A360, vous décidez de rester connecté et recevez des alertes directement sur votre poignet. En mode entraînement, le Polar A360 peut vous notifier des appels entrants de sorte que vous puissiez décider d'interrompre votre séance. Le reste du temps, vous pouvez également rester informé en consultant textes, rendez-vous et médias sociaux sur votre poignet.</p>\r\n<p><strong>Technique à l'intérieur, stylé à l'extérieur</strong></p>\r\n<p>Le Polar A360 est un suiveur de condition physique de conception élégante et minimaliste caractérisé par un remarquable style et des fonctions performantes. Toutes les informations dont vous avez besoin s'affichent sur un écran tactile couleur, haute résolution, d'une grande netteté. Personnalisez le Polar A360 selon votre style et votre humeur en optant pour la couleur du bracelet en silicone souple de votre choix. Le bracelet, équipé d'une fermeture sûre et simple d'utilisation, se décline en trois tailles différentes.</p>\r\n<p><strong>Démarrez sainement chaque journée</strong></p>\r\n<p>Suivez tous les paramètres voulus au cours de la journée, en commençant par le contrôle de la qualité de votre sommeil, et en passant par le nombre de pas effectués, les distances parcourues, les calories brûlées, et toute autre activité. Vous pouvez vérifier votre objectif d'activité quotidienne et bénéficier de conseils pratiques si vous avez besoin d'un coup de pouce pour atteindre cet objectif. Si vous restez immobile trop longtemps, le Polar A360 vibre pour vous rappeler qu'il est temps de recommencer à bouger. Tous les renseignements sur votre activité physique et sur les bénéfices pour votre santé sont disponibles sur Polar Flow.</p>\r\n<p style=\"margin-top:10px;\"><strong>Produits Polar compatibles</strong></p>\r\n<ul style=\"margin-left:14px;\"><li><a href=\"http://medilec.ch/index.php?id_product=210&amp;controller=product\" class=\"btn btn-default\">Balance Polar</a></li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 213.463324,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1030,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1030-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1030.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1031,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1031-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1031.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1032,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1032-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1032.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1033,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1033-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1033.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1034,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1034-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1034.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1035,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1035-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1035.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1036,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1036-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1036.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1037,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1037-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1037.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1038,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1038-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1038.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1039,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1039-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1039.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1040,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1040-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1040.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1041,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1041-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1041.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1042,
+        "files": [
+          "assets/products/138__montre-cardio-polar-a360/images/1042-cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-standard_default .jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-tm_cart_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-tm_home_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-tm_large_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-tm_medium_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-tm_small_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042-tm_thickbox_default.jpg",
+          "assets/products/138__montre-cardio-polar-a360/images/1042.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 65,
+        "name": "Medilec-FR-Polar-A360-Tailles",
+        "mime": "application/pdf",
+        "file": "2ab2ab53adec6156d43410111d5c6bb27e975c8e"
+      },
+      {
+        "id_attachment": 66,
+        "name": "Medilec-FR-Polar-A360-Demarrage",
+        "mime": "application/pdf",
+        "file": "e6dfc3b16543157e7f8103c53937fba5136b2210"
+      },
+      {
+        "id_attachment": 67,
+        "name": "Medilec-FR-Polar-A360-Manuel",
+        "mime": "application/pdf",
+        "file": "6a8edc2551e2a335cd1aaf42acf90040703bab8a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

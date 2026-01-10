@@ -1,0 +1,192 @@
+{
+  "id": 116,
+  "slug": "signaspray-spray-gel-pour-electrode-ecg",
+  "active": true,
+  "reference": "6.0008",
+  "name": "SIGNASPRAY spray gel pour électrode ECG",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong><strong>SIGNASPRAY</strong> est une solution spray pour électrodes et préparation dermique.</p>",
+    "long_html": "<p><strong>SIGNASPRAY</strong> est une solution spray pour électrodes et préparation dermique.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>L'électrolyte idéal pour les appareils de stimulation musculaire.</li>\r\n<li>Bactériostatique, ne tache pas.</li>\r\n<li>Préparation dermique supérieure, non granuleuse.</li>\r\n<li>Aucun dépôt de résidus.</li>\r\n<li>Facile à appliquer et à nettoyer.</li>\r\n<li>Grâce au contenant transparent, vous savez toujours ce qu'’il vous reste de SIGNASPRAY.</li>\r\n<li>Ne pas utiliser cas de défibrillation.</li>\r\n</ul><p>En flacon de 250 ml et en contenants de 3,8 litres.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 8.263695,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 28,
+    "name": "Parker Laboratories Inc"
+  },
+  "categories": [
+    {
+      "id": 115,
+      "name": "ECG autre"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 115,
+        "name": "ECG autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 302,
+        "files": [
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-cart_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-home_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-large_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-medium_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-small_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-thickbox_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-tm_cart_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-tm_home_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-tm_large_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-tm_medium_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-tm_small_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-tm_thickbox_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 303,
+        "files": [
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-cart_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-home_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-large_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-medium_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-small_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-thickbox_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-tm_cart_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-tm_home_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-tm_large_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-tm_medium_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-tm_small_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303-tm_thickbox_default.jpg",
+          "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/303.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": 193,
+  "slug": "embout-jetable-adulte-mir",
+  "active": true,
+  "reference": "30.0011",
+  "name": "Embouts jetables adulte MIR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong>Embouts jetables adulte<br />Carton, 30 mm – Certifié CE<br />Pack de 100</p>",
+    "long_html": "<p>Embouts jetables adulte<br />Carton, 30 mm – Certifié CE<br />Pack de 100</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 45.125348,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 116,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 95,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 116,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 95,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 725,
+        "files": [
+          "assets/products/193__embout-jetable-adulte-mir/images/725-cart_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-home_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-large_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-medium_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-small_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-standard_default .jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-thickbox_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-tm_cart_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-tm_home_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-tm_large_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-tm_medium_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-tm_small_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725-tm_thickbox_default.jpg",
+          "assets/products/193__embout-jetable-adulte-mir/images/725.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      164,
+      194,
+      195,
+      196
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": 28,
+  "slug": "ecg-schiller-cardiovit-ms-2007-m",
+  "active": false,
+  "reference": "11.0143",
+  "name": "ECG Schiller Cardiovit MS-2007 M avec l'écran tactile et l'exportation en PDF",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>CARDIOVIT MS-2007</strong> avec l'écran tactile et l'exportation en PDF, est un système d’analyse ECG léger, portable et compact, qui vous accompagne où que vous soyez. Il est conçu pour une utilisation ultra-facile, tout en assurant des données ECG de haute qualité.</p>\r\n<p style=\"margin-top:5px;\">Cela fait du CARDIOVIT MS-2007 l’appareil idéal pour les visites à domicile.</p>",
+    "long_html": "<p>Le <strong>CARDIOVIT MS-2007</strong> avec l'écran tactile et l'exportation en PDF, est un système d’analyse ECG léger, portable et compact, qui vous accompagne où que vous soyez. Il est conçu pour une utilisation ultra-facile, tout en assurant des données ECG de haute qualité.</p>\r\n<p style=\"margin-top:5px;\">Cela fait du CARDIOVIT MS-2007 l’appareil idéal pour les visites à domicile.</p>\r\n<p style=\"margin-top:10px;\"><strong>ECG 12 DÉRIVATIONS DE QUALITÉ ÉPROUVÉE</strong><br />Cet outil de diagnostic sophistiqué vous fournit des analyses ECG de la plus haute qualité tandis que son mode de fonctionnement facile vous permet de vous concentrer entièrement sur le diagnostic et le traitement :</p>\r\n<ul style=\"margin-left:14px;\"><li>Écran couleur 12 dérivations pour des résultats précis</li>\r\n<li>Impression 12 dérivations en temps réel</li>\r\n<li>Écran tactile intuitif pour une utilisation simple et facile</li>\r\n<li>Compact et léger: seulement 1.2 kg</li>\r\n<li>Pile rechargeable au lithiumpolymère: plus de 3 heures de fonctionnement continu ou 100 enregistrements ECG</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2901.578459,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 78,
+      "name": "Schiller MS-20..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 78,
+        "name": "Schiller MS-20..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 166,
+        "files": [
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-cart_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-home_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-large_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-medium_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-small_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-thickbox_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-tm_cart_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-tm_home_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-tm_large_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-tm_medium_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-tm_small_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-tm_thickbox_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 146,
+        "files": [
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-cart_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-home_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-large_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-medium_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-small_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-thickbox_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-tm_cart_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-tm_home_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-tm_large_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-tm_medium_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-tm_small_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146-tm_thickbox_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/146.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 147,
+        "files": [
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-cart_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-home_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-large_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-medium_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-small_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-thickbox_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-tm_cart_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-tm_home_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-tm_large_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-tm_medium_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-tm_small_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147-tm_thickbox_default.jpg",
+          "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/147.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 12,
+        "name": "Medilec-FR-Schiller-MS-2007",
+        "mime": "application/pdf",
+        "file": "12c6a41b5ccf8727c7ab9a3f5f71ccf3da31a9e4"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      45
+    ]
+  }
+}

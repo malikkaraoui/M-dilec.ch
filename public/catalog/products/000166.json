@@ -1,0 +1,121 @@
+{
+  "id": 166,
+  "slug": "actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman",
+  "active": true,
+  "reference": "30.0087",
+  "name": "Actio: Neuf : Spiromètre Schiller Spirovit SP-1 avec les touches du clavier allemand",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>SPIROVIT SP-1</strong> est une solution unique destinée à simplifier les tests complexes de la fonction pulmonaire.</p>\r\n<p>L’écran haute résolution et convivial affiche en temps réel les boucles débit/volume et les matrices de mesure détaillées. Les données peuvent être imprimées en quelques secondes ou transmises vers un ordinateur.</p>",
+    "long_html": "<p>Le <strong>SPIROVIT SP-1</strong> est une solution unique destinée à simplifier les tests complexes de la fonction pulmonaire.</p>\r\n<p>L’écran haute résolution et convivial affiche en temps réel les boucles débit/volume et les matrices de mesure détaillées. Les données peuvent être imprimées en quelques secondes ou transmises vers un ordinateur.</p>\r\n<p><strong>La spirométrie simplifiée et abordable!</strong></p>\r\n<p>Le SPIROVIT SP-1 est une solution unique destinée à simplifier les tests complexes de la fonction pulmonaire. L’écran LCD affiche en temps réel les boucles débit/volume et les matrices de mesure détaillées. Les données peuvent être imprimées  en  quelques  secondes  ou  transmises  vers  un ordinateur.</p>\r\n<p>Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Pour la spirométrie et les mesures FVC, SVC, MV et MVV</li>\r\n<li>Programme intégré de comparaison pré/post</li>\r\n<li>Répond aux normes ATS/ERS</li>\r\n<li>Accessoires haute qualité pour une précision maximale, p.ex. capteurs SP-20 ou SP-150 de SCHILLER totalement insensibles à l’humidité</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2321.262767,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 140,
+      "name": "Actions"
+    },
+    {
+      "id": 141,
+      "name": "Spirométrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      },
+      {
+        "id": 141,
+        "name": "Spirométrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 655,
+        "files": [
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-cart_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-home_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-large_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-medium_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-small_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-thickbox_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-tm_cart_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-tm_home_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-tm_large_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-tm_medium_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-tm_small_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-tm_thickbox_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 656,
+        "files": [
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-cart_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-home_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-large_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-medium_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-small_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-thickbox_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-tm_cart_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-tm_home_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-tm_large_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-tm_medium_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-tm_small_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656-tm_thickbox_default.jpg",
+          "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/656.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 83,
+        "name": "Medilec-FR-Spirovit-SP-1",
+        "mime": "application/pdf",
+        "file": "6aeb06fc3abab73700faf19e5d59d313f70ad4f2"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": 64,
+  "slug": "ecg-schiller-cardiovit-at-102-m",
+  "active": false,
+  "reference": "",
+  "name": "ECG Schiller Cardiovit AT-102 C",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>CARDIOVIT AT-102</strong>, le champion de l’ECG multifonctionnel haute performance qui satisfait les exigences les plus élevées et offre un excellent rapport qualité prix. Tous les tests de la fonction cardio-pulmonaire les plus importants sont réunis dans un seul appareil : ECG de repos, ECG d’effort et spirométrie. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>",
+    "long_html": "<p><strong>CARDIOVIT AT-102</strong>, le champion de l’ECG multifonctionnel haute performance qui satisfait les exigences les plus élevées et offre un excellent rapport qualité prix. Tous les tests de la fonction cardio-pulmonaire les plus importants sont réunis dans un seul appareil : ECG de repos, ECG d’effort et spirométrie. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>\r\n<p>Le <strong>CARDIOVIT AT-101</strong> est un vrai champion de l’ECG multifonctionnel à 12 pistes qui permet d’enregistrer et d’analyser automatiquement les ECG de repos, les ECG d’effort et les tests de la fonction pulmonaire (spirométrie). L’interface utilisateur familière et la manipulation intuitive accroissent la productivité et l’efficacité tout en garantissant un excellent rapport qualité prix.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Manipulation simple et intuitive grâce aux touches de fonction directes</li>\r\n<li>ECG de repos à 12 pistes</li>\r\n<li>Mesure</li>\r\n<li>Interprétation (en option)</li>\r\n<li>Mémoire interne</li>\r\n<li>Impressions au format A4 sur imprimante interne ou externe</li>\r\n<li>Test d’effort de base (en option)</li>\r\n<li>Possibilité de connecter un moniteur externe (en option)</li>\r\n<li>STP (Logiciel de thrombolyse de SCHILLER)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5073.351903,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 85,
+      "name": "Schiller AT... et DT..."
+    },
+    {
+      "id": 77,
+      "name": "Schiller AT et FT..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 85,
+        "name": "Schiller AT... et DT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 77,
+        "name": "Schiller AT et FT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 206,
+        "files": [
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-cart_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-home_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-large_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-medium_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-small_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-thickbox_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-tm_cart_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-tm_home_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-tm_large_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-tm_medium_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-tm_small_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-tm_thickbox_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 207,
+        "files": [
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-cart_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-home_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-large_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-medium_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-small_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-thickbox_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-tm_cart_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-tm_home_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-tm_large_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-tm_medium_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-tm_small_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207-tm_thickbox_default.jpg",
+          "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/207.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 19,
+        "name": "Medilec-FR-Schiller-AT-102",
+        "mime": "application/pdf",
+        "file": "994881b1399cd76f23bf79528ccbaade29414e59"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      65,
+      66,
+      80,
+      88,
+      89,
+      90
+    ]
+  }
+}

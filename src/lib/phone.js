@@ -1,14 +1,14 @@
+import { SUPPORTED_COUNTRIES } from './countries.js'
+
 function toStr(v) {
   return String(v || '').trim()
 }
 
-export const PHONE_DIAL_CODES = [
-  { country: 'CH', dialCode: '+41', label: 'CH +41' },
-  { country: 'FR', dialCode: '+33', label: 'FR +33' },
-  { country: 'DE', dialCode: '+49', label: 'DE +49' },
-  { country: 'IT', dialCode: '+39', label: 'IT +39' },
-  { country: 'AT', dialCode: '+43', label: 'AT +43' },
-]
+export const PHONE_DIAL_CODES = SUPPORTED_COUNTRIES.map((c) => ({
+  country: c.code,
+  dialCode: c.dialCode,
+  label: `${c.flag} ${c.code} ${c.dialCode}`,
+}))
 
 export function parsePhoneParts(phoneValue) {
   const raw = toStr(phoneValue)
@@ -28,4 +28,10 @@ export function composePhone({ dialCode, national }) {
 export function looksLikePhone(value) {
   const digits = String(value || '').replace(/\D/g, '')
   return digits.length >= 8
+}
+
+export function dialCodeForCountry(countryCode) {
+  const cc = String(countryCode || '').trim().toUpperCase()
+  const found = SUPPORTED_COUNTRIES.find((c) => c.code === cc)
+  return found?.dialCode || '+41'
 }

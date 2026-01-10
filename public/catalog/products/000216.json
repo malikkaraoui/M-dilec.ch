@@ -1,0 +1,271 @@
+{
+  "id": 216,
+  "slug": "montre-cardio-polar-m600",
+  "active": false,
+  "reference": "",
+  "name": "Montre Cardio Polar M600",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar M600 montre de sport GPS sous android wear™</strong></p>\r\n<p>La montre étanche Polar M600 est une montre connectée sous Android Wear™, conçue pour celles et ceux qui mènent une vie active, sans concessions. Une montre de sport connectée pour les sportifs les plus connectés.</p>",
+    "long_html": "<p><strong>Polar M600 montre de sport GPS sous android wear™</strong></p>\r\n<p>La montre étanche Polar M600 est une montre connectée sous Android Wear™, conçue pour celles et ceux qui mènent une vie active, sans concessions. Une montre de sport connectée pour les sportifs les plus connectés.</p>\r\n<p><strong>Fréquence cardiaque au poignet</strong></p>\r\n<p>L'entraînement basé sur la fréquence cardiaque n'a jamais été aussi simple : ajustez le bracelet à votre poignet et vous voilà paré.</p>\r\n<p><strong>Profils sportifs</strong></p>\r\n<p>Créez et personnalisez des profils pour différents sports et bénéficiez des données et conseils précis dont vous avez besoin pour vous entraîner efficacement dans chacun de ces sports.</p>\r\n<p><strong>Suivi de l'activité 24h/24 et 7j/7</strong></p>\r\n<p>Suivez votre activité 24h/24 et 7j/7 tout en comptant sur un soutien pratique pour vous aider à atteindre votre objectif personnel d'activité quotidienne.</p>\r\n<p><strong>Sommeil</strong></p>\r\n<p>Consigne automatiquement la durée et la qualité de votre sommeil. Contrôlez vos habitudes de sommeil sur le service Web et dans l'application Polar Flow, et tirez-en des enseignements.</p>\r\n<p><strong>Polar Flow</strong></p>\r\n<p>Le service exclusif Polar Flow enregistre des informations détaillées sur chaque séance d'entraînement et vous permet ainsi de surveiller vos progrès et de planifier vos entraînements de manière rapide et efficace.</p>\r\n<p><strong>Smart Coaching</strong></p>\r\n<p>La fonction exclusive Smart Coaching de Polar vous fournit des informations détaillées sur votre niveau de condition physique dans différents domaines et des conseils pour l'améliorer.</p>\r\n<p><strong>Étanchéité</strong></p>\r\n<p>La montre Polar M600 est étanche (convient à la natation, plongée jusqu'à 10 m, IPX8).</p>\r\n<p><strong>GPS intégré</strong></p>\r\n<p>La montre Polar M600 intègre une fonctionnalité GPS rapide et précise, qui vous permet de connaître votre vitesse, votre distance et votre itinéraire.</p>\r\n<p><strong>Compatibilité des capteurs</strong></p>\r\n<p>La montre Polar M600 est compatible avec le capteur de fréquence cardiaque Polar H7.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 389.879294,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 904,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/904-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/904.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 905,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/905-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/905.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 906,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/906-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/906.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 907,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/907-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/907.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 908,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/908-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/908.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 909,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/909-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/909.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 910,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/910-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/910.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 911,
+        "files": [
+          "assets/products/216__montre-cardio-polar-m600/images/911-cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-standard_default .jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-tm_cart_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-tm_home_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-tm_large_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-tm_medium_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-tm_small_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911-tm_thickbox_default.jpg",
+          "assets/products/216__montre-cardio-polar-m600/images/911.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 108,
+        "name": "Medilec-FR-Polar-M600-Demarrage",
+        "mime": "application/pdf",
+        "file": "5cddfee75eb2b14b2058b9e7f006004672c85443"
+      },
+      {
+        "id_attachment": 109,
+        "name": "Medilec-FR-Polar-M600-Manuel",
+        "mime": "application/pdf",
+        "file": "2dee994d64033de7e300f2c879fe2e45455242d7"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

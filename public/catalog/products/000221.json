@@ -1,0 +1,171 @@
+{
+  "id": 221,
+  "slug": "batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie",
+  "active": true,
+  "reference": "BA-316",
+  "name": "Batterie 16 cellules pour Inogen One G3 jusqu'à 9 heures d'autonomie",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Batterie 16 cellules</strong> pour Inogen One G3, jusqu'à 9 heures d'autonomie.</p>",
+    "long_html": "<p><strong>Batterie 16 cellules</strong> pour Inogen One G3, jusqu'à 9 heures d'autonomie.</p>\r\n<p><strong><strong>Caractéristiques</strong></strong></p>\r\n<p>La batterie est l’un des aspects les plus importants d’un concentrateur d’oxygène portable. Après tout, sans batterie, vous n’êtes pas très mobile ! Les concentrateurs d’oxygène Inogen One ne consomment pas beaucoup d’énergie et peuvent fonctionner longtemps avec une seule batterie. Cependant, vous pourriez avoir besoin d’une batterie supplémentaire, par exemple, si vous envisagez de prendre un long vol. Dans ce cas, vous avez le choix entre la petite batterie 8 cellules (BA-300) et la grande batterie 16 cellules (BA-316). Tenez compte du fait que la batterie 8 cellules est plus légère, mais dispose d’une autonomie plus limitée. La batterie 16 cellules bénéficie d’une plus grande autonomie, mais elle est aussi plus lourde.</p>\r\n<p style=\"margin-top:10px;\"><strong>Temps de charge et de l’autonomie</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Temp de recharge : +/- 8 heures</li>\r\n<li>Temp d'autonomie : jusqu'à 9 heures</li>\r\n<li>Poid : 1 kg</li>\r\n</ul><p>Pour charger une batterie supplémentaire plus facilement, il y a un chargeur de batterie externe.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 584.029712,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 40,
+    "name": "Inogen"
+  },
+  "categories": [
+    {
+      "id": 161,
+      "name": "Accessoires"
+    },
+    {
+      "id": 164,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 161,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 164,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 930,
+        "files": [
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-cart_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-home_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-large_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-medium_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-small_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-standard_default .jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-thickbox_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-tm_cart_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-tm_home_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-tm_large_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-tm_medium_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-tm_small_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-tm_thickbox_default.jpg",
+          "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 112,
+        "name": "Medilec-FR-Inogen-One-G3",
+        "mime": "application/pdf",
+        "file": "bd2ab28b59ff5987c95994b50b46dfdf240cdb15"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      219
+    ]
+  }
+}

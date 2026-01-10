@@ -1,0 +1,165 @@
+{
+  "id": 192,
+  "slug": "tensiometre-schiller-br-102-plus",
+  "active": false,
+  "reference": "",
+  "name": "Tensiomètre Schiller BR-102 plus PWA",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>BR-102 plus PWA</strong>, la première combinaison de la mesure auscultatoire non invasive et précise et de la mesure oscillométrique fiable,  qui  permet  d’obtenir un profil sur 24 heures de paramètres de rigidité artérielle tels que vitesse de l’onde de pouls et pression artérielle centrale et périphérique.</p>",
+    "long_html": "<p><strong></strong><strong>BR-102 plus PWA</strong>, la première combinaison de la mesure auscultatoire non invasive et précise et de la mesure oscillométrique fiable,  qui  permet  d’obtenir un profil sur 24 heures de paramètres de rigidité artérielle tels que vitesse de l’onde de pouls et pression artérielle centrale et périphérique. Selon  l’état  artériel  du  patient, il est désormais possible d’estimer le risque de survenue d’une maladie cardiovasculaire.</p>\r\n<p><strong>Qualité éprouvée</strong></p>\r\n<p>Cet algorithme est pleinement validé dans plusieurs études, y compris par comparaison avec la méthode de référence, le cathétérisme artériel (mesure invasive de la PA).</p>\r\n<p>« ... algorithme, sur la base d’enregistrements des oscillations au moyen d’un brassard brachial, est apte à fournir une estimation réaliste de la pression systolique centrale. »</p>\r\n<p>« Les résultats concordent avec les mesures tonométriques communément acceptées. Grâce à sa simplicité d’emploi, est adapté à une utilisation à grande échelle. »</p>\r\n<p style=\"margin-top:10px;\"><strong>POURQUOI L'AOP DE SCHILLER</strong></p>\r\n<p style=\"margin-top:6px;\">Sur le plan médical :</p>\r\n<ul style=\"margin-left:14px;\"><li>Amélioration signifi cative de l’évaluation du risque cardiovasculaire</li>\r\n<li>Corrélation étroite entre rigidité artérielle et coronaropathie</li>\r\n<li>Prévention de l’atteinte des organes cibles due à l’hypertension</li>\r\n<li>Traitement plus effi cace et plus spécifique – certains hypotenseurs peuvent entraîner une augmentation de la rigidité artérielle</li>\r\n<li>Diagnostic différentiel (résistance périphérique accrue, artères rigides ou précharge cardiaque accrue)</li>\r\n</ul><p style=\"margin-top:6px;\">Sur le plan économique :</p>\r\n<ul style=\"margin-left:14px;\"><li>Meilleure précision diagnostique</li>\r\n<li>Aucun surcroît de travail : partie intégrante de la mesure de la pression artérielle</li>\r\n<li>Possibilités de publication d’études scientifiques</li>\r\n<li>Pas de formation particulière requise</li>\r\n<li>Remboursement par les caisses-maladie dans un nombre toujours croissant de pays</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 3963.788301,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 184,
+      "name": "Schiller"
+    },
+    {
+      "id": 149,
+      "name": "Tension 24h"
+    },
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 184,
+        "name": "Schiller"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 149,
+        "name": "Tension 24h"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 720,
+        "files": [
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-cart_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-home_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-large_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-medium_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-small_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-standard_default .jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-thickbox_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-tm_cart_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-tm_home_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-tm_large_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-tm_medium_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-tm_small_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720-tm_thickbox_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/720.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 721,
+        "files": [
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-cart_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-home_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-large_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-medium_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-small_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-standard_default .jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-thickbox_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-tm_cart_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-tm_home_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-tm_large_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-tm_medium_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-tm_small_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721-tm_thickbox_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/721.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 722,
+        "files": [
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-cart_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-home_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-large_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-medium_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-small_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-standard_default .jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-thickbox_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-tm_cart_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-tm_home_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-tm_large_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-tm_medium_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-tm_small_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722-tm_thickbox_default.jpg",
+          "assets/products/192__tensiometre-schiller-br-102-plus/images/722.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 93,
+        "name": "Medilec-FR-Schiller-BR-102-P-PWA",
+        "mime": "application/pdf",
+        "file": "c5ec2852c1bb390e6776eb6cf111b75e5f03936d"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

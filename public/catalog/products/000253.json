@@ -1,0 +1,178 @@
+{
+  "id": 253,
+  "slug": "oxymetre-de-pouls-spengler-oxystart",
+  "active": true,
+  "reference": "",
+  "name": "Oxymètre de pouls Spengler Oxystart",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L’oxymètre de pouls <strong>Spengler Oxystart</strong> est un oxymètre digital pour le contrôle ponctuel de la SpO2 offrant une prise de mesure confortable et très facile de compréhension. Mise en marche par simple pression sur l’interrupteur.</p>",
+    "long_html": "<p>L’oxymètre de pouls <strong>Spengler Oxystart</strong> est un oxymètre digital pour le contrôle ponctuel de la SpO2 offrant une prise de mesure confortable et très facile de compréhension. Mise en marche par simple pression sur l’interrupteur.</p>\r\n<p>Confort de lecture des mesures grâce à l'écran OLED 2 couleurs orientable</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Affichage simultané en moins de 10 sec : a saturation pulsée en oxygène (% SpO2), la fréquence cardiaque, l’intensité du signal pulsatile (barre graphe), la courbe de pléthysmographie.</li>\r\n<li>Témoin de batterie faible.</li>\r\n<li>Affichage personnalisable : 6 modes d'affichage.</li>\r\n<li>5 niveaux de luminosité.</li>\r\n<li>Arrêt automatique après 5 secondes de non utilisation.</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Contenu du pack</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>1 oxymètre Oxystart</li>\r\n<li>1 dragonne</li>\r\n<li>1 housse</li>\r\n<li>2 piles</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 82.636955,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 160,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 188,
+      "name": "Oxymétrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 160,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 188,
+        "name": "Oxymétrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1084,
+        "files": [
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-standard_default .jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-tm_cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-tm_home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-tm_large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-tm_medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-tm_small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-tm_thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1085,
+        "files": [
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-standard_default .jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-tm_cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-tm_home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-tm_large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-tm_medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-tm_small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085-tm_thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1085.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1086,
+        "files": [
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-standard_default .jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-tm_cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-tm_home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-tm_large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-tm_medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-tm_small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086-tm_thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1086.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1087,
+        "files": [
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-standard_default .jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-tm_cart_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-tm_home_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-tm_large_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-tm_medium_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-tm_small_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087-tm_thickbox_default.jpg",
+          "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1087.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

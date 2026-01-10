@@ -1,0 +1,163 @@
+{
+  "id": 245,
+  "slug": "montre-cardio-polar-ft1",
+  "active": true,
+  "reference": "",
+  "name": "Montre Cardio Polar FT1",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar FT1</strong> est destiné aux premiers pas en matière d'entraînement basé sur la fréquence cardiaque.</p>",
+    "long_html": "<p><strong></strong><strong>Polar FT1</strong> est destiné aux premiers pas en matière d'entraînement basé sur la fréquence cardiaque.</p>\r\n<p><strong>Zone cible manuelle - bpm</strong></p>\r\n<p>Cette fonction vous permet de définir la zone cible que vous estimez la mieux adaptée à votre entraînement. Vous pouvez définir la zone cible de votre entraînement en battements par minute (bpm).</p>\r\n<p><strong>Polar OwnCode® (5kHz) – transmission codée</strong></p>\r\n<p>La transmission de la fréquence cardiaque au cardiofréquencemètre se code automatiquement. Le cardiofréquencemètre reçoit exclusivement les données cardiaques émises par votre émetteur. Le codage évite les interférences en provenance d'autres cardios.</p>\r\n<p><strong>Alarme visuelle et sonore de Zone cible basée sur la FC</strong></p>\r\n<p>Vous pouvez définir vos zones cibles de séance d'entraînement en fonction de la FC pour vous aider à définir l'intensité appropriée. Lorsque vous êtes en dehors des zones préréglées, le cardiofréquencemètre émet une alarme visuelle et sonore.</p>\r\n<p><strong>Fréquence cardiaque moyenne et maximale de la séance</strong></p>\r\n<p><strong>Fréquence cardiaque - bpm</strong></p>\r\n<p>La fréquence cardiaque est la mesure des efforts déployés par votre coeur. Elle est exprimée en nombre de battements par minute (bpm).</p>\r\n<p><strong>HeartTouch – activation de fonction(s) sans appuyer sur les boutons</strong></p>\r\n<p>Quand HeartTouch est allumé, diverses informations sont accessibles pendant l'entraînement sans avoir à appuyer sur les boutons (par exemple, si vous portez des gants), en rapprochant simplement votre cardio de votre émetteur.</p>\r\n<p><strong>Fichiers mémoires (avec résumé) - 1</strong></p>\r\n<p><strong>Fonctions montre</strong></p>\r\n<p>Eclairage de l'écran, Date et indicateur du jour de la semaine, Textes d’affichage en anglais, Heure du jour (12/24h), Etanche - 30m</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 74.187558,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1052,
+        "files": [
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-standard_default .jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-tm_cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-tm_home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-tm_large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-tm_medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-tm_small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052-tm_thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1052.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1053,
+        "files": [
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-standard_default .jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-tm_cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-tm_home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-tm_large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-tm_medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-tm_small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053-tm_thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1053.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1054,
+        "files": [
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-standard_default .jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-tm_cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-tm_home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-tm_large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-tm_medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-tm_small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054-tm_thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1054.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1055,
+        "files": [
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-standard_default .jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-tm_cart_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-tm_home_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-tm_large_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-tm_medium_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-tm_small_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055-tm_thickbox_default.jpg",
+          "assets/products/245__montre-cardio-polar-ft1/images/1055.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 127,
+        "name": "Medilec-FR-Polar-FT1-FT2-Manuel",
+        "mime": "application/pdf",
+        "file": "829c39da258e8e64188f4b7a618aa04a0dc37266"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

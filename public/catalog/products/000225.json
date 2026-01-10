@@ -1,0 +1,229 @@
+{
+  "id": 225,
+  "slug": "respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires",
+  "active": false,
+  "reference": "",
+  "name": "RespiCare fauteuil de Spiropraxy pour les exercices ventilatoires",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le fauteuil <strong>RespiCare</strong> est un équipement de soin et de pratique d'exercices ventilatoires. Il est conçu dans un but préventif favorable à la santé ou complémentaire à une intervention thérapeutique respiratoire...</p>",
+    "long_html": "<p>Le fauteuil <strong>RespiCare</strong> est un équipement de soin et de pratique d'exercices ventilatoires. Il est conçu dans un but préventif favorable à la santé ou complémentaire à une intervention thérapeutique respiratoire.</p>\r\n<p>Le RespiCare permet la pratique des exercices spécifiques favorisant l'amplification de la ventilation et la conscience respiratoire. La personne est installée dans une position assise proclive-arrière favorisant une bonne hémodynamique, sans effort pour le coeur avec des appuis également répartis.</p>\r\n<p>Le fauteuil RespiCare est un équipement de soin et de pratique d'exercices ventilatoires conçu dans un but préventif favorable à la santé ou complémentaire à une intervention thérapeutique respiratoire. Le RespiCare permet la pratique des exercices spécifiques favorisant l'amplification de la ventilation et la conscience respiratoire.</p>\r\n<p style=\"margin-top:10px;\"><strong>En prévention Primaire</strong>, chez les patients à risque, le fauteuil RespiCare se situe au plus près de l'environnement médical ou paramédical et en amont de la maladie ou de la décompensation :</p>\r\n<ul style=\"margin-left:14px;\"><li>Stress et anxiété</li>\r\n<li>Tabagisme</li>\r\n<li>Obésité</li>\r\n<li>Vieillissement</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Concernant la prévention Secondaire</strong>, le fauteuil RespiCare accompagne les traitements pour éviter l'aggravation de la maladie par l'optimisation thérapeutique active :</p>\r\n<ul style=\"margin-left:14px;\"><li>Déficits respiratoires restrictifs</li>\r\n<li>Déficits respiratoires obstructifs</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>En prévention Tertiaire</strong> l'objectif du fauteuil RespiCare est d'éviter les récidives ou les rechutes par le renforcement des capacités respiratoires accompagné d’une meilleure gestion du stress et de l'anxiété.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 13025.998143,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 40,
+    "name": "Inogen"
+  },
+  "categories": [
+    {
+      "id": 178,
+      "name": "Fauteuil"
+    },
+    {
+      "id": 179,
+      "name": "Orthopedie respiratoire"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 169,
+      "name": "Mobilier"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      },
+      {
+        "id": 178,
+        "name": "Fauteuil"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 179,
+        "name": "Orthopedie respiratoire"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 937,
+        "files": [
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-standard_default .jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-tm_cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-tm_home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-tm_large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-tm_medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-tm_small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-tm_thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 938,
+        "files": [
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-standard_default .jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-tm_cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-tm_home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-tm_large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-tm_medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-tm_small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938-tm_thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/938.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 939,
+        "files": [
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-standard_default .jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-tm_cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-tm_home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-tm_large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-tm_medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-tm_small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939-tm_thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/939.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 940,
+        "files": [
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-standard_default .jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-tm_cart_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-tm_home_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-tm_large_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-tm_medium_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-tm_small_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940-tm_thickbox_default.jpg",
+          "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/940.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 113,
+        "name": "Medilec-FR-RespiCare",
+        "mime": "application/pdf",
+        "file": "e0c33ecfd64c022ed1bc04338f6a4a0b0ae0d3e8"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": 104,
+  "slug": "brassard-pour-tensiometre-heine-gamma-g5",
+  "active": false,
+  "reference": "",
+  "name": "Brassard pour tensiomètre HEINE Gamma G5",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Complet avec brassard dans un étui à fermeture éclair.<br /> Mesures : enfant, adulte et grande adulte.</p>",
+    "long_html": "<p>Complet avec brassard dans un étui à fermeture éclair.</p>\r\n<p>Mesure <strong>enfant</strong><br />Taille 10cm x 34cm<br />Circonférence 13-20cm</p>\r\n<p>Mesure <strong>adulte</strong><br />Taille 14cm x 58cm<br />Circonférence 29-41cm</p>\r\n<p>Mesure <strong>grande (adulte)</strong><br />Taille 17cm x 70cm<br />Circonférence 35-47cm</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 41.689879,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 72,
+      "name": "Accessoires"
+    },
+    {
+      "id": 108,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 72,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 108,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 285,
+        "files": [
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-cart_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-home_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-large_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-medium_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-small_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-thickbox_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-tm_cart_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-tm_home_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-tm_large_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-tm_medium_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-tm_small_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-tm_thickbox_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 286,
+        "files": [
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-cart_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-home_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-large_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-medium_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-small_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-thickbox_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-tm_cart_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-tm_home_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-tm_large_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-tm_medium_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-tm_small_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286-tm_thickbox_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/286.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 287,
+        "files": [
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-cart_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-home_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-large_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-medium_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-small_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-thickbox_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-tm_cart_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-tm_home_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-tm_large_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-tm_medium_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-tm_small_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287-tm_thickbox_default.jpg",
+          "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/287.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      103
+    ]
+  }
+}

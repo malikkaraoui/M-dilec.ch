@@ -1,0 +1,179 @@
+{
+  "id": 45,
+  "slug": "electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes",
+  "active": true,
+  "reference": "13.0059",
+  "name": "Électrodes ECG Covidien Kendall 5400 Diagnostic Tab Electrodes",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Électrodes adhésives ECG Covidien <strong>Kendall 5400 Diagnostic Tab Electrodes</strong>.<br />Replace les <em>CA-610</em>, les<em> Q-TRACE gold</em> et les <em>Q-TRACE blue</em>.</p>",
+    "long_html": "<p>Électrodes adhésives ECG Covidien <strong>Kendall 5400 Diagnostic Tab Electrodes</strong>.<br />Replace les <em>CA-610</em>, les<em> Q-TRACE gold</em> et les <em>Q-TRACE blue</em>.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 21.262767,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 23,
+    "name": "Covidien Commercial LTD"
+  },
+  "categories": [
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 131,
+      "name": "ECG électrodes"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 131,
+        "name": "ECG électrodes"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 664,
+        "files": [
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-cart_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-home_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-large_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-medium_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-small_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-standard_default .jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-thickbox_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-tm_cart_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-tm_home_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-tm_large_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-tm_medium_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-tm_small_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-tm_thickbox_default.jpg",
+          "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39
+    ]
+  }
+}

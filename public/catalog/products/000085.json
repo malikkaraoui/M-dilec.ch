@@ -1,0 +1,143 @@
+{
+  "id": 85,
+  "slug": "defibrillateur-schiller-fred-easy-life",
+  "active": false,
+  "reference": "8.0102",
+  "name": "Défibrillateur Schiller FRED Easy Life",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le défibrillateur automatique qui permet à chacun de sauver des vies. Le nouveau défibrillateur Schiller <strong>FRED EASY LIFE</strong> fournit des instructions visuelles et sonores détaillées, simples et claires pour guider le sauveteur en toute sécurité tout au long du processus de réanimation.</p>",
+    "long_html": "<p>Le défibrillateur automatique qui permet à chacun de sauver des vies. Le nouveau défibrillateur Schiller <strong>FRED EASY LIFE</strong> fournit des instructions visuelles et sonores détaillées, simples et claires pour guider le sauveteur en toute sécurité tout au long du processus de réanimation.</p>\r\n<p>Simple d'utilisation, d'une fiabilité exceptionnelle, ses performances et ses caractéristiques sont incomparables :</p>\r\n<ul style=\"margin-left:14px;\"><li>Développé et fabriqué en France</li>\r\n<li>Sa fiabilité a été approuvé par les certifications CE et dans le cadre de la directive 93/42/CEE</li>\r\n<li>Pictogrammes d'aide à la réanimation</li>\r\n<li>Les messages vocaux, également diffusés sur un large écran rétro éclairé, guideront l'utilisateur étape par étape en toute sérénité même dans un environnement bruyant</li>\r\n<li>Délivrance du choc automatique</li>\r\n<li>Écran LCD, 100 mm x 37 mm, haute définition, rétro éclairé avec affichage du texte (affichage ECG proposé en option)</li>\r\n<li>Pile Li-MnO2 ou batterie rechargeable NiCd</li>\r\n<li>Pochette de protection et transport en nylon</li>\r\n<li>Dimensions : H 7 x L 23 x P 22 cm</li>\r\n<li>Poids : 1,5 kg avec pile</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1958.21727,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 234,
+        "files": [
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-cart_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-home_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-large_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-medium_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-small_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-thickbox_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-tm_cart_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-tm_home_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-tm_large_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-tm_medium_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-tm_small_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-tm_thickbox_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 235,
+        "files": [
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-cart_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-home_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-large_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-medium_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-small_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-thickbox_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-tm_cart_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-tm_home_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-tm_large_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-tm_medium_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-tm_small_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235-tm_thickbox_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/235.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 797,
+        "files": [
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-cart_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-home_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-large_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-medium_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-small_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-standard_default .jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-thickbox_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-tm_cart_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-tm_home_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-tm_large_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-tm_medium_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-tm_small_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797-tm_thickbox_default.jpg",
+          "assets/products/85__defibrillateur-schiller-fred-easy-life/images/797.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 25,
+        "name": "Medilec-FR-Schiller-Fred-Easy-L",
+        "mime": "application/pdf",
+        "file": "df951ac46dbd92f132a88f502ca49c0eb824f39b"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      92
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": 113,
+  "slug": "ergometre-schiller-erg-911-s-l",
+  "active": false,
+  "reference": "31.0080",
+  "name": "Ergomètre Schiller ERG 911 S / L",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le nouvel ergomètre de sécurité allongé/semi-allongé de SCHILLER a été développé et fabriqué conformément aux directives européennes les plus récentes relatives aux ergomètres médicaux. Il est particulièrement adapté aux tests d’effort et cathétérismes cardiaques mis en oeuvre en cardiologie et en rééducation, ainsi qu’aux patients à risque élevé et aux personnes âgées ou handicapées.</p>",
+    "long_html": "<p>Le nouvel ergomètre de sécurité allongé/semi-allongé de SCHILLER a été développé et fabriqué conformément aux directives européennes les plus récentes relatives aux ergomètres médicaux. Il est particulièrement adapté aux tests d’effort et cathétérismes cardiaques mis en oeuvre en cardiologie et en rééducation, ainsi qu’aux patients à risque élevé et aux personnes âgées ou handicapées.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Compatible avec tous les appareils d’ECG d’effort de SCHILLER.</li>\r\n<li>Tous les ergomètres de SCHILLER sont équipés de larges affichages graphiques (10 cm x 7,5 cm).</li>\r\n<li>Fonctionnement quasi silencieux.</li>\r\n<li>La pente (0 à 45°), la selle et l’appui-tête peuvent être ajustés sans limites via la télécommande.</li>\r\n<li>Contrôle automatique par ordinateur via l’interface RS-232 isolée par galvanisation.</li>\r\n<li>Conception solide et moderne.</li>\r\n<li>Construction en acier stable pour un poids maximal de 160 kg.</li>\r\n<li>Charge indépendante de la vitesse.</li>\r\n<li>Revêtement superficiel facile à nettoyer.</li>\r\n</ul><p style=\"margin-top:10px;\">Avantages :</p>\r\n<ul style=\"margin-left:14px;\"><li>Durée de vie très longue grâce à une qualité de fabrication exceptionnelle.</li>\r\n<li>Excellent rapport prix/performance.</li>\r\n<li>Fonctionnement ne nécessitant aucune maintenance.</li>\r\n<li>Accoudoir pour les mesures de la pression artérielle.</li>\r\n<li>Couchette facile d’accès pour tout patient.</li>\r\n<li>Paramètres ergométriques et limites d’alarme faciles à programmer.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 8532.033426,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 88,
+      "name": "Schiller vélos"
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 88,
+        "name": "Schiller vélos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 298,
+        "files": [
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-cart_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-home_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-large_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-medium_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-small_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-thickbox_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-tm_cart_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-tm_home_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-tm_large_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-tm_medium_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-tm_small_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-tm_thickbox_default.jpg",
+          "assets/products/113__ergometre-schiller-erg-911-s-l/images/298.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 38,
+        "name": "Medilec-FR-Schiller-Ergometre",
+        "mime": "application/pdf",
+        "file": "e2682bb17900de2241aace3f0b389e75fbf66e97"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

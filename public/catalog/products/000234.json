@@ -1,0 +1,171 @@
+{
+  "id": 234,
+  "slug": "thermometre-infrarouge-bosotherm-diagnostic",
+  "active": false,
+  "reference": "",
+  "name": "Thermomètre infrarouge Bosotherm Diagnostic",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>Bosotherm Diagnostic</strong> est un thermomètre infrarouge pour la prise de la température au frontale. Le Bosotherm recoure aux dernières avancées technologiques pour livrer une mesure précise et fiable de la température de surface. Un test automatique à l'allumage contrôle le bon fonctionnement avant chaque mise en service de l'appareil.</p>",
+    "long_html": "<p><span id=\"product-description-no-js_420807\" class=\"product-description-no-js\"><span class=\"product-description-no-js\">Le <strong>Bosotherm Diagnostic</strong> est un thermomètre infrarouge pour la prise de la température au frontale. Le Bosotherm recoure aux dernières avancées technologiques pour livrer une mesure précise et fiable de la température de surface. Un test automatique à l'allumage contrôle le bon fonctionnement avant chaque mise en service de l'appareil. Une lumière de positionnement permet de visualiser la zone visée et limite le risque d'erreur liée à un mauvais placement du thermomètre. La mesure au front permet de déterminer la température corporelle de façon parfaitement hygiénique. Le Bosotherm peut tout aussi bien être utilisé pour déterminer la température d'objets.<br /></span></span></p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>mesure sûre au front en seulement une seconde</li>\r\n<li>grand écran rétro-éclairé très lisible</li>\r\n<li>signal d'alarme en cas de fièvre</li>\r\n<li>mesure de la température d'objets en surface</li>\r\n<li>bonne prise en main grâce à son design ergonomique</li>\r\n<li>mémoire pour jusqu'à 30 mesures</li>\r\n<li>trousse de protection et piles incluses</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 99.350046,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1004,
+        "files": [
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-cart_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-home_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-large_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-medium_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-small_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-standard_default .jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-thickbox_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-tm_cart_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-tm_home_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-tm_large_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-tm_medium_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-tm_small_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-tm_thickbox_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1005,
+        "files": [
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-cart_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-home_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-large_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-medium_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-small_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-standard_default .jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-thickbox_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-tm_cart_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-tm_home_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-tm_large_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-tm_medium_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-tm_small_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005-tm_thickbox_default.jpg",
+          "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1005.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 117,
+        "name": "Medilec-Bosotherm-Diagnostic",
+        "mime": "application/pdf",
+        "file": "9f8d75b1bb389b0353d24ea498fb70d17c9d9351"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

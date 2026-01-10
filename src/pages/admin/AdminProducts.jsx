@@ -2,6 +2,7 @@ import { push, ref, remove, set, update } from 'firebase/database'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
+import { listCategories, listManufacturers } from '../../lib/catalog.js'
 import { rtdb } from '../../lib/db.js'
 import { slugify } from '../../lib/slug.js'
 import {
@@ -24,8 +25,57 @@ function safeInt(value) {
   return Math.trunc(n)
 }
 
+function uniqSlugs(list) {
+  const out = []
+  const seen = new Set()
+  for (const x of Array.isArray(list) ? list : []) {
+    const s = String(x || '').trim()
+    if (!s) continue
+    if (seen.has(s)) continue
+    seen.add(s)
+    out.push(s)
+  }
+  return out
+}
+
+function uniqStrings(list) {
+  const out = []
+  const seen = new Set()
+  for (const x of Array.isArray(list) ? list : []) {
+    const s = String(x || '').trim()
+    if (!s) continue
+    const key = normalizeText(s)
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(s)
+  }
+  return out
+}
+
+const BRAND_OTHER_VALUE = '__other__'
+
+function normalizeBrand(value) {
+  const s = String(value || '').trim().replace(/\s+/g, ' ')
+  if (!s) return ''
+  const first = s.slice(0, 1)
+  const rest = s.slice(1)
+  return `${first.toLocaleUpperCase('fr')}${rest}`
+}
+
 export function AdminProductsPage() {
   const { status, data, error } = useRtdbValue('/products')
+  const { status: taxStatus, data: taxCategoriesData, error: taxError } = useRtdbValue('/taxonomies/categories')
+  const {
+    status: taxMStatus,
+    data: taxManufacturersData,
+    error: taxMError,
+  } = useRtdbValue('/taxonomies/manufacturers')
+
+  const [categoriesIndex, setCategoriesIndex] = useState(() => [])
+  const [categoriesLoadError, setCategoriesLoadError] = useState('')
+
+  const [manufacturersIndex, setManufacturersIndex] = useState(() => [])
+  const [manufacturersLoadError, setManufacturersLoadError] = useState('')
 
   const imageInputRef = useRef(null)
   const pdfInputRef = useRef(null)
@@ -41,6 +91,7 @@ export function AdminProductsPage() {
 
   const [creating, setCreating] = useState(false)
   const [createError, setCreateError] = useState('')
+  const [lastCreatedId, setLastCreatedId] = useState('')
 
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState('')
@@ -71,6 +122,7 @@ export function AdminProductsPage() {
       brand: typeof p?.brand === 'string' ? p.brand : '',
       description: typeof p?.description === 'string' ? p.description : '',
       priceCents: typeof p?.priceCents === 'number' ? p.priceCents : null,
+      categorySlugs: Array.isArray(p?.categorySlugs) ? uniqSlugs(p.categorySlugs) : [],
       pdf: p?.pdf && typeof p.pdf === 'object' ? p.pdf : null,
       image: p?.image && typeof p.image === 'object' ? p.image : null,
     }))
@@ -91,7 +143,191 @@ export function AdminProductsPage() {
 
   const selected = useMemo(() => products.find((p) => p.id === selectedId) || null, [products, selectedId])
 
-  const [edit, setEdit] = useState(() => ({ name: '', brand: '', description: '', priceCents: '' }))
+  const [edit, setEdit] = useState(() => ({ name: '', brand: '', description: '', priceCents: '', categorySlugs: [] }))
+
+  const brandOptions = useMemo(() => {
+    const raw = data
+    if (!raw || typeof raw !== 'object') return []
+
+    const brands = []
+    for (const p of Object.values(raw)) {
+      if (!p || typeof p !== 'object') continue
+
+      const b1 = typeof p.brand === 'string' ? p.brand : ''
+      if (b1 && b1.trim()) brands.push(b1)
+
+      // fallback: produits importés du catalogue
+      const b2 = typeof p.catalog?.manufacturer_name === 'string' ? p.catalog.manufacturer_name : ''
+      if (b2 && b2.trim()) brands.push(b2)
+    }
+
+    for (const m of Array.isArray(manufacturersIndex) ? manufacturersIndex : []) {
+      const name = typeof m?.name === 'string' ? m.name : ''
+      if (name && name.trim()) brands.push(name)
+    }
+
+    const unique = uniqStrings(brands)
+    unique.sort((a, b) => a.localeCompare(b, 'fr'))
+    return unique
+  }, [data, manufacturersIndex])
+
+  const [brandChoice, setBrandChoice] = useState('')
+  const [brandAddError, setBrandAddError] = useState('')
+  const [addedBrands, setAddedBrands] = useState(() => [])
+
+  const allBrandOptions = useMemo(() => {
+    return uniqStrings([...(brandOptions || []), ...(addedBrands || [])]).sort((a, b) => a.localeCompare(b, 'fr'))
+  }, [brandOptions, addedBrands])
+
+  useEffect(() => {
+    let cancelled = false
+    const ctrl = new AbortController()
+
+    async function run() {
+      setCategoriesLoadError('')
+
+      const fromRtdb = taxCategoriesData
+      const rtdbCats = Array.isArray(fromRtdb?.categories) ? fromRtdb.categories : null
+      if (rtdbCats && rtdbCats.length) {
+        if (!cancelled) setCategoriesIndex(rtdbCats)
+        return
+      }
+
+      // si la RTDB répond mais sans données, on tente le fallback statique.
+      // si la RTDB est en erreur (permission/config), on tente aussi le fallback.
+      try {
+        const catIdx = await listCategories({ signal: ctrl.signal })
+        const cats = Array.isArray(catIdx?.categories) ? catIdx.categories : []
+        if (!cancelled) setCategoriesIndex(cats)
+      } catch {
+        if (cancelled) return
+        // fail-soft: l'admin produits doit rester utilisable même si les taxonomies sont KO
+        setCategoriesIndex([])
+        if (taxStatus === 'error' || taxError) {
+          setCategoriesLoadError('Catégories indisponibles (Firebase). Importez les taxonomies dans la RTDB.')
+        } else {
+          setCategoriesLoadError('Catégories indisponibles (catalogue).')
+        }
+      }
+    }
+
+    run()
+
+    return () => {
+      cancelled = true
+      ctrl.abort()
+    }
+  }, [taxCategoriesData, taxStatus, taxError])
+
+  useEffect(() => {
+    let cancelled = false
+    const ctrl = new AbortController()
+
+    async function run() {
+      setManufacturersLoadError('')
+
+      const fromRtdb = taxManufacturersData
+      const rtdbList = Array.isArray(fromRtdb?.manufacturers) ? fromRtdb.manufacturers : null
+      if (rtdbList && rtdbList.length) {
+        if (!cancelled) setManufacturersIndex(rtdbList)
+        return
+      }
+
+      try {
+        const mIdx = await listManufacturers({ signal: ctrl.signal })
+        const ms = Array.isArray(mIdx?.manufacturers) ? mIdx.manufacturers : []
+        if (!cancelled) setManufacturersIndex(ms)
+      } catch {
+        if (cancelled) return
+        setManufacturersIndex([])
+        if (taxMStatus === 'error' || taxMError) {
+          setManufacturersLoadError('Marques indisponibles (Firebase). Importez les taxonomies dans la RTDB.')
+        } else {
+          setManufacturersLoadError('Marques indisponibles (catalogue).')
+        }
+      }
+    }
+
+    run()
+
+    return () => {
+      cancelled = true
+      ctrl.abort()
+    }
+  }, [taxManufacturersData, taxMStatus, taxMError])
+
+  const categoryOptions = useMemo(() => {
+    const all = Array.isArray(categoriesIndex) ? categoriesIndex : []
+    if (!all.length) return []
+
+    const byId = new Map()
+    for (const c of all) {
+      if (c && typeof c === 'object' && c.id != null) byId.set(Number(c.id), c)
+    }
+
+    const home = all.find((c) => String(c?.slug || '') === 'home')
+    const homeId = home?.id != null ? Number(home.id) : null
+
+    const cache = new Map()
+    function pathLabel(cat) {
+      const id = Number(cat?.id)
+      if (!Number.isFinite(id)) return ''
+      if (cache.has(id)) return cache.get(id)
+
+      const names = []
+      let cur = cat
+      let guard = 0
+      while (cur && guard < 20) {
+        const name = String(cur?.name || '').trim()
+        if (name) names.push(name)
+        const pid = Number(cur?.id_parent)
+        if (!Number.isFinite(pid) || pid <= 0) break
+        if (homeId != null && pid === homeId) {
+          // on coupe au niveau Home (on n'affiche pas Root/Home)
+          break
+        }
+        cur = byId.get(pid)
+        guard += 1
+      }
+
+      const label = names.reverse().join(' › ')
+      cache.set(id, label)
+      return label
+    }
+
+    const options = all
+      .filter((c) => {
+        if (!c || typeof c !== 'object') return false
+        if (c.active === false) return false
+        const slug = String(c.slug || '').trim()
+        if (!slug || slug === 'root' || slug === 'home') return false
+        return true
+      })
+      .map((c) => ({
+        slug: String(c.slug || '').trim(),
+        label: pathLabel(c) || String(c.name || c.slug || '').trim(),
+        depth: Number(c.level_depth) || 0,
+      }))
+      .filter((o) => o.slug && o.label)
+
+    options.sort((a, b) => a.label.localeCompare(b.label, 'fr'))
+    return options
+  }, [categoriesIndex])
+
+  const defaultCategorySlug = useMemo(() => {
+    return categoryOptions.length ? categoryOptions[0].slug : ''
+  }, [categoryOptions])
+
+  const selectedCategorySlugs = useMemo(() => uniqSlugs(edit.categorySlugs), [edit.categorySlugs])
+
+  const categoryLabelBySlug = useMemo(() => {
+    const m = new Map()
+    for (const o of categoryOptions) {
+      if (!o?.slug) continue
+      m.set(o.slug, o.label || o.slug)
+    }
+    return m
+  }, [categoryOptions])
 
   // Synchronisation soft: quand on change d’item, on recharge le form.
   useEffect(() => {
@@ -101,8 +337,39 @@ export function AdminProductsPage() {
       brand: selected.brand || '',
       description: selected.description || '',
       priceCents: selected.priceCents == null ? '' : String(selected.priceCents),
+      categorySlugs: Array.isArray(selected.categorySlugs) ? uniqSlugs(selected.categorySlugs) : [],
     })
   }, [selectedId, selected])
+
+  // Synchronisation select "marque": si la marque courante n’est pas dans la liste, on bascule sur "Autre".
+  useEffect(() => {
+    const b = String(selected?.brand || '').trim()
+    if (!b) {
+      setBrandChoice('')
+      return
+    }
+
+    const has = allBrandOptions.some((x) => x === b)
+    setBrandChoice(has ? b : BRAND_OTHER_VALUE)
+  }, [selectedId, selected?.brand, allBrandOptions])
+
+  function onAddBrand() {
+    setBrandAddError('')
+
+    const next = normalizeBrand(edit.brand)
+    if (!next) {
+      setBrandAddError('Saisissez une marque.')
+      return
+    }
+
+    const exists = allBrandOptions.some((b) => normalizeText(b) === normalizeText(next))
+    if (!exists) {
+      setAddedBrands((prev) => uniqStrings([...(prev || []), next]))
+    }
+
+    setEdit((prev) => ({ ...prev, brand: next }))
+    setBrandChoice(next)
+  }
 
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -135,14 +402,25 @@ export function AdminProductsPage() {
         brand: '',
         description: '',
         priceCents: null,
+        // minimum 1 catégorie côté admin (fallback: première catégorie disponible)
+        categorySlugs: defaultCategorySlug ? [defaultCategorySlug] : null,
       })
 
       setSelectedId(id)
+      setLastCreatedId(id)
     } catch (err) {
       setCreateError(err?.message || 'Création impossible.')
     } finally {
       setCreating(false)
     }
+  }
+
+  function resetFormToInitial() {
+    setEdit({ name: '', brand: '', description: '', priceCents: '', categorySlugs: [] })
+    setBrandChoice('')
+    setBrandAddError('')
+    setSaveError('')
+    setSaveOk(false)
   }
 
   async function onSave() {
@@ -167,6 +445,17 @@ export function AdminProductsPage() {
     const rawPrice = String(edit.priceCents || '').trim()
     const priceCents = rawPrice ? safeInt(rawPrice) : null
 
+    const categorySlugs = uniqSlugs(edit.categorySlugs)
+    if (categorySlugs.length < 1 && categoryOptions.length) {
+      setSaveError('Choisissez au moins 1 catégorie.')
+      return
+    }
+
+    if (categorySlugs.length > 5) {
+      setSaveError('Vous pouvez sélectionner 5 catégories maximum.')
+      return
+    }
+
     if (rawPrice && priceCents == null) {
       setSaveError('priceCents doit être un nombre entier (ex: 12990).')
       return
@@ -181,10 +470,18 @@ export function AdminProductsPage() {
         brand: brand || null,
         description: description || null,
         priceCents,
+        categorySlugs: categorySlugs.length ? categorySlugs : null,
       })
 
       setSaveOk(true)
       window.setTimeout(() => setSaveOk(false), 1200)
+
+      // UX: après la création d’un nouveau produit (pas l’édition), on réinitialise le formulaire.
+      if (lastCreatedId && selectedId === lastCreatedId) {
+        setLastCreatedId('')
+        setSelectedId('')
+        resetFormToInitial()
+      }
     } catch (err) {
       setSaveError(err?.message || 'Enregistrement impossible.')
     } finally {
@@ -479,14 +776,163 @@ export function AdminProductsPage() {
                   <label className="text-sm font-medium" htmlFor="admin-product-brand">
                     Marque
                   </label>
-                  <input
-                    id="admin-product-brand"
-                    className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-                    style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-                    value={edit.brand}
-                    onChange={(e) => setEdit((prev) => ({ ...prev, brand: e.target.value }))}
-                    type="text"
-                  />
+
+                  <div className="space-y-2">
+                    <select
+                      id="admin-product-brand"
+                      className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm"
+                      value={brandChoice}
+                      onChange={(e) => {
+                        const v = String(e.target.value || '')
+                        setBrandChoice(v)
+                        setBrandAddError('')
+                        if (v === BRAND_OTHER_VALUE) {
+                          // on garde la valeur actuelle pour permettre l’édition (ou on laisse vide)
+                          return
+                        }
+                        setEdit((prev) => ({ ...prev, brand: v }))
+                      }}
+                    >
+                      <option value="">—</option>
+                      {allBrandOptions.map((b) => (
+                        <option key={b} value={b}>
+                          {b}
+                        </option>
+                      ))}
+                      <option value={BRAND_OTHER_VALUE}>Autre…</option>
+                    </select>
+
+                    {manufacturersLoadError ? (
+                      <div className="text-xs text-amber-700">{manufacturersLoadError}</div>
+                    ) : null}
+
+                    {!manufacturersLoadError && allBrandOptions.length === 0 ? (
+                      <div className="text-xs text-neutral-500">
+                        Aucune marque référencée pour l’instant. Choisissez “Autre…” pour en ajouter une.
+                      </div>
+                    ) : null}
+
+                    {brandChoice === BRAND_OTHER_VALUE ? (
+                      <div className="space-y-1">
+                        <label className="sr-only" htmlFor="admin-product-brand-other">
+                          Nouvelle marque
+                        </label>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <input
+                            id="admin-product-brand-other"
+                            className="min-w-0 flex-1 rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
+                            style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
+                            value={edit.brand}
+                            onChange={(e) => {
+                              setBrandAddError('')
+                              setEdit((prev) => ({ ...prev, brand: e.target.value }))
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key !== 'Enter') return
+                              e.preventDefault()
+                              e.stopPropagation()
+                              onAddBrand()
+                            }}
+                            onBlur={() => {
+                              const next = normalizeBrand(edit.brand)
+                              if (!next) return
+                              setEdit((prev) => ({ ...prev, brand: next }))
+                            }}
+                            type="text"
+                            placeholder="Saisir une nouvelle marque (ex: Nihon Kohden)"
+                          />
+                          <button
+                            type="button"
+                            className="rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
+                            style={{ backgroundColor: 'var(--medilec-accent)' }}
+                            onClick={onAddBrand}
+                            disabled={!String(edit.brand || '').trim()}
+                          >
+                            Ajouter la marque
+                          </button>
+                        </div>
+                        {brandAddError ? <div className="text-xs text-red-700">{brandAddError}</div> : null}
+                        <div className="text-xs text-neutral-500">
+                          La première lettre sera mise en majuscule. Cette marque sera disponible à l’avenir dans la liste.
+                        </div>
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+
+                <div className="space-y-1">
+                  <label className="text-sm font-medium" htmlFor="admin-product-category-add">
+                    Catégories (1 min, 5 max)
+                  </label>
+
+                  <div className="flex flex-wrap items-end gap-2">
+                    <div className="min-w-0 flex-1">
+                      <select
+                        id="admin-product-category-add"
+                        className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm"
+                        value=""
+                        onChange={(e) => {
+                          const slug = String(e.target.value || '').trim()
+                          if (!slug) return
+                          setEdit((prev) => {
+                            const cur = uniqSlugs(prev.categorySlugs)
+                            if (cur.includes(slug)) return prev
+                            if (cur.length >= 5) return prev
+                            return { ...prev, categorySlugs: [...cur, slug] }
+                          })
+                        }}
+                        disabled={!categoryOptions.length}
+                      >
+                        <option value="">Ajouter une catégorie…</option>
+                        {categoryOptions.map((o) => (
+                          <option key={o.slug} value={o.slug}>
+                            {o.label}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <div className="text-xs text-neutral-500">
+                      {selectedCategorySlugs.length}/5
+                    </div>
+                  </div>
+
+                  {categoriesLoadError ? (
+                    <div className="text-xs text-amber-700">{categoriesLoadError}</div>
+                  ) : null}
+
+                  {categoryOptions.length && selectedCategorySlugs.length < 1 ? (
+                    <div className="text-xs text-red-700">Minimum 1 catégorie requise.</div>
+                  ) : null}
+
+                  {selectedCategorySlugs.length > 0 ? (
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {selectedCategorySlugs.map((slug) => (
+                        <span
+                          key={slug}
+                          className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-2.5 py-1 text-xs text-neutral-700"
+                        >
+                          <span className="truncate">{categoryLabelBySlug.get(slug) || slug}</span>
+                          <span className="font-mono text-[11px] text-neutral-500">{slug}</span>
+                          <button
+                            type="button"
+                            className="text-neutral-500 hover:text-neutral-900"
+                            onClick={() =>
+                              setEdit((prev) => ({
+                                ...prev,
+                                categorySlugs: uniqSlugs(prev.categorySlugs).filter((x) => x !== slug),
+                              }))
+                            }
+                            aria-label={`Retirer ${slug}`}
+                            title="Retirer"
+                          >
+                            ×
+                          </button>
+                        </span>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="text-xs text-neutral-500">Aucune catégorie sélectionnée.</div>
+                  )}
                 </div>
 
                 <div className="space-y-1">

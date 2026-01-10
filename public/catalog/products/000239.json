@@ -1,0 +1,165 @@
+{
+  "id": 239,
+  "slug": "tensiometre-professionnel-boso-carat-professional",
+  "active": false,
+  "reference": "5.0176",
+  "name": "Tensiomètre professionnel Boso Carat Professional",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le tensiomètre électronique <strong>Boso Carat Professional</strong> est un tensiomètre au bras qui convient idéalement en cas de patientèle importante. Doté d’un design moderne, ce tensiomètre entièrement automatique possède un grand écran bien lisible et convainc par sa grande précision de mesure.</p>",
+    "long_html": "<p>Le tensiomètre électronique <strong>Boso Carat Professional</strong> est un tensiomètre au bras qui convient idéalement en cas de patientèle importante. Doté d’un design moderne, ce tensiomètre entièrement automatique possède un grand écran bien lisible et convainc par sa grande précision de mesure.Livré en standard avec 3 brassards, le tensiomètre Boso Carat Professional fournit des mesures de tension précises chez tous les patients, quelle que soit la taille du bras.</p>\r\n<p><strong>Caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>modèle de table élégant et stable</li>\r\n<li>dispositif de rangement pour brassard</li>\r\n<li>mesure au bras</li>\r\n<li>principe de mesure oscillométrique</li>\r\n<li>programme de gonflage automatique intelligent</li>\r\n<li>fonctionnement simple à un seul bouton</li>\r\n<li>grand écran LCD triple mesure (systole, diastole, pouls)</li>\r\n<li>mémorisation de la dernière mesure effectuée</li>\r\n<li>piles et adaptateur secteur inclus</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 253.667595,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 185,
+      "name": "Boso"
+    },
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 185,
+        "name": "Boso"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1016,
+        "files": [
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-cart_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-home_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-large_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-medium_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-small_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-standard_default .jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-thickbox_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-tm_cart_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-tm_home_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-tm_large_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-tm_medium_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-tm_small_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-tm_thickbox_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1017,
+        "files": [
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-cart_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-home_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-large_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-medium_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-small_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-standard_default .jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-thickbox_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-tm_cart_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-tm_home_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-tm_large_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-tm_medium_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-tm_small_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017-tm_thickbox_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1017.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1018,
+        "files": [
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-cart_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-home_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-large_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-medium_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-small_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-standard_default .jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-thickbox_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-tm_cart_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-tm_home_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-tm_large_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-tm_medium_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-tm_small_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018-tm_thickbox_default.jpg",
+          "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1018.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 122,
+        "name": "Medilec-Boso-Carat-Professional",
+        "mime": "application/pdf",
+        "file": "f3fc7e175355ba919abeb0853b9c3d8188b64173"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

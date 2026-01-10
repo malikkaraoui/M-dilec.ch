@@ -1,0 +1,145 @@
+{
+  "id": 208,
+  "slug": "defibrillateur-schiller-fred-pa-1",
+  "active": true,
+  "reference": "8.0107",
+  "name": "Défibrillateur Schiller FRED PA-1",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>FRED PA-1</strong> est un appareil sophistiqué permettant de sauver des vies; en plus d'être facilement identifiable, sa couleur le rend très visible dans tous les environnements.</p>\r\n<p>Le <strong>FRED PA-1</strong> est disponible en version semi-automatique ou entièrement automatique.</p>",
+    "long_html": "<p>Le <strong>FRED PA-1</strong> est un appareil sophistiqué permettant de sauver des vies; en plus d'être facilement identifiable, sa couleur le rend très visible dans tous les environnements.</p>\r\n<p>Le <strong>FRED PA-1</strong> est disponible en version semi-automatique ou entièrement automatique. En version automatique, le FRED PA-1 délivre le choc sans aucune action effectuée par le secouriste. En version semi-automatique, le FRED PA-1 demande au secouriste de déclencher le choc en appuyant sur le bouton prévu à cet effet.</p>\r\n<p>En option le multi-langue : français, anglais ou allemand.</p>\r\n<p><strong>Performances</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>NUMÉRO D’URGENCE : Le FRED PA-1 conseille d'avertir les secours en composant le numéro indiqué sur l'appareil (personnalisable).</li>\r\n<li>MISE EN OEUVRE RAPIDE : Les électrodes pré-connectées permettent une application rapide sur le torse du patient; l’analyse démarre automatiquement.</li>\r\n<li>TOUJOURS OPÉRATIONNEL : Le FRED PA-1 effectue un test automatique régulier et fournit des indications sur son état.</li>\r\n<li>FACILE À TRANSPORTER : saisir l’appareil d’une seule main et se rendre rapidement sur les lieux de l’accident.</li>\r\n<li>AUCUN DÉLAI : le FRED PA-1 se met en marche immédiatement et automatiquement dès que le couvercle est soulevé.</li>\r\n<li>COMPARTIMENT POUR ÉLECTRODES : les électrodes sont immédiatement accessibles et facilement identifiables.</li>\r\n<li>FONCTION DE RÉPÉTITION : vous avez manqué une information fournie par l’appareil? Pas de souci : il vous suffit d’appuyer sur la touche «REPEAT» pour entendre à nouveau les dernières instructions.</li>\r\n<li>INTERFACE UTILISATEUR EXPLICITE : 3 étapes simples à comprendre.</li>\r\n<li>INDICATIONS DE FONCTIONNEMENT EXPLICITES : le FRED PA-1 fournit un avertissement dès qu’une vérification est requise: un signal acoustique ainsi qu’un témoin lumineux indiquent l’état de l’appareil et les actions devant être effectuées (remplacement de la pile, des électrodes, etc.).</li>\r\n</ul><p><strong>Caractéristiques techniques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Taille : 300 x 255 x 110 mm</li>\r\n<li>Poids : env 2.3 kg</li>\r\n<li>Classe de protection IP55 (utilisable même dans les endroits soumis à forte humidité : bâteaux, piscine, saunas, activité de plein air)</li>\r\n<li>Electrodes de défibrillation pré-connectées avec tag RFID (durée de vie et numéro de lot enregistrés dans le tag)</li>\r\n<li>Adaptation automatique à la morphologie et à l'impédance du patient</li>\r\n<li>Onde de défibrillation biphasique exponentielle tronquée (onde BTE)</li>\r\n<li>Protocole d'énergie adulte : 150-200-200 joules</li>\r\n<li>Protocole d'énergie enfant : 50-50-50 joules</li>\r\n<li>Détection du seuil d'asystolie : 70 µV</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2255.338904,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 801,
+        "files": [
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-cart_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-home_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-large_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-medium_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-small_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-standard_default .jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-thickbox_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-tm_cart_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-tm_home_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-tm_large_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-tm_medium_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-tm_small_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-tm_thickbox_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 802,
+        "files": [
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-cart_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-home_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-large_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-medium_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-small_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-standard_default .jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-thickbox_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-tm_cart_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-tm_home_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-tm_large_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-tm_medium_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-tm_small_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802-tm_thickbox_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/802.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 803,
+        "files": [
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-cart_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-home_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-large_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-medium_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-small_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-standard_default .jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-thickbox_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-tm_cart_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-tm_home_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-tm_large_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-tm_medium_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-tm_small_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803-tm_thickbox_default.jpg",
+          "assets/products/208__defibrillateur-schiller-fred-pa-1/images/803.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 100,
+        "name": "Medilec-FR-Schiller-Fred-PA-1",
+        "mime": "application/pdf",
+        "file": "003cf4b2ffdb7230692669a49fc0fc7df7f7b7f3"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      209
+    ]
+  }
+}

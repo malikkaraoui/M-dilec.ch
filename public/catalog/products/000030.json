@@ -1,0 +1,196 @@
+{
+  "id": 30,
+  "slug": "ecg-schiller-cardiovit-ms-2010-m",
+  "active": false,
+  "reference": "11.0130",
+  "name": "ECG Schiller Cardiovit MS-2010 M avec l'écran tactile et l'exportation en PDF",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>CARDIOVIT MS-2010</strong> avec l'écran tactile et l'exportation en PDF, réunit précision, performance et ergonomie élaborée en un seul instrument. Il est conçu pour les grands volumes de travail, dans les hôpitaux où le volume d’ECG est élevé et où vitesse et qualité sont primordiales. Avec l'option spiromètre, MS-2010 représente la génération future de spirométrie mobile.</p>",
+    "long_html": "<p>Le <strong>CARDIOVIT MS-2010</strong> avec l'écran tactile et l'exportation en PDF, réunit précision, performance et ergonomie élaborée en un seul instrument. Il est conçu pour les grands volumes de travail, dans les hôpitaux où le volume d’ECG est élevé et où vitesse et qualité sont primordiales. Avec l'option spiromètre, MS-2010 représente la génération future de spirométrie mobile.</p>\r\n<p style=\"margin-top:10px;\"><strong>TRAITEMENT DE POINTE, AUCUN DÉLAI D’ATTENTE</strong><br />Il vous suffit de toucher l’écran couleur haute résolution pour enregistrer, sélectionner et imprimer des ECG de qualité et des données spirométriques en un tour de main. Le MS-2010 pouvant exporter les enregistrements dans divers formats standard 1, il est possible de communiquer de façon bidirectionnelle avec un système tiers. De la saisie complète et exacte des données aux champs de données invitant l’utilisateur à recueillir les informations requises, le MS-2010 est conçu dans ses moindres détails pour rationaliser l’épreuve d’effort :</p>\r\n<ul style=\"margin-left:14px;\"><li>Démarrage instantané pour une utilisation immédiate</li>\r\n<li>Traitement, interprétation et impression de l’ECG en moins de 3 secondes après acquisition</li>\r\n</ul><p><strong>UNE SEULE TOUCHE POUR UNE SPIROMÉTRIE PLUS SIMPLE (<span style=\"color:#d0121a;\">option</span>)<br /></strong></p>\r\n<p>Le MS-2010 représente la génération future de spirométrie mobile, conçu pour des tests complets (CVL/CVF/VMM). Un écran tactile couleur ainsi qu’une imprimante thermique intégrée vous permettent d’effectuer des tests sans ordinateur. Le MS-2010 est disponible avec le <strong>SPIROVIT SP-250</strong> (jetable) ne requiert aucune calibration de volume ni aucun nettoyage; sa technologie de capteur unique élimine tout risque de contamination croisée.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4140.204271,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 78,
+      "name": "Schiller MS-20..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 78,
+        "name": "Schiller MS-20..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 167,
+        "files": [
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-tm_cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-tm_home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-tm_large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-tm_medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-tm_small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-tm_thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 695,
+        "files": [
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-standard_default .jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-tm_cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-tm_home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-tm_large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-tm_medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-tm_small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695-tm_thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/695.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 151,
+        "files": [
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-tm_cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-tm_home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-tm_large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-tm_medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-tm_small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151-tm_thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/151.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 152,
+        "files": [
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-tm_cart_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-tm_home_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-tm_large_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-tm_medium_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-tm_small_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152-tm_thickbox_default.jpg",
+          "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/152.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 13,
+        "name": "Medilec-FR-Schiller-MS-2010",
+        "mime": "application/pdf",
+        "file": "b1d67bedf5ff37e3f2b189856374ddbdfa400179"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      31,
+      35,
+      41,
+      43,
+      45,
+      82,
+      88,
+      89,
+      90
+    ]
+  }
+}

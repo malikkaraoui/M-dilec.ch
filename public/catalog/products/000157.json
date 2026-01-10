@@ -1,0 +1,241 @@
+{
+  "id": 157,
+  "slug": "spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre",
+  "active": true,
+  "reference": "",
+  "name": "Spiromètre MIR Spirobank II Advanced",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>New Spirobank II Advanced</strong>, le spiromètre qui fonctionne aussi bien en mode autonome que branché à un PC via Bluetooth® 2.1 ou USB, test de marche 6 minutes (6MWT), test du sommeil, test Holter (24h).</p>",
+    "long_html": "<p><strong></strong><strong>New Spirobank II Advanced</strong>, le spiromètre qui fonctionne aussi bien en mode autonome que branché à un PC via Bluetooth® 2.1 ou USB, test de marche 6 minutes (6MWT), test du sommeil, test Holter (24h).</p>\r\n<p>Minilab portable pour pneumologues et thérapeutes respiratoires, <strong>Spirobank II Advanced</strong> est prêt à être utilisé avec le module d'Oxymétrie en option.</p>\r\n<p style=\"margin-top:10px;\">Principales caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Comparaison PRE et POST Bronchodilatateur.</li>\r\n<li>Interprétation du test de Spirométrie, capteur de température intégré pour la conversion BTPS.</li>\r\n<li>Mémoire allant jusqu'à 10 000 tests de Spirométrie ou 900 heures d'enregistrement d'oxymétrie (si disponible) associées à des services de recherche puissants et flexibles.</li>\r\n<li>Batterie Rechargeable longue durée.</li>\r\n<li>Indicateur d'état de santé à feu tricolore pour une interprétation immédiate du test.</li>\r\n<li>Écran rétroéclairé haute résolution avec résultats et courbes directement sur l'écran pour une évaluation immédiate des données.</li>\r\n<li>Logiciel Winspiro PRO® pour PC (Toujours inclus), comprend les mises à jour téléchargeables gratuitement, fournit le Flux/Volume en temps réel et les courbes Débit/Volume avec comparaison PRE/POST Bronchodilatateur sur votre PC; valeurs théoriques Quanjer 2012–GLI avec LLN et Z-score.</li>\r\n<li>Disponible avec la turbine à USAGE UNIQUE et la turbine REUTILISABLE.</li>\r\n</ul><p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1651.810585,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 603,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 604,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/604.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 605,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/605.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 606,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/606.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 607,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/607.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 608,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/608.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 609,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/609.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 610,
+        "files": [
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-tm_cart_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-tm_home_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-tm_large_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-tm_medium_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-tm_small_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610-tm_thickbox_default.jpg",
+          "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/610.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 77,
+        "name": "Medilec-FR-Mir-Spirobank-II",
+        "mime": "application/pdf",
+        "file": "adf92d58382aefb4b500ada9684bc946974f158e"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193,
+      197,
+      198
+    ]
+  }
+}

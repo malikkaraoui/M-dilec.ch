@@ -1,0 +1,165 @@
+{
+  "id": 203,
+  "slug": "oxymetre-de-pouls-nonin-go2-mod-9570",
+  "active": false,
+  "reference": "29.0039",
+  "name": "Oxymètre de pouls Nonin GO2 mod. 9570",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L'oxymètre de pouls <strong>Nonin GO2</strong> mod.9570, un instrument qui n’a plus à faire ses preuves, est la toute dernière innovation de Nonin Medical : il offre aux patients sous oxygénothérapie à long terme la possibilité d’une auto-surveillance abordable et fiable.</p>",
+    "long_html": "<p><strong></strong><strong></strong>L'oxymètre de pouls <strong>Nonin GO2</strong> mod.9570, un instrument qui n’a plus à faire ses preuves, est la toute dernière innovation de Nonin Medical : il offre aux patients sous oxygénothérapie à long terme la possibilité d’une auto-surveillance abordable et fiable.</p>\r\n<p>Doté de la précision, de la durabilité et du support attendus des inventeurs de l’oxymétrie digitale de qualité médicale, le GO2 renferme la même technologie éprouvée que nos équipements pour professionnels de la médecine.</p>\r\n<p>Le GO2, c’est à la fois précision, fiabilité, qualité et le savoir faire Nonin pour votre quotidien.</p>\r\n<p>L'oxymètre de pouls GO2 de Nonin Medical est conçu pour durer et vous donnera les résultats escomptés quand vous en aurez besoin.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>S'allume automatiquement.</li>\r\n<li>Mesures précises.</li>\r\n<li>Rétro-éclairage de l'écran.</li>\r\n<li>Très simple d'utilisation.</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Contenu du pack Nonin GO2</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>1 oxymètre Nonin GO2</li>\r\n<li>1 pile alcaline AAA</li>\r\n<li>1 notice d’utilisation</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 165.273909,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 160,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 188,
+      "name": "Oxymétrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 160,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 188,
+        "name": "Oxymétrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 788,
+        "files": [
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-cart_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-home_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-large_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-medium_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-small_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-standard_default .jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-thickbox_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-tm_cart_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-tm_home_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-tm_large_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-tm_medium_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-tm_small_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-tm_thickbox_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 789,
+        "files": [
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-cart_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-home_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-large_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-medium_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-small_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-standard_default .jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-thickbox_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-tm_cart_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-tm_home_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-tm_large_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-tm_medium_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-tm_small_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789-tm_thickbox_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/789.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 790,
+        "files": [
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-cart_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-home_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-large_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-medium_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-small_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-standard_default .jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-thickbox_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-tm_cart_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-tm_home_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-tm_large_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-tm_medium_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-tm_small_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790-tm_thickbox_default.jpg",
+          "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/790.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 98,
+        "name": "Medilec-EN-Nonin-GO2",
+        "mime": "application/pdf",
+        "file": "77a01fbbde3e7d28f4bab5c5596c9921c5f847b7"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

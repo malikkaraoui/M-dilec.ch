@@ -1,0 +1,164 @@
+{
+  "id": 96,
+  "slug": "tensiometre-boso-tm-2430",
+  "active": false,
+  "reference": "5.0131",
+  "name": "Tensiomètre Boso TM-2430",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le tensiomètre sur 24 heures exploite une technologie ultra moderne de mesure par ordinateur de la tension artérielle. Cet appareil a été spécialement conçu pour mesurer la tension artérielle sur 24 heures et fonctionne selon le principe oscillométrique.</p>",
+    "long_html": "<p>Le tensiomètre sur 24 heures exploite une technologie ultra moderne de mesure par ordinateur de la tension artérielle. Cet appareil a été spécialement conçu pour mesurer la tension artérielle sur 24 heures et fonctionne selon le principe oscillométrique.</p>\r\n<p style=\"margin-top:10px;\">Performances :</p>\r\n<ul style=\"margin-left:14px;\"><li>Faible poids</li>\r\n<li>Dimensions compactes</li>\r\n<li>Mémoire pour jusqu'à 350 mesures</li>\r\n<li>Facile à programmer à travers d'un logiciel</li>\r\n<li>Avec touche sommeil</li>\r\n<li>Pour brassard de 20 à 31 cm</li>\r\n</ul><p></p>\r\n<p>Livré complet avec accessoires : manchette, sacoche, piles, chargeur et mode d'emploi</p>\r\n<p>Nous serions très heureux de vous faire une démonstration de cet appareil ou de vous envoyer une documentation complète.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2338.904364,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 173,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 185,
+      "name": "Boso"
+    },
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 149,
+      "name": "Tension 24h"
+    },
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 173,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 185,
+        "name": "Boso"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 149,
+        "name": "Tension 24h"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 250,
+        "files": [
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-cart_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-home_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-large_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-medium_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-small_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-thickbox_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-tm_cart_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-tm_home_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-tm_large_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-tm_medium_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-tm_small_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250-tm_thickbox_default.jpg",
+          "assets/products/96__tensiometre-boso-tm-2430/images/250.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 27,
+        "name": "Medilec-FR-Boso-TM-2430",
+        "mime": "application/pdf",
+        "file": "290ea637c271a27b03aea6de44d11a2604295e4c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

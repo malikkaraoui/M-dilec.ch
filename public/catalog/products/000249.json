@@ -1,0 +1,153 @@
+{
+  "id": 249,
+  "slug": "ecg-schiller-cardiovit-ft-1-avec-le-wi-fi",
+  "active": true,
+  "reference": "11.0163",
+  "name": "ECG Schiller Cardiovit FT-1 avec le Wi-Fi",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><span id=\"result_box\" xml:lang=\"fr\" lang=\"fr\"><span>Le <strong>CARDIOVIT FT-1</strong> est l'électrocardiographe portable et compact pour une performance maximale : écran tactile multipoint 8 po intuitif et à haute résolution ainsi qu'une imprimante thermique intégrée.</span></span></p>",
+    "long_html": "<p>Le <strong>CARDIOVIT FT-1</strong> est l'électrocardiographe portable et compact pour une performance maximale : écran tactile multipoint 8 po intuitif et à haute résolution ainsi qu'une imprimante thermique intégrée.</p>\r\n<p>Conçu pour les utilisateurs qui accordent une grande importance à la technologie de pointe, le CARDIOVIT FT-1 est un appareil réseau qui permet une connectivité et un flux de travail sans papier. Prendre note qu'ETM avec ETM sport et CCAA ne sont pas dédouanés aux É.-U.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Capacité d’un PC dans une tablette ECG</li>\r\n<li>Communication directe Wi-Fi bidirectionnelle au DME</li>\r\n<li>SCHILLER LINK: Logiciel convivial permettant d'importer les données de patient à partir du système DME et d'exporter des rapports PDF personnalisés directement vers l'ordinateur</li>\r\n<li>Puissance et flexibilité réunies en un ECG portatif</li>\r\n<li>Qualité du signal exceptionnelle pour ECG enfants et adultes</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5347.26091,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 77,
+      "name": "Schiller AT et FT..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 77,
+        "name": "Schiller AT et FT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1072,
+        "files": [
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-cart_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-home_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-large_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-medium_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-small_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-standard_default .jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-thickbox_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-tm_cart_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-tm_home_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-tm_large_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-tm_medium_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-tm_small_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-tm_thickbox_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1073,
+        "files": [
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-cart_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-home_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-large_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-medium_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-small_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-standard_default .jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-thickbox_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-tm_cart_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-tm_home_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-tm_large_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-tm_medium_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-tm_small_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073-tm_thickbox_default.jpg",
+          "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1073.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 131,
+        "name": "Medilec-FR-Schiller-FT-1",
+        "mime": "application/pdf",
+        "file": "b01f086b1e6603d0555ea1673e654830ea0e002e"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": 59,
+  "slug": "ecg-schiller-cardiovit-at-101",
+  "active": false,
+  "reference": "11.0114",
+  "name": "ECG Schiller Cardiovit AT-101 C",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>CARDIOVIT AT-101</strong>, l'appareil d'ECG haute technologie mais à petit prix. Prêt pour les communications réseau avec sortie au format XML. Possibilité de transfert des données vers le système de gestion des données SEMA-200 de SCHILLER. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>",
+    "long_html": "<p><strong>CARDIOVIT AT-101</strong>, l'appareil d'ECG haute technologie mais à petit prix. Prêt pour les communications réseau avec sortie au format XML. Possibilité de transfert des données vers le système de gestion des données SEMA-200 de SCHILLER. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>\r\n<p style=\"margin-top:10px;\">Performances :</p>\r\n<ul style=\"margin-left:14px;\"><li>Intuitif et facile à utiliser avec des touches directes</li>\r\n<li>ECG de repos à 12 dérivations avec mesures d'ECG standard</li>\r\n<li>Écran LCD graphique à 3 pistes intégré</li>\r\n<li>Mesures</li>\r\n<li>Impression facile : imprimante thermique haute résolution intégrée</li>\r\n<li>Différents formats de rapport programmables par l'utilisateur sur l'imprimante interne ou externe</li>\r\n<li>Interface pour imprimante externe pour les impressions sur papier standard</li>\r\n<li>Archivage et transfert des données en série pour les données d'ECG de repos vers un PC (avec option de mémoire)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 3730.362117,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 77,
+      "name": "Schiller AT et FT..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 77,
+        "name": "Schiller AT et FT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 196,
+        "files": [
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-cart_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-home_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-large_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-medium_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-small_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-thickbox_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-tm_cart_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-tm_home_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-tm_large_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-tm_medium_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-tm_small_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-tm_thickbox_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/196.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 197,
+        "files": [
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-cart_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-home_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-large_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-medium_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-small_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-thickbox_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-tm_cart_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-tm_home_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-tm_large_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-tm_medium_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-tm_small_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197-tm_thickbox_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/197.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 198,
+        "files": [
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-cart_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-home_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-large_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-medium_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-small_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-thickbox_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-tm_cart_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-tm_home_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-tm_large_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-tm_medium_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-tm_small_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198-tm_thickbox_default.jpg",
+          "assets/products/59__ecg-schiller-cardiovit-at-101/images/198.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 18,
+        "name": "Medilec-FR-Schiller-AT-101",
+        "mime": "application/pdf",
+        "file": "a572ac4f802618f3a9f6369572fabfc13cf4966e"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      60,
+      62
+    ]
+  }
+}

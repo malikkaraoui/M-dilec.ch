@@ -1,0 +1,96 @@
+{
+  "id": 167,
+  "slug": "service-ecg-holter",
+  "active": true,
+  "reference": "",
+  "name": "Service Holter / ECG de 24h",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L'<strong>Holter</strong> est un enregistrement continu ambulatoire du rythme cardiaque pendant 24 à 48 heures. Plusieurs électrodes collées sur le thorax sont reliées à un boîtier. L’appareil peut être porté facilement sans engendrer de gêne pour les activités quotidiennes habituelles.</p>\r\n<p><strong>En plus: transmission informatique des données.</strong></p>",
+    "long_html": "<p>L'<strong>Holter</strong> est un enregistrement continu ambulatoire du rythme cardiaque pendant 24 à 48 heures. Plusieurs électrodes collées sur le thorax sont reliées à un boîtier. L’appareil peut être porté facilement sans engendrer de gêne pour les activités quotidiennes habituelles. L’enregistrement est analysé et mis en relation avec les symptômes signalés et notés par le patient pour permettre de détecter des troubles du rythme cardiaque.</p>\r\n<p>Cet examen est dans la grande majorité des cas un examen ambulatoire, et comme il importe non seulement d’enregistrer des anomalies ECG mais également de pouvoir les rapporter à des symptômes ressentis par le patient et réciproquement, ce dernier est tenu de noter sur une \"feuille de route\" les symptômes survenant au cours de l’enregistrement. D’une façon générale, les indications courantes du <strong>Holter</strong> sont toutes les symptomatologies (malaises, syncopes, palpitations, sensations de tachycardie...) pouvant être provoquées par un trouble du rythme cardiaque et pour lesquelles aucun ECG contemporain de ces troubles n’a pu être enregistré. D’autres indications existent encore comme la surveillance du traitement d’un trouble du rythme cardiaque ou le diagnostic d’une insuffisance coronarienne.</p>\r\n<p>Plusieurs électrodes fixées sur le thorax sont reliées à un boîtier, de la taille d'un téléphone environ, que l'on peut porter à la ceinture par exemple. L'enregistrement se fait sur un support numérique, en continu. Un bouton permet d'actionner le boîtier en cas d'apparition de douleurs ou d'accélération du rythme cardiaque. Le patient portant un <strong>Holter</strong> doit noter sur un carnet les différentes activités effectuées au cours des 24 heures de l'enregistrement.</p>\r\n<p><strong>Transmission informatique des données<strong></strong></strong></p>\r\n<p>Nous avons mis en place un service de transmission informatique des données, en toute sécurité. Ce système sécurisé vous permet de nous envoyer instantanément les données collectées par le Holter. Dès réception nous effectuons l’analyse et vous renvoyons le rapport.</p>\r\n<p><strong>Plus d'informations<strong></strong></strong></p>\r\n<p><a href=\"/index.php?controller=contact\">Contactez-nous pour plus d'information</a>.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 135,
+      "name": "Services ECG"
+    },
+    {
+      "id": 148,
+      "name": "Holter / ECG de 24h"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 135,
+        "name": "Services ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 135,
+        "name": "Services ECG"
+      },
+      {
+        "id": 148,
+        "name": "Holter / ECG de 24h"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 661,
+        "files": [
+          "assets/products/167__service-ecg-holter/images/661-cart_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-home_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-large_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-medium_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-small_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-standard_default .jpg",
+          "assets/products/167__service-ecg-holter/images/661-thickbox_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-tm_cart_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-tm_home_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-tm_large_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-tm_medium_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-tm_small_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661-tm_thickbox_default.jpg",
+          "assets/products/167__service-ecg-holter/images/661.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

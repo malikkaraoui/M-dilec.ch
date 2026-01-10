@@ -1,0 +1,235 @@
+{
+  "id": 198,
+  "slug": "capteur-d-oxymetrie-en-caoutchouc-mir",
+  "active": true,
+  "reference": "",
+  "name": "Capteur d'oxymétrie en caoutchouc MIR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>capteur d'oxymétrie en caoutchouc</strong> dispose de deux diodes électroluminescentes (DEL) ; l'une émet une lumière rouge visible et la seconde une lumière infra-rouge. Les deux faisceaux lumineux passent à travers le doigt pour atteindre un détecteur de lumière. Pendant le passage à travers le doigt, une partie de la lumière est absorbée par le sang et les tissus mous en fonction de...</p>",
+    "long_html": "<p>Le <strong>capteur d'oxymétrie en caoutchouc</strong> dispose de deux diodes électroluminescentes (DEL) ; l'une émet une lumière rouge visible et la seconde une lumière infra-rouge. Les deux faisceaux lumineux passent à travers le doigt pour atteindre un détecteur de lumière. Pendant le passage à travers le doigt, une partie de la lumière est absorbée par le sang et les tissus mous en fonction de la concentration d'hémoglobine. Le volume de chaque fréquence lumineuse absorbé dépend de la quantité d'oxygène présente dans le sang à l'intérieur du tissu.<br />Ce principe fonctionnel garantit des mesures précises et reproductibles sans avoir recours à l'étalonnage constant du dispositif.<br />Le capteur d'oxymétrie peut être désinfecté avec de l'alcool isopropylique.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 114,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 94,
+      "name": "Accessoires"
+    },
+    {
+      "id": 161,
+      "name": "Accessoires"
+    },
+    {
+      "id": 164,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 114,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 94,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 161,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 164,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 759,
+        "files": [
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-cart_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-home_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-large_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-medium_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-small_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-standard_default .jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-thickbox_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-tm_cart_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-tm_home_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-tm_large_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-tm_medium_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-tm_small_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-tm_thickbox_default.jpg",
+          "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      154,
+      155,
+      157,
+      158,
+      159,
+      160
+    ]
+  }
+}

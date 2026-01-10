@@ -1,0 +1,251 @@
+{
+  "id": 153,
+  "slug": "spirometre-mir-smart-one",
+  "active": false,
+  "reference": "",
+  "name": "Spiromètre MIR Smart One",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Avec <strong>Smart One</strong>, surveillez la santé de vos poumons aussi facilement que vous prenez votre température et avec la même précision qu’en milieu médical !</p>",
+    "long_html": "<p>Avec <strong>Smart One</strong>, surveillez la santé de vos poumons aussi facilement que vous prenez votre température et avec la même précision qu’en milieu médical !</p>\r\n<p>La fonction pulmonaire diminue bien avant l’apparition des symptômes, empêchant les patients de prendre conscience de leur pathologie. Des sujets sains peuvent souffrir d’inflammations passagères des voies respiratoires telles que des bronchites, pneumonies ou rhumes.</p>\r\n<p>300 millions de personnes souffrent d’asthme et plus de 200 millions de personnes dans le monde sont atteintes de MPOC.</p>\r\n<p><strong>Est livré avec un module d'émulation pour adultes et enfants</strong></p>\r\n<p>Le module d'émulation affiché directement sur ​​l'écran aide à la bonne collaboration du patient durant le test.</p>\r\n<p>Le fonctionnement du module d'émulation MIR est basé sur la combinaison du Flux et du Volume.</p>\r\n<p><strong>VEMS1, la mesure la plus illustrative de la fonction pulmonaire</strong></p>\r\n<p>Idéal pour le monitoring des maladies respiratoires et suivi de l'asthme, BPCO, suivi des transplantés pulmonaires, Mucoviscidose et essais cliniques.</p>\r\n<p><strong>Turbine mono-patient</strong></p>\r\n<p>Une nouvelle turbine mono-patient, est désormais disponible pour un usage personnel</p>\r\n<p><strong>Simple et léger</strong></p>\r\n<p>Avec deux batteries alkaline, il peut fonctionner de 5 à 10 ans en mode « standby » et peut contenir plus de 1000 tests.</p>\r\n<p><strong>Protocoles personnalisables pour les développeurs (SDK/API)</strong></p>\r\n<p>Sur demande, MIR offre des protocoles personnalisables pour permettre aux développeurs tiers d'exécuter leurs propres applications et met à disposition des outils 'ad-hoc' afin de faciliter et renforcer les intégrations aux systèmes médicaux et projets d'essais cliniques.</p>\r\n<p><strong>Partager notre savoir-faire dans le monde entier</strong></p>\r\n<p>La qualité de nos dispositifs médicaux est reconnu à l'international.Les spécialistes MIR sont disponibles pour fournir le support nécessaire à toute opération OEM à des partenaires industriels qui souhaiteraient étendre leur gamme de produits de diagnostic. La carte mère peut aisément être logée dans une coque spécifique selon les besoins du client.</p>\r\n<p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 569,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/569-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/569.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 570,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/570-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/570.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 571,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/571-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/571.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 572,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/572-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/572.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 573,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/573-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/573.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 574,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/574-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/574.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 575,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/575-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/575.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 576,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/576-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/576.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 577,
+        "files": [
+          "assets/products/153__spirometre-mir-smart-one/images/577-cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-tm_cart_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-tm_home_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-tm_large_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-tm_medium_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-tm_small_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577-tm_thickbox_default.jpg",
+          "assets/products/153__spirometre-mir-smart-one/images/577.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193
+    ]
+  }
+}

@@ -1,15 +1,18 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
-import { useRtdbValue } from '../hooks/useRtdbValue.js'
-import { slugify } from '../lib/slug.js'
+import { assetUrl, fetchJSON, listProductsIndex } from '../lib/catalog.js'
 
 export function CatalogPage() {
   const [searchParams, setSearchParams] = useSearchParams()
   const navigate = useNavigate()
-  const { status, data, error } = useRtdbValue('/products')
   const cart = useCart()
+
+  const [status, setStatus] = useState('loading')
+  const [error, setError] = useState(null)
+  const [productsIndex, setProductsIndex] = useState([])
+  const [searchIndex, setSearchIndex] = useState(null)
 
   const [recentlyAddedId, setRecentlyAddedId] = useState('')
 
@@ -19,54 +22,122 @@ export function CatalogPage() {
     return () => window.clearTimeout(t)
   }, [recentlyAddedId])
 
+  useEffect(() => {
+    const ac = new AbortController()
+
+    Promise.all([
+      listProductsIndex({ signal: ac.signal }),
+      // Optionnel: accélère/qualifie la recherche si présent.
+      fetchJSON('/catalog/index.search.json', { signal: ac.signal }).catch(() => null),
+    ])
+      .then(([idx, search]) => {
+        setProductsIndex(Array.isArray(idx) ? idx : [])
+        setSearchIndex(Array.isArray(search) ? search : null)
+        setStatus('success')
+      })
+      .catch((err) => {
+        if (err?.name === 'AbortError') return
+        setError(err)
+        setStatus('error')
+      })
+
+    return () => ac.abort()
+  }, [])
+
   const q = (searchParams.get('q') || '').trim()
   const qLower = q.toLowerCase()
 
-  const products = data && typeof data === 'object' ? Object.entries(data) : []
-  const filteredProducts = qLower
-    ? products.filter(([productId, p]) => {
-        const name = typeof p?.name === 'string' ? p.name : ''
-        const brand = typeof p?.brand === 'string' ? p.brand : ''
-        const description = typeof p?.description === 'string' ? p.description : ''
+  const haystackById = useMemo(() => {
+    if (!Array.isArray(searchIndex)) return null
+    const m = new Map()
+    for (const e of searchIndex) {
+      const id = e?.id
+      if (id == null) continue
+      m.set(String(id), String(e?.haystack || '').toLowerCase())
+    }
+    return m
+  }, [searchIndex])
 
-        const haystack = `${productId} ${name} ${brand} ${description}`.toLowerCase()
-        return haystack.includes(qLower)
+  const visibleProducts = useMemo(() => {
+    if (!Array.isArray(productsIndex)) return []
+    // Par défaut, on masque les produits explicitement inactifs.
+    return productsIndex.filter((p) => p?.active !== false)
+  }, [productsIndex])
+
+  const filteredProducts = useMemo(() => {
+    if (!qLower) return visibleProducts
+
+    if (haystackById) {
+      return visibleProducts.filter((p) => {
+        const h = haystackById.get(String(p?.id ?? ''))
+        return typeof h === 'string' && h.includes(qLower)
       })
-    : products
+    }
+
+    return visibleProducts.filter((p) => {
+      const id = p?.id
+      const name = typeof p?.name === 'string' ? p.name : ''
+      const manufacturer = typeof p?.manufacturer_name === 'string' ? p.manufacturer_name : ''
+      const slug = typeof p?.slug === 'string' ? p.slug : ''
+
+      const haystack = `${id ?? ''} ${name} ${manufacturer} ${slug}`.toLowerCase()
+      return haystack.includes(qLower)
+    })
+  }, [visibleProducts, qLower, haystackById])
 
   return (
-    <section className="space-y-2">
-      <h1 className="text-2xl font-semibold tracking-tight">Catalogue</h1>
+    <section className="space-y-3">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <h1 className="text-2xl font-semibold tracking-tight">Catalogue</h1>
+        <form
+          className="flex w-full gap-2 sm:w-auto"
+          onSubmit={(e) => {
+            e.preventDefault()
+          }}
+        >
+          <input
+            className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-900 shadow-sm outline-none focus:ring-2 sm:w-80"
+            style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
+            value={q}
+            onChange={(e) => {
+              const next = e.target.value
+              const trimmed = next.trim()
+              setSearchParams(trimmed ? { q: next } : {}, { replace: true })
+            }}
+            placeholder="Rechercher un produit…"
+            type="search"
+          />
+          {q ? (
+            <button
+              className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-neutral-900"
+              onClick={() => setSearchParams({}, { replace: true })}
+              type="button"
+            >
+              Effacer
+            </button>
+          ) : null}
+        </form>
+      </div>
 
-      {status === 'not-configured' ? (
-        <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
-          Firebase n’est pas configuré sur cette machine.
-          <div className="mt-2 text-neutral-600">
-            Ajoute les variables <code className="font-mono">VITE_FIREBASE_*</code> dans{' '}
-            <code className="font-mono">.env.local</code> (voir <code className="font-mono">.env.example</code>).
-          </div>
-        </div>
-      ) : null}
-
-      {status === 'loading' ? (
-        <p className="text-sm text-neutral-600">Chargement du catalogue…</p>
-      ) : null}
+      {status === 'loading' ? <p className="text-sm text-neutral-600">Chargement du catalogue…</p> : null}
 
       {status === 'error' ? (
         <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
-          Impossible de charger les produits.
+          Impossible de charger le catalogue exporté.
           <div className="mt-2 font-mono text-xs text-neutral-500">{String(error?.message || error)}</div>
         </div>
       ) : null}
 
-      {status === 'success' && products.length === 0 ? (
+      {status === 'success' && visibleProducts.length === 0 ? (
         <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
-          Aucun produit pour le moment.
-          <div className="mt-2 text-neutral-600">Ajoute des produits dans RTDB sous /products.</div>
+          Aucun produit.
+          <div className="mt-2 text-neutral-600">
+            Vérifie que les exports sont bien copiés dans <code className="font-mono">public/catalog/</code>.
+          </div>
         </div>
       ) : null}
 
-      {status === 'success' && products.length > 0 ? (
+      {status === 'success' && visibleProducts.length > 0 ? (
         <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-neutral-600">
           <div>
             {q ? (
@@ -76,24 +147,17 @@ export function CatalogPage() {
               </>
             ) : (
               <>
-                Produits: <span className="font-medium text-neutral-900">{products.length}</span>
+                Produits: <span className="font-medium text-neutral-900">{visibleProducts.length}</span>
               </>
             )}
           </div>
-
-          {q ? (
-            <button
-              className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-neutral-900"
-              onClick={() => setSearchParams({})}
-              type="button"
-            >
-              Effacer la recherche
-            </button>
-          ) : null}
+          <div className="text-xs text-neutral-500">
+            {searchIndex ? 'Recherche: index.search.json' : 'Recherche: fallback (nom / marque / slug)'}
+          </div>
         </div>
       ) : null}
 
-      {status === 'success' && products.length > 0 && filteredProducts.length === 0 ? (
+      {status === 'success' && visibleProducts.length > 0 && filteredProducts.length === 0 ? (
         <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
           Aucun résultat.
           <div className="mt-2 text-neutral-600">Essayez un autre mot-clé.</div>
@@ -102,16 +166,19 @@ export function CatalogPage() {
 
       {status === 'success' && filteredProducts.length > 0 ? (
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredProducts.map(([productId, p]) => {
-            const name = p?.name || productId
-            const brand = p?.brand
-            const priceCents = typeof p?.priceCents === 'number' ? p.priceCents : null
-            const imageURL = typeof p?.image?.downloadURL === 'string' ? p.image.downloadURL : ''
-            const href = `/product/${productId}/${slugify(name)}`
+          {filteredProducts.map((p) => {
+            const id = p?.id
+            const slug = p?.slug
+            const name = p?.name || String(id ?? '')
+            const manufacturer = p?.manufacturer_name
+            const priceCents = typeof p?.price_ht === 'number' ? Math.round(p.price_ht * 100) : null
+            const cover = typeof p?.cover_image === 'string' && p.cover_image ? assetUrl(p.cover_image) : ''
+
+            const href = slug ? `/p/${slug}` : id != null ? `/product/${id}` : '/catalog'
 
             return (
               <li
-                key={productId}
+                key={String(id ?? slug ?? name)}
                 className="group cursor-pointer rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition-transform duration-200 ease-out will-change-transform hover:-translate-y-1 hover:border-neutral-300 hover:shadow-lg focus-within:ring-2"
                 style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
                 role="link"
@@ -124,17 +191,17 @@ export function CatalogPage() {
                   }
                 }}
               >
-                {imageURL ? (
+                {cover ? (
                   <img
                     alt={name}
                     className="mb-3 h-36 w-full rounded-xl border border-neutral-200 object-cover"
-                    src={imageURL}
+                    src={cover}
                     loading="lazy"
                   />
                 ) : null}
 
                 <div className="text-sm font-semibold text-neutral-900">{name}</div>
-                {brand ? <div className="mt-1 text-xs text-neutral-500">{brand}</div> : null}
+                {manufacturer ? <div className="mt-1 text-xs text-neutral-500">{manufacturer}</div> : null}
                 {priceCents != null ? (
                   <div className="mt-3 text-sm font-medium" style={{ color: 'var(--medilec-accent)' }}>
                     {(priceCents / 100).toFixed(2)} CHF
@@ -153,7 +220,7 @@ export function CatalogPage() {
                   </Link>
                   <button
                     className={
-                      recentlyAddedId === productId
+                      recentlyAddedId === String(id)
                         ? 'rounded-lg px-3 py-2 text-xs font-medium text-white ring-2 ring-offset-2 transition-transform active:scale-[0.98]'
                         : 'rounded-lg px-3 py-2 text-xs font-medium text-white transition-transform active:scale-[0.98]'
                     }
@@ -163,12 +230,13 @@ export function CatalogPage() {
                     }}
                     onClick={(e) => {
                       e.stopPropagation()
-                      cart.add({ id: productId, name, brand, priceCents })
-                      setRecentlyAddedId(productId)
+                      cart.add({ id: String(id ?? ''), name, brand: manufacturer, priceCents })
+                      setRecentlyAddedId(String(id))
                     }}
                     type="button"
+                    disabled={id == null}
                   >
-                    {recentlyAddedId === productId ? 'Ajouté' : 'Ajouter'}
+                    {recentlyAddedId === String(id) ? 'Ajouté' : 'Ajouter'}
                   </button>
                 </div>
               </li>
@@ -185,11 +253,6 @@ export function CatalogPage() {
           </Link>
         </div>
       ) : null}
-
-      <p className="text-xs text-neutral-500">
-        Étape MVP: lecture seule RTDB sur <code className="font-mono">/products</code>. Les filtres/recherche URL
-        arrivent ensuite.
-      </p>
     </section>
   )
 }

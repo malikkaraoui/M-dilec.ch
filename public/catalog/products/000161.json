@@ -1,0 +1,201 @@
+{
+  "id": 161,
+  "slug": "action-neuf-spirometre-mir-minispir-light",
+  "active": false,
+  "reference": "",
+  "name": "Action : Neuf : Spiromètre MIR Minispir Light",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Minispir Light</strong>, spiromètre USB, pour un test de spirométrie essentiel, spiromètre USB dédié au dépistage de la BPCO et de l’Asthme. Toute la Spirométrie sur un seul écran : données du patient, tests spirométrie, impression et exportation.</p>",
+    "long_html": "<p><strong></strong><strong></strong><strong>Minispir Light</strong>, spiromètre USB, pour un test de spirométrie essentiel, spiromètre USB dédié au dépistage de la BPCO et de l’Asthme. Toute la Spirométrie sur un seul écran : données du patient, tests spirométrie, impression et exportation.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Minispir ® light mesure les paramètres essentiels pour un diagnostic de spirométrie : VEM6, CVF, VEMS, VEMS/CVF, DEP, DEM2575, CVIF, âge pulmonaire, CV, CVI.</li>\r\n<li>La boucle de débit/volume et la courbe volume/temps.</li>\r\n<li>Interprétation des tests de spirométrie.</li>\r\n<li>Capteur de température pour la conversion BTPS.</li>\r\n<li>Economique et facile d’utilisation.</li>\r\n<li>Répond aux exigences des plateformes de soins de santé intégrés et applications pharmaceutiques.</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 770.659239,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 141,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 140,
+      "name": "Actions"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      },
+      {
+        "id": 141,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 631,
+        "files": [
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-tm_cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-tm_home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-tm_large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-tm_medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-tm_small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-tm_thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 632,
+        "files": [
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-tm_cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-tm_home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-tm_large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-tm_medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-tm_small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632-tm_thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/632.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 633,
+        "files": [
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-tm_cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-tm_home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-tm_large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-tm_medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-tm_small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633-tm_thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/633.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 634,
+        "files": [
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-tm_cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-tm_home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-tm_large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-tm_medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-tm_small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634-tm_thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/634.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 635,
+        "files": [
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-tm_cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-tm_home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-tm_large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-tm_medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-tm_small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635-tm_thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/635.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 636,
+        "files": [
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-tm_cart_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-tm_home_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-tm_large_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-tm_medium_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-tm_small_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636-tm_thickbox_default.jpg",
+          "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/636.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 79,
+        "name": "Medilec-FR-Mir-Minispir",
+        "mime": "application/pdf",
+        "file": "7afb7758396403670c00a87e351c8b94e2c4a36a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      160,
+      163,
+      165
+    ]
+  }
+}

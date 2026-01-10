@@ -1,0 +1,137 @@
+{
+  "id": 72,
+  "slug": "ecg-schiller-cardiovit-at-104-pc",
+  "active": false,
+  "reference": "11.0097",
+  "name": "ECG Schiller Cardiovit AT-104 PC C",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le système de diagnostic <strong>CARDIOVIT AT-104 PC</strong> est bien plus qu’un logiciel. C’est une solution d’acquisition et de gestion de données qui peut être installée sur notre AT-104 PC Touch, sur votre ordinateur portable/PC ou sur votre réseau. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>",
+    "long_html": "<p>Le système de diagnostic <strong>CARDIOVIT AT-104 PC</strong> est bien plus qu’un logiciel. C’est une solution d’acquisition et de gestion de données qui peut être installée sur notre AT-104 PC Touch, sur votre ordinateur portable/PC ou sur votre réseau. Compris le logiciel C pour l'interprétation de l'ECG pour les enfants et les adultes.</p>\r\n<p>Vous pouvez effectuer, analyser, enregistrer et transmettre les mesures suivantes :</p>\r\n<ul style=\"margin-left:14px;\"><li>ECG de repos à 12 pistes</li>\r\n<li>ECG d’effort à 12 pistes</li>\r\n<li>Rythme de repos</li>\r\n<li>MAPA (mesure ambulatoire de la pression artérielle) sur 24 h ou 48 h</li>\r\n<li>ECG de 24 h</li>\r\n<li>Spirométrie</li>\r\n<li>Ergospirométrie</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5978.644383,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 85,
+      "name": "Schiller AT... et DT..."
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 85,
+        "name": "Schiller AT... et DT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 218,
+        "files": [
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-cart_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-home_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-large_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-medium_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-small_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-thickbox_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-tm_cart_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-tm_home_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-tm_large_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-tm_medium_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-tm_small_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-tm_thickbox_default.jpg",
+          "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 21,
+        "name": "Medilec-FR-Schiller-AT-104",
+        "mime": "application/pdf",
+        "file": "40e7ca98adfe004d619276b81c07bab8c4eb0091"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      73,
+      74,
+      88,
+      89,
+      90
+    ]
+  }
+}

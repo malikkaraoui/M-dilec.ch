@@ -1,0 +1,129 @@
+{
+  "id": 206,
+  "slug": "divan-d-examen-pour-ecg",
+  "active": true,
+  "reference": "21.0105",
+  "name": "Divan d'examen pour ECG",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Divan d'examen pour ECG.</p>\r\n<p>Largeur 800 mm. Châssis en tube d'acier de section carrée, avec entretoise transversale. Revêtement thermolaqué. Matelas de 70 mm, en deux pièces. Vis de niveau. Appui-tête réglable jusqu'à +40°. Charge maximale d'utilisation : 225 Kg.</p>",
+    "long_html": "<p>Divan d'examen pour ECG.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques divan d'examen pour ECG</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Largeur 800 mm.</li>\r\n<li>Châssis en tube d'acier de section carrée, avec entretoise transversale.</li>\r\n<li>Revêtement thermolaqué RAL 9002, RAL 9006 ou RAL 9007.</li>\r\n<li>Matelas de 70 mm, en deux pièces.</li>\r\n<li>Vis de niveau.</li>\r\n<li>Appui-tête réglable jusqu'à +40°.</li>\r\n<li>Charge maximale d'utilisation : 225 Kg.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1057.567317,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 39,
+    "name": "Schmitz u. Söhne"
+  },
+  "categories": [
+    {
+      "id": 170,
+      "name": "Divans"
+    },
+    {
+      "id": 169,
+      "name": "Mobilier"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      },
+      {
+        "id": 170,
+        "name": "Divans"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 793,
+        "files": [
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-cart_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-home_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-large_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-medium_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-small_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-standard_default .jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-thickbox_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-tm_cart_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-tm_home_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-tm_large_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-tm_medium_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-tm_small_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793-tm_thickbox_default.jpg",
+          "assets/products/206__divan-d-examen-pour-ecg/images/793.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 99,
+        "name": "Medilec-FR-Schmitz-Mobilier",
+        "mime": "application/pdf",
+        "file": "b0f53a49a8bd13d294a5e901df616baa6d208f24"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

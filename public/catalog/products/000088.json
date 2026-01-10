@@ -1,0 +1,212 @@
+{
+  "id": 88,
+  "slug": "spirometre-schiller-sp-250",
+  "active": false,
+  "reference": "",
+  "name": "Spiromètre Schiller SP-250",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le spiromètre <strong>SP-250</strong> pratique pour la spirométrie et la mesure débit/volume, la capacité Vitale inspiratoire et expiratoire, les volumes partiels, le volume-seconde VEM1, la ventilation maximale minute VMM, le débit de pointe et plus de 40 sous-paramètres.</p>",
+    "long_html": "<p>Le spiromètre <strong>SP-250</strong> pratique pour la spirométrie et la mesure débit/volume, la capacité Vitale inspiratoire et expiratoire, les volumes partiels, le volume-seconde VEM1, la ventilation maximale minute VMM, le débit de pointe et plus de 40 sous-paramètres.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Des programmes d’assistance efficaces pour surveiller les critères de coopération importants</li>\r\n<li>De grandes images permettent un contrôle précis de la manœuvre respiratoire pour une motivation optimale du patient</li>\r\n<li>Graphiques d’animation intelligents pour enfants et adultes pendant la surveillance simultanée de paramètres de mesure importants</li>\r\n<li>Insertion graphique d’intervalles de valeurs prédits spécifiques au patient pour estimer la coopération du patient. Des rapports clairs pour tous les cas.</li>\r\n<li>Les rapports peuvent être configurés individuellement avec les données de mesure requises dans des tableaux, des graphiques, des comparaisons pré/post ou de variation.</li>\r\n<li>Possibilité d’intégrer la médication, le traitement et la coopération, ainsi qu’un texte relatif aux résultats.</li>\r\n<li>Affichage des paramètres de différentes mesures dans un rapport commun.</li>\r\n<li>Rapport visualisable à l’écran, sur papier, via l’Intranet ou sous forme de données graphiques à exporter vers le dossier du médecin.</li>\r\n<li>Disponibilité de rapports standards pour tous les programmes de mesure.</li>\r\n<li>Possibilité de configurer tout rapport individuel.</li>\r\n<li>Possibilité de sélectionner la taille, le nombre et la position des graphiques dans chaque rapport. Plus de 50 différents graphiques disponibles.</li>\r\n<li>Possibilité d’exporter les résultats de mesure vers des logiciels graphiques et de traitement de texte.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1948.932219,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 94,
+      "name": "Accessoires"
+    },
+    {
+      "id": 91,
+      "name": "Schiller AT / MS / CS"
+    },
+    {
+      "id": 137,
+      "name": "Options spiro pour"
+    },
+    {
+      "id": 114,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 94,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 137,
+        "name": "Options spiro pour"
+      },
+      {
+        "id": 91,
+        "name": "Schiller AT / MS / CS"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 137,
+        "name": "Options spiro pour"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 114,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 239,
+        "files": [
+          "assets/products/88__spirometre-schiller-sp-250/images/239-cart_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-home_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-large_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-medium_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-small_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-thickbox_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-tm_cart_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-tm_home_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-tm_large_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-tm_medium_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-tm_small_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239-tm_thickbox_default.jpg",
+          "assets/products/88__spirometre-schiller-sp-250/images/239.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      30,
+      32,
+      49,
+      64,
+      68,
+      72,
+      76,
+      166,
+      187,
+      188
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": 107,
+  "slug": "spirometre-riester-spirotest",
+  "active": false,
+  "reference": "30.0107",
+  "name": "Spiromètre de Bühl Riester Spirotest",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>La technique moderne de l’appareil <strong>de Bühl Riester Spirotest </strong>garantit une prise de mesure exacte de la capacité pulmonaire, sans utilisation d’eau. La qualité Riester haut de gamme au design séduisant est tout particulièrement appréciée dans les cabinets médicaux et les centres sportifs...</p>",
+    "long_html": "<p>La technique moderne de l’appareil <strong>de Bühl Riester Spirotest </strong>garantit une prise de mesure exacte de la capacité pulmonaire, sans utilisation d’eau. La qualité Riester haut de gamme au design séduisant est tout particulièrement appréciée dans les cabinets médicaux et les centres sportifs. Son maniement aisé rend également l’appareil <strong><strong>Riester Spirotest</strong> </strong>attrayant pour les particuliers souhaitant mesurer leur capacité pulmonaire.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Boîtier moderne en matière plastique bleue.</li>\r\n<li>Plage de mesure allant de 1000 à 7000 cm3.</li>\r\n<li>Complet, dans carton, avec 50 embouts buccaux en plastique.</li>\r\n<li>Pour les examens sportifs et les soins médicaux en cabinet médical ou à domicile.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 286.908078,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 26,
+    "name": "Rudolf Riester GmbH"
+  },
+  "categories": [
+    {
+      "id": 139,
+      "name": "Autre"
+    },
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 139,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 665,
+        "files": [
+          "assets/products/107__spirometre-riester-spirotest/images/665-cart_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-home_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-large_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-medium_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-small_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-standard_default .jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-thickbox_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-tm_cart_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-tm_home_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-tm_large_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-tm_medium_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-tm_small_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665-tm_thickbox_default.jpg",
+          "assets/products/107__spirometre-riester-spirotest/images/665.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 36,
+        "name": "Medilec-FR-Riester-Spirotest",
+        "mime": "application/pdf",
+        "file": "67a4f1e82b99fc5dfbadbb33525281c7c01c9678"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      90
+    ]
+  }
+}

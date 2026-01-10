@@ -1,0 +1,177 @@
+{
+  "id": 32,
+  "slug": "ecg-schiller-cardiovit-ms-2015-s",
+  "active": false,
+  "reference": "11.0139",
+  "name": "ECG Schiller Cardiovit MS-2015 S avec l'écran tactile et l'exportation en PDF",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>CARDIOVIT MS-2015</strong> avec l'écran tactile et l'exportation en PDF, est un électrocardiographe à la pointe de la technologie, qui simplifie l’interprétation des ECG de diagnostic et rationalise les flux de travail en délivrant des rapports cliniques de haute qualité au moment et à l’endroit où vous en avez besoin. Avec l'option spiromètre, le <strong>CARDIOVIT MS-2015</strong> peut être transformé en un spiromètre.</p>",
+    "long_html": "<p>Le <strong>CARDIOVIT MS-2015</strong> avec l'écran tactile et l'exportation en PDF, est un électrocardiographe à la pointe de la technologie, qui simplifie l’interprétation des ECG de diagnostic et rationalise les flux de travail en délivrant des rapports cliniques de haute qualité au moment et à l’endroit où vous en avez besoin. Avec l'option spiromètre, le <strong>CARDIOVIT MS-2015</strong> peut être transformé en un spiromètre.</p>\r\n<p style=\"margin-top:10px;\"><strong>L’EXCELLENCE AU BOUT DES DOIGTS</strong><br />Le MS-2015 vous surprendra dès le départ et à chaque fois que vous l’utiliserez. Il est conçu pour une utilisation en continu. Quel que soit le rythme de travail de l’environnement clinique – dans les grands hôpitaux où le volume d’ECG est élevé et où la rapidité et la qualité sont cruciales – le MS-2015 est toujours prêt à vous aider à simplifier les soins prodigués aux patients cardiaques.</p>\r\n<p style=\"margin-top:10px;\">Il suffit de toucher le grand (15’’) écran couleur haute résolution pour activer le système et enregistrer, sélectionner et imprimer des ECG de qualité optimale en un rien de temps. Le MS-2015 exporte les enregistrements d’ECG au format XML, PDF*1 et DICOM*1, pour vous permettre de les transmettre à n’importe quel système compatible avec ces normes industrielles. De la saisie de données précise et complète aux champs de données exhaustifs demandant aux utilisateurs les informations requises, tous les détails du MS-2015 sont conçus pour rationaliser le test d’ECG.</p>\r\n<p style=\"margin-top:10px;\">Traitement avancé… pas d’attente:</p>\r\n<ul style=\"margin-left:14px;\"><li>Le démarrage instantané procure une disponibilité immédiate</li>\r\n<li>L’ECG est traité, interprété et imprimé en moins de 3 secondes après l’acquisition</li>\r\n</ul><p><strong>SPIROMÉTRIE</strong></p>\r\n<p>L’ECG et la spirométrie en un seul appareil – une exclusivité mondiale ! Le CARDIOVIT MS-2015 peut être transformé en un spiromètre de table éprouvé pour la mesure, l’enregistrement et l’évaluation des courbes de débit/volume et de volume/temps et les paramètres correspondants. Plusieurs tests d’expiration et d’inspiration peuvent être effectués et comparés avec des valeurs normales spécifiques au pays concerné. Les mesures pré/post et l’interprétation sont standard.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5941.504178,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 78,
+      "name": "Schiller MS-20..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 78,
+        "name": "Schiller MS-20..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 168,
+        "files": [
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-cart_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-home_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-large_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-medium_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-small_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-thickbox_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-tm_cart_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-tm_home_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-tm_large_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-tm_medium_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-tm_small_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-tm_thickbox_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 696,
+        "files": [
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-cart_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-home_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-large_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-medium_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-small_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-standard_default .jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-thickbox_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-tm_cart_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-tm_home_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-tm_large_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-tm_medium_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-tm_small_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696-tm_thickbox_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/696.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 155,
+        "files": [
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-cart_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-home_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-large_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-medium_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-small_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-thickbox_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-tm_cart_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-tm_home_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-tm_large_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-tm_medium_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-tm_small_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155-tm_thickbox_default.jpg",
+          "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/155.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 14,
+        "name": "Medilec-FR-Schiller-MS-2015",
+        "mime": "application/pdf",
+        "file": "698aef8eb9cff3342ba5bdcacfdcfca3eb324f4c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      33,
+      40,
+      41,
+      43,
+      45,
+      82,
+      88,
+      89,
+      90
+    ]
+  }
+}

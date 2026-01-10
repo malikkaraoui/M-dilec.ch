@@ -1,0 +1,96 @@
+{
+  "id": 229,
+  "slug": "odim-controle-technique-tensiometres",
+  "active": true,
+  "reference": "",
+  "name": "ODim contrôle technique Tensiomètres",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Les tensiomètres nécessitent des interventions de maintenance préventives, telles que des opérations de réglage, de recalibrage, de nettoyage et autres, afin de garantir un fonctionnement pérenne de vos appareils tout en prévenant les détériorations...</p>",
+    "long_html": "<p>Les tensiomètres nécessitent des interventions de maintenance préventives, telles que des opérations de réglage, de recalibrage, de nettoyage et autres, afin de garantir un fonctionnement pérenne de vos appareils tout en prévenant les détériorations.</p>\r\n<p><strong>Contrôle technique de sécurité</strong></p>\r\n<p>Conformément à l’ordonnance sur les dispositifs médicaux (ODim), nous garantissons la conformité légale et la sécurité de fonctionnement de vos appareils.</p>\r\n<p><strong>Suivi des délais</strong></p>\r\n<p>Avec la souscription d’un abonnement de service, nous prenons en charge pour vous l’établissement du calendrier des interventions de maintenance. Vous avez ainsi la certitude que toutes les interventions sont réalisées dans les délais impartis, et que tous vos appareils sont conformes aux exigences de l’ordonnance sur les dispositifs médicaux (ODim).</p>\r\n<p><strong>Accréditation</strong></p>\r\n<p>Nous sommes agrées pour les marques Boso, Riester, Heine, etc. Nous nous déplaçons chez vous pour vérifier les appareils.</p>\r\n<p><strong>Ordonnance</strong></p>\r\n<p><strong></strong>L'ordonnance sur les dispositifs médicaux <strong>ODim</strong> (entrée en vigueur 1.1.2002, modification 1.4.2010, mise en application de l’ODIM modifié 1.7.2011) a permis d'inscrire dans le droit suisse les directives européennes concernant les implants actifs, les dispositifs médicaux classiques et les diagnostics in vitro. Cette réglementation garantit la libre circulation au sein de l'Union européenne des dispositifs médicaux fabriqués en Suisse.</p>\r\n<p>L'<strong>ODim</strong> s'appuie sur la loi fédérale sur les médicaments et les dispositifs médicaux (LPTh; RS 812.21) et régit la mise sur le marché, la surveillance, ainsi que le contrôle des dispositifs médicaux dans le cadre de la surveillance du marché. De plus, contient des prescriptions sur l'utilisation des dispositifs médicaux.</p>\r\n<p>Les dispositifs médicaux doivent remplir les exigences essentielles, subir la procédure d'évaluaton de la conformité appropriée et être marqués correctement (marquage CE ou MD seulement pour la Suisse). Les dispositifs médicaux marqué CE, peuvent circuler dans tout l'Espace Economique Européen (EEE) sans autorisation nationale supplémentaire. Dans la mesure où les fabricants appliquent les normes européennes harmonisées, il est présumé que leurs produits remplissent les exigences essentielles. Si un fabricant ne se réfère pas aux normes européennes harmonisées, il doit lui-même fournir la preuve que son produit remplit les exigences essentielles.</p>\r\n<p><strong>Les professionnels qui utilisent des dispositifs médicaux veillent à de que leur maintenance ainsi que les tests qui y sont associé soient réalisés conformément aux exigences légales</strong>.</p>\r\n<p style=\"margin-top:10px;\">Les textes de loi peuvent être consultés sur Internet:</p>\r\n<ul style=\"margin-left:14px;\"><li><a href=\"http://www.admin.ch/ch/f/rs/8/812.213.fr.pdf\" target=\"_blank\">ODim: Ordonnance sur les dispositifs médicaux</a></li>\r\n<li><a href=\"http://www.admin.ch/ch/f/rs/8/812.21.fr.pdf\" target=\"_blank\">LPTh: Loi fédérale sur les médicaments et les dispositifs médicaux</a></li>\r\n</ul><p><strong>Plus d'informations<strong></strong></strong></p>\r\n<p><a href=\"/index.php?controller=contact\">Contactez-nous pour plus d'information</a>.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 27.855153,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 146,
+      "name": "ODim contrôle technique Tensiomètres"
+    },
+    {
+      "id": 145,
+      "name": "Services Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 145,
+        "name": "Services Tension artérielle"
+      },
+      {
+        "id": 146,
+        "name": "ODim contrôle technique Tensiomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 145,
+        "name": "Services Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 994,
+        "files": [
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-cart_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-home_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-large_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-medium_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-small_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-standard_default .jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-thickbox_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-tm_cart_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-tm_home_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-tm_large_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-tm_medium_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-tm_small_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994-tm_thickbox_default.jpg",
+          "assets/products/229__odim-controle-technique-tensiometres/images/994.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

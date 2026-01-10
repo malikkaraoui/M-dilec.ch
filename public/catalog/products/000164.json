@@ -1,0 +1,155 @@
+{
+  "id": 164,
+  "slug": "action-neuf-spirometre-mir-spirobank-usb",
+  "active": true,
+  "reference": "",
+  "name": "Action : Neuf : Spiromètre MIR Spirobank USB",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Spirobank USB</strong>, le spiromètre diagnostic en 3 temps : 1) session de tests en mode portatif, 2) connexion au PC, 3) impression instantanée en PDF.</p>",
+    "long_html": "<p><strong>Spirobank USB</strong>, le spiromètre diagnostic en 3 temps : 1) session de tests en mode portatif, 2) connexion au PC, 3) impression instantanée en PDF.</p>\r\n<p><strong>Spiromètre diagnostic</strong></p>\r\n<p>Spirobank identifie à un stade précoce les patients présymptomatiques à risque BPCO, facilitant ainsi de meilleurs résultats cliniques.</p>\r\n<p><strong>Moniteur de l’asthme</strong></p>\r\n<p>Personnalisable sur demande. Idéal pour enfants et adultes.</p>\r\n<p><strong>Facile d’utilisation</strong></p>\r\n<p>Intuitif et sûr, peut être utilisé par des spécialistes comme par tout professionnel de santé.</p>\r\n<p><strong>Logiciel pour PC WinspiroPRO</strong></p>\r\n<p>Dès qu’un test de spirométrie est effectué, les résultats peuvent être transférés au PC pour impression ou stockage, grâce au port USB.</p>\r\n<p><strong>Rapport diagnostic en PDF</strong></p>\r\n<p style=\"margin-top:10px;\">3 meilleurs tests de spirométrie, avec courbes<br />Débit/Volume et Volume/Temps.<br />CVF, VEMS, VEM6, VEMS/CVF, DEP, DEM2575%,<br />CV, CVI, CVFI, Âge pulmonaire.</p>\r\n<p style=\"margin-top:10px;\"><br /><strong>Dotation standard incluse</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Unité de base Spirobank USB</li>\r\n<li>Câble USB</li>\r\n<li>Sacoche de transport</li>\r\n<li>Pince-nez en plastique</li>\r\n<li>Pile 9V DC</li>\r\n<li>CD logiciel WinspiroPRO</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1077.065924,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 141,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 140,
+      "name": "Actions"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      },
+      {
+        "id": 141,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 140,
+        "name": "Actions"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 649,
+        "files": [
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-tm_cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-tm_home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-tm_large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-tm_medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-tm_small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-tm_thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 650,
+        "files": [
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-tm_cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-tm_home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-tm_large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-tm_medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-tm_small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650-tm_thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/650.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 651,
+        "files": [
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-tm_cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-tm_home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-tm_large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-tm_medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-tm_small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651-tm_thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/651.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 652,
+        "files": [
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-tm_cart_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-tm_home_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-tm_large_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-tm_medium_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-tm_small_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652-tm_thickbox_default.jpg",
+          "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/652.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165
+    ]
+  }
+}

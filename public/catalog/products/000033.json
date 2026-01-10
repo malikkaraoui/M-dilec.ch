@@ -1,0 +1,149 @@
+{
+  "id": 33,
+  "slug": "logiciel-pour-ecg-schiller-cardiovit-ms-2015",
+  "active": false,
+  "reference": "",
+  "name": "Logiciel pour ECG Schiller Cardiovit MS-2015",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Internationalement reconnu <strong>SCHILLER ECG 12</strong> dérivations algorithme d'interprétation avec l'âge (enfants, adultes) et les critères spécifiques de genre fournit un silence deuxième avis pour le repos interprétation de l'ECG...</p>",
+    "long_html": "<p>Internationalement reconnu <strong>SCHILLER ECG 12</strong> dérivations algorithme d'interprétation avec l'âge (enfants, adultes) et les critères spécifiques de genre fournit un silence deuxième avis pour le repos interprétation de l'ECG :</p>\r\n<ul style=\"margin-left:14px;\"><li>Mesures d'ECG</li>\r\n<li>Complexes moyens et des marqueurs de mesure</li>\r\n<li>Les résultats de mesure tableau détaillé</li>\r\n<li>Déclarations d'interprétation</li>\r\n</ul><p><strong>Compris thrombolyse (recommandé)</strong> :<br />Donne une indication sur l'opportunité d'utiliser <strong>thrombolyse</strong> en cas de syndrome coronarien aigu (Ischémie cardiaque). Cette information triage supplémentaire est particulièrement important pour les patients souffrant douleur de poitrine.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 902.506964,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 156,
+        "files": [
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-cart_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-home_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-large_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-medium_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-small_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-thickbox_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-tm_cart_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-tm_home_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-tm_large_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-tm_medium_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-tm_small_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-tm_thickbox_default.jpg",
+          "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      32
+    ]
+  }
+}

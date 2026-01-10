@@ -1,0 +1,191 @@
+{
+  "id": 222,
+  "slug": "chargeur-de-batterie-externe-pour-inogen-one-g3",
+  "active": true,
+  "reference": "BA-303",
+  "name": "Chargeur de batterie externe pour Inogen One G3",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong>Les batteries Inogen se chargent normalement par le biais du concentrateur. Si vous possédez plusieurs batteries, il peut être difficile de les charger toutes en même temps. Pour résoudre ce problème, nous vous proposons un <strong>chargeur de batterie externe</strong>, qui se branche sur le réseau électrique avec sa propre alimentation.</p>",
+    "long_html": "<p><strong></strong>Les batteries Inogen se chargent normalement par le biais du concentrateur. Si vous possédez plusieurs batteries, il peut être difficile de les charger toutes en même temps. Pour résoudre ce problème, nous vous proposons un <strong>chargeur de batterie externe</strong>, qui se branche sur le réseau électrique avec sa propre alimentation. Il suffit de faire glisser le chargeur sur la batterie pour que la charge commence automatiquement. Finies les batteries déchargées !</p>\r\n<p>De plus, le chargeur de batterie externe charge les batteries plus rapidement que le concentrateur.</p>\r\n<p style=\"margin-top:10px;\"><strong>Temps de charge 8 cellules (<span class=\"editable\">BA-300</span>)</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Temps de recharge avec chargeur de batterie externe : 3 heures</li>\r\n<li>Temps de recharge avec concentrateur : 4 heures</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Temps de charge 16 cellules (<span class=\"editable\">BA-316</span>)</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Temps de recharge avec chargeur de batterie externe : 6 heures</li>\r\n<li>Temps de recharge avec concentrateur : 6 heures</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 389.04364,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 40,
+    "name": "Inogen"
+  },
+  "categories": [
+    {
+      "id": 161,
+      "name": "Accessoires"
+    },
+    {
+      "id": 164,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 161,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 164,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 931,
+        "files": [
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-cart_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-home_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-large_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-medium_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-small_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-standard_default .jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-thickbox_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-tm_cart_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-tm_home_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-tm_large_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-tm_medium_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-tm_small_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-tm_thickbox_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 932,
+        "files": [
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-cart_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-home_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-large_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-medium_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-small_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-standard_default .jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-thickbox_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-tm_cart_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-tm_home_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-tm_large_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-tm_medium_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-tm_small_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932-tm_thickbox_default.jpg",
+          "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/932.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 112,
+        "name": "Medilec-FR-Inogen-One-G3",
+        "mime": "application/pdf",
+        "file": "bd2ab28b59ff5987c95994b50b46dfdf240cdb15"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      219
+    ]
+  }
+}

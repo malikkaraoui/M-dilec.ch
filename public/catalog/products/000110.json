@@ -1,0 +1,166 @@
+{
+  "id": 110,
+  "slug": "ergometre-schiller-mtm-1500-1500-med",
+  "active": true,
+  "reference": "31.004",
+  "name": "Ergomètre Schiller MTM-1500 / 1500 med",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Les ergomètres à tapis roulant<strong> MTM-1500</strong> et <strong>MTM-1500 med</strong> de SCHILLER sont conçus pour les tests d’effort en médecine sportive, en cardiologie, en physiothérapie et lors des entraînements de (re)mise en forme. Ces ergomètres sont tous deux équipés et testés avec les systèmes de sécurité les plus récents et leur fabrication répond à des exigences de qualité très strictes.</p>",
+    "long_html": "<p>Les ergomètres à tapis roulant<strong> MTM-1500</strong> et <strong>MTM-1500 med</strong> de SCHILLER sont conçus pour les tests d’effort en médecine sportive, en cardiologie, en physiothérapie et lors des entraînements de (re)mise en forme. Ces ergomètres sont tous deux équipés et testés avec les systèmes de sécurité les plus récents et leur fabrication répond à des exigences de qualité très strictes.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Compatible avec tous les appareils d’ECG d’effort de SCHILLER.</li>\r\n<li>MTM-1500 med : avec transformateur d’égalisation de potentiel pour isolation du potentiel de terre conformément à la norme CEI 60601-1.</li>\r\n<li>Contrôle automatique par ordinateur via l’interface RS-232 (câble d’interface de 5 m inclus).</li>\r\n<li>Bouton d’arrêt d’urgence personnalisable.</li>\r\n<li>Poignée en tube d’acier à monter à droite ou à gauche ; deuxième poignée disponible en option.</li>\r\n<li>Mécanisme de centrage automatique pour la ceinture.</li>\r\n</ul><p style=\"margin-top:10px;\">Avantages :</p>\r\n<ul style=\"margin-left:14px;\"><li>Durée de vie très longue grâce à une qualité de fabrication exceptionnelle.</li>\r\n<li>Excellent rapport prix/performance.</li>\r\n<li>Sécurité extrêmement élevée.</li>\r\n<li>Fonctionnement quasi silencieux.</li>\r\n<li>Moteur ne nécessitant aucune maintenance.</li>\r\n<li>Conception moderne.</li>\r\n<li>Génération de rapports à l’aide du logiciel de finalisation.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 15542.246982,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 87,
+      "name": "Schiller tapis roulants"
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 87,
+        "name": "Schiller tapis roulants"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 292,
+        "files": [
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-cart_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-home_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-large_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-medium_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-small_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-thickbox_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-tm_cart_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-tm_home_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-tm_large_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-tm_medium_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-tm_small_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-tm_thickbox_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 293,
+        "files": [
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-cart_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-home_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-large_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-medium_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-small_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-thickbox_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-tm_cart_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-tm_home_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-tm_large_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-tm_medium_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-tm_small_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293-tm_thickbox_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/293.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 294,
+        "files": [
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-cart_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-home_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-large_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-medium_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-small_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-thickbox_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-tm_cart_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-tm_home_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-tm_large_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-tm_medium_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-tm_small_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294-tm_thickbox_default.jpg",
+          "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/294.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 38,
+        "name": "Medilec-FR-Schiller-Ergometre",
+        "mime": "application/pdf",
+        "file": "e2682bb17900de2241aace3f0b389e75fbf66e97"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

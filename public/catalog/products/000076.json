@@ -1,0 +1,182 @@
+{
+  "id": 76,
+  "slug": "ecg-schiller-cardiovit-cs-200-complete-diagnostic-system",
+  "active": false,
+  "reference": "11.0126",
+  "name": "ECG Schiller Cardiovit CS-200 New Classic",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le système multitâche <strong>CARDIOVIT CS-200 New Classic</strong> combine des facultés reconnues de diagnostic à une technologie informatique de pointe et à l’interface utilisateur la plus largement répandue.</p>",
+    "long_html": "<p>Le système multitâche <strong>CARDIOVIT CS-200 New Classic</strong> combine des facultés reconnues de diagnostic à une technologie informatique de pointe et à l’interface utilisateur la plus largement répandue.</p>\r\n<p><strong>CARDIOVIT CS-200 New Classic</strong> constitue un outil clé de diagnostic complet comprenant :</p>\r\n<ul style=\"margin-left:14px;\"><li>ECG de repos à 12 pistes</li>\r\n<li>Mesures ECG et interprétation automatiques (adultes et enfants)</li>\r\n<li>Cardiographie vectorielle</li>\r\n<li>Mesure de stimulateur cardiaque</li>\r\n<li>Dispersion QT</li>\r\n<li>ECG d’effort à 12 pistes à affichage complet, avec surveillance du segment ST et du rythme</li>\r\n<li>Holter ECG 24 h</li>\r\n<li>Système de gestion des données entièrement intégré</li>\r\n<li>Connexion aux systèmes du réseau</li>\r\n<li>Enregistrement du rythme de repos</li>\r\n<li>SAECG, Analyse des potentiels tardifs ventriculaires</li>\r\n<li>Spirométrie</li>\r\n<li>Ergo-spirométrie (option)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 19525.53389,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 79,
+      "name": "Schiller CS..."
+    },
+    {
+      "id": 86,
+      "name": "Schiller CS..."
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 79,
+        "name": "Schiller CS..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 86,
+        "name": "Schiller CS..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 222,
+        "files": [
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-cart_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-home_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-large_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-medium_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-small_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-thickbox_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-tm_cart_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-tm_home_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-tm_large_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-tm_medium_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-tm_small_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-tm_thickbox_default.jpg",
+          "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 22,
+        "name": "Medilec-FR-Schiller-CS-200",
+        "mime": "application/pdf",
+        "file": "e6d569bafaf047853986fcf96129f5e657d97fdb"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      50,
+      77
+    ]
+  }
+}

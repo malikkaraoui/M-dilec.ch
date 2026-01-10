@@ -1,0 +1,135 @@
+{
+  "id": 39,
+  "slug": "ecg-schiller-cardiovit-at-1",
+  "active": true,
+  "reference": "11.0173",
+  "name": "ECG Schiller Cardiovit AT-1G2",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Plus de 10 0’000 <strong>CARDIOVIT AT-1</strong> ECG 3 pistes vendus dans le monde entier-vous pouvez faire confiance à un tel appareil! </p>",
+    "long_html": "<p>Plus de 10 0’000 <strong>CARDIOVIT AT-1</strong> ECG 3 pistes vendus dans le monde entier-vous pouvez faire confiance à un tel appareil! </p>\r\n<p style=\"margin-top:10px;\">Par son format compact et sa batterie rechargeable intégrée, cet appareil est prêt à un usage universel – incluant les visites à domicile de patients. Nécessitant peu de maintenance et offrant une grande durée de vie, l’ AT-1 est l’entrée de gamme idéal et bon marché des ECG professionnels</p>\r\n<p style=\"margin-top:10px;\">ECG de repos à 3 pistes :</p>\r\n<ul style=\"margin-left:14px;\"><li>12 dérivations simultanées</li>\r\n<li>Format d’impression 3-pistes</li>\r\n<li>ECG sur simple appui d’un bouton</li>\r\n<li>Formats d’impression Multiples</li>\r\n<li>Fonction « Copie »</li>\r\n<li>Plusieurs vitesses d’enregistrement</li>\r\n<li>Fonctions manuels et automatiques</li>\r\n<li>Imprimante thermique à peigne intégrée</li>\r\n<li>Batterie rechargeable intégrée</li>\r\n<li>Alimentation secteur intégrée</li>\r\n<li>Poids : inférieur à 3 kg</li>\r\n</ul><p style=\"margin-top:10px;\">Option possible :</p>\r\n<ul style=\"margin-left:14px;\"><li>Logiciel de mesures et d’interprétation</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2654.5961,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 77,
+      "name": "Schiller AT et FT..."
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 77,
+        "name": "Schiller AT et FT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1074,
+        "files": [
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-cart_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-home_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-large_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-medium_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-small_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-standard_default .jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-thickbox_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-tm_cart_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-tm_home_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-tm_large_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-tm_medium_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-tm_small_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-tm_thickbox_default.jpg",
+          "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 15,
+        "name": "Medilec-FR-Schiller-AT-1",
+        "mime": "application/pdf",
+        "file": "f81555e9f712a2e576ff10890ed1098255cbe247"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      47,
+      52
+    ]
+  }
+}

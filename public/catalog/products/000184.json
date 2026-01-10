@@ -1,0 +1,187 @@
+{
+  "id": 184,
+  "slug": "set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel",
+  "active": true,
+  "reference": "1.0142",
+  "name": "Set 4 pinces périphériques ECG avec electrodes et gel",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Set 4 pinces périphériques ECG (rouge, noir, jaune et vert) avec 4 électrodes à ventouses ECG et <span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>une bouteille de</span> </span>gel électroconducteur ECG (50 g).</p>",
+    "long_html": "<p>Set 4 pinces périphériques ECG (rouge, noir, jaune et vert) avec 4 électrodes à ventouses ECG et <span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>une bouteille de</span> </span>gel électroconducteur ECG (50 g).</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 83.472609,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 36,
+    "name": "Hirschmann - Belden Inc"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 694,
+        "files": [
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-cart_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-home_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-large_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-medium_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-small_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-standard_default .jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-thickbox_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-tm_cart_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-tm_home_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-tm_large_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-tm_medium_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-tm_small_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-tm_thickbox_default.jpg",
+          "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39,
+      41,
+      49,
+      55,
+      59,
+      64,
+      68,
+      76,
+      106
+    ]
+  }
+}

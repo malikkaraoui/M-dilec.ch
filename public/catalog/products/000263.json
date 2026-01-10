@@ -1,0 +1,154 @@
+{
+  "id": 263,
+  "slug": "defibrillateur-cardiaid-semi-automatique",
+  "active": true,
+  "reference": "8.0128",
+  "name": "Défibrillateur CARDIAID Semi-automatique",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le défibrillateur CardiAid Semi Automatique administre le choc uniquement lorsqu’il détecte un rythme choquable. Le DAE CardiAid Semi Automatique informe l’utilisateur quand appuyer sur les boutons lumineux pour administrer un choc contrôlé.</p>",
+    "long_html": "<p>- Traitement pédiatrique possible à l’aide d’électrodes pédiatriques</p>\r\n<p>- Algorithme de détection d’électrocardiogramme précis à haute sensibilité et spécificité</p>\r\n<p>- Technologie de défibrillation basée sur le courant pour le traitement le plus efficace</p>\r\n<p>- Illustrations et instructions améliorées</p>\r\n<p>- Enregistrement de plusieurs événements jusqu’à 3 heures</p>\r\n<p>- Plus de 25 langues disponibles</p>\r\n<p>- Facilement adaptable aux changements futurs des protocoles de réanimation grâce à des fonctions configurables telles que les invites vocales, la durée de la RCP, la séquence de RCP (30:2 ou compressions-seulement) et la fréquence de compression thoracique (100 à 120 bpm)</p>\r\n<p>- Prêt à communiquer avec une passerelle et capable d’envoyer des résultats d’auto-test en temps réel</p>\r\n<p>- La nouvelle génération du logiciel CardiAid Monitor 2 offre une solution complète pour tous les besoins : Configuration, maintenance, dépannage, surveillance des données d’événements</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1763.231198,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 42,
+    "name": "CARDIAID"
+  },
+  "categories": [
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 155,
+      "name": "Nouveauté"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1120,
+        "files": [
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-cart_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-home_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-large_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-medium_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-small_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-standard_default .jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-thickbox_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-tm_cart_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-tm_home_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-tm_large_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-tm_medium_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-tm_small_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-tm_thickbox_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1121,
+        "files": [
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-cart_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-home_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-large_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-medium_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-small_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-standard_default .jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-thickbox_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-tm_cart_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-tm_home_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-tm_large_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-tm_medium_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-tm_small_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121-tm_thickbox_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1121.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1122,
+        "files": [
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-cart_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-home_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-large_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-medium_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-small_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-standard_default .jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-thickbox_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-tm_cart_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-tm_home_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-tm_large_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-tm_medium_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-tm_small_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122-tm_thickbox_default.jpg",
+          "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1122.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

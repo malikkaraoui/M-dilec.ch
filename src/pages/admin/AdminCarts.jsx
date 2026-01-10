@@ -1,10 +1,37 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
 
 function countItems(items) {
   if (!items || typeof items !== 'object') return 0
   return Object.values(items).reduce((sum, it) => sum + (Number(it?.qty) || 0), 0)
+}
+
+function sumTotalCents(items) {
+  if (!items || typeof items !== 'object') return null
+  let sum = 0
+  let anyPriced = false
+  for (const it of Object.values(items)) {
+    if (!it || typeof it !== 'object') continue
+    const qty = Number(it.qty) || 0
+    const priceCents = typeof it.priceCents === 'number' ? it.priceCents : null
+    if (qty <= 0 || typeof priceCents !== 'number') continue
+    sum += Math.max(0, Math.trunc(qty)) * priceCents
+    anyPriced = true
+  }
+  return anyPriced ? sum : null
+}
+
+function formatChfFromCents(cents) {
+  const n = Number(cents)
+  if (!Number.isFinite(n)) return '—'
+  const chf = n / 100
+  try {
+    return new Intl.NumberFormat('fr-CH', { style: 'currency', currency: 'CHF' }).format(chf)
+  } catch {
+    return `${chf.toFixed(2)} CHF`
+  }
 }
 
 function formatDate(ms) {
@@ -113,7 +140,9 @@ export function AdminCartsPage() {
                 <tr>
                   <th className="px-4 py-3">{tab === 'users' ? 'UID' : 'Cart ID'}</th>
                   <th className="px-4 py-3">Articles</th>
+                  <th className="px-4 py-3">Total</th>
                   <th className="px-4 py-3">Dernière mise à jour</th>
+                  <th className="px-4 py-3">Actions</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-neutral-200">
@@ -123,7 +152,18 @@ export function AdminCartsPage() {
                       <div className="font-mono text-xs text-neutral-900">{c.id}</div>
                     </td>
                     <td className="px-4 py-3 text-neutral-700">{countItems(c.items)}</td>
+                    <td className="px-4 py-3 text-neutral-700">
+                      {(() => {
+                        const total = sumTotalCents(c.items)
+                        return typeof total === 'number' ? formatChfFromCents(total) : '—'
+                      })()}
+                    </td>
                     <td className="px-4 py-3 text-neutral-700">{formatDate(c.updatedAt)}</td>
+                    <td className="px-4 py-3">
+                      <Link className="text-sm text-blue-700 hover:underline" to={`/admin/carts/${tab}/${c.id}`}>
+                        Détail
+                      </Link>
+                    </td>
                   </tr>
                 ))}
               </tbody>

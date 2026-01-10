@@ -1,0 +1,149 @@
+{
+  "id": 52,
+  "slug": "logiciel-pour-ecg-schiller-cardiovit-at-1",
+  "active": false,
+  "reference": "",
+  "name": "Logiciel pour ECG Schiller Cardiovit AT-1",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Logiciel pour la mesure de les résultats de mesure de l'ECG.</p>",
+    "long_html": "<p><strong>Logiciel \"C\"</strong> pour la mesure de :</p>\r\n<ul style=\"margin-left:14px;\"><li>Les résultats de mesure de l'ECG (intervalles, amplitudes, axe électrique).</li>\r\n<li>Complexes moyens et des marqueurs de mesure.</li>\r\n<li>Les résultats de mesure tableau détaillé.</li>\r\n<li>Déclarations d'interprétation.</li>\r\n</ul><p><strong>Logiciel \"M\"</strong> pour la mesure de :</p>\r\n<ul style=\"margin-left:14px;\"><li>Les résultats de mesure de l'ECG (intervalles, amplitudes, axe électrique).</li>\r\n<li>Complexes de moyenne avec la mesure facultative repères de référence.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 902.506964,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 187,
+        "files": [
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-cart_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-home_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-large_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-medium_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-small_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-thickbox_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-tm_cart_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-tm_home_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-tm_large_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-tm_medium_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-tm_small_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-tm_thickbox_default.jpg",
+          "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      39
+    ]
+  }
+}

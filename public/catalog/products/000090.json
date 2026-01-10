@@ -1,0 +1,153 @@
+{
+  "id": 90,
+  "slug": "embout-pour-spirometre-de-buehl-riester",
+  "active": false,
+  "reference": "30.0108",
+  "name": "Embout pour spiromètre de Bühl Riester",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Embouts de rechange pour le spiromètre Bühl, vendu en paquet de 100 et 1000 pièces.</p>",
+    "long_html": "<p>Embouts de rechange pour le spiromètre Bühl, vendu en paquet de 100 et 1000 pièces.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 23.119777,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 26,
+    "name": "Rudolf Riester GmbH"
+  },
+  "categories": [
+    {
+      "id": 95,
+      "name": "Consommables"
+    },
+    {
+      "id": 116,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 95,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 116,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 242,
+        "files": [
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-cart_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-home_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-large_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-medium_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-small_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-thickbox_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-tm_cart_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-tm_home_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-tm_large_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-tm_medium_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-tm_small_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-tm_thickbox_default.jpg",
+          "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      30,
+      32,
+      49,
+      64,
+      68,
+      72,
+      88,
+      89,
+      166
+    ]
+  }
+}

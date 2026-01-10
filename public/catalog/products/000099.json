@@ -1,0 +1,163 @@
+{
+  "id": 99,
+  "slug": "tensiometre-riester-precisa-n",
+  "active": false,
+  "reference": "5.0028",
+  "name": "Tensiomètre Riester Precisa N",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Produit de qualité typique Riester en version <strong>1 tuyau</strong> (tube) ou <strong>2 tuyaux</strong> (tubes). Disponible aussi en métal avec boîtier en aluminium et avec raccordement simple pour la tubulure. Le modèle <strong>precisa® N</strong> est idéal en tant qu’appareil de déplacement, appareil secondaire ou de réserve dans tout cabinet médical et tout établissement hospitalier...</p>",
+    "long_html": "<p>Produit de qualité typique Riester en version <strong>1 tuyau</strong> (tube) ou <strong>2 tuyaux</strong> (tubes). Disponible aussi en métal avec boîtier en aluminium et avec raccordement simple pour la tubulure. Le modèle <strong>precisa® N</strong> est idéal en tant qu’appareil de déplacement, appareil secondaire ou de réserve dans tout cabinet médical et tout établissement hospitalier. Egalement disponible en version sans latex (veuillez mentionner « LF » Sans Latex).</p>\r\n<p>Brassard calibré à bandes velcro, en nylon, adulte Tubulure simple; Ø 64 mm aluminium.</p>\r\n<p style=\"margin-top:10px;\">Performances :</p>\r\n<ul style=\"margin-left:14px;\"><li>Poire latex pour le gonflage du bassard.</li>\r\n<li>Socle de valve en métal.</li>\r\n<li>Poignée-cuillière ergonomique en acier inoxydable.</li>\r\n<li>Raccord simple à emboîtement pour la tubulure.</li>\r\n<li>Valve de décompression de précision, inusable et à réglage ultra-précis.</li>\r\n<li>Le microfiltre protège la valve de décompression et le système de mesure.</li>\r\n<li>Membrane en alliage de cuivre au béryllium à trempe spéciale, quasiment inaltérable.</li>\r\n<li>Membrane résistante à une surpression allant jusqu'à 600 mm Hg.</li>\r\n<li>Graduation linéaire inclinée, de 0 à 300 mm Hg (bonne lisibilité).</li>\r\n<li>Tolérance maximale d'erreur de +/- 3 mm Hg.</li>\r\n<li>Large gamme de différents modèles et tailles de brassards.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 119.777159,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 26,
+    "name": "Rudolf Riester GmbH"
+  },
+  "categories": [
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 669,
+        "files": [
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-standard_default .jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-tm_cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-tm_home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-tm_large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-tm_medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-tm_small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669-tm_thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/669.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 670,
+        "files": [
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-standard_default .jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-tm_cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-tm_home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-tm_large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-tm_medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-tm_small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670-tm_thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/670.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 671,
+        "files": [
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-standard_default .jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-tm_cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-tm_home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-tm_large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-tm_medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-tm_small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671-tm_thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/671.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 672,
+        "files": [
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-standard_default .jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-tm_cart_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-tm_home_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-tm_large_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-tm_medium_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-tm_small_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672-tm_thickbox_default.jpg",
+          "assets/products/99__tensiometre-riester-precisa-n/images/672.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 30,
+        "name": "Medilec-EN-Riester-Precisa-N",
+        "mime": "application/pdf",
+        "file": "a918bf3196ade04dfb78a01e6f1cdfd5983e384a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "id": 195,
+  "slug": "spirometre-mir-spirolab-new",
+  "active": true,
+  "reference": "",
+  "name": "Spiromètre MIR Spirolab New",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Spirolab New</strong> est un spiromètre portable avec ecran tactile 7 pouces. Il peut fonctionner de manière totalement indépendante, ou il peut être connecté à un PC via USB ou Bluetooth ou une imprimante externe via USB. Ce dispositif est destiné à la mesure des paramètres respiratoires et au monitorage de la saturation d'oxygène et de la fréquence du pouls.</p>",
+    "long_html": "<p><strong></strong><strong>Spirolab New</strong> est un spiromètre portable avec ecran tactile 7 pouces. Il peut fonctionner de manière totalement indépendante, ou il peut être connecté à un PC via USB ou Bluetooth ou une imprimante externe via USB.</p>\r\n<p>Ce dispositif est destiné à la mesure des paramètres respiratoires et au monitorage de la saturation d'oxygène et de la fréquence du pouls. Le dispositif mène un test de contrôle sur la qualité des valeurs mesurées et peut enregistrer les résultats d'environ 10 000 tests spirométriques ou environ 500 heures de données d'oxymétrie.</p>\r\n<p>Une turbine présente à l'intérieur du dispositif utilise l'interruption de la lumière infra-rouge comme principe de fonctionnement pour mesurer le volume et le débit. Ce principe de fonctionnement garantit des résultats précis et reproductibles sans devoir recourir à un étalonnage régulier.</p>\r\n<p style=\"margin-top:10px;\"><strong>Les caractéristiques essentielles de ce type de capteur sont les suivantess</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Une mesure précise même avec des débits d'air bas (fin d'exhalation).</li>\r\n<li>Indépendant de l'humidité et de la densité de gaz.</li>\r\n<li>Incassable et résistant aux chocs.</li>\r\n<li>Économique à remplacer.</li>\r\n</ul><p>Le capteur de volume et de débit à turbine est disponible en version jetable et réutilisable.</p>\r\n<p><strong>Spirolab New</strong> peut se connecter à un ordinateur ou tout autre système informatisé. Les données spirométriques de chaque test sont conservées dans l'appareil et peuvent être transférées vers un ordinateur puis affichées (débits/courbes de volume, paramètres spirométriques, options des paramètres oxymétriques). L'appareil peut être connecté à un ordinateur via un port USB.</p>\r\n<p><strong>Spirolab New</strong> effectue des tests FVC, VC &amp; CVI et VVM et le profil ventilatoire, ainsi qu'un indicateur d'acceptabilité (contrôle qualité) et de reproductibilité du test de spirométrie mené par le patient. La fonction d'interprétation automatique utilise 11 niveaux conformément au classement de l'ATS (American Thoracic Society). Chaque test peut être répété. Les meilleurs paramètres fonctionnels sont toujours disponibles pour une re-lecture rapide. Les valeurs normales (théoriques) peuvent être sélectionnées parmi celles disponibles. Par exemple, dans les pays de l'Union Européenne, les médecins utilisent généralement les valeurs recommandées par l'ERS (European Respiratory Society - Société Respiratoire Européenne).</p>\r\n<p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2134.63324,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 737,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/737.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 738,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/738.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 739,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/739.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 746,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/746.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 740,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/740.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 741,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/741.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 742,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/742.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 743,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/743.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 744,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/744.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 745,
+        "files": [
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-standard_default .jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-tm_cart_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-tm_home_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-tm_large_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-tm_medium_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-tm_small_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745-tm_thickbox_default.jpg",
+          "assets/products/195__spirometre-mir-spirolab-new/images/745.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 94,
+        "name": "Medilec-FR-Mir-Spirolab-New",
+        "mime": "application/pdf",
+        "file": "da4ba55d4286affc40cc7b05e2978fde2e0d50bb"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193
+    ]
+  }
+}

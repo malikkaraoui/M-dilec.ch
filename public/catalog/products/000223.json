@@ -1,0 +1,204 @@
+{
+  "id": 223,
+  "slug": "sac-a-dos-pour-inogen-one-g3",
+  "active": true,
+  "reference": "CA-350",
+  "name": "Sac à dos pour Inogen One G3",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong>Le système Inogen One G3 est livré avec un sac pour transporter le concentrateur sur votre épaule. Pour encore plus de confort, optez pour ce <strong>sac à dos</strong> !</p>",
+    "long_html": "<p><strong></strong>Le système Inogen One G3 est livré avec un sac pour transporter le concentrateur sur votre épaule. Pour encore plus de confort, optez pour ce <strong>sac à dos</strong> !</p>\r\n<p>Un sac à dos étant porté sur les deux épaules, le poids est réparti plus équitablement. Ce sac dispose également d’une sangle à attacher autour de votre taille, qui soutient une partie du poids. Résultat : votre Inogen One G3, déjà léger, est encore plus léger !<br /><br />Le sac à dos possède un grand compartiment pouvant contenir l’Inogen One G3. Avec les sangles, vous pouvez ajuster le sac pour qu’il reste bien en place tout en étant confortable. Le petit compartiment à l’avant et les deux compartiments sur le côté vous permettent de ranger vos accessoires. Pour que le concentrateur soit assez ventilé, le sac comprend une ouverture à l’endroit où se trouve le filtre d’aspiration.<br /><br />Une fois rangé dans le sac à dos, le concentrateur reste accessible grâce à une fenêtre transparente située sur le dessus. Une ouverture a été créée à côté de cette fenêtre pour le branchement de la canule nasale.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 203.342618,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 40,
+    "name": "Inogen"
+  },
+  "categories": [
+    {
+      "id": 161,
+      "name": "Accessoires"
+    },
+    {
+      "id": 164,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 159,
+      "name": "Oxymétrie"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      },
+      {
+        "id": 161,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 164,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 159,
+        "name": "Oxymétrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 933,
+        "files": [
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-cart_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-home_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-large_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-medium_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-small_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-standard_default .jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-thickbox_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-tm_cart_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-tm_home_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-tm_large_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-tm_medium_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-tm_small_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-tm_thickbox_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 934,
+        "files": [
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-cart_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-home_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-large_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-medium_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-small_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-standard_default .jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-thickbox_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-tm_cart_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-tm_home_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-tm_large_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-tm_medium_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-tm_small_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934-tm_thickbox_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/934.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 935,
+        "files": [
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-cart_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-home_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-large_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-medium_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-small_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-standard_default .jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-thickbox_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-tm_cart_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-tm_home_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-tm_large_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-tm_medium_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-tm_small_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935-tm_thickbox_default.jpg",
+          "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/935.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      219
+    ]
+  }
+}

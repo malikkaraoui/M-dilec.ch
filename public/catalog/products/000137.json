@@ -1,0 +1,244 @@
+{
+  "id": 137,
+  "slug": "montre-cardio-polar-a300-hr",
+  "active": false,
+  "reference": "",
+  "name": "Montre Cardio Polar A300 HR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Montre Polar A300 HR (avec émetteur de fréquence cardiaque) avec suiveur de condition physique</strong></p>\r\n<p><strong></strong>Votre corps et l'A300. Conçus pour bouger et faits l'un pour l'autre. La Polar A300 est une montre avec suiveur de condition physique qui vous fait aller de l'avant et toujours progresser. Suivi de votre activité quotidienne, de votre entraînement et de votre sommeil.</p>",
+    "long_html": "<p><strong>Montre Polar A300 HR (avec émetteur de fréquence cardiaque) avec suiveur de condition physique</strong></p>\r\n<p><strong></strong>Votre corps et l'A300 HR. Conçus pour bouger et faits l'un pour l'autre. La Polar A300 HR est une montre avec suiveur de condition physique qui vous fait aller de l'avant et toujours progresser. Suivi de votre activité quotidienne, de votre entraînement et de votre sommeil.</p>\r\n<p><strong>Tout compte</strong></p>\r\n<p>Chaque saut, bond, sautillement, marche et course compte. L'A300 HR indique les pas effectués, la distance parcourue et les calories brûlées, et vous motive à atteindre votre objectif d'activité. Si vous restez immobile trop longtemps, l'A300 HR vibre pour vous indiquer qu'il est temps de recommencer à bouger.</p>\r\n<p><strong>Entraînez-vous à votre rythme</strong></p>\r\n<p>Entraînez-vous à votre rythme avec l'émetteur de fréquence cardiaque Polar H7 et soyez sûr que tous vos mouvements sont comptabilisés. Terminez en force et sentez-vous bien ! Terminez chaque session d'entraînement en analysant les résultats sur le service Web et dans l'application Polar Flow.</p>\r\n<p><strong>Mangez, bougez, dormez, recommencez</strong></p>\r\n<p>Pour le bien-être, il est essentiel de bénéficier d'un sommeil de qualité suffisante. L'A300 HR détecte automatiquement votre endormissement et votre réveil, et vous réveille par une douce vibration. Suivez vos habitudes de sommeil dans Polar Flow pour trouver le bon équilibre entre entraînement, activité quotidienne et repos.</p>\r\n<p><strong>Apportez du changement</strong></p>\r\n<p>Un petit changement peut faire toute la différence. Assortissez les couleurs éclatantes des bracelets facilement interchangeables selon votre humeur et votre style. Le bracelet en silicone résistant de l'A300 HR, étanche, est léger et agréable à porter.</p>\r\n<p style=\"margin-top:10px;\"><strong>Produits Polar compatibles</strong></p>\r\n<ul style=\"margin-left:14px;\"><li><a href=\"http://medilec.ch/index.php?id_product=210&amp;controller=product\" class=\"btn btn-default\">Balance Polar</a></li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 143.825441,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 129,
+      "name": "Montres + Ceinture"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 129,
+        "name": "Montres + Ceinture"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 413,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/413.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 414,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/414.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 415,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/415.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 416,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/416.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 417,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/417.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 418,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/418.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 419,
+        "files": [
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-tm_cart_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-tm_home_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-tm_large_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-tm_medium_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-tm_small_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419-tm_thickbox_default.jpg",
+          "assets/products/137__montre-cardio-polar-a300-hr/images/419.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 63,
+        "name": "Medilec-FR-Polar-A300-Demarrage",
+        "mime": "application/pdf",
+        "file": "da4b3ce691e499c0c8ca95bc4a88403593db1545"
+      },
+      {
+        "id_attachment": 64,
+        "name": "Medilec-FR-Polar-A300-Manuel",
+        "mime": "application/pdf",
+        "file": "8224886d7139324f71aa02acc95bb1787a7bc5c6"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

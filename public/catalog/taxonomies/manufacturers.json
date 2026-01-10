@@ -1,0 +1,130 @@
+{
+  "manufacturers": [
+    {
+      "id": 22,
+      "name": "SCHILLER Reomed AG",
+      "slug": "schiller-reomed-ag",
+      "logo": "assets/manufacturers/22__schiller-reomed-ag/logo.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Covidien Commercial LTD",
+      "slug": "covidien-commercial-ltd",
+      "logo": "assets/manufacturers/23__covidien-commercial-ltd/logo.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Diagramma Dietikon AG",
+      "slug": "diagramma-dietikon-ag",
+      "logo": "assets/manufacturers/24__diagramma-dietikon-ag/logo.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Zetmed's Gsundheitsgarten",
+      "slug": "zetmed-s-gsundheitsgarten",
+      "logo": "assets/manufacturers/25__zetmed-s-gsundheitsgarten/logo.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Rudolf Riester GmbH",
+      "slug": "rudolf-riester-gmbh",
+      "logo": "assets/manufacturers/26__rudolf-riester-gmbh/logo.jpg"
+    },
+    {
+      "id": 27,
+      "name": "HEINE Optotechnik GmbH & Co.",
+      "slug": "heine-optotechnik-gmbh-co",
+      "logo": "assets/manufacturers/27__heine-optotechnik-gmbh-co/logo.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Parker Laboratories Inc",
+      "slug": "parker-laboratories-inc",
+      "logo": "assets/manufacturers/28__parker-laboratories-inc/logo.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Leonhard Lang GmbH",
+      "slug": "leonhard-lang-gmbh",
+      "logo": "assets/manufacturers/29__leonhard-lang-gmbh/logo.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Corscience GmbH & Co.",
+      "slug": "corscience-gmbh-co",
+      "logo": "assets/manufacturers/30__corscience-gmbh-co/logo.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Cardiolex AB",
+      "slug": "cardiolex-ab",
+      "logo": "assets/manufacturers/31__cardiolex-ab/logo.jpg"
+    },
+    {
+      "id": 32,
+      "name": "SR-Medizinelektronik",
+      "slug": "sr-medizinelektronik",
+      "logo": "assets/manufacturers/32__sr-medizinelektronik/logo.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Garmin - Bucher Walt SA",
+      "slug": "garmin-bucher-walt-sa",
+      "logo": "assets/manufacturers/33__garmin-bucher-walt-sa/logo.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Polar Electro Europe AG",
+      "slug": "polar-electro-europe-ag",
+      "logo": "assets/manufacturers/34__polar-electro-europe-ag/logo.jpg"
+    },
+    {
+      "id": 35,
+      "name": "AMBU Sarl",
+      "slug": "ambu-sarl",
+      "logo": "assets/manufacturers/35__ambu-sarl/logo.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Hirschmann - Belden Inc",
+      "slug": "hirschmann-belden-inc",
+      "logo": "assets/manufacturers/36__hirschmann-belden-inc/logo.jpg"
+    },
+    {
+      "id": 37,
+      "name": "MIR",
+      "slug": "mir",
+      "logo": "assets/manufacturers/37__mir/logo.jpg"
+    },
+    {
+      "id": 38,
+      "name": "BEURER France SAS",
+      "slug": "beurer-france-sas",
+      "logo": "assets/manufacturers/38__beurer-france-sas/logo.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Schmitz u. Söhne",
+      "slug": "schmitz-u-sohne",
+      "logo": "assets/manufacturers/39__schmitz-u-sohne/logo.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Inogen",
+      "slug": "inogen",
+      "logo": "assets/manufacturers/40__inogen/logo.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Boso",
+      "slug": "boso",
+      "logo": "assets/manufacturers/41__boso/logo.jpg"
+    },
+    {
+      "id": 42,
+      "name": "CARDIAID",
+      "slug": "cardiaid",
+      "logo": null
+    }
+  ]
+}

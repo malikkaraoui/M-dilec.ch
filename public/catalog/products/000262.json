@@ -1,0 +1,144 @@
+{
+  "id": 262,
+  "slug": "thermometre-axillaire-spengler-tempo-10",
+  "active": true,
+  "reference": "4.0865",
+  "name": "Thermomètre Axillaire Spengler Tempo 10",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong><strong>Thermomètre Axillaire Spengler Tempo 10</strong></strong><strong>,</strong> mesure en 10 secondes, alarme fièvre, arrêt automatique, résistant à l'eau, mémoire dernière mesure</p>",
+    "long_html": "<p><strong>Thermomètre Axillaire Spengler Tempo 10, </strong>Mesure en 10 secondes</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Alarme fièvre</li>\r\n<li>Arrêt automatique</li>\r\n<li>Résistant à l’eau</li>\r\n<li>Mémoire dernière mesure</li>\r\n<li>Livré avec : étui de rangement, pile bouton (1,5V)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4.3,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1112,
+        "files": [
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-cart_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-home_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-large_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-medium_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-small_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-standard_default .jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-thickbox_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-tm_cart_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-tm_home_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-tm_large_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-tm_medium_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-tm_small_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-tm_thickbox_default.jpg",
+          "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": 183,
+  "slug": "cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100",
+  "active": true,
+  "reference": "1.0054",
+  "name": "Câble d'electrodes à brancher pour Schiller DT-80 / DT-100",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Câble d'électrode Welsch pour système par aspiration Schiller DT-80 ou DT-100.</p>\r\n<p>10 modèles par 2 mesures disponibles, vendu à l'unité.</p>",
+    "long_html": "<p>Câble d'électrode Welsch pour système par aspiration Schiller DT-80 ou DT-100.</p>\r\n<p>10 modèles par 2 mesures disponibles, vendu à l'unité.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 129.897864,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 693,
+        "files": [
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-cart_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-home_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-large_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-medium_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-small_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-standard_default .jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-thickbox_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-tm_cart_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-tm_home_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-tm_large_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-tm_medium_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-tm_small_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-tm_thickbox_default.jpg",
+          "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      170
+    ]
+  }
+}

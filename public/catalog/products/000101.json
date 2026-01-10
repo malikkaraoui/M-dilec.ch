@@ -1,0 +1,140 @@
+{
+  "id": 101,
+  "slug": "tensiometre-riester-big-ben-muraux",
+  "active": false,
+  "reference": "5.0031",
+  "name": "Tensiomètre Riester Big Ben muraux",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Les modèles <strong>muraux big ben®</strong> sont appréciables dans le quotidien astreignant de la clinique. Avec support mural très stable en plastique renforcé fibre de verre et boîtier extrêmement robuste en plastique ABS. Rayon de pivotement de 130 degrés au total ; 65 degrés vers la gauche et la droite. Vis et chevilles fournis. Également disponibles sans latex (veuillez indiquer LF pour « sans latex »).</p>",
+    "long_html": "<p>Les modèles <strong>muraux big ben®</strong> sont appréciables dans le quotidien astreignant de la clinique. Avec support mural très stable en plastique renforcé fibre de verre et boîtier extrêmement robuste en plastique ABS. Rayon de pivotement de 130 degrés au total ; 65 degrés vers la gauche et la droite. Vis et chevilles fournis. Conversion facile en modèle d’anesthésie big ben®, au moyen de la pince universelle. Également disponibles sans latex (veuillez indiquer LF pour « sans latex »).</p>\r\n<p><strong>big ben®</strong> Modèles muraux<br />Manchon à fermeture velcro pour adultes<br />Ø 147,2 mm, 2 tuyaux</p>\r\n<p style=\"margin-top:10px;\">Performances :</p>\r\n<ul style=\"margin-left:14px;\"><li>Cadran généreux (Ø 147,2 mm ou 145,5 mm) ; graduation dont le bon effet de contraste assure une lisibilité optimale ; échelle graduée jusqu’à 300 mm Hg.</li>\r\n<li>Corbeille spacieuse au dos de l’appareil pour les tuyaux et le manchon.</li>\r\n<li>Poire en latex pour le gonflage du manchon.</li>\r\n<li>Soupape de purge inusable et réglable avec précision.</li>\r\n<li>Microfiltre de protection de la soupape de purge et du système de mesure.</li>\r\n<li>Membrane très résistante au vieillissement, en cuivre-béryllium spécialement durci et supportant une pression de 600 mm Hg au maximum.</li>\r\n<li>Ouvrage de précision monté sur une entretoise spéciale, pour garantir la stabilité absolue du système de mesure et du point zéro.</li>\r\n<li>Aucune détermination du point zéro.</li>\r\n<li>Tolérance d’erreur maximale : +/- 3 mm Hg.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 175.487465,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 26,
+    "name": "Rudolf Riester GmbH"
+  },
+  "categories": [
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 265,
+        "files": [
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-cart_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-home_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-large_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-medium_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-small_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-thickbox_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-tm_cart_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-tm_home_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-tm_large_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-tm_medium_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-tm_small_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-tm_thickbox_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/265.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 266,
+        "files": [
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-cart_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-home_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-large_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-medium_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-small_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-thickbox_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-tm_cart_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-tm_home_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-tm_large_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-tm_medium_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-tm_small_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266-tm_thickbox_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/266.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 267,
+        "files": [
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-cart_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-home_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-large_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-medium_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-small_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-thickbox_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-tm_cart_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-tm_home_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-tm_large_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-tm_medium_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-tm_small_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267-tm_thickbox_default.jpg",
+          "assets/products/101__tensiometre-riester-big-ben-muraux/images/267.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 31,
+        "name": "Medilec-FR-Riester-BigBen",
+        "mime": "application/pdf",
+        "file": "8ab2d50e4f3a81de2efef3fbaa84c4e1d863760b"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": 202,
+  "slug": "spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie",
+  "active": false,
+  "reference": "",
+  "name": "Spiromètre MIR Minispir New avec le capteur d'Oxymétrie",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Minispir New</strong>, spiromètre USB avec le <strong>capteur d'Oxymétrie</strong>, pour une analyse respiratoire complète, est un mini laboratoire de Spirométrie et Oxymétrie.</p>",
+    "long_html": "<p><strong></strong><strong></strong><strong></strong><strong>Minispir New</strong>, spiromètre USB avec le <strong>capteur d'Oxymétrie</strong>, pour une analyse respiratoire complète, est un mini laboratoire de Spirométrie et Oxymétrie.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Système d’émulation pédiatrique.</li>\r\n<li>Branchements directement sur le port USB.</li>\r\n<li>Boucle débit/Volume en temps réel et courbe.</li>\r\n<li>Volume/temps avec comparaison PRE/POST.</li>\r\n<li>Interprétations avancées des tests de spirométrie.</li>\r\n<li>Système d’animations pédiatrique.</li>\r\n<li>Age pulmonaire.</li>\r\n<li>Test de provocation bronchique, incluant le nouveau protocole Mannitol avec la courbe de réponse VEMS.</li>\r\n<li>Capteur de température pour la conversion BTPS.</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Spécifications techniques <span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>oxymètre</span></span></strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>SpO2 gamma : 0-99%</li>\r\n<li>SpO2 exactitude : ± 2% entre 70-99% SpO2</li>\r\n<li>Rythme cardiaque gamma : 30-254 BPM</li>\r\n<li>Rythme cardiaque exactitude : ± 2 BPM au 2%</li>\r\n</ul><p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1263.69545,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 781,
+        "files": [
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-standard_default .jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-tm_cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-tm_home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-tm_large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-tm_medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-tm_small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-tm_thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 782,
+        "files": [
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-standard_default .jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-tm_cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-tm_home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-tm_large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-tm_medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-tm_small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782-tm_thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/782.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 783,
+        "files": [
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-standard_default .jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-tm_cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-tm_home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-tm_large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-tm_medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-tm_small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783-tm_thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/783.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 784,
+        "files": [
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-standard_default .jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-tm_cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-tm_home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-tm_large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-tm_medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-tm_small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784-tm_thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/784.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 785,
+        "files": [
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-standard_default .jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-tm_cart_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-tm_home_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-tm_large_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-tm_medium_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-tm_small_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785-tm_thickbox_default.jpg",
+          "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/785.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 79,
+        "name": "Medilec-FR-Mir-Minispir",
+        "mime": "application/pdf",
+        "file": "7afb7758396403670c00a87e351c8b94e2c4a36a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193,
+      197,
+      198
+    ]
+  }
+}

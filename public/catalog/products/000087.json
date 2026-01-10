@@ -1,0 +1,143 @@
+{
+  "id": 87,
+  "slug": "cardio-first-angel",
+  "active": false,
+  "reference": "8.0103",
+  "name": "Cardio First Angel",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>Cardio First Angel</strong> vous aide a effectuer un massage cardiaque parfait en cas de secours a une personne en arret cardiaque.</p>",
+    "long_html": "<p>Le <strong>Cardio First Angel</strong> vous aide a effectuer un massage cardiaque parfait en cas de secours a une personne en arret cardiaque.</p>\r\n<p>La qualité du massage cardiaque est déterminant dans le cycle de réanimation cardio-respiratoire et le <strong>CARDIO FIRST ANGEL</strong> permet à l'intervenant :</p>\r\n<ul style=\"margin-left:14px;\"><li>Une localisation rapide et précise de la zone à comprimer, sa forme adaptée se positionne idéalement sur le thorax.</li>\r\n<li>Une aide à la position des mains.</li>\r\n<li>Des compressions idéales, un indicateur sonore valide la bonne compression.</li>\r\n<li>Un comptage simplifié du rythme des compressions (indicateur sonore).</li>\r\n<li>De trouver rapidement la fréquence optimale de massage 100 compressions par minute (100/min).</li>\r\n<li>Pas d'alimentation électrique.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 147.632312,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 69,
+      "name": "Accessoires"
+    },
+    {
+      "id": 107,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 69,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 107,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 238,
+        "files": [
+          "assets/products/87__cardio-first-angel/images/238-cart_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-home_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-large_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-medium_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-small_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-thickbox_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-tm_cart_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-tm_home_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-tm_large_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-tm_medium_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-tm_small_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238-tm_thickbox_default.jpg",
+          "assets/products/87__cardio-first-angel/images/238.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

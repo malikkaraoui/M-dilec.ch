@@ -1,0 +1,146 @@
+{
+  "id": 141,
+  "slug": "montre-cardio-polar-rs300x",
+  "active": false,
+  "reference": "",
+  "name": "Montre Cardio Polar RS300X",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>RS300X Montre de sport</strong></p>\r\n<p>Permet de s’entraîner à la bonne intensité grâce aux Sportzones Polar, permet de mesurer sa forme aérobie au repos et de suivre ses progrès (OwnIndex®), indique le nombre de calories brûlées.</p>",
+    "long_html": "<p><strong>RS300X Montre de sport</strong></p>\r\n<p>Permet de s’entraîner à la bonne intensité grâce aux Sportzones Polar, permet de mesurer sa forme aérobie au repos et de suivre ses progrès (OwnIndex®), indique le nombre de calories brûlées.</p>\r\n<p><strong>Fréquence cardiaque, vitesse et distance</strong></p>\r\n<p>Pour les sportifs amateurs qui ont besoin de toutes les fonctions de fréquence cardiaque essentielles et chrono.</p>\r\n<p><strong>Personnaliser</strong></p>\r\n<p>Grâce aux accessoires, vous pouvez améliorer votre cardio afin de parfaire votre expérience et de mieux analyser vos performances.</p>\r\n<p><strong>Test de Fitness</strong></p>\r\n<p>Si vous souhaitez améliorer votre condition physique et évaluer en permanence vos performances, le test de fitness smart vous indique exactement tout ce que vous avez besoin de savoir en seulement 5 minutes. En comparant régulièrement vos résultats du test, vous pouvez voir votre progression et constater dans quelle mesure votre condition physique s'améliore.</p>\r\n<p><strong>Charge d’entraînement</strong></p>\r\n<p>Montre l’impact de votre entraînement sur votre corps et vous aide à comparer les différentes charges d’entraînement. La gestion des charges d’entraînement sur le long terme vous aide à reconnaître vos limites, anticiper les coups de fatigue et ajuster l’intensité de l’entraînement en fonction de votre objectif.</p>\r\n<p><strong>OwnZone</strong></p>\r\n<p>Il peut s'avérer compliqué de déterminer l'intensité appropriée pour améliorer sa condition physique. Grâce à OwnZone, vous êtes sûr de vous entraîner à une intensité améliorant votre capacité aérobique : cette fonction ajuste en effet votre zone de fréquence cardiaque en fonction de la condition physiologique actuelle de votre corps.</p>\r\n<p><strong>Smart Calories</strong></p>\r\n<p>OwnCal est le compteur de calories le plus fiable du marché. Il calcule le nombre de calories dépensées pendant une séance d'entraînement sur la base de votre poids, votre taille, votre âge, votre sexe, votre fréquence cardiaque maximale individuelle (FCmax) et l'intensité de votre entraînement.<br /><br /></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 120.612813,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 392,
+        "files": [
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-cart_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-home_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-large_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-medium_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-small_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-thickbox_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-tm_cart_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-tm_home_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-tm_large_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-tm_medium_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-tm_small_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392-tm_thickbox_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/392.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 393,
+        "files": [
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-cart_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-home_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-large_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-medium_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-small_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-thickbox_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-tm_cart_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-tm_home_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-tm_large_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-tm_medium_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-tm_small_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393-tm_thickbox_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/393.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 394,
+        "files": [
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-cart_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-home_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-large_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-medium_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-small_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-thickbox_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-tm_cart_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-tm_home_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-tm_large_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-tm_medium_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-tm_small_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394-tm_thickbox_default.jpg",
+          "assets/products/141__montre-cardio-polar-rs300x/images/394.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 72,
+        "name": "Medilec-FR-Polar-RS300X-Demar",
+        "mime": "application/pdf",
+        "file": "aec2beb7d5a9ade68f38d8e12d0023cc13fdc1ab"
+      },
+      {
+        "id_attachment": 73,
+        "name": "Medilec-FR-Polar-RS300X-Manuel",
+        "mime": "application/pdf",
+        "file": "3aeb956aaff09ae9531d0ce337b9177b30dab6f8"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

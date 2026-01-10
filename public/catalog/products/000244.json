@@ -1,0 +1,263 @@
+{
+  "id": 244,
+  "slug": "montre-cardio-polar-loop2",
+  "active": false,
+  "reference": "",
+  "name": "Montre Cardio Polar Loop2",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar Loop 2</strong> est le tracker d'activité élégant et étanche qui vous fait bouger. Ce bracelet élégant suit votre activité quotidienne et même votre sommeil, contribuant ainsi à vous motiver et à améliorer votre condition physique et votre santé.</p>",
+    "long_html": "<p><strong>Polar Loop 2</strong> est le tracker d'activité élégant et étanche qui vous fait bouger. Ce bracelet élégant suit votre activité quotidienne et même votre sommeil, contribuant ainsi à vous motiver et à améliorer votre condition physique et votre santé.</p>\r\n<p><strong>Guide d'activités</strong></p>\r\n<p>Affiche votre degré d'activité dans la journée et propose des conseils pratiques pour atteindre votre objectif d'activité quotidienne.</p>\r\n<p><strong>Efficacité de l'activité</strong></p>\r\n<p>Fournit un compte-rendu sur votre activité quotidienne, hebdomadaire et mensuelle, vous indiquant ainsi comment vos choix d'activités vous aident à rester en bonne santé.</p>\r\n<p><strong>Smart Calories</strong></p>\r\n<p>Indique exactement combien de calories vous avez brûlées.</p>\r\n<p><strong>EnergyPointer</strong></p>\r\n<p>Fournit des indications claires sur la manière de retrouver la forme plus rapidement. Polar H7 requis.</p>\r\n<p><strong>Efficacité de l'entraînement</strong></p>\r\n<p>Compte-rendu motivant immédiatement après l'exercice. Polar H7 requis.</p>\r\n<p><strong>Consultez votre fréquence cardiaque pendant l'entraînement</strong></p>\r\n<p>Affiche votre fréquence cardiaque pendant l'entraînement d'une simple pression sur un bouton. Émetteur de fréquence cardiaque Polar H7 requis.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 102.042711,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1043,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1043.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1044,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1044.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1045,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1045.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1046,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1046.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1047,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1047.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1048,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1048.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1049,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1049.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1050,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1050.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1051,
+        "files": [
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-standard_default .jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-tm_cart_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-tm_home_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-tm_large_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-tm_medium_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-tm_small_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051-tm_thickbox_default.jpg",
+          "assets/products/244__montre-cardio-polar-loop2/images/1051.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 126,
+        "name": "Medilec-FR-Polar-Loop2-Manuel",
+        "mime": "application/pdf",
+        "file": "d20ce817bf90679deefa7afa7d1fedf3e1ada8b4"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

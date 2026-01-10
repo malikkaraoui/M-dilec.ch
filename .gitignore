@@ -29,6 +29,9 @@ serviceAccount*.json
 dataconnect/
 src/dataconnect-generated/
 
+# Catalogue exporté: on garde les JSON versionnés, mais pas les assets lourds (10k+ images)
+public/catalog/assets/
+
 
 
 # Editor directories and files

@@ -94,6 +94,7 @@ export function AdminOrdersPage() {
     const list = Object.entries(raw)
       .map(([id, o]) => {
         const createdAt = typeof o?.createdAt === 'number' ? o.createdAt : null
+        const uid = typeof o?.user?.uid === 'string' ? o.user.uid : ''
         const email = typeof o?.user?.email === 'string' ? o.user.email : ''
         const phone = typeof o?.user?.phone === 'string' ? o.user.phone : ''
 
@@ -103,6 +104,7 @@ export function AdminOrdersPage() {
           id,
           createdAt,
           status: typeof o?.status === 'string' ? o.status : '',
+          uid,
           email,
           phone,
           itemCount,
@@ -118,13 +120,48 @@ export function AdminOrdersPage() {
 
     const filtered = withStatus.filter((o) => {
       const haystack = normalizeText(
-        `${o.id} ${o.status} ${o.email} ${o.phone} ${o.note} ${o.itemCount ?? ''}`,
+        `${o.id} ${o.status} ${o.uid} ${o.email} ${o.phone} ${o.note} ${o.itemCount ?? ''}`,
       )
       return haystack.includes(q)
     })
 
     return filtered.slice(0, 50)
   }, [data, query, statusFilter])
+
+  const grouped = useMemo(() => {
+    const groupsByKey = new Map()
+
+    for (const o of orders) {
+      const key = o.uid || o.email || o.phone || o.id
+      const existing = groupsByKey.get(key)
+      if (existing) {
+        existing.orders.push(o)
+        if (!existing.latestCreatedAt || (o.createdAt || 0) > existing.latestCreatedAt) {
+          existing.latestCreatedAt = o.createdAt || 0
+        }
+        continue
+      }
+
+      groupsByKey.set(key, {
+        key,
+        uid: o.uid,
+        email: o.email,
+        phone: o.phone,
+        latestCreatedAt: o.createdAt || 0,
+        orders: [o],
+      })
+    }
+
+    const groups = Array.from(groupsByKey.values())
+
+    for (const g of groups) {
+      g.orders.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0))
+    }
+
+    groups.sort((a, b) => (b.latestCreatedAt || 0) - (a.latestCreatedAt || 0))
+
+    return groups
+  }, [orders])
 
   function onResetFilters() {
     setQuery('')
@@ -232,62 +269,75 @@ export function AdminOrdersPage() {
       ) : null}
 
       {status === 'success' && orders.length > 0 ? (
-        <div className="overflow-hidden rounded-2xl border border-neutral-200 bg-white">
-          <div className="overflow-x-auto">
-            <table className="min-w-full text-left text-sm">
-              <thead className="border-b border-neutral-200 bg-neutral-50 text-xs uppercase tracking-wide text-neutral-500">
-                <tr>
-                  <th className="px-4 py-3">Référence</th>
-                  <th className="px-4 py-3">Créée le</th>
-                  <th className="px-4 py-3">Client</th>
-                  <th className="px-4 py-3">Articles</th>
-                  <th className="px-4 py-3">Statut</th>
-                  <th className="px-4 py-3">Actions</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-neutral-200">
-                {orders.map((o) => (
-                  <tr key={o.id} className="align-top">
-                    <td className="px-4 py-3">
-                      <div className="font-mono text-xs text-neutral-900">{o.id}</div>
-                    </td>
-                    <td className="px-4 py-3 text-neutral-700">{formatDate(o.createdAt)}</td>
-                    <td className="px-4 py-3">
-                      <div className="text-neutral-900">{o.email || '—'}</div>
-                      <div className="text-xs text-neutral-500">{o.phone || '—'}</div>
-                    </td>
-                    <td className="px-4 py-3 text-neutral-700">
-                      {typeof o.itemCount === 'number' ? o.itemCount : '—'}
-                    </td>
-                    <td className="px-4 py-3">
-                      <div className="text-xs text-neutral-500">{formatStatus(o.status)}</div>
-                      <select
-                        className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-2 py-2 text-sm"
-                        value={o.status || 'new'}
-                        disabled={updatingId === o.id}
-                        onChange={(e) => onChangeStatus(o.id, e.target.value)}
-                      >
-                        <option value="new">new</option>
-                        <option value="processing">processing</option>
-                        <option value="done">done</option>
-                        <option value="cancelled">cancelled</option>
-                      </select>
-                      {updatingId === o.id ? (
-                        <div className="mt-1 text-xs text-neutral-500">Mise à jour…</div>
-                      ) : null}
-                    </td>
-                    <td className="px-4 py-3">
-                      <div className="flex flex-wrap gap-2">
-                        <Link className="text-sm text-blue-600 hover:underline" to={`/admin/orders/${o.id}`}>
-                          Détail
-                        </Link>
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+        <div className="space-y-3">
+          {grouped.map((g) => (
+            <div key={g.key} className="overflow-hidden rounded-2xl border border-neutral-200 bg-white">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-neutral-200 bg-neutral-50 px-4 py-3">
+                <div className="min-w-0">
+                  <div className="text-sm font-semibold text-neutral-900">
+                    {g.email || 'Client (email inconnu)'}
+                  </div>
+                  <div className="mt-1 text-xs text-neutral-600">
+                    {g.phone ? <span>{g.phone}</span> : <span>—</span>}
+                    {g.uid ? (
+                      <span className="ml-2 font-mono text-[11px] text-neutral-500">UID: {g.uid}</span>
+                    ) : null}
+                  </div>
+                </div>
+
+                <div className="text-xs text-neutral-500">{g.orders.length} commande(s)</div>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="min-w-full text-left text-sm">
+                  <thead className="border-b border-neutral-200 text-xs uppercase tracking-wide text-neutral-500">
+                    <tr>
+                      <th className="px-4 py-3">Référence</th>
+                      <th className="px-4 py-3">Créée le</th>
+                      <th className="px-4 py-3">Articles</th>
+                      <th className="px-4 py-3">Statut</th>
+                      <th className="px-4 py-3">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-neutral-200">
+                    {g.orders.map((o) => (
+                      <tr key={o.id} className="align-top">
+                        <td className="px-4 py-3">
+                          <div className="font-mono text-xs text-neutral-900">{o.id}</div>
+                        </td>
+                        <td className="px-4 py-3 text-neutral-700">{formatDate(o.createdAt)}</td>
+                        <td className="px-4 py-3 text-neutral-700">
+                          {typeof o.itemCount === 'number' ? o.itemCount : '—'}
+                        </td>
+                        <td className="px-4 py-3">
+                          <div className="text-xs text-neutral-500">{formatStatus(o.status)}</div>
+                          <select
+                            className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-2 py-2 text-sm"
+                            value={o.status || 'new'}
+                            disabled={updatingId === o.id}
+                            onChange={(e) => onChangeStatus(o.id, e.target.value)}
+                          >
+                            <option value="new">new</option>
+                            <option value="processing">processing</option>
+                            <option value="done">done</option>
+                            <option value="cancelled">cancelled</option>
+                          </select>
+                          {updatingId === o.id ? (
+                            <div className="mt-1 text-xs text-neutral-500">Mise à jour…</div>
+                          ) : null}
+                        </td>
+                        <td className="px-4 py-3">
+                          <Link className="text-sm text-blue-600 hover:underline" to={`/admin/orders/${o.id}`}>
+                            Détail
+                          </Link>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
         </div>
       ) : null}
 

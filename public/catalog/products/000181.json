@@ -1,0 +1,142 @@
+{
+  "id": 181,
+  "slug": "ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test",
+  "active": true,
+  "reference": "12.0420",
+  "name": "ECG Cardiolex EC Sense Rest Lexor avec le logiciel stress test",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Électrocardiogramme numérique 12 Dérivation, <strong>EC Sense Lexor avec le logiciel stress test</strong> est un ECG haut de gamme s’utilisant à partir de différents équipements informatiques (PC, tablettes…) ou à partir d’un chariot mobile avec batterie. Simple d’utilisation, son fonctionnement intuitif vous permet une prise en main immédiate.</p>",
+    "long_html": "<p>Électrocardiogramme numérique 12 Dérivation, <strong>EC Sense Lexor avec le logiciel stress test</strong> est un ECG haut de gamme s’utilisant à partir de différents équipements informatiques (PC, tablettes…) ou à partir d’un chariot mobile avec batterie. Simple d’utilisation, son fonctionnement intuitif vous permet une prise en main immédiate. Ses spécificités techniques, uniques sur le marché, vous garantissent un tracé précis pour un diagnostic fiable.</p>\r\n<p>ECG numérique simple d’utilisation, de très haute qualité, permettant un diagnostic très précis. Sa simplicité d’utilisation et son fonctionnement intuitif éliminent tout risque de mauvaise manipulation. La formation requise pour La prise en main de l’ECG est très réduite, EC Sense peut être utilisé avec un ordinateur traditionnel mais également avec un ordinateur portable ou tablette PC. Les rapports peuvent être paramétrés et imprimés avec une Imprimante standard. Le module d’acquisition numérise à la fréquence d'échantillonnage de 2000 Hz sur l'ensemble des signaux. Le système est protégé contre les chocs de défibrillation et peut également être utilisé avec des électrodes aspirantes. Le branchement sur le port USB de l’ordinateur permet également d’alimenter l’ EC Sense.</p>\r\n<p style=\"margin-top:10px;\"><strong>Logiciel stress test</strong> :</p>\r\n<p style=\"margin-top:6px;\">12 dérivations affichage et impression. Le logiciel d’épreuve d’effort permet le calcul des moyennes, mesure-ST et analyse du rythme. Protocoles réglables pour répondre aux besoins individuels. L'utilisateur est guidé à travers les phases de l'ECG d’exercice et peut facilement faire des entrées supplémentaires, impressions ou placer des marqueurs d'événements si nécessaire. L'examen complet est enregistré pour le rapport final et les rapports de post-traitement. La communication est effectuée au travers du réseau sans fils ou réseau Ethernet. EC Sense peut être mis à jour afin de maintenir un haut niveau de performance. Le module d’acquisition numérise à la fréquence d'échantillonnage de 2 000 Hz sur l'ensemble des signaux. Le système peut être utilisé avec des électrodes aspirantes. Le branchement sur le port USB de l’ordinateur permet d’alimenter l’ECG.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 8216.34169,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 31,
+    "name": "Cardiolex AB"
+  },
+  "categories": [
+    {
+      "id": 151,
+      "name": "Cardiolex"
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 151,
+        "name": "Cardiolex"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 691,
+        "files": [
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-cart_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-home_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-large_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-medium_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-small_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-standard_default .jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-thickbox_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-tm_cart_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-tm_home_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-tm_large_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-tm_medium_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-tm_small_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-tm_thickbox_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 692,
+        "files": [
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-cart_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-home_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-large_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-medium_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-small_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-standard_default .jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-thickbox_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-tm_cart_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-tm_home_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-tm_large_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-tm_medium_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-tm_small_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692-tm_thickbox_default.jpg",
+          "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/692.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

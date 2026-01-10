@@ -1,0 +1,146 @@
+{
+  "id": 170,
+  "slug": "ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport",
+  "active": true,
+  "reference": "",
+  "name": "ECG Schiller DT-100 système d'aspiration universel avec un chariot de transport",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>Schiller DT-100</strong> est muni d’une grande pompe à vide contrôlée par un microprocesseur et d’un capteur de pression. La pression sera toujours réglée de façon optimale, aussi en cas de fuites légères causées par des poils. Grâce à cette puissance d’aspiration continue et réglée (pas de puissance d’aspiration pulsée), le développement d’artefacts ou d’hématomes est évité...</p>",
+    "long_html": "<p>Le <strong>Schiller DT-100</strong> est muni d’une grande pompe à vide contrôlée par un microprocesseur et d’un capteur de pression. La pression sera toujours réglée de façon optimale, aussi en cas de fuites légères causées par des poils. Grâce à cette puissance d’aspiration continue et réglée (pas de puissance d’aspiration pulsée), le développement d’artefacts ou d’hématomes est évité.</p>\r\n<p>Bras d’électrodes ventouses grand et stable avec répartiteur delta pour empêcher les électrodes de s’emmêler. Commande à distance avec représentation LED pour le réglage de la puissance d’aspiration. Contrôle de l’état de charge de la batterie (option), fonctionne sur secteur, silencieux. Avec protection défibrillateur.</p>\r\n<p>Système d’aspiration universel pour ECG d'effort :</p>\r\n<ul style=\"margin-left:14px;\"><li>4 niveaux de vide réglables de 60 à 260 mbar</li>\r\n<li>Utilisation facile grâce au module de commande pratique actionnable à une main</li>\r\n<li>Le système spécial de régulation automatique assure une bonne tenue des électrodes même en cas de pilosité importante</li>\r\n<li>Protection contre la défibrillation</li>\r\n<li>4 roulettes, dont 2 blocables</li>\r\n<li>Bras articulé flexible</li>\r\n<li>6 électrodes à vide munies de câbles d’1 mètre de long</li>\r\n<li>4 électrodes à vide munies de câbles d’1,3 mètre de long (pour les extrémités)</li>\r\n<li>Fonctionne sur secteur</li>\r\n</ul><p><strong>Équipement compris</strong></p>\r\n<p>Le système est livré complet avec un groupe de vide, un élément de commande avec support, un chariot de transport robuste et stable doté d’une surface de 38 cm x 40 cm ou un support bureau, un bras articulé, 10 électrodes à vide munies de câbles, un câble secteur et un spray pour électrodes.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4140.204271,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 85,
+      "name": "Schiller AT... et DT..."
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 85,
+        "name": "Schiller AT... et DT..."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 666,
+        "files": [
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-cart_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-home_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-large_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-medium_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-small_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-standard_default .jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-thickbox_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-tm_cart_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-tm_home_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-tm_large_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-tm_medium_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-tm_small_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-tm_thickbox_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 667,
+        "files": [
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-cart_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-home_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-large_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-medium_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-small_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-standard_default .jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-thickbox_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-tm_cart_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-tm_home_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-tm_large_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-tm_medium_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-tm_small_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667-tm_thickbox_default.jpg",
+          "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/667.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45
+    ]
+  }
+}

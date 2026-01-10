@@ -1,0 +1,111 @@
+{
+  "id": 49,
+  "slug": "ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre",
+  "active": false,
+  "reference": "11.0019",
+  "name": "ECG Schiller Cardiovit AT-2 plus C avec option spiromètre",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong><strong></strong></strong><strong>CARDIOVIT AT-2 plus</strong>, ECG et spirométrie en un : jusqu'à récemment, l'importance des tests de spirométrie pour le diagnostic précoce des maladies pulmonaires obstructives chroniques et certaines maladies cardiaques a été sérieusement sous-estimé.</p>",
+    "long_html": "<p><strong>CARDIOVIT AT-2 plus</strong>, ECG et spirométrie en un : jusqu'à récemment, l'importance des tests de spirométrie pour le diagnostic précoce des maladies pulmonaires obstructives chroniques et certaines maladies cardiaques a été sérieusement sous-estimé.</p>\r\n<p style=\"margin-top:10px;\">Cependant, le nombre sans cesse croissant de patients souffrant de restrictions de la fonction pulmonaire montre clairement qu'un examen fréquent de la fonction pulmonaire est essentielle. SCHILLER a été le premier fabricant à combiner la fonction pulmonaire la plus courante de deux et les tests cardiaques dans un seul appareil, le <strong>CARDIOVIT AT-2 plus</strong>, avec ECG et de la fonction de spirométrie.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>6 canaux impression à temps réel à 5, 25 ou 50 mm / s.</li>\r\n<li>Automatique 6/12 canal impression sur une ou deux pages.</li>\r\n<li>PC basé sur l'interprétation et à la mesure rapide et fiable programme pour les adultes et les enfants ECG.</li>\r\n<li>Pas besoin de répéter des enregistrements ECG puisque la qualité de les formes d'onde est optimisée par le lissage SCHILLER et des filtres de base.</li>\r\n<li>Gain de temps et de papier en surveillant simplement l'ensemble des 12 pistes sur l'écran 3 canaux intégré.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5792.943361,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 150,
+      "name": "Schiller"
+    },
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 150,
+        "name": "Schiller"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 184,
+        "files": [
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-cart_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-home_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-large_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-medium_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-small_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-thickbox_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-tm_cart_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-tm_home_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-tm_large_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-tm_medium_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-tm_small_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-tm_thickbox_default.jpg",
+          "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 16,
+        "name": "Medilec-EN-Schiller-AT-2-Plus",
+        "mime": "application/pdf",
+        "file": "5d161f80a1f9f034283d98b2a9a99d3277498cc8"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      41,
+      43,
+      45,
+      50,
+      54,
+      88,
+      89,
+      90
+    ]
+  }
+}

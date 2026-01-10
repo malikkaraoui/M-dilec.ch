@@ -1,0 +1,211 @@
+{
+  "id": 243,
+  "slug": "thermometre-professionelle-braun-thermoscan-7",
+  "active": false,
+  "reference": "IRT6520",
+  "name": "Thermomètre professionelle Braun ThermoScan 7",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Braun ThermoScan 7</strong> est le produit phare de la gamme de thermomètres Braun. Ce thermomètre auriculaire est doté de la technologie brevetée Age Precision, un système d’indication de la fièvre, ajustable selon l’âge, qui rend la prise de température de l’enfant moins approximative.</p>",
+    "long_html": "<p><span id=\"product-description-no-js_420807\" class=\"product-description-no-js\"><span class=\"product-description-no-js\"><strong>Braun ThermoScan 7</strong> est le produit phare de la gamme de thermomètres Braun. Ce thermomètre auriculaire est doté de la technologie brevetée Age Precision, un système d’indication de la fièvre, ajustable selon l’âge, qui rend la prise de température de l’enfant moins approximative.</span></span></p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>La marque la plus utilisée et la plus recommandée par les médecins</li>\r\n<li>Technologie Age Precision® pour une indication de la fièvre, ajustable selon l’âge</li>\r\n<li>Affichage à code couleur pour faciliter l’interprétation des résultats</li>\r\n<li>Embout préchauffé breveté qui garantit la précision</li>\r\n<li>Fonction système de guidage ExacTemp (voyant lumineux et bip sonore pour un positionnement précis)</li>\r\n<li>Rapide, doux et simple d’utilisation</li>\r\n<li>Affichage du panneau avant avec dispositif d’éclairage</li>\r\n<li>Enregistre les 9 dernières mesures de température</li>\r\n<li>Embouts jetables hygiéniques (sans BPA ni latex)</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 78.922934,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1026,
+        "files": [
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-standard_default .jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-tm_cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-tm_home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-tm_large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-tm_medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-tm_small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-tm_thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1027,
+        "files": [
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-standard_default .jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-tm_cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-tm_home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-tm_large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-tm_medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-tm_small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027-tm_thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1027.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1028,
+        "files": [
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-standard_default .jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-tm_cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-tm_home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-tm_large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-tm_medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-tm_small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028-tm_thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1028.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1029,
+        "files": [
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-standard_default .jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-tm_cart_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-tm_home_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-tm_large_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-tm_medium_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-tm_small_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029-tm_thickbox_default.jpg",
+          "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1029.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 125,
+        "name": "Medilec-Braun-Thermoscan-7",
+        "mime": "application/pdf",
+        "file": "8d42f3c4d98b0b599d1acd4eba1d58de0f40bdc4"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

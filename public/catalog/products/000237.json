@@ -1,0 +1,171 @@
+{
+  "id": 237,
+  "slug": "thermometre-bosotherm-basic",
+  "active": false,
+  "reference": "",
+  "name": "Thermomètre Bosotherm Basic",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Bosotherm Basic</strong> est le thermomètre pour la mesure de la température corporelle. Mesures orales, rectales et axillaires possibles. Affichage en continu de la température jusqu'à établissement de la mesure définitive. Eteignez l'appareil après chaque utilisation pour augmenter la durée de vie de la pile.</p>",
+    "long_html": "<p><strong>Bosotherm Basic</strong> est le thermomètre pour la mesure de la température corporelle. Mesures orales, rectales et axillaires possibles. Affichage en continu de la température jusqu'à établissement de la mesure définitive. Eteignez l'appareil après chaque utilisation pour augmenter la durée de vie de la pile. Le thermomètre s'éteint de lui-même après environ 10 minutes sans manipulation.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>entièrement étanche</li>\r\n<li>désinfectable</li>\r\n<li>durée de vie de la pile : jusqu'à 30000 mesures</li>\r\n<li>mémorisation de la dernière valeur mesurée</li>\r\n<li>affichage de la dernière valeur mesurée</li>\r\n<li>avec signal sonore</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 8.356546,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1012,
+        "files": [
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-cart_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-home_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-large_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-medium_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-small_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-standard_default .jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-thickbox_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-tm_cart_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-tm_home_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-tm_large_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-tm_medium_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-tm_small_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012-tm_thickbox_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1012.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1013,
+        "files": [
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-cart_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-home_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-large_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-medium_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-small_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-standard_default .jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-thickbox_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-tm_cart_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-tm_home_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-tm_large_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-tm_medium_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-tm_small_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013-tm_thickbox_default.jpg",
+          "assets/products/237__thermometre-bosotherm-basic/images/1013.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 120,
+        "name": "Medilec-Bosotherm-Basic",
+        "mime": "application/pdf",
+        "file": "8c0f205e9187d5d5e4f3ad176daad58f300d9dbb"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": 247,
+  "slug": "montre-cardio-polar-m200",
+  "active": true,
+  "reference": "",
+  "name": "Montre Cardio Polar M200",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Polar M200</strong> est une montre waterproof dotée d'un système de mesure au poignet du rythme cardiaque, d'un GPS intégré et d'un traqueur d'activité 24 h/24, 7 j/7.</p>",
+    "long_html": "<p><strong></strong><strong></strong><strong>Polar M200</strong> est une montre waterproof dotée d'un système de mesure au poignet du rythme cardiaque, d'un GPS intégré et d'un traqueur d'activité 24 h/24, 7 j/7.</p>\r\n<p></p>\r\n<p>Cette fonction vous permet de connaître exactement le nombre de calories que vous avez brûlées en fonction de votre poids, votre taille, votre âge, votre sexe, votre fréquence cardiaque maximale individuelle (FCmax) et l'intensité de votre entraînement.</p>\r\n<p><strong>Guide d'activités</strong></p>\r\n<p>Affiche votre degré d'activité dans la journée et propose des conseils pratiques pour atteindre votre objectif d'activité quotidienne.</p>\r\n<p><strong>Efficacité de l'activité</strong></p>\r\n<p>Fournit un compte-rendu sur votre activité quotidienne, hebdomadaire et mensuelle, vous indiquant ainsi comment vos choix d'activités vous aident à rester en bonne santé.</p>\r\n<p><strong>Training Benefit</strong></p>\r\n<p>Fournit juste après la séance un compte-rendu motivant décrivant les bienfaits de l'entraînement. Disponible sur Polar Flow.</p>\r\n<p><strong>Running Index</strong></p>\r\n<p>Indique l'évolution de vos performances en matière de course à pied. Disponible sur Polar Flow.</p>\r\n<p><strong>Programme pour la course</strong></p>\r\n<p>Entraînez-vous pour une course en vous appuyant sur un programme adapté et personnalisé dans Polar Flow. Choisissez l'une des quatre distances proposées (5 km, 10 km, semi-marathon ou marathon), et suivez un programme d'entraînement adapté à votre profil et à vos objectifs.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 167.038069,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 34,
+    "name": "Polar Electro Europe AG"
+  },
+  "categories": [
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 133,
+      "name": "Polar"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 133,
+        "name": "Polar"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1062,
+        "files": [
+          "assets/products/247__montre-cardio-polar-m200/images/1062-cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-standard_default .jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-tm_cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-tm_home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-tm_large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-tm_medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-tm_small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062-tm_thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1062.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1063,
+        "files": [
+          "assets/products/247__montre-cardio-polar-m200/images/1063-cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-standard_default .jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-tm_cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-tm_home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-tm_large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-tm_medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-tm_small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063-tm_thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1063.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1064,
+        "files": [
+          "assets/products/247__montre-cardio-polar-m200/images/1064-cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-standard_default .jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-tm_cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-tm_home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-tm_large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-tm_medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-tm_small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064-tm_thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1064.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1065,
+        "files": [
+          "assets/products/247__montre-cardio-polar-m200/images/1065-cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-standard_default .jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-tm_cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-tm_home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-tm_large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-tm_medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-tm_small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065-tm_thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1065.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1066,
+        "files": [
+          "assets/products/247__montre-cardio-polar-m200/images/1066-cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-standard_default .jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-tm_cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-tm_home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-tm_large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-tm_medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-tm_small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066-tm_thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1066.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1067,
+        "files": [
+          "assets/products/247__montre-cardio-polar-m200/images/1067-cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-standard_default .jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-tm_cart_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-tm_home_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-tm_large_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-tm_medium_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-tm_small_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067-tm_thickbox_default.jpg",
+          "assets/products/247__montre-cardio-polar-m200/images/1067.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 129,
+        "name": "Medilec-FR-Polar-M200-Manuel",
+        "mime": "application/pdf",
+        "file": "4b3acf1c047d3a4f3b36ee23d3c9f9dafc6cbeef"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

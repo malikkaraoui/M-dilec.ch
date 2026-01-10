@@ -1,0 +1,358 @@
+{
+  "id": 200,
+  "slug": "montre-cadio-garmin-vivosmart-hr-plus",
+  "active": false,
+  "reference": "PNVSWHRPLUS",
+  "name": "Montre Cadio Garmin Vivosmart HR+ (plus)",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Montre de fitness avec cardio poignet et GPS</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Avec son GPS intégré, elle enregistre la distance parcourue et votre allure pendant vos séances de running.</li>\r\n<li>Elle est étanche jusqu’à 50 mètres et son écran tactile activé en permanence affiche vos données, même en plein soleil...</li>\r\n</ul>",
+    "long_html": "<p><strong>Montre de fitness avec cardio poignet et GPS</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Avec son GPS intégré, elle enregistre la distance parcourue et votre allure pendant vos séances de running.</li>\r\n<li>Elle est étanche jusqu’à 50 mètres et son écran tactile activé en permanence affiche vos données, même en plein soleil.</li>\r\n<li>Elle analyse votre fréquence cardiaque au poignet¹, enregistre les pas, la distance, les calories brulées, les étages gravis et analyse votre sommeil</li>\r\n<li>Recevez des Smart Notifications : SMS, e-mail, appel,, réseaux sociaux, le tout à votre poignet¹</li>\r\n<li>Synchronisez vos résultats avec Garmin Connect™ Mobile pour participer à des challenges sportifs, consulter vos données et recevoir des conseils</li>\r\n</ul><p><strong>Mesurez votre activité avec le cardio poignet</strong></p>\r\n<p>Vívosmart HR+ utilise la technologie Garmin Elevate™² pour surveiller votre fréquence cardiaque à votre poignet. Que vous alliez courir, jouer entre amis ou tester un nouveau boot camp, elle mesure l'intensité de votre activité sportive. vívosmart HR+ vous permet de suivre vos progrès par rapport aux objectifs recommandés par des organismes de santé tels que l'Organisation Mondiale de la Santé. Vous pouvez également utiliser votre vívosmart HR+ pour diffuser votre fréquence cardiaque vers d’autres appareils Garmin compatibles.</p>\r\n<p><strong>Pour vos activités en intérieur comme en extérieur</strong></p>\r\n<p>Vívosmart HR+² enregistre la distance, le temps et l'allure lors de vos sessions d’entrainement en salle ou en plein air. Grâce au GPS, vous obtenez des résultats de distance et d'allure encore plus précis, ainsi qu'une carte de votre parcours lorsque vous courez ou marchez en extérieur. Connectez-vous !</p>\r\n<p>Vívosmart HR+ se synchronise automatiquement avec votre smartphone tout au long de la journée pour enregistrer vos statistiques sur notre communauté en ligne gratuite. Il vous suffit de télécharger Garmin Connect Mobile sur votre téléphone ou de vous connecter à Garmin Connect™ via votre ordinateur pour enregistrer, planifier et partager vos activités et tenter de battre votre record de pas grâce aux objectifs quotidiens. Connectez-vous avec d'autres utilisateurs pour lancer des défis et vous mesurer à eux. Pour un suivi détaillé des calories, créez un compte MyFitnessPal et associez-le à votre compte Garmin Connect. Ainsi, vous pourrez comparer les calories consommées avec le nombre total de calories brûlées que vívosmart HR+ enregistre au cours de la journée.</p>\r\n<p><strong>Une montre toujours connectée</strong></p>\r\n<p>Restez actif et connecté avec vívosmart HR+. Chaque fois que vous recevez une notification depuis votre smartphone, votre vívosmart HR+ vibre légèrement et affiche automatiquement les informations. D'autres fonctionnalités connectées vous permettent de contrôler la musique et la caméra embarquée VIRB (vendue séparément) ou de retrouver votre téléphone perdu.</p>\r\n<p><strong>Mieux chaque jour</strong></p>\r\n<p>Vívosmart HR+ interprète votre condition physique et vous propose un objectif de pas quotidien réalisable. Lorsque vous franchissez une étape, il définit un nouvel objectif pour le lendemain et vous encourage ainsi à adopter un style de vie plus sain. Tout au long de la journée, elle vous rappelle de rester actif grâce à une barre d'activité et une alerte par vibration si vous restez inactif pendant 1 heure. Faites une petite promenade pour réinitialiser le compteur d'inactivité.</p>\r\n<p>¹Lorsque l'appareil est couplé à un smartphone compatible.<br /> ²Précision du suivi des activités<br /> Port et entretien de l'appareil</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 277.623027,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 33,
+    "name": "Garmin - Bucher Walt SA"
+  },
+  "categories": [
+    {
+      "id": 157,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 154,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 155,
+      "name": "Nouveauté"
+    },
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 132,
+      "name": "Garmin"
+    },
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      },
+      {
+        "id": 157,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 154,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 132,
+        "name": "Garmin"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 815,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 768,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/768.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 767,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/767.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 816,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/816.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 771,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/771.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 770,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/770.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 817,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/817.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 774,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/774.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 773,
+        "files": [
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-standard_default .jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-tm_cart_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-tm_home_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-tm_large_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-tm_medium_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-tm_small_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773-tm_thickbox_default.jpg",
+          "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/773.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": 120,
+  "slug": "logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor",
+  "active": false,
+  "reference": "12.0421",
+  "name": "Logiciel pour ECG Cardiolex EC Sense Rest Lexor",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>12 dérivations affichage et impression. Le logiciel d’épreuve d’effort permet le calcul des moyennes, mesure-ST et analyse du rythme. Protocoles réglables pour répondre aux besoins individuels. L'utilisateur est guidé à travers les phases de l'ECG d’exercice et peut facilement faire des entrées supplémentaires, impressions ou placer des marqueurs d'événements si nécessaire.</p>",
+    "long_html": "<p>12 dérivations affichage et impression. Le logiciel d’épreuve d’effort permet le calcul des moyennes, mesure-ST et analyse du rythme. Protocoles réglables pour répondre aux besoins individuels. L'utilisateur est guidé à travers les phases de l'ECG d’exercice et peut facilement faire des entrées supplémentaires, impressions ou placer des marqueurs d'événements si nécessaire. L'examen complet est enregistré pour le rapport final et les rapports de post-traitement. La communication est effectuée au travers du réseau sans fils ou réseau Ethernet. EC Sense peut être mis à jour afin de maintenir un haut niveau de performance. Le module d’acquisition numérise à la fréquence d'échantillonnage de 2 000 Hz sur l'ensemble des signaux. Le système peut être utilisé avec des électrodes aspirantes. Le branchement sur le port USB de l’ordinateur permet d’alimenter l’ECG.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4964.791086,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 31,
+    "name": "Cardiolex AB"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 311,
+        "files": [
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-cart_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-home_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-large_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-medium_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-small_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-thickbox_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-tm_cart_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-tm_home_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-tm_large_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-tm_medium_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-tm_small_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-tm_thickbox_default.jpg",
+          "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      119
+    ]
+  }
+}

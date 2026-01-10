@@ -1,0 +1,209 @@
+{
+  "id": 106,
+  "slug": "ecg-schiller-cardiovit-ms-12-blue",
+  "active": true,
+  "reference": "11.0153",
+  "name": "ECG Schiller Cardiovit MS-12 blue",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L'ECG bluetooth Schiller <strong>CARDIOVIT MS-12 Blue</strong> transfère des données d'ECG à distance vers un PC grâce à la technologie de transmission des données via Bluetooth intégrée. L'affichage instantané permet de visualiser en temps réel les 12 dérivations sur votre écran d'ordinateur.</p>",
+    "long_html": "<p>L'ECG bluetooth Schiller <strong>CARDIOVIT MS-12 Blue</strong> transfère des données d'ECG à distance vers un PC grâce à la technologie de transmission des données via Bluetooth intégrée. L'affichage instantané permet de visualiser en temps réel les 12 dérivations sur votre écran d'ordinateur. Cet appareil est particulièrement adapté aux médecins pour lesquels une certaine liberté de mouvement est nécessaire. Le logiciel SDS 200 vous offre une gestion simple des données patients. La comparaison et la sauvegarde des ECG en série, l'édition en format pdf sur votre imprimante de bureau sont facilitées.</p>\r\n<p>Schiller <strong>CARDIOVIT MS-12 Blue</strong> est équipé d'un écran qui permet aisément de vérifier l'état de charge de la batterie, le bon positionnement des électrodes et la qualité du signal. Son faible poids (115 g, piles comprises) et son petit format (tient dans une main) rendent son port très agréable pour le patient. Cet électrocardiographe fonctionne sur batterie rechargeable et assure une autonomie de plus de 36 heures.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques de l'ECG sans fil Schiller <strong>CARDIOVIT MS-12 Blue</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Ecran OLED avec affichage du tracé ECG pour un contrôle qualité rapide</li>\r\n<li>Interprétation automatique incluse</li>\r\n<li>Moyennage et mesures des QRS</li>\r\n<li>Détection des pacemakers</li>\r\n<li>Fréquence d'échantillonnage : 8000 Hz</li>\r\n</ul><p style=\"margin-top:10px;\">L'électrocardiographe bluetooth <strong>CARDIOVIT MS-12 Blue</strong> est livré avec :</p>\r\n<ul style=\"margin-left:14px;\"><li>Câble patient ECG à pression</li>\r\n<li>25 électrodes collables à usage unique</li>\r\n<li>Adaptateur Bluetooth</li>\r\n<li>Jeu de piles rechargeables</li>\r\n<li>Chargeur de piles</li>\r\n<li>Logiciel Schiller SDS 200</li>\r\n<li>Manuel utilisateur</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 4511.606314,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 81,
+      "name": "Sur Windows"
+    },
+    {
+      "id": 82,
+      "name": "Sur MAC"
+    },
+    {
+      "id": 100,
+      "name": "De poche"
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 81,
+        "name": "Sur Windows"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 82,
+        "name": "Sur MAC"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 100,
+        "name": "De poche"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 283,
+        "files": [
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-cart_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-home_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-large_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-medium_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-small_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-thickbox_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-tm_cart_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-tm_home_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-tm_large_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-tm_medium_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-tm_small_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-tm_thickbox_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 284,
+        "files": [
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-cart_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-home_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-large_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-medium_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-small_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-thickbox_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-tm_cart_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-tm_home_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-tm_large_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-tm_medium_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-tm_small_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284-tm_thickbox_default.jpg",
+          "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/284.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 35,
+        "name": "Medilec-EN-Schiller-MS-12-Blue",
+        "mime": "application/pdf",
+        "file": "151399918927dd8f6d1ec17ccd527eb020456333"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      31,
+      35,
+      41,
+      43,
+      45,
+      82,
+      88,
+      89,
+      90
+    ]
+  }
+}

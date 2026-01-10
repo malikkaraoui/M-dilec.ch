@@ -1,0 +1,123 @@
+{
+  "id": 172,
+  "slug": "ophtalmoscope-heine-beta200",
+  "active": false,
+  "reference": "",
+  "name": "Ophtalmoscope Heine BETA200",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Ophtalmoscope <strong>Heine BETA200</strong>, optique asphérique de pointe avec éclairage XHL. La conception unique étanche à la poussière protège l’optique de précision et permet une utilisation sans entretien. Les ophtalmoscopes BETA200 / 200 S sont les seuls appareils avec support en aluminium...</p>",
+    "long_html": "<p>Ophtalmoscope <strong>Heine BETA200</strong>, optique asphérique de pointe avec éclairage XHL. La conception unique étanche à la poussière protège l’optique de précision et permet une utilisation sans entretien. Les ophtalmoscopes BETA200 / 200 S sont les seuls appareils avec support en aluminium. Les composants optiques sont intégrés dans un bâti en fonte d’aluminium qui évite le décentrage et rend l’instrument résistant aux chocs.</p>\r\n<p>Ampoule halogène xénon XHL avec éclairage lumineux et rendu des couleurs authentique. Plage de correction: Disque de 27 lentilles allant de -35D à +40D. Diaphragmes sans point. Régulation unique et en continue de la luminosité entre 100 % et 3 % (brevet en instance), d’un seul doigt. Pas de lumière parasite grâce à la fenêtre d’observation multicouche encastrée – pour un diagnostic fiable. Manipulation précise de l’instrument d’une seule main. Le design ergonomique offre de la souplesse pendant l’examen. Utilisable pour des pupilles dilatées et non dilatées. La forme ergonomique s’adapte confortablement à l’orbite et isole l’oeil de la lumière ambiante.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 676,
+        "files": [
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-cart_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-home_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-large_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-medium_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-small_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-standard_default .jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-thickbox_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-tm_cart_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-tm_home_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-tm_large_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-tm_medium_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-tm_small_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676-tm_thickbox_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/676.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 677,
+        "files": [
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-cart_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-home_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-large_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-medium_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-small_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-standard_default .jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-thickbox_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-tm_cart_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-tm_home_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-tm_large_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-tm_medium_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-tm_small_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677-tm_thickbox_default.jpg",
+          "assets/products/172__ophtalmoscope-heine-beta200/images/677.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 43,
+        "name": "Medilec-FR-Beta-200-200S-Tech",
+        "mime": "application/pdf",
+        "file": "8f84f52636d9fe3e3bc021af25c395d79bb3bef5"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

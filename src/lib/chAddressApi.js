@@ -100,3 +100,41 @@ export async function validateChPostalCity({ postalCode, city, signal }) {
 
   return match ? { ok: true } : { ok: false, reason: 'mismatch' }
 }
+
+export async function searchChZipCities({ searchText, limit = 8, signal }) {
+  const q = toStr(searchText)
+  if (!q || q.length < 2) return []
+
+  const url = new URL(BASE)
+  url.searchParams.set('type', 'locations')
+  url.searchParams.set('searchText', q)
+  url.searchParams.set('origins', 'zipcode')
+  url.searchParams.set('limit', String(limit))
+
+  const res = await fetch(url.toString(), { signal })
+  if (!res.ok) throw new Error(`Adresse: erreur ${res.status}`)
+  const json = await res.json()
+  const results = Array.isArray(json?.results) ? json.results : []
+
+  const seen = new Set()
+  const out = []
+  for (const r of results) {
+    const attrs = r?.attrs && typeof r.attrs === 'object' ? r.attrs : {}
+    const postalCode = toStr(attrs.zip || attrs.plz4 || '')
+    const city = toStr(attrs.municipality || attrs.ortbez27 || attrs.city || '')
+    if (!postalCode || !city) continue
+
+    const key = `${postalCode}|${city}`
+    if (seen.has(key)) continue
+    seen.add(key)
+
+    out.push({
+      label: `${postalCode} ${city} (CH)`,
+      postalCode,
+      city,
+      country: 'CH',
+    })
+  }
+
+  return out
+}

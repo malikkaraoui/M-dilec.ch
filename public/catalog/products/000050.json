@@ -1,0 +1,175 @@
+{
+  "id": 50,
+  "slug": "papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200",
+  "active": true,
+  "reference": "22.0014",
+  "name": "Papier pour ECG Schiller Cardiovit AT-2, AT-2 plus et CS-200",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Papier ECG pour appareils ECG <strong>Cardiovit AT-2, AT-2 plus et CS-200</strong>.<br /> Dimensions : 210mm x 280mm.<br />L<span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>ongueur</span></span>: 50m.</p>",
+    "long_html": "<p>Papier ECG pour appareils ECG <strong>Cardiovit AT-2, AT-2 plus et CS-200</strong>.<br /> Dimensions : 210mm x 280mm.<br />L<span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>ongueur</span></span>: 50m.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 21.262767,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 24,
+    "name": "Diagramma Dietikon AG"
+  },
+  "categories": [
+    {
+      "id": 130,
+      "name": "ECG papier"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 130,
+        "name": "ECG papier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 185,
+        "files": [
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-cart_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-home_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-large_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-medium_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-small_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-thickbox_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-tm_cart_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-tm_home_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-tm_large_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-tm_medium_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-tm_small_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-tm_thickbox_default.jpg",
+          "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      49
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": 260,
+  "slug": "thermometre-sans-contact-spengler-tempo-easy",
+  "active": true,
+  "reference": "4.0873",
+  "name": "Thermomètre Sans Contact Spengler Tempo Easy",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Thermomètre Sans Contact Spengler Tempo Easy, </strong>distance pour prise de mesure : 3 cm à 5 cm, mémoire : 32 mesures, unité de mesure : celsius ou fahrenheit, alarme sonore si la température est élevée (&gt;38°C)</p>",
+    "long_html": "<p><strong>Thermomètre Sans Contact Spengler Tempo Easy, </strong>distance pour prise de mesure : 3 cm à 5 cm</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Mémoire : 32 mesures</li>\r\n<li>Unité de mesure : Celsius ou fahrenheit</li>\r\n<li>Alarme sonore Si la température est élevée (&gt;38°C)</li>\r\n<li>Résolution : 0.1°C</li>\r\n<li>Arrêt automatique : après 30 secondes</li>\r\n<li>Consommation ≤ 300 mW</li>\r\n<li>Autonomie : 40 000 mesures</li>\r\n<li>Livré avec 2 piles LR06 (AA)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 46.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1107,
+        "files": [
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-cart_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-home_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-large_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-medium_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-small_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-standard_default .jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-thickbox_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-tm_cart_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-tm_home_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-tm_large_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-tm_medium_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-tm_small_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-tm_thickbox_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1108,
+        "files": [
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-cart_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-home_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-large_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-medium_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-small_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-standard_default .jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-thickbox_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-tm_cart_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-tm_home_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-tm_large_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-tm_medium_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-tm_small_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108-tm_thickbox_default.jpg",
+          "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1108.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

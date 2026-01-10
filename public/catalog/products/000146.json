@@ -1,0 +1,284 @@
+{
+  "id": 146,
+  "slug": "montre-cadio-garmin-vivosmart-hr",
+  "active": false,
+  "reference": "PNVSWHR",
+  "name": "Montre Cadio Garmin Vivosmart HR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Bracelet d’activité avec cardio au poignet</strong></p>\r\n<p></p>\r\n<ul style=\"margin-left:14px;\"><li>Discret et simple d'utilisation avec son écran activé en permanence</li>\r\n<li>Affiche votre fréquence cardiaque, les pas, la distance, les calories, les étages gravis et l'intensité de l'activité...</li>\r\n</ul>",
+    "long_html": "<p><strong>Bracelet d’activité avec cardio au poignet</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Discret et simple d'utilisation avec son écran activé en permanence</li>\r\n<li>Affiche votre fréquence cardiaque, les pas, la distance, les calories, les étages gravis et l'intensité de l'activité</li>\r\n<li>Smart Notifications : vous recevez vos SMS, les appels, les e-mails, le calendrier et les réseaux sociaux²</li>\r\n<li>Contrôlez la musique de votre smartphone et votre caméra VIRB® (vendue séparément) depuis votre poignet</li>\r\n<li>Barre de mouvement et alerte vibrante pour vous rappeler de rester actif</li>\r\n</ul><p><strong>Fréquence cardiaque au poignet</strong></p>\r\n<p>Le bracelet d'activité vívosmart HR¹ avec la technologie cardio poignet Garmin Elevate™ mesure la fréquence cardiaque au poignet 24h/24, 7j/7. Il vous donne la liberté de vous entraîner sans porter de ceinture cardio. A l'aide de la fréquence cardiaque, vívosmart HR fournit des informations sur les calories brûlées et quantifie l'intensité de vos activités sportives, pour une meilleure évaluation de vos efforts. Vous pouvez également utiliser votre vívosmart HR pour diffuser vos données cardio vers d'autres appareils Garmin compatibles.</p>\r\n<p><strong>Plus que de simples pas</strong></p>\r\n<p>Outre la mesure des pas, des calories et de la distance, vívosmart HR mesure les étages gravis grâce à son altimètre barométrique intégré. Que vous alliez essayer un nouveau cours de zumba, il mesure l'intensité de votre activité grâce à des rapports d'intensité. Cette fonction vous permet de contrôler vos progrès par rapport aux objectifs d'activité recommandés par des organismes de santé tels que l'Organisation mondiale de la santé.</p>\r\n<p><strong>Fonctionnalités intelligentes</strong></p>\r\n<p>Restez actif et connecté avec le bracelet d'activité vívosmart HR. A chaque fois que vous recevez une notification depuis votre smartphone compatible, il vibre légèrement et affiche automatiquement les informations. Il suffit alors de toucher l'écran et de glisser le doigt pour en savoir plus. D'autres fonctionnalités connectées vous permettent de contrôler la musique de votre smartphone et la caméra d'action VIRB X (vendue séparément) ou de retrouver votre téléphone perdu.</p>\r\n<p><strong>Mieux chaque jour</strong></p>\r\n<p>Vívosmart HR analyse votre condition physique et vous propose un objectif de pas quotidien réalisable. Lorsque vous franchissez une étape, il définit un nouvel objectif pour le lendemain et vous encourage ainsi à adopter un style de vie plus sain. Tout au long de la journée, il vous rappelle de rester actif grâce à une barre de mouvement et une alerte vibrante si vous restez inactif pendant 1 heure.</p>\r\n<p><strong>Connectez-vous sans plus attendre</strong></p>\r\n<p>Le bracelet d'activité vívosmart HR se synchronise automatiquement avec votre smartphone tout au long de la journée pour enregistrer vos statistiques dans notre communauté en ligne gratuite. Dans Garmin Connect™, vous pouvez enregistrer, planifier et partager votre activité et améliorer votre nombre de pas quotidien chaque jour. Connectez-vous avec d'autres utilisateurs pour lancer des défis et vous mesurer à eux. Pour un suivi détaillé des calories, créez un compte MyFitnessPal et associez-le à votre compte Garmin Connect. Ainsi, vous comparerez les calories consommées avec le nombre total de calories brûlées que vívosmart HR enregistre au cours de la journée.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 184.772516,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 33,
+    "name": "Garmin - Bucher Walt SA"
+  },
+  "categories": [
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 154,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 132,
+      "name": "Garmin"
+    },
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 154,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 132,
+        "name": "Garmin"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 489,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 490,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/490.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 491,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/491.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 492,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/492.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 493,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/493.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 494,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/494.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 495,
+        "files": [
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-tm_cart_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-tm_home_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-tm_large_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-tm_medium_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-tm_small_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495-tm_thickbox_default.jpg",
+          "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/495.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 44,
+        "name": "Medilec-Vívosmart-HR-Info",
+        "mime": "application/pdf",
+        "file": "fb5fa052d4a16b42ecc49b9d55043bf3a16eee56"
+      },
+      {
+        "id_attachment": 54,
+        "name": "Medilec-FR-Vívosmart-HR-Manuel",
+        "mime": "application/pdf",
+        "file": "1cf391e59d17075ae308d560d5953cc58c7cb7d1"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

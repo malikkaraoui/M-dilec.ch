@@ -1,0 +1,123 @@
+{
+  "id": 178,
+  "slug": "ophtalmoscope-heine-mini3000-a-led",
+  "active": true,
+  "reference": "",
+  "name": "Ophtalmoscope HEINE mini3000 à LED",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Ophtalmoscope <strong>HEINE mini3000 à LED</strong> avec éclairage LED de qualité HEINE – LED HQ. Ophtalmoscope moderne avec éclairage à LED qui ne demande pas d’entretien. Sa luminosité et le rendu des couleurs sont comparables à ceux de l’ophtalmoscope Xénon Halogène HEINE...</p>",
+    "long_html": "<p>Ophtalmoscope <strong>HEINE mini3000 à LED</strong> avec éclairage LED de qualité HEINE – LED HQ. Ophtalmoscope moderne avec éclairage à LED qui ne demande pas d’entretien. Sa luminosité et le rendu des couleurs sont comparables à ceux de l’ophtalmoscope Xénon Halogène HEINE. Fonctions comparables à l’Ophtalmoscope mini3000, de plus: Ne demande pas d’entretien, parce qu’un échange des ampoules n’est pas nécessaire. Gestion thermique des LEDs pour une luminosité constante tout au long de la durée de vie. LED à haute performance : éclairage lumineux et absolument homogène avec un excellent rendu des couleurs – température de couleur 4.000 K, indice de rendu des couleurs &gt; 95, pour le rendu des couleurs rouge &gt; 90. Indicateur de performance : L’instrument s’allume à l’intensité lumineuse maximale. Ensuite la luminosité est adaptée au statut de charge actuel de la batterie. La fonction de diminution progressive de la luminosité signale que les batteries devront bientôt être échangées ou rechargées. Durée d’autonomie jusqu’à 10 heures. Moins d’échanges de batteries, durée de vie prolongée des batteries rechargeables.</p>\r\n<p><strong>Ophtalmoscope LED mini3000</strong> : sur poignée à piles mini3000, avec piles.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 286.908078,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 685,
+        "files": [
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-cart_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-home_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-large_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-medium_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-small_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-standard_default .jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-thickbox_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-tm_cart_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-tm_home_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-tm_large_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-tm_medium_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-tm_small_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-tm_thickbox_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 686,
+        "files": [
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-cart_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-home_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-large_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-medium_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-small_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-standard_default .jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-thickbox_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-tm_cart_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-tm_home_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-tm_large_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-tm_medium_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-tm_small_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686-tm_thickbox_default.jpg",
+          "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/686.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 85,
+        "name": "Medilec-FR-Heine-Mini-3000",
+        "mime": "application/pdf",
+        "file": "4293a5a153e109fa3e470bbaf6ef4c6287ba3e97"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": 252,
+  "slug": "thermometre-infrarouge-frontal-landwind",
+  "active": false,
+  "reference": "",
+  "name": "Thermomètre Infrarouge Frontal Landwind",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Thermomètre Infrarouge Frontal Landwind</strong>, design simple et élégant, technologie infrarouge pour un fonctionnement sans contact qui garantit des conditions sanitaires optimales, fonction mémoire (jusqu'à 20 résultats de mesure), certificat EN61326-1:2013...</p>",
+    "long_html": "<p><strong>Thermomètre Infrarouge Frontal Landwind</strong> pour fièvre convient à toute la famille (bébé, enfant, adulte). Une technologie infrarouge avancée pour afficher des lectures précises en une seconde. Avec un seul bouton, vous pouvez mesurer la température à tout moment, n'importe où. Un grand écran LCD vous permet de lire clairement les données dans la nuit noire. Le thermomètre peut enregistrer jusqu'à 32 derniers groupes d'appels de mémoire, peut suivre avec précision le changement de température et surveiller la condition physique de la famille à tout moment.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Design simple et élégant</li>\r\n<li>Technologie infrarouge pour un fonctionnement sans contact qui garantit des conditions sanitaires optimales</li>\r\n<li>Fonction mémoire (jusqu'à 20 résultats de mesure)</li>\r\n<li>Écran en °C et °F</li>\r\n<li>Arrêt automatique après 15 secondes</li>\r\n<li>Signal acoustique en cas d'une température élevée (à partir de 37,5°C / 99,5°F)</li>\r\n<li>Distance maximale de mesure 5 cm</li>\r\n<li>Certificat EN61326-1:2013</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 69.637883,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1080,
+        "files": [
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-standard_default .jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-tm_cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-tm_home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-tm_large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-tm_medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-tm_small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-tm_thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1081,
+        "files": [
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-standard_default .jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-tm_cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-tm_home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-tm_large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-tm_medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-tm_small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081-tm_thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1081.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1082,
+        "files": [
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-standard_default .jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-tm_cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-tm_home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-tm_large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-tm_medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-tm_small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082-tm_thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1082.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1083,
+        "files": [
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-standard_default .jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-tm_cart_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-tm_home_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-tm_large_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-tm_medium_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-tm_small_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083-tm_thickbox_default.jpg",
+          "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1083.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      235
+    ]
+  }
+}

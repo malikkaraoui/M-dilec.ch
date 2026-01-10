@@ -1,0 +1,253 @@
+{
+  "id": 194,
+  "slug": "spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie",
+  "active": false,
+  "reference": "",
+  "name": "Spiromètre MIR Spirolab III avec le capteur d'Oxymétrie",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong><strong>Spirolab III</strong>, facile, simple, résistant spiromètre diagnostique avec grande capacité de mémoire de tests et imprimante intégrée. Spiromètre autonome idéal pour le dépistage, est un spiromètre multifonctions et polyvalent idéal pour un diagnostic précis et précoce des maladies respiratoires (comme les MPOC et l’asthme). Avec le capteur d'Oxymétrie.</p>",
+    "long_html": "<p><strong></strong><strong>Spirolab III</strong>, facile, simple, résistant spiromètre diagnostique avec grande capacité de mémoire de tests et imprimante intégrée. Spiromètre autonome idéal pour le dépistage, est un spiromètre multifonctions et polyvalent idéal pour un diagnostic précis et précoce des maladies respiratoires (comme les MPOC et l’asthme). Est facile à utiliser pour les contrôles de médecins de famille ou tests rapides en pharmacie. Avec le capteur d'Oxymétrie.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Spirometry test: CVF, CV, VVM, comparaison PRÉ/POST bronchodilatateur avec un large choix de paramètres sélectionnables.</li>\r\n<li>Système d’émulation pédiatrique.</li>\r\n<li>Imprimante intégrée rapide et silencieuse avec format d'impression personnalisable.</li>\r\n<li>Colour screen écran: graphique FSTN, 320x240 pixels.</li>\r\n<li>Mémoire pour 6000 spirométries ou 900 heures d'enregistrement d'oxymétrie.</li>\r\n<li>Fonction optionnelle disponible avec sonde de doigt pour adultes / usage pédiatrique.</li>\r\n<li>Batterie rechargeable longue durée.</li>\r\n<li>Connectivité USB, test en temps reel sur PC.</li>\r\n<li>Logiciel Winspiro PRO pour PC, comprend les mises à jour téléchargeables gratuitement, fournit le Flux/Volume en temps reel et les courbes Débit/Volume avec comparaison PRE/POST Bronchodilatateur sur votre PC.</li>\r\n<li>Emulateur pédiatrique pour la Spirométrie, large choix de dessins et animations.</li>\r\n<li>Test de spirométrie après administration de médicament, bronchodilator Reversibility, Bronchial Challenge with FEV1-response curve with protocols for both Methacholine and Mannitol.</li>\r\n<li>Valeurs théoriques Quanjer 2012–GLI avec LLN et Z-score.</li>\r\n<li>Graphique de la tendance pour le suivi facile du patient, fonction de recherche avancée pour un accès immediat à la base de données. Large choix de protocoles de communication.</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>Oxymétrie, différents types de tests d’oxymétrie y compris des tests du sommeil et d’effort</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Oxymétrie ponctuelle.</li>\r\n<li>Oxymétrie nocturne du sommeil avec enregistrement d’épisodes de désaturation.</li>\r\n<li>Oxymétrie pendant un test d’effort.</li>\r\n</ul><p><strong>Convient aux enfants</strong></p>\r\n<p>Emulateur pédiatrique MIR, brevet exclusif. Le programme de divertissements sur écran de l’émulateur pédiatrique peut être utile pour aider un enfant (ou une personne plus âgée) à e ectuer un bon test de spirométrie.</p>\r\n<p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1996.28598,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 735,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-standard_default .jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 736,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-standard_default .jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/736.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 728,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/728.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 729,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/729.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 730,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/730.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 731,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/731.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 732,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/732.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 733,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/733.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 734,
+        "files": [
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-tm_cart_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-tm_home_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-tm_large_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-tm_medium_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-tm_small_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734-tm_thickbox_default.jpg",
+          "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/734.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193
+    ]
+  }
+}

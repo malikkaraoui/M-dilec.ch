@@ -1,0 +1,95 @@
+{
+  "id": 151,
+  "slug": "service-ecg-de-7-jours-r-test",
+  "active": true,
+  "reference": "",
+  "name": "Service ECG de 7 jours (R-test)",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>R-test</strong> est un enregistrement ECG à la demande qui permet une surveillance du rythme cardiaque pendant plusieurs jours. Le patient peut déclencher l’enregistrement lors de l’apparition d’un symptôme. Dès ce moment l’appareil mémorise 15 à 60 secondes d’ECG. L’appareil garde également en mémoire tout rythme anormal qu’il a détecté durant le temps qu’il a été porté.</p>",
+    "long_html": "<p>Le <strong>R-test</strong> est un enregistrement ECG à la demande qui permet une surveillance du rythme cardiaque pendant plusieurs jours. Le patient peut déclencher l’enregistrement lors de l’apparition d’un symptôme. Dès ce moment l’appareil mémorise 15 à 60 secondes d’ECG. L’appareil garde également en mémoire tout rythme anormal qu’il a détecté durant le temps qu’il a été porté.</p>\r\n<p>Parfois, les symptômes sont tellement rares (une fois par mois, voire moins) que même un Holter a peu de chances d’enregistrer un trouble du rythme pendant les 24 heures d’enregistrement. Dans ce cas, on peut proposer au patient d’emporter avec lui un petit appareil appelé <strong>R-test</strong>. Cet appareil, de la taille d’un petit téléphone portable et que le patient a sur lui ou à portée de main, ne fonctionne pas en permanence: lorsque le patient ressent un symptôme, c’est lui-même qui se l’applique sur la poitrine et déclenche l’enregistrement qui peut durer plusieurs dizaines de secondes.<br /><br />L'autonomie électrique du <strong>R-test</strong> permet son fonctionnement durant plusieurs semaines. Les renseignements qu'il fournit sont loin d’être aussi précis que ceux d’un Holter, mais ils permettent au moins de faire un diagnostic, même fragmentaire.</p>\r\n<p><a href=\"/index.php?controller=contact\">Contactez-nous pour plus d'information</a>.</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 143,
+      "name": "R-Test / ECG de 7 jours"
+    },
+    {
+      "id": 135,
+      "name": "Services ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 135,
+        "name": "Services ECG"
+      },
+      {
+        "id": 143,
+        "name": "R-Test / ECG de 7 jours"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 135,
+        "name": "Services ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 567,
+        "files": [
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-cart_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-home_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-large_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-medium_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-small_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-thickbox_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-tm_cart_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-tm_home_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-tm_large_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-tm_medium_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-tm_small_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567-tm_thickbox_default.jpg",
+          "assets/products/151__service-ecg-de-7-jours-r-test/images/567.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

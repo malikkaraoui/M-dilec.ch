@@ -1,0 +1,173 @@
+{
+  "id": 235,
+  "slug": "thermometre-infrarouge-bosotherm-medical",
+  "active": false,
+  "reference": "",
+  "name": "Thermomètre infrarouge Bosotherm Médical",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le thermomètre auriculaire infrarouge <strong>Bosotherm Médical</strong> est un produit de qualité qui recourt aux technologies les plus récentes. Avec sa technologie de pointe, le Bosotherm Médical de mesurer des valeurs stables, indépendantes de toute influence extérieure.</p>",
+    "long_html": "<p>Le thermomètre auriculaire infrarouge <strong>Bosotherm Médical</strong> est un produit de qualité qui recourt aux technologies les plus récentes.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>signal sonore pour indiquer la fièvre</li>\r\n<li>écran lumineux clair</li>\r\n<li>mesure de précision</li>\r\n<li>mesure particulièrement rapide: environ 1 seconde</li>\r\n<li>design ergonomique</li>\r\n<li>affichage à l'allumage de la dernière valeur mesurée</li>\r\n<li>indication de fièvre montante ou descendante</li>\r\n</ul><p>Avec sa technologie de pointe, le Bosotherm Médical de mesurer des valeurs stables, indépendantes de toute influence extérieure. L'appareil réalise un étalonnage à chaque démarrage pour assurer la fiablité des mesures observées. Le thermomètre auriculaire Bosotherm Médical sert à la mesure et au contrôle des températures corporelles humaines et est conçu pour les personnes de tous âges, il peut aussi être employé pour la mesure de températures de surface.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 50.139276,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1006,
+        "files": [
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-cart_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-home_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-large_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-medium_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-small_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-standard_default .jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-thickbox_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-tm_cart_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-tm_home_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-tm_large_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-tm_medium_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-tm_small_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-tm_thickbox_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1007,
+        "files": [
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-cart_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-home_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-large_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-medium_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-small_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-standard_default .jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-thickbox_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-tm_cart_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-tm_home_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-tm_large_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-tm_medium_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-tm_small_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007-tm_thickbox_default.jpg",
+          "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1007.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 118,
+        "name": "Medilec-Bosotherm-Medical",
+        "mime": "application/pdf",
+        "file": "4cab22a333bf2edb6af3ce06fd2420199ef66c37"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      252
+    ]
+  }
+}

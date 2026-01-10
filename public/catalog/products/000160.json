@@ -1,0 +1,189 @@
+{
+  "id": 160,
+  "slug": "spirometre-mir-minispir-new",
+  "active": true,
+  "reference": "30.0166",
+  "name": "Spiromètre MIR Minispir New",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Minispir New</strong>, spiromètre USB pour une analyse respiratoire complète, est un mini laboratoire de Spirométrie.</p>",
+    "long_html": "<p><strong>Minispir New</strong>, spiromètre USB pour une analyse respiratoire complète, est un mini laboratoire de Spirométrie.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Système d’émulation pédiatrique.</li>\r\n<li>Branchements directement sur le port USB.</li>\r\n<li>Boucle débit/Volume en temps réel et courbe.</li>\r\n<li>Volume/temps avec comparaison PRE/POST.</li>\r\n<li>Interprétations avancées des tests de spirométrie.</li>\r\n<li>Système d’animations pédiatrique.</li>\r\n<li>Age pulmonaire.</li>\r\n<li>Test de provocation bronchique, incluant le nouveau protocole Mannitol avec la courbe de réponse VEMS.</li>\r\n<li>Capteur de température pour la conversion BTPS.</li>\r\n</ul><p></p>\r\n<p><strong>L'article est fourni sans turbine !</strong></p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1261.83844,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 136,
+      "name": "MIR"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 136,
+        "name": "MIR"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 776,
+        "files": [
+          "assets/products/160__spirometre-mir-minispir-new/images/776-cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-standard_default .jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-tm_cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-tm_home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-tm_large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-tm_medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-tm_small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776-tm_thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/776.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 777,
+        "files": [
+          "assets/products/160__spirometre-mir-minispir-new/images/777-cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-standard_default .jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-tm_cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-tm_home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-tm_large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-tm_medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-tm_small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777-tm_thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/777.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 778,
+        "files": [
+          "assets/products/160__spirometre-mir-minispir-new/images/778-cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-standard_default .jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-tm_cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-tm_home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-tm_large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-tm_medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-tm_small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778-tm_thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/778.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 779,
+        "files": [
+          "assets/products/160__spirometre-mir-minispir-new/images/779-cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-standard_default .jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-tm_cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-tm_home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-tm_large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-tm_medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-tm_small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779-tm_thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/779.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 780,
+        "files": [
+          "assets/products/160__spirometre-mir-minispir-new/images/780-cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-standard_default .jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-tm_cart_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-tm_home_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-tm_large_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-tm_medium_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-tm_small_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780-tm_thickbox_default.jpg",
+          "assets/products/160__spirometre-mir-minispir-new/images/780.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 79,
+        "name": "Medilec-FR-Mir-Minispir",
+        "mime": "application/pdf",
+        "file": "7afb7758396403670c00a87e351c8b94e2c4a36a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      163,
+      165,
+      193,
+      197,
+      198
+    ]
+  }
+}

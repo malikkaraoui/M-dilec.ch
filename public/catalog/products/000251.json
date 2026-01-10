@@ -1,0 +1,204 @@
+{
+  "id": 251,
+  "slug": "masques-protection-masques-3-ply",
+  "active": false,
+  "reference": "",
+  "name": "50 Masques protection Masques 3 Ply",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Efficacité de la filtration bactérienne (EFB) &gt; 95%. Composition en 2 couches de tissu en polypropylène non tissé, 1 couche intermédiaire filtrante, soudée en polypropylène. Bandelette nasale en fil métallique, revêtue de polypropylène. Certificats EN 14683, YY/T 0969-2013, EN13485</p>",
+    "long_html": "<p style=\"padding-bottom:20px;\">Dans le milieu médical et sanitaire, masque de protection avec un filtre sans résistance, permet à la chaleur et à l'humidité de s'échapper. Bénéficie de deux boucles d'oreille élastiques. Taille unique très confortable. Fil intérieur qui permet le moulage au pont du nez pour un ajustement serré. Emballés par 10 en sachets en plastique :</p>\r\n<ul><li>Efficacité de la filtration bactérienne (EFB) &gt; 95%</li>\r\n<li>Composition : 2 couches de tissu en polypropylène non tissé, 1 couche intermédiaire filtrante, soudée en polypropylène</li>\r\n<li>Bandelette nasale en fil métallique, revêtue de polypropylène</li>\r\n<li>Elastiques pour oreilles en spandex</li>\r\n<li>Dimension : 17,5 x 9,5 cm</li>\r\n<li>Certificats : EN 14683: 2019, Medical Devices Directive: class I, YY/T 0969-2013, EN13485: 2016, CE, FDA, UKAS</li>\r\n<li>Produit par : Hangzhou UNIBEAR Medical Devices Co. Ltd., en Chine</li>\r\n<li>Application : Pour les soins sanitaires jetables dans des environnements courants</li>\r\n<li>Pas pour une protection spéciale pendant une opération chirurgicale</li>\r\n</ul><p style=\"padding-top:20px;\"><em><strong>Remarques : les masques sont homologués et actuellement stockés en Suisse. Ils ont été contrôlés, importés et dédouanés officiellement. Certificats livrés avec les masques.</strong></em></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.687094,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 155,
+      "name": "Nouveauté"
+    },
+    {
+      "id": 187,
+      "name": "Masques"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 186,
+      "name": "Masques"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 155,
+        "name": "Nouveauté"
+      },
+      {
+        "id": 187,
+        "name": "Masques"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 186,
+        "name": "Masques"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1077,
+        "files": [
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-cart_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-home_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-large_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-medium_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-small_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-standard_default .jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-thickbox_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-tm_cart_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-tm_home_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-tm_large_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-tm_medium_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-tm_small_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077-tm_thickbox_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1077.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1078,
+        "files": [
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-cart_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-home_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-large_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-medium_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-small_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-standard_default .jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-thickbox_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-tm_cart_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-tm_home_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-tm_large_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-tm_medium_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-tm_small_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078-tm_thickbox_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1078.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1079,
+        "files": [
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-cart_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-home_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-large_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-medium_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-small_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-standard_default .jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-thickbox_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-tm_cart_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-tm_home_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-tm_large_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-tm_medium_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-tm_small_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079-tm_thickbox_default.jpg",
+          "assets/products/251__masques-protection-masques-3-ply/images/1079.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      250
+    ]
+  }
+}

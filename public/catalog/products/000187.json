@@ -1,0 +1,141 @@
+{
+  "id": 187,
+  "slug": "ecg-schiller-cardiovit-at-104-ergospirometrie",
+  "active": false,
+  "reference": "",
+  "name": "ECG Schiller Cardiovit AT-104 ergospirométrie",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>La plateforme d’<strong>ergospirométrie AT-104</strong> permet aux médecins de réaliser un diagnostic cardiopulmonaire précis et fiable en cas d’insuffisance cardiaque ou pour l’évaluation des interventions chirurgicales ou des déficiences respiratoires.</p>",
+    "long_html": "<p>La plateforme d’<strong>ergospirométrie AT-104</strong> permet aux médecins de réaliser un diagnostic cardiopulmonaire précis et fiable en cas d’insuffisance cardiaque ou pour l’évaluation des interventions chirurgicales ou des déficiences respiratoires.</p>\r\n<p><strong>Capteur de volume : précis et ultraléger</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Le débitmètre est l’élément central de tout système d’ergospirométrie. Grâce à la technologie à orifice variable intégrée au débitmètre, le système d’ergospirométrie AT-104 offre des mesures respiratoires exactes, qui ne sont perturbées ni par la vapeur d’eau, ni par la salive, ni par les vibrations. Le débitmètre est par conséquent ultra-précis et parfaitement résistant à l’humidité.</li>\r\n<li>De plus, le débitmètre peut être utilisé pour réaliser des mesures sur tous les patients, qu’il s’agisse d’un enfant, d’un patient gravement malade ou d’un athlète de haut niveau.</li>\r\n<li>Grâce à sa conception spéciale, le débitmètre est ultraléger (29 g) et offre une résistance minimale. Il peut être utilisé avec un masque ou un embout buccal, pour un confort optimal du patient ou de l’athlète examiné.</li>\r\n<li>Le débitmètre est validé conformément aux critères de l’ERS et de l’ATS.</li>\r\n</ul><p><strong>Utilisation simple et facile à comprendre</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Chaque système est seulement aussi efficace que son utilisateur. C’est pourquoi l’utilisation doit être aussi simple que possible afin que ce soit l’utilisateur qui ait le contrôle du système et non l’inverse.</li>\r\n<li>Vous pouvez vous concentrer entièrement sur le patient pendant la mesure, le logiciel fera le reste. Le contrôle de toute la mesure d’ergospirométrie se fait avec un seul bouton – ça ne pourrait vraiment pas être plus simple.</li>\r\n<li>Il en va de même pour la calibration du volume et de l’analyse des gaz. La calibration de l’analyse des gaz est effectuée entièrement automatiquement et la calibration du volume se fait au moyen de la pompe de calibration.</li>\r\n</ul><p><strong>Caractéristiques de l’analyseur de gaz Power Cube (option)<br /></strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Analyse de gaz avec temps d’augmentation élevé et fréquence d’échantillonnage élevée les meilleures conditions pour de véritables mesures « respiration par respiration »</li>\r\n<li>Les analyseurs de gaz de SCHILLER fournissent des valeurs précises, même à des débits élevés susceptibles d’être trop élevés pour le principe de mesure du bac d’agitation par exemple. La précision de la mesure des analyseurs n’est pas affectée, pas même par les vibrations à côté d’un tapis roulant.</li>\r\n<li>La calibration à deux points utilise très peu de gaz ; de plus, elle calibre non seulement les analyseurs mais aussi l’intégralité du système transportant le gaz exactement la façon dont le système est utilisé pour les mesures.</li>\r\n</ul><p><strong>Faibles coûts inhérents et rentabilité maximale</strong></p>\r\n<p>La plateforme d’ergospirométire AT-104 est un exemple d’efficacité économique.</p>\r\n<ul style=\"margin-left:14px;\"><li>Le système d’ergospirométrie AT-104 peut être installé comme une mise à jour de votre système AT-104 existant ; il représente par conséquent une solution peu coûteuse pour utiliser des fonctions de diagnostic cardio-pulmonaire supplémentaires.</li>\r\n<li>Les capteurs de gaz ne nécessitent aucune maintenance. De plus, grâce à la faible consommation de gaz pendant la calibration automatique, la bouteille de gaz doit être remplacée beaucoup moins souvent.</li>\r\n<li>Le débitmètre est facile à nettoyer et ne requiert pas de temps de séchage, permettant ainsi un flux de patients élevé.</li>\r\n</ul><p><strong>C’est le patient qui est au centre de l’attention – pas l’ordinateur</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Visualisation de 9 zones graphiques selon Wasserman – même en ligne pendant la mesure.</li>\r\n<li>Affichage complet de chacun des graphiques Wasserman sur écran haute résolution pour une détermination précise du seuil anaérobie.</li>\r\n<li>Diagrammes grand format pour le monitoring des paramètres sélectionnables, fonction d’alarme comprise.</li>\r\n<li>Détermination automatique du seuil anaérobie via la méthode prédéfinie (pente V, excès de CO<sub>2</sub>, EQO<sub>2</sub> minimum, RQ=1) ou manuellement.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 42617.455896,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 121,
+      "name": "Ergospirométrie"
+    },
+    {
+      "id": 122,
+      "name": "Ergospirométrie"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 121,
+        "name": "Ergospirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 121,
+        "name": "Ergospirométrie"
+      },
+      {
+        "id": 122,
+        "name": "Ergospirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 701,
+        "files": [
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-cart_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-home_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-large_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-medium_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-small_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-standard_default .jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-thickbox_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-tm_cart_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-tm_home_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-tm_large_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-tm_medium_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-tm_small_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-tm_thickbox_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 702,
+        "files": [
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-cart_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-home_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-large_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-medium_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-small_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-standard_default .jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-thickbox_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-tm_cart_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-tm_home_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-tm_large_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-tm_medium_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-tm_small_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702-tm_thickbox_default.jpg",
+          "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/702.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 90,
+        "name": "Medilec-FR-Schiller-AT-104-Ergo",
+        "mime": "application/pdf",
+        "file": "ef09bd9efbc6cdb4403311b8f49e565714dd014a"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

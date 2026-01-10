@@ -10,6 +10,10 @@
     "prepare": "husky",
     "preview": "vite preview",
     "admin:bootstrap": "node scripts/set-admin-role.mjs --email admin@medilec.ch --role admin",
+    "admin:import-catalog": "node scripts/import-catalog-products.mjs",
+    "admin:import-categories": "node scripts/import-catalog-categories.mjs",
+    "admin:import-taxonomies": "node scripts/import-catalog-taxonomies.mjs",
+    "admin:import-taxonomies:optional": "node scripts/import-catalog-taxonomies.mjs --optional",
     "test:rules": "firebase emulators:exec --only database,storage \"vitest run\""
   },
   "dependencies": {

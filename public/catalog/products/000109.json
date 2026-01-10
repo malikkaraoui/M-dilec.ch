@@ -1,0 +1,147 @@
+{
+  "id": 109,
+  "slug": "ergometre-treadmill-schiller-intertrack-8100",
+  "active": true,
+  "reference": "",
+  "name": "Ergomètre Treadmill Schiller Intertrack 8100",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le tapis roulant de SCHILLER <strong>Intertrack</strong> est très efficace et a un prix très raisonnable. Les marques Intertrack exercent l'essai facile et commode. Il a un moteur économiseur d'énergie avec de basses vibrations. Son exécution dynamique s'assure qu'elle a une durée de vie prolongée.</p>\r\n<p>Tapis roulant ergomètre <strong>standard (8100T)</strong> et avec<strong> main courante (8100TD)</strong>.</p>",
+    "long_html": "<p>Le tapis roulant de SCHILLER <strong>Intertrack</strong> est très efficace et a un prix très raisonnable. Les marques Intertrack exercent l'essai facile et commode. Il a un moteur économiseur d'énergie avec de basses vibrations. Son exécution dynamique s'assure qu'elle a une durée de vie prolongée.</p>\r\n<p>Tapis roulant ergomètre <strong>standard (8100T)</strong> et avec<strong> main courante (8100TD)</strong>.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>RS-232 intégrés Interface.</li>\r\n<li>Pour les patients pesant jusqu'à 180 kg.</li>\r\n<li>Zone en cours d'exécution élargi permettant la stimulation idéale des membres inférieurs.</li>\r\n<li>Longue tenue, statique, à quatre couches ceinture de polyester anti- et le pont ciré fournissent une opération presque silencieux.</li>\r\n<li>Auto-tension du système d'entraînement.</li>\r\n<li>Connexion facile avec le système d'exercice de l'ECG.</li>\r\n<li>Rampes amovibles.</li>\r\n<li>Transformateur d'isolement (en option).</li>\r\n<li>Console d'affichage (en option).</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 18476.32312,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 62,
+      "name": "ECG"
+    },
+    {
+      "id": 87,
+      "name": "Schiller tapis roulants"
+    },
+    {
+      "id": 63,
+      "name": "ECG d'effort"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 87,
+        "name": "Schiller tapis roulants"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 290,
+        "files": [
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-cart_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-home_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-large_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-medium_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-small_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-thickbox_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-tm_cart_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-tm_home_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-tm_large_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-tm_medium_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-tm_small_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-tm_thickbox_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 291,
+        "files": [
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-cart_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-home_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-large_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-medium_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-small_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-thickbox_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-tm_cart_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-tm_home_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-tm_large_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-tm_medium_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-tm_small_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291-tm_thickbox_default.jpg",
+          "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/291.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 37,
+        "name": "Medilec-EN-Intertrack-8100",
+        "mime": "application/pdf",
+        "file": "0660909821d4f97ef046ff547c0f1d26611582a5"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

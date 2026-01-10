@@ -1,0 +1,165 @@
+{
+  "id": 94,
+  "slug": "electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult",
+  "active": false,
+  "reference": "8.0090",
+  "name": "Électrodes pour FRED Easyport et Argus Pro",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Paire d'électrodes pré-connectées adultes.</p>",
+    "long_html": "<p>Paire d'électrodes pré-connectées adultes.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Auto adhésives</li>\r\n<li>Usage unique</li>\r\n<li>Péremption : 30 à 36 mois</li>\r\n<li>Pictogramme de positionnement sur le sachet et sur les électrodes</li>\r\n<li>Longueur du câble : 190 cm</li>\r\n<li>Surface active : 80 cm² par électrode</li>\r\n<li>Non pré-connectees</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 75.208914,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 117,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 101,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 117,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 101,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 247,
+        "files": [
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-cart_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-home_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-large_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-medium_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-small_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-thickbox_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-tm_cart_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-tm_home_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-tm_large_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-tm_medium_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-tm_small_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-tm_thickbox_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 787,
+        "files": [
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-cart_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-home_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-large_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-medium_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-small_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-standard_default .jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-thickbox_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-tm_cart_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-tm_home_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-tm_large_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-tm_medium_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-tm_small_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787-tm_thickbox_default.jpg",
+          "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/787.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      84
+    ]
+  }
+}

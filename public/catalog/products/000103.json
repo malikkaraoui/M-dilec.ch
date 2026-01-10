@@ -1,0 +1,186 @@
+{
+  "id": 103,
+  "slug": "tensiometre-heine-gamma-g5",
+  "active": false,
+  "reference": "",
+  "name": "Tensiomètre HEINE Gamma G5",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Antichoc. Sans latex. Système de régulation de pression. Manomètre protége des surpressions. Longévité et fiabilité. Microfiltre protège la valve et le manomètre. Cadran grand diamètre. Facile à lire noir sur blanc 56 mm Ø. Aiguille de grande qualité.</p>",
+    "long_html": "<p>Antichoc. Sans latex. Système de régulation de pression. Manomètre protége des surpressions. Longévité et fiabilité. Microfiltre protège la valve et le manomètre. Cadran grand diamètre. Facile à lire noir sur blanc 56 mm Ø. Aiguille de grande qualité. Calibrage précis, résistante et antichoc. Grande poire de gonflage. 50 % de volume en plus pour le gonflage rapide du brassard. Valve d’échappement d’air exclusive. Permet un réglage précis et fiable de l’echappement, décompression rapide, grande longévité. Une butée en caoutchouc évite le blocage de la valve. Boîtier en plastique résistant avec un revêtement antidérapant absorbant les chocs. Brassard monotube de grande qualité, avec fermeture Velcro. Lavable. Cuillère réglable (thermoplastique). Pour utilisation de la main droite ou de la main gauche.</p>\r\n<p>Disponible pour <strong>adultes</strong> et <strong>enfants</strong>.</p>\r\n<p style=\"margin-top:10px;\">Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Antichoc</li>\r\n<li>Boîtier polyamide résistant</li>\r\n<li>Sans latex</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 91.922006,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 273,
+        "files": [
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-tm_cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-tm_home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-tm_large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-tm_medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-tm_small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273-tm_thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/273.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 274,
+        "files": [
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-tm_cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-tm_home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-tm_large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-tm_medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-tm_small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274-tm_thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/274.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 275,
+        "files": [
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-tm_cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-tm_home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-tm_large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-tm_medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-tm_small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275-tm_thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/275.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 276,
+        "files": [
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-tm_cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-tm_home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-tm_large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-tm_medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-tm_small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276-tm_thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/276.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 277,
+        "files": [
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-tm_cart_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-tm_home_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-tm_large_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-tm_medium_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-tm_small_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277-tm_thickbox_default.jpg",
+          "assets/products/103__tensiometre-heine-gamma-g5/images/277.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 32,
+        "name": "Medilec-FR-Heine-Gamma-5-Bro",
+        "mime": "application/pdf",
+        "file": "266950b39c1d3789d93198152bb0d6901f34307c"
+      },
+      {
+        "id_attachment": 33,
+        "name": "Medilec-FR-Heine-Gamma-5-Ins",
+        "mime": "application/pdf",
+        "file": "6730b170296467cafff84c7fa30a9bd8ac91fd30"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      104
+    ]
+  }
+}

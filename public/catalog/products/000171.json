@@ -1,0 +1,143 @@
+{
+  "id": 171,
+  "slug": "defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame",
+  "active": false,
+  "reference": "",
+  "name": "Défibrillateur Schiller Defigard 5000 semi-automatique avec moniteur multiparamétrique",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le modèle <strong>DEFIGARD 5000</strong> associe l’efficacité d’un défibrillateur à pulsation biphasée (Multipulse Biowave) à une surveillance précise sur un écran couleur grand format. La grande taille de l’écran couleur (10,4“) permet l’affichage simultané de jusqu’à 12 dérivations d’ECG...</p>",
+    "long_html": "<p>Le modèle <strong>DEFIGARD 5000</strong> associe l’efficacité d’un défibrillateur à pulsation biphasée (Multipulse Biowave) à une surveillance précise sur un écran couleur grand format. La grande taille de l’écran couleur (10,4“) permet l’affichage simultané de jusqu’à 12 dérivations d’ECG. Le bouton de navigation et les touches de fonction directes permettent un accès rapide à tous les paramètres et autres menus, et rendent l'appareil extrêmement convivial et facile à utiliser.</p>\r\n<p>Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Énergie de défibrillation extrêmement ténue grâce à l’impulsion ­MultipulseBiowave (une impulsion de défibrillation biphasée brevetée)</li>\r\n<li>La défibrillation est possible à l’aide de tapis adhésifs, de palettes externes ou de cuillères internes</li>\r\n<li>Enregistrement des données : mémoire interne permettant le stockage de 45 minutes d’ECG et de 500 évènements en mode DEA, ainsi que des tendances sur 24 h, tant graphiques que tabulaires, pour tous les paramètres</li>\r\n<li>Téléchargement des données de DEA via le port USB à l’aide d’une clé USB</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 10770.659239,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 153,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 68,
+      "name": "Défibrillateurs"
+    },
+    {
+      "id": 67,
+      "name": "Défibrillateurs"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 153,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      },
+      {
+        "id": 68,
+        "name": "Défibrillateurs"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 67,
+        "name": "Défibrillateurs"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 668,
+        "files": [
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-cart_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-home_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-large_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-medium_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-small_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-standard_default .jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-thickbox_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-tm_cart_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-tm_home_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-tm_large_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-tm_medium_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-tm_small_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-tm_thickbox_default.jpg",
+          "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 84,
+        "name": "Medilec-FR-Defigard-5000",
+        "mime": "application/pdf",
+        "file": "c6600748fd45757d754f100beb894db73cfd60af"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

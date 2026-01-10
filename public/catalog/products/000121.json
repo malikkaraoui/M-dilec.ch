@@ -1,0 +1,205 @@
+{
+  "id": 121,
+  "slug": "ecg-srm-cardioscout-multi",
+  "active": true,
+  "reference": "12.0414",
+  "name": "ECG SRM CardioScout Multi",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>CardioScout Multi-ECG</strong>, de la SRM Innovative Medical Solutions, est un appareil d'ECG Bluetooth pour l'enregistrement de12 dérivations simultanées. Un seul appareil pour le cabinet ou le domicile, fonctionnant sur un Pc, un Mac une tablette ou un smartphone quel que soit le système d’exploitation !</p>",
+    "long_html": "<p><strong>CardioScout Multi-ECG</strong>, de la SRM Innovative Medical Solutions, est un appareil d'ECG Bluetooth pour l'enregistrement de12 dérivations simultanées. Un seul appareil pour le cabinet ou le domicile, fonctionnant sur un Pc, un Mac une tablette ou un smartphone quel que soit le système d’exploitation !</p>\r\n<p>Soft d’ECG standard sans mesure ni interprétation pour toutes les plateformes, interprétation pour Mac ou Windows, téléchargement sur Apple store pour <strong>iPad</strong>, <strong>iPhone</strong>, <strong>iPad</strong> ou pour <strong>Android</strong> sur Google play, avec Android vous avez la possibilité d’envoyer directement un PDF par mail.<br />Les logiciels vous permettent d’obtenir sur votre ordinateur des tracés ECG qui sont stockés dans une base de données et que vous pouvez revoir ou imprimer.</p>\r\n<p style=\"margin-top:10px;\">Les plus du produit :</p>\r\n<ul style=\"margin-left:14px;\"><li>Taille d’une boite d’allumettes</li>\r\n<li>Utilisable sur plusieurs systèmes d’exploitation</li>\r\n<li>Durée d'enregistrement illimité</li>\r\n<li>Batterie Li-Po 15 heures d’ECG continu</li>\r\n<li>Prise USB et rallonge USB</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 1707.520891,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 32,
+    "name": "SR-Medizinelektronik"
+  },
+  "categories": [
+    {
+      "id": 81,
+      "name": "Sur Windows"
+    },
+    {
+      "id": 82,
+      "name": "Sur MAC"
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 100,
+      "name": "De poche"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 81,
+        "name": "Sur Windows"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 82,
+        "name": "Sur MAC"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 100,
+        "name": "De poche"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 312,
+        "files": [
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-cart_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-home_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-large_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-medium_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-small_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-thickbox_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-tm_cart_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-tm_home_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-tm_large_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-tm_medium_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-tm_small_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312-tm_thickbox_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/312.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 313,
+        "files": [
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-cart_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-home_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-large_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-medium_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-small_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-thickbox_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-tm_cart_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-tm_home_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-tm_large_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-tm_medium_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-tm_small_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313-tm_thickbox_default.jpg",
+          "assets/products/121__ecg-srm-cardioscout-multi/images/313.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 110,
+        "name": "Medilec-EN-SRM-M-ECG-Android-App",
+        "mime": "application/pdf",
+        "file": "d96ef6bf1ed08661b6f1065764a7b34ed046d7ab"
+      },
+      {
+        "id_attachment": 111,
+        "name": "Medilec-EN-SRM-M-ECG-IOS-App",
+        "mime": "application/pdf",
+        "file": "aeb4e48c60c1058e30a1fc8ddd0f9876e5b92441"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

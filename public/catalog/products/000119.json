@@ -1,0 +1,203 @@
+{
+  "id": 119,
+  "slug": "ecg-cardiolex-ec-sense-rest-lexor",
+  "active": true,
+  "reference": "12.0418",
+  "name": "ECG Cardiolex EC Sense Rest Lexor",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Électrocardiogramme numérique 12 Dérivation, <strong>EC Sense Lexor</strong> est un ECG haut de gamme s’utilisant à partir de différents équipements informatiques (PC, tablettes…) ou à partir d’un chariot mobile avec batterie. Simple d’utilisation, son fonctionnement intuitif vous permet une prise en main immédiate.</p>",
+    "long_html": "<p>Électrocardiogramme numérique 12 Dérivation, <strong>EC Sense Lexor</strong> est un ECG haut de gamme s’utilisant à partir de différents équipements informatiques (PC, tablettes…) ou à partir d’un chariot mobile avec batterie. Simple d’utilisation, son fonctionnement intuitif vous permet une prise en main immédiate. Ses spécificités techniques, uniques sur le marché, vous garantissent un tracé précis pour un diagnostic fiable.</p>\r\n<p>ECG numérique simple d’utilisation, de très haute qualité, permettant un diagnostic très précis. Sa simplicité d’utilisation et son fonctionnement intuitif éliminent tout risque de mauvaise manipulation. La formation requise pour La prise en main de l’ECG est très réduite, EC Sense peut être utilisé avec un ordinateur traditionnel mais également avec un ordinateur portable ou tablette PC. Les rapports peuvent être paramétrés et imprimés avec une Imprimante standard. Le module d’acquisition numérise à la fréquence d'échantillonnage de 2000 Hz sur l'ensemble des signaux. Le système est protégé contre les chocs de défibrillation et peut également être utilisé avec des électrodes aspirantes. Le branchement sur le port USB de l’ordinateur permet également d’alimenter l’ EC Sense.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2552.460539,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 31,
+    "name": "Cardiolex AB"
+  },
+  "categories": [
+    {
+      "id": 80,
+      "name": "Cardiolex"
+    },
+    {
+      "id": 81,
+      "name": "Sur Windows"
+    },
+    {
+      "id": 64,
+      "name": "ECG de repos"
+    },
+    {
+      "id": 100,
+      "name": "De poche"
+    },
+    {
+      "id": 62,
+      "name": "ECG"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 80,
+        "name": "Cardiolex"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 81,
+        "name": "Sur Windows"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 100,
+        "name": "De poche"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 659,
+        "files": [
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-cart_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-home_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-large_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-medium_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-small_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-standard_default .jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-thickbox_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-tm_cart_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-tm_home_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-tm_large_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-tm_medium_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-tm_small_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-tm_thickbox_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 660,
+        "files": [
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-cart_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-home_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-large_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-medium_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-small_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-standard_default .jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-thickbox_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-tm_cart_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-tm_home_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-tm_large_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-tm_medium_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-tm_small_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660-tm_thickbox_default.jpg",
+          "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/660.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 97,
+        "name": "Medilec-FR-Cardiolex-EC-Sense",
+        "mime": "application/pdf",
+        "file": "ddb5cbbf22c25a024ba73018a1a9635f302d32eb"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      181
+    ]
+  }
+}

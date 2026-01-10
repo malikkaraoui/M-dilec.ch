@@ -1,0 +1,165 @@
+{
+  "id": 231,
+  "slug": "spirometre-medikro-pro",
+  "active": false,
+  "reference": "",
+  "name": "Spiromètre Medikro Pro",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Spiromètre Medikro</strong> de laboratoire tout-en-un. Mesure intégrée des conditions ambiantes. Mise en réseau et connectivité. Incitatif 3D pour les enfants.</p>",
+    "long_html": "<p><strong></strong><strong>Spiromètre Medikro</strong> de laboratoire tout-en-un. Mesure intégrée des conditions ambiantes. Mise en réseau et connectivité. Incitatif 3D pour les enfants.</p>\r\n<p><strong>Spiromètre de laboratoire basé sur PC</strong></p>\r\n<p>Medikro Pro offre des performances à la pointe de la technologie en matière de spirométrie basée sur PC. Ce spiromètre de diagnostic fiable et précis est doté de capteurs intégrés de mesure des conditions ambiantes pour une correction automatique en temps réel des conditions BTPS.<br />Le spiromètre Pro exploite le logiciel complet Medikro Spirometry Software (MSS). Le système convient parfaitement aux médecins ayant besoin d'un spiromètre précis doté d'un logiciel hautement personnalisable, d'un affichage clair des résultats et d'excellentes fonctionnalités réseau. Grâce aux capteurs à usage unique Medikro SpiroSafe, le système ne requiert pas de filtres antibactériens ni de stérilisation. Cela accroît les performances du patient et permet de réduire les coûts d'exploitation.</p>\r\n<p style=\"margin-top:10px;\"><strong>Principales caractéristiques</strong> :</p>\r\n<ul style=\"margin-left:14px;\"><li>Incitatif Freddie la grenouille</li>\r\n<li>Bon rapport coût-efficacité</li>\r\n<li>Sécurité du patient</li>\r\n<li>Technologie VCT</li>\r\n<li>Correction automatique en temps réel des conditions BTPS</li>\r\n<li>Provocation bronchique optionnelle</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 2181.058496,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 139,
+      "name": "Autre"
+    },
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 139,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 997,
+        "files": [
+          "assets/products/231__spirometre-medikro-pro/images/997-cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-standard_default .jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-tm_cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-tm_home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-tm_large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-tm_medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-tm_small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997-tm_thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/997.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 998,
+        "files": [
+          "assets/products/231__spirometre-medikro-pro/images/998-cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-standard_default .jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-tm_cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-tm_home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-tm_large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-tm_medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-tm_small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998-tm_thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/998.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 999,
+        "files": [
+          "assets/products/231__spirometre-medikro-pro/images/999-cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-standard_default .jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-tm_cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-tm_home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-tm_large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-tm_medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-tm_small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999-tm_thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/999.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1000,
+        "files": [
+          "assets/products/231__spirometre-medikro-pro/images/1000-cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-standard_default .jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-tm_cart_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-tm_home_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-tm_large_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-tm_medium_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-tm_small_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000-tm_thickbox_default.jpg",
+          "assets/products/231__spirometre-medikro-pro/images/1000.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 114,
+        "name": "Medilec-FR-Medikro-Pro",
+        "mime": "application/pdf",
+        "file": "61c2b98d40006f6531a7fcb34986f46b771fa9f7"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      232
+    ]
+  }
+}

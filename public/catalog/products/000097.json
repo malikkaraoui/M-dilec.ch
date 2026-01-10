@@ -1,0 +1,140 @@
+{
+  "id": 97,
+  "slug": "tensiometre-riester-minimus-iii",
+  "active": false,
+  "reference": "5.0022",
+  "name": "Tensiomètre Riester minimus III",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>La rigueur et la consistance mêmes dans la technique de prise tension artérielle par tensiomètre manopoire ! Conçu pour offrir précision et longévité, <strong>minimus®III</strong> à deux tubes est équipé d'un boîtier en métal chromé, de raccords chromés à vis pour la tubulure, ainsi que d'un socle métallique de valve. Egalement disponible en version sans latex. Brassard calibré à bandes velcro, en nylon, adulte</p>",
+    "long_html": "<p>La rigueur et la consistance mêmes dans la technique de prise tension artérielle par tensiomètre manopoire ! Conçu pour offrir précision et longévité, <strong>minimus®III</strong> à deux tubes est équipé d'un boîtier en métal chromé, de raccords chromés à vis pour la tubulure, ainsi que d'un socle métallique de valve. Egalement disponible en version sans latex. Brassard calibré à bandes velcro, en nylon, adulte.</p>\r\n<p style=\"margin-top:10px;\">Performances :</p>\r\n<ul style=\"margin-left:14px;\"><li>Poire latex avec valve de décompression chromée.</li>\r\n<li>Valve de décompression de précision, inusable et à réglage ultra-précis.</li>\r\n<li>Le microfiltre protège la valve de décompression et le système de mesure.</li>\r\n<li>Poignée-cuiller en acier inoxydable.</li>\r\n<li>Membrane en alliage de cuivre au béryllium à trempe spéciale, quasiment inaltérable.</li>\r\n<li>Connecteur en métal pour un changement de brassard facile et rapide.</li>\r\n<li>Membrane résistante à une surpression allant jusqu'à 600 mm Hg.</li>\r\n<li>Tolérance maximale d'erreur de +/- 3 mm Hg.</li>\r\n<li>Echelle linéaire graduée en aluminium, Ø 49 mm, lisibilité optimale jusqu'à 300 mm Hg.</li>\r\n<li>Appareil livré avec étui vinyle à fermeture éclair.</li>\r\n<li>Large gamme de différents modèles et tailles de brassards.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 119.777159,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 26,
+    "name": "Rudolf Riester GmbH"
+  },
+  "categories": [
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 251,
+        "files": [
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-cart_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-home_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-large_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-medium_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-small_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-thickbox_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-tm_cart_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-tm_home_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-tm_large_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-tm_medium_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-tm_small_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251-tm_thickbox_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/251.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 252,
+        "files": [
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-cart_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-home_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-large_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-medium_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-small_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-thickbox_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-tm_cart_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-tm_home_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-tm_large_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-tm_medium_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-tm_small_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252-tm_thickbox_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/252.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 253,
+        "files": [
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-cart_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-home_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-large_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-medium_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-small_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-thickbox_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-tm_cart_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-tm_home_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-tm_large_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-tm_medium_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-tm_small_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253-tm_thickbox_default.jpg",
+          "assets/products/97__tensiometre-riester-minimus-iii/images/253.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 28,
+        "name": "Medilec-EN-Riester-Minimus-III",
+        "mime": "application/pdf",
+        "file": "e39e908086fbb56d6fe770519f4ef7f87bd6fc8c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

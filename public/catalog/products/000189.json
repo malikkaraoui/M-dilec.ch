@@ -1,0 +1,183 @@
+{
+  "id": 189,
+  "slug": "logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170",
+  "active": false,
+  "reference": "",
+  "name": "Logiciel option interprétation pour ECG Cardiovit Schiller AT-170",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>ETM Software AT-170</strong> (ECG Treatment Module) for adults and pediatrics (Interpretation Software). The industry's most thoroughly documented, computer interpreted, simultaneous 12/16-lead ECG analysis program for uncompromising quality and reliability. Continuous developments in rhythm, conduction, hypertrophy and infarction detection make ETM the most clinically valuable 2nd opinion.</p>",
+    "long_html": "<p><strong>ETM Software AT-170</strong> (ECG Treatment Module) for adults and pediatrics (Interpretation Software). The industry's most thoroughly documented, computer interpreted, simultaneous 12/16-lead ECG analysis program for uncompromising quality and reliability. Continuous developments in rhythm, conduction, hypertrophy and infarction detection make ETM the most clinically valuable 2nd opinion.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 952.64624,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 708,
+        "files": [
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-cart_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-home_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-large_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-medium_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-small_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-standard_default .jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-thickbox_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-tm_cart_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-tm_home_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-tm_large_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-tm_medium_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-tm_small_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-tm_thickbox_default.jpg",
+          "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      39,
+      49,
+      55,
+      59,
+      64,
+      68,
+      72,
+      76
+    ]
+  }
+}

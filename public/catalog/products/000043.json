@@ -1,0 +1,226 @@
+{
+  "id": 43,
+  "slug": "electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane",
+  "active": true,
+  "reference": "13.0009",
+  "name": "Électrodes de diagnostic ECG Covidien H914SG type plug banane",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Électrodes de diagnostic ECG <strong>Covidien H914SG</strong> (Kendall H914), mousse, hydrogel, adaptateur pour prise banane 4 mm, utilisation recommandée pour Resting/Stress test/Holter, avec hydrogel.</p>",
+    "long_html": "<p style=\"padding-bottom:20px;\">L’électrode cardiologique de diagnostic ECG <strong>Covidien H914SG</strong> (Kendall H914) est en mousse, de forme ovale 57x34mm, avec hydrogel. Ce revêtement en gel solide permet à l'électrode de rester fermement en place, même pendant de longues périodes d'utilisation. L'utilisation est donc recommandée pour l'ECG au repos, le test d'effort, le holter. La connexion se fait en introduisant la fiche banane 4mm du câble patient directement dans l'adaptateur au centre de l'électrode. Cette électrode existe aussi en version bouton-pression ou pince : le connecteur au centre de l'électrode est un bouton qui se clippe ou se pince directement avec l'extrémité du câble patient.</p>\r\n<p style=\"padding-bottom:20px;\">L’électrode est un patch, utilisé en cardiologie, que l’on colle sur la peau d’un patient, qui est connecté à un câble patient et à un ECG (Electrocardiographe). L’électrode sert à capter et à conduire le signal électrique que le cœur produit, vers l’appareil ECG. L’électrocardiographe capte ce signal et l’imprime sous forme qu’une courbe QRS qui est analysée par un cardiologue afin de diagnostiquer d’éventuelles pathologies.</p>\r\n<p style=\"padding-bottom:10px;\"><strong>Conseils d’utilisation :</strong></p>\r\n<ol style=\"padding-left:16px;\"><li>Conserver les électrodes dans un endroit sec, à l’abri de la lumière</li>\r\n<li>Vérifier la date de péremption des électrodes ECG, avant toute utilisation</li>\r\n<li>Raser les poils des zones où seront collées les électrodes</li>\r\n<li>Nettoyer la peau à l'alcool ou au savon et à l’eau, éventuellement salée car cela améliore la conduction</li>\r\n<li>Éviter la présence de métal proche des électrodes</li>\r\n<li>Bien appuyer sur les bords adhésifs pour assurer une bonne adhérence des électrodes à la peau</li>\r\n<li>Connecter ou clipper fermement les électrodes au câble patient</li>\r\n</ol><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 89.04364,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 23,
+    "name": "Covidien Commercial LTD"
+  },
+  "categories": [
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 131,
+      "name": "ECG électrodes"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 131,
+        "name": "ECG électrodes"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1136,
+        "files": [
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-cart_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-home_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-large_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-medium_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-small_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-standard_default .jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-thickbox_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-tm_cart_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-tm_home_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-tm_large_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-tm_medium_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-tm_small_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-tm_thickbox_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1137,
+        "files": [
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-cart_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-home_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-large_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-medium_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-small_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-standard_default .jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-thickbox_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-tm_cart_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-tm_home_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-tm_large_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-tm_medium_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-tm_small_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137-tm_thickbox_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1137.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1138,
+        "files": [
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-cart_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-home_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-large_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-medium_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-small_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-standard_default .jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-thickbox_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-tm_cart_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-tm_home_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-tm_large_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-tm_medium_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-tm_small_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138-tm_thickbox_default.jpg",
+          "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1138.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39,
+      49,
+      55,
+      59,
+      64,
+      68,
+      76,
+      106
+    ]
+  }
+}

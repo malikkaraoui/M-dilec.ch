@@ -1,0 +1,111 @@
+{
+  "id": 176,
+  "slug": "otoscope-heine-mini3000-led-fo",
+  "active": true,
+  "reference": "4.0803",
+  "name": "Otoscope HEINE mini3000 LED F.O.",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Otoscope <strong>HEINE mini3000 LED</strong>, avec éclairage LED de qualité HEINE – LED HQ. Otoscope moderne avec éclairage à LED qui ne demande pas d’entretien. Apporte deux fois plus de lumière qu’un otoscope XHL Xénon Halogène conventionnel...</p>",
+    "long_html": "<p>Otoscope <strong>HEINE mini3000 LED</strong>, avec éclairage LED de qualité HEINE – LED HQ. Otoscope moderne avec éclairage à LED qui ne demande pas d’entretien. Apporte deux fois plus de lumière qu’un otoscope XHL Xénon Halogène conventionnel. Fonctions identiques à mini3000 F.O. Otoscope, de plus : Ne demande pas d’entretien, car il n’est pas nécessaire d’échanger les ampoules. Gestion thermique des LEDs pour la luminosité constante tout au long de la durée de vie. LED à haute performance : éclairage lumineux et absolument homogène avec un excellent rendu des couleurs – température de couleur 4000 K, indice de rendu des couleurs &gt; 95, pour le rendu des couleurs rouge &gt; 90. Deux fois plus de lumière en comparaison avec les instruments Xénon Halogène. Indicateur de performance : L’instrument s’allume à l’intensité lumineuse maximale. Ensuite la luminosité est adaptée au statut de charge actuel de la batterie. La fonction de diminution progressive de la luminosité signale que les batteries devront bientôt être échangées ou rechargées. Durée d’autonomie jusqu’à 10 heures. Moins d’échanges de batteries, durée de vie prolongée des batteries rechargeables.</p>\r\n<p><strong>Otoscope LED mini 3000 F.O.</strong> : sur poignée à piles mini 3000, avec 5 spéculums à usage unique AllSpec (2,5 mm et 4 mm) avec piles.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 240.482823,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 683,
+        "files": [
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-cart_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-home_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-large_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-medium_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-small_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-standard_default .jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-thickbox_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-tm_cart_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-tm_home_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-tm_large_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-tm_medium_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-tm_small_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-tm_thickbox_default.jpg",
+          "assets/products/176__otoscope-heine-mini3000-led-fo/images/683.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 85,
+        "name": "Medilec-FR-Heine-Mini-3000",
+        "mime": "application/pdf",
+        "file": "4293a5a153e109fa3e470bbaf6ef4c6287ba3e97"
+      },
+      {
+        "id_attachment": 86,
+        "name": "Medilec-FR-Heine-Mini-3000-Use",
+        "mime": "application/pdf",
+        "file": "b8513b1a58ba2f6fb90566d3b3c4266feb6bf6ab"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      125
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": 236,
+  "slug": "thermometre-avec-sonde-flexible-bosotherm-flex",
+  "active": false,
+  "reference": "",
+  "name": "Thermomètre avec sonde flexible Bosotherm Flex",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Bosotherm Flex</strong> est le thermomètre pour la mesure de la température corporelle. Propose une sonde flexible pour une prise de température douce. Le thermomètre pour la mesure de la fièvre classique détermine la température du corps en seulement 10 secondes et a une extrémité.</p>",
+    "long_html": "<p><strong></strong><strong>Bosotherm Flex</strong> est le thermomètre pour la mesure de la température corporelle. Propose une sonde flexible pour une prise de température douce. Le thermomètre pour la mesure de la fièvre classique détermine la température du corps en seulement 10 secondes et a une extrémité.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Mesure rectale en 10 secondes seulement</li>\r\n<li>Sonde flexible pour mesure douce avec couche d’or anti-allergénique</li>\r\n<li>100% imperméable à l’eau</li>\r\n<li>Mémoire de la dernière mesure</li>\r\n</ul><p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 9.285051,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 189,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 183,
+      "name": "Thermomètres"
+    },
+    {
+      "id": 174,
+      "name": "Autre"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 189,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      },
+      {
+        "id": 183,
+        "name": "Thermomètres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 174,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 1008,
+        "files": [
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-cart_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-home_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-large_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-medium_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-small_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-standard_default .jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-thickbox_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-tm_cart_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-tm_home_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-tm_large_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-tm_medium_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-tm_small_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-tm_thickbox_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 1009,
+        "files": [
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-cart_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-home_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-large_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-medium_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-small_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-standard_default .jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-thickbox_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-tm_cart_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-tm_home_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-tm_large_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-tm_medium_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-tm_small_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009-tm_thickbox_default.jpg",
+          "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1009.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 119,
+        "name": "Medilec-Bosotherm-Flex",
+        "mime": "application/pdf",
+        "file": "2e2e73bdb04995dedb265bd797596b6e55a29506"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

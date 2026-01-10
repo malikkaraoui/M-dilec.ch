@@ -1,0 +1,192 @@
+{
+  "id": 134,
+  "slug": "electrode-de-diagnostic-ecg-skintact",
+  "active": true,
+  "reference": "13.0036",
+  "name": "Électrode de diagnostic ECG Skintact",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Les électrodes ECG de monitorage <strong>SKINTACT</strong> offrent un choix important à des prix accessibles. 4 supports différents, 3 types de gels, un adhésif standard et un adhésif renforcé ; la gamme SKINTACT propose une électrode pour satisfaire à vos différent s besoins en matière de monitorage de court ou long terme.</p>",
+    "long_html": "<p>Les électrodes ECG de monitorage <strong>SKINTACT</strong> offrent un choix important à des prix accessibles. 4 supports différents, 3 types de gels, un adhésif standard et un adhésif renforcé ; la gamme SKINTACT propose une électrode pour satisfaire à vos différent s besoins en matière de monitorage de court ou long terme.</p>\r\n<p>La gamme complète d’électrodes ECG de monitaoage SKINTACT permet de choisir entre adhésif standard et adhésif renforcé.</p>\r\n<ul style=\"margin-left:14px;\"><li>eLes sachets peuvent être ouverts facilement et les instructions d’utilisation indiquées pour toutes les électrodes ECG de monitorage SKINTACT facilitent l’emploi.</li>\r\n<li>Les supports des électrodes de monitorage à cout terme son imperméables aux liquides utilisés lors des interventions chirugicales.</li>\r\n<li>Les supports des électrodes de mointorage à long terme permettent de laisser passer la transpiration de la peau, ce qui garanti une biocompatibilité supérieure.</li>\r\n</ul><p style=\"margin-top:10px;\"><strong>FS-521 :</strong></p>\r\n<p>Gel : Aqua-Tac<br />Support : PE-mousse<br />Dimensions : 35 x 50 mm<br />Emploi conseillé : court terme<br />Emballage standard : 30/sachet, 1500/carton</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 301.671309,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 29,
+    "name": "Leonhard Lang GmbH"
+  },
+  "categories": [
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 131,
+      "name": "ECG électrodes"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 131,
+        "name": "ECG électrodes"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 366,
+        "files": [
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-cart_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-home_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-large_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-medium_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-small_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-thickbox_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-tm_cart_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-tm_home_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-tm_large_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-tm_medium_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-tm_small_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-tm_thickbox_default.jpg",
+          "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 61,
+        "name": "Medilec-EN-Skintact-ECG-Catalog",
+        "mime": "application/pdf",
+        "file": "a131b51a1d834f9e859ced1fb02cc40fb497aa71"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39,
+      49,
+      55,
+      59,
+      64,
+      68,
+      76,
+      106
+    ]
+  }
+}

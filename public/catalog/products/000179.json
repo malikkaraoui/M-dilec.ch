@@ -1,0 +1,123 @@
+{
+  "id": 179,
+  "slug": "ophtalmoscope-heine-mini3000-xhl",
+  "active": true,
+  "reference": "",
+  "name": "Ophtalmoscope HEINE mini3000 XHL",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Ophtalmoscope <strong>HEINE mini3000 XHL</strong>, ophtalmoscope de poche compact avec éclairage XHL. Ophtalmoscope de poche moderne doté de la technologie des ampoules halogène xénon XHL. Lumière claire et concentrée pour un éclairement optimum, une image brillante et un rendu des couleurs authentique...</p>",
+    "long_html": "<p>Ophtalmoscope <strong>HEINE mini3000 XHL</strong>, ophtalmoscope de poche compact avec éclairage XHL. Ophtalmoscope de poche moderne doté de la technologie des ampoules halogène xénon XHL. Lumière claire et concentrée pour un éclairement optimum, une image brillante et un rendu des couleurs authentique. Diaphragme d’étoile de fixation avec filtre gris pour la réduction de l’intensité lumineuse. Excellente optique et meilleur rendu des couleurs dans de petites dimensions, idéal pour l’utilisation mobile et la visite. Combinable avec le système de poignée mini3000. Livrable en noir ou bleu. Les optiques de HEINE produisent des images claires et nettes et réduisent les reflets au minimum. 5 diaphragmes différents. Toutes les fonctions de base disponibles y compris l’étoile de fixation et le filtre gris pour les patients sensibles à la lumière. Plage de correction: Disque de 18 lentilles allant de -20 D à + 20 D. Processus d’examen facile, l’ophtalmoscopie est possible sans dilatation des pupilles. Clip de fixation avec interrupteur intégré. S’éteint automatiquement quand on le remet en poche. Piles échangeables de type AA, ou batterie rechargeable avec chargeur mini NT en option. Ensemble deux pièces : poignée à piles et tête. Pas de maintenance. Design primé. Qualité maximale aux dimensions minimales.</p>\r\n<p><strong>Trousse de diagnostic mini3000</strong> : poignée à piles mini3000, avec piles. Trousse complète avec: Ophtalmoscope mini3000 et étui rigide.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 212.627669,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 687,
+        "files": [
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-cart_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-home_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-large_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-medium_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-small_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-standard_default .jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-thickbox_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-tm_cart_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-tm_home_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-tm_large_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-tm_medium_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-tm_small_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-tm_thickbox_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 688,
+        "files": [
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-cart_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-home_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-large_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-medium_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-small_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-standard_default .jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-thickbox_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-tm_cart_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-tm_home_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-tm_large_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-tm_medium_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-tm_small_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688-tm_thickbox_default.jpg",
+          "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/688.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 85,
+        "name": "Medilec-FR-Heine-Mini-3000",
+        "mime": "application/pdf",
+        "file": "4293a5a153e109fa3e470bbaf6ef4c6287ba3e97"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

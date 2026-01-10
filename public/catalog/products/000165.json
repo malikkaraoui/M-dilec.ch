@@ -1,0 +1,159 @@
+{
+  "id": 165,
+  "slug": "turbine-reutilisable-mir",
+  "active": true,
+  "reference": "30.0144",
+  "name": "Turbine réutilisable MIR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L’exactitude et la précision de la turbine réutilisable restent inchangées même après plusieurs utilisations.</p>\r\n<p>La turbine réutilisable est fabriqué avec des matériaux de haute technologie. Comprenant des alliages spéciaux et des saphirs synthétiques - pour une longue durée de vie tout en conservant les caractéristiques de la reproductibilité et la précision.</p>",
+    "long_html": "<p>L’exactitude et la précision de la turbine réutilisable restent inchangées même après plusieurs utilisations.</p>\r\n<p>La turbine réutilisable est fabriqué avec des matériaux de haute technologie. Comprenant des alliages spéciaux et des saphirs synthétiques - pour une longue durée de vie tout en conservant les caractéristiques de la reproductibilité et la précision.<br />Même après de nombreuses années d'utilisation.</p>\r\n<p>Conforme aux dernières normes ATS / ERS</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 287.836583,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 37,
+    "name": "MIR"
+  },
+  "categories": [
+    {
+      "id": 116,
+      "name": "Spirométrie"
+    },
+    {
+      "id": 95,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 116,
+        "name": "Spirométrie"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 95,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 653,
+        "files": [
+          "assets/products/165__turbine-reutilisable-mir/images/653-cart_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-home_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-large_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-medium_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-small_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-thickbox_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-tm_cart_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-tm_home_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-tm_large_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-tm_medium_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-tm_small_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653-tm_thickbox_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/653.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 654,
+        "files": [
+          "assets/products/165__turbine-reutilisable-mir/images/654-cart_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-home_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-large_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-medium_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-small_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-thickbox_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-tm_cart_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-tm_home_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-tm_large_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-tm_medium_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-tm_small_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654-tm_thickbox_default.jpg",
+          "assets/products/165__turbine-reutilisable-mir/images/654.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      164,
+      194,
+      195,
+      196
+    ]
+  }
+}

@@ -1,0 +1,3120 @@
+[
+  {
+    "id": 28,
+    "slug": "ecg-schiller-cardiovit-ms-2007-m",
+    "active": false,
+    "name": "ECG Schiller Cardiovit MS-2007 M avec l'écran tactile et l'exportation en PDF",
+    "price_ht": 2901.578459,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      78,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/28__ecg-schiller-cardiovit-ms-2007-m/images/166-large_default.jpg"
+  },
+  {
+    "id": 29,
+    "slug": "sac-de-transport-pour-ecg-schiller-cardiovit-ms-2007",
+    "active": false,
+    "name": "Sac de transport pour ECG Schiller Cardiovit MS 2007",
+    "price_ht": 208.579387,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      104,
+      106,
+      120
+    ],
+    "cover_image": "assets/products/29__sac-de-transport-pour-ecg-schiller-cardiovit-ms-2007/images/149-large_default.jpg"
+  },
+  {
+    "id": 30,
+    "slug": "ecg-schiller-cardiovit-ms-2010-m",
+    "active": false,
+    "name": "ECG Schiller Cardiovit MS-2010 M avec l'écran tactile et l'exportation en PDF",
+    "price_ht": 4140.204271,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      78,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/30__ecg-schiller-cardiovit-ms-2010-m/images/167-large_default.jpg"
+  },
+  {
+    "id": 31,
+    "slug": "papier-pour-ecg-schiller-cardiovit-ms-2007-et-ms-2010",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit MS 2007 et MS 2010",
+    "price_ht": 14.763231,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      84,
+      130,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/31__papier-pour-ecg-schiller-cardiovit-ms-2007-et-ms-2010/images/174-large_default.jpg"
+  },
+  {
+    "id": 32,
+    "slug": "ecg-schiller-cardiovit-ms-2015-s",
+    "active": false,
+    "name": "ECG Schiller Cardiovit MS-2015 S avec l'écran tactile et l'exportation en PDF",
+    "price_ht": 5941.504178,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      78,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/32__ecg-schiller-cardiovit-ms-2015-s/images/168-large_default.jpg"
+  },
+  {
+    "id": 33,
+    "slug": "logiciel-pour-ecg-schiller-cardiovit-ms-2015",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit MS-2015",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/33__logiciel-pour-ecg-schiller-cardiovit-ms-2015/images/156-large_default.jpg"
+  },
+  {
+    "id": 35,
+    "slug": "logiciel-pour-ecg-schiller-cardiovit-ms-2010",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit MS-2010",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/35__logiciel-pour-ecg-schiller-cardiovit-ms-2010/images/159-large_default.jpg"
+  },
+  {
+    "id": 37,
+    "slug": "logiciel-pour-ecg-schiller-cardiovit-ms-2007",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit MS-2007",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/37__logiciel-pour-ecg-schiller-cardiovit-ms-2007/images/161-large_default.jpg"
+  },
+  {
+    "id": 39,
+    "slug": "ecg-schiller-cardiovit-at-1",
+    "active": true,
+    "name": "ECG Schiller Cardiovit AT-1G2",
+    "price_ht": 2654.5961,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      77,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/39__ecg-schiller-cardiovit-at-1/images/1074-large_default.jpg"
+  },
+  {
+    "id": 40,
+    "slug": "papier-pour-ecg-schiller-cardiovit-ms-2015",
+    "active": false,
+    "name": "Papier pour ECG Schiller Cardiovit MS 2015",
+    "price_ht": 20.05571,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      84,
+      130,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/40__papier-pour-ecg-schiller-cardiovit-ms-2015/images/175-large_default.jpg"
+  },
+  {
+    "id": 41,
+    "slug": "cable-patient-10-pistes-schiller-ecg-2m",
+    "active": true,
+    "name": "Câble patient 10 pistes Schiller ECG 2m",
+    "price_ht": 167.038069,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      89,
+      104,
+      106,
+      120
+    ],
+    "cover_image": "assets/products/41__cable-patient-10-pistes-schiller-ecg-2m/images/176-large_default.jpg"
+  },
+  {
+    "id": 43,
+    "slug": "electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane",
+    "active": true,
+    "name": "Électrodes de diagnostic ECG Covidien H914SG type plug banane",
+    "price_ht": 89.04364,
+    "manufacturer_name": "Covidien Commercial LTD",
+    "category_ids": [
+      84,
+      90,
+      105,
+      131,
+      120
+    ],
+    "cover_image": "assets/products/43__electrode-de-diagnostic-ecg-covidien-h914sg-type-plug-banane/images/1136-large_default.jpg"
+  },
+  {
+    "id": 45,
+    "slug": "electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes",
+    "active": true,
+    "name": "Électrodes ECG Covidien Kendall 5400 Diagnostic Tab Electrodes",
+    "price_ht": 21.262767,
+    "manufacturer_name": "Covidien Commercial LTD",
+    "category_ids": [
+      84,
+      90,
+      105,
+      131,
+      120
+    ],
+    "cover_image": "assets/products/45__electrodes-ecg-covidien-kendall-5400-diagnostic-tab-electrodes/images/664-large_default.jpg"
+  },
+  {
+    "id": 47,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-1",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-1",
+    "price_ht": 11.977716,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/47__papier-pour-ecg-schiller-cardiovit-at-1/images/182-large_default.jpg"
+  },
+  {
+    "id": 49,
+    "slug": "ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-2 plus C avec option spiromètre",
+    "price_ht": 5792.943361,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      150,
+      65
+    ],
+    "cover_image": "assets/products/49__ecg-schiller-cardiovit-at-2-plus-c-avec-option-spirometre/images/184-large_default.jpg"
+  },
+  {
+    "id": 50,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-2, AT-2 plus et CS-200",
+    "price_ht": 21.262767,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      90,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/50__papier-pour-ecg-schiller-cardiovit-at-2-at-2-plus-et-cs-200/images/185-large_default.jpg"
+  },
+  {
+    "id": 52,
+    "slug": "logiciel-pour-ecg-schiller-cardiovit-at-1",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit AT-1",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/52__logiciel-pour-ecg-schiller-cardiovit-at-1/images/187-large_default.jpg"
+  },
+  {
+    "id": 53,
+    "slug": "logiciel-c-pour-ecg-schiller-cardiovit-at-2",
+    "active": false,
+    "name": "Logiciel C pour ECG Schiller Cardiovit AT-2",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/53__logiciel-c-pour-ecg-schiller-cardiovit-at-2/images/188-large_default.jpg"
+  },
+  {
+    "id": 54,
+    "slug": "logiciel-c-pour-ecg-schiller-cardiovit-at-2-plus",
+    "active": false,
+    "name": "Logiciel C pour ECG Schiller Cardiovit AT-2 plus",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/54__logiciel-c-pour-ecg-schiller-cardiovit-at-2-plus/images/189-large_default.jpg"
+  },
+  {
+    "id": 55,
+    "slug": "ecg-schiller-cardiovit-at-10-plus",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-10 plus C avec logiciel de thrombolyse",
+    "price_ht": 9260.724234,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      85,
+      63,
+      62
+    ],
+    "cover_image": "assets/products/55__ecg-schiller-cardiovit-at-10-plus/images/192-large_default.jpg"
+  },
+  {
+    "id": 56,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-10-at-10-plus-et-sp-10",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-10, AT-10 plus et SP-10",
+    "price_ht": 21.077066,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      90,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/56__papier-pour-ecg-schiller-cardiovit-at-10-at-10-plus-et-sp-10/images/193-large_default.jpg"
+  },
+  {
+    "id": 57,
+    "slug": "logiciel-pour-ecg-schiller-cardiovit-at-10-plus",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit AT-10 plus",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      89,
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/57__logiciel-pour-ecg-schiller-cardiovit-at-10-plus/images/201-large_default.jpg"
+  },
+  {
+    "id": 59,
+    "slug": "ecg-schiller-cardiovit-at-101",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-101 C",
+    "price_ht": 3730.362117,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      77,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/59__ecg-schiller-cardiovit-at-101/images/196-large_default.jpg"
+  },
+  {
+    "id": 60,
+    "slug": "sac-de-transport-pour-ecg-cardiovit-ms-2007",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit AT-101",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/60__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/200-large_default.jpg"
+  },
+  {
+    "id": 62,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-101",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-101",
+    "price_ht": 11.095636,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/62__papier-pour-ecg-schiller-cardiovit-at-101/images/203-large_default.jpg"
+  },
+  {
+    "id": 64,
+    "slug": "ecg-schiller-cardiovit-at-102-m",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-102 C",
+    "price_ht": 5073.351903,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      63,
+      85,
+      77,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/64__ecg-schiller-cardiovit-at-102-m/images/206-large_default.jpg"
+  },
+  {
+    "id": 65,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-102-et-at-102-plus",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-102 et AT-102 plus",
+    "price_ht": 25.905292,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      90,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/65__papier-pour-ecg-schiller-cardiovit-at-102-et-at-102-plus/images/217-large_default.jpg"
+  },
+  {
+    "id": 66,
+    "slug": "logiciel-pour-ecg-schiller-cardiovit-at-102",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit AT-102",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      89,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/66__logiciel-pour-ecg-schiller-cardiovit-at-102/images/209-large_default.jpg"
+  },
+  {
+    "id": 68,
+    "slug": "ecg-schiller-cardiovit-at-102-plus-m",
+    "active": true,
+    "name": "ECG Schiller Cardiovit AT-102 M plus",
+    "price_ht": 5430.82637,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      63,
+      85,
+      62
+    ],
+    "cover_image": "assets/products/68__ecg-schiller-cardiovit-at-102-plus-m/images/212-large_default.jpg"
+  },
+  {
+    "id": 70,
+    "slug": "sac-de-transport-pour-ecg-cardiovit-ms-2007",
+    "active": false,
+    "name": "Logiciel pour ECG Schiller Cardiovit AT-102 plus",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/70__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/216-large_default.jpg"
+  },
+  {
+    "id": 72,
+    "slug": "ecg-schiller-cardiovit-at-104-pc",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-104 PC C",
+    "price_ht": 5978.644383,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      63,
+      85,
+      62
+    ],
+    "cover_image": "assets/products/72__ecg-schiller-cardiovit-at-104-pc/images/218-large_default.jpg"
+  },
+  {
+    "id": 73,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc",
+    "active": false,
+    "name": "Papier pour ECG Schiller Cardiovit AT-4 et AT-104 PC",
+    "price_ht": 11.049211,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      90,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-large_default.jpg"
+  },
+  {
+    "id": 74,
+    "slug": "logiciel-c-pour-ecg-schiller-cardiovit-at-104-pc",
+    "active": false,
+    "name": "Logiciel C pour ECG Schiller Cardiovit AT-104 PC",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      81,
+      89,
+      106,
+      83,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/74__logiciel-c-pour-ecg-schiller-cardiovit-at-104-pc/images/220-large_default.jpg"
+  },
+  {
+    "id": 75,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-10-et-at-110",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-10 et AT-110",
+    "price_ht": 15.320334,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/75__papier-pour-ecg-schiller-cardiovit-at-10-et-at-110/images/221-large_default.jpg"
+  },
+  {
+    "id": 76,
+    "slug": "ecg-schiller-cardiovit-cs-200-complete-diagnostic-system",
+    "active": false,
+    "name": "ECG Schiller Cardiovit CS-200 New Classic",
+    "price_ht": 19525.53389,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      79,
+      86,
+      63,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/76__ecg-schiller-cardiovit-cs-200-complete-diagnostic-system/images/222-large_default.jpg"
+  },
+  {
+    "id": 77,
+    "slug": "sac-de-transport-pour-ecg-cardiovit-ms-2007",
+    "active": false,
+    "name": "Logiciel C pour ECG Schiller Cardiovit CS-200",
+    "price_ht": 902.506964,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      89,
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/77__sac-de-transport-pour-ecg-cardiovit-ms-2007/images/223-large_default.jpg"
+  },
+  {
+    "id": 78,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-3, AT-3/1 et ARGUS TM-7",
+    "price_ht": 25.905292,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/78__papier-pour-ecg-schiller-cardiovit-at-3-at-31-et-argus-tm-7/images/226-large_default.jpg"
+  },
+  {
+    "id": 79,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-5",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-5",
+    "price_ht": 12.906221,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/79__papier-pour-ecg-schiller-cardiovit-at-5/images/225-large_default.jpg"
+  },
+  {
+    "id": 80,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-6 et Spirovit SP-200",
+    "price_ht": 14.763231,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/80__papier-pour-ecg-schiller-cardiovit-at-6-et-spirovit-sp-200/images/227-large_default.jpg"
+  },
+  {
+    "id": 81,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-60-et-cs-100",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-60 et CS-100",
+    "price_ht": 34.215413,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/81__papier-pour-ecg-schiller-cardiovit-at-60-et-cs-100/images/228-large_default.jpg"
+  },
+  {
+    "id": 82,
+    "slug": "chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015",
+    "active": true,
+    "name": "Chargeur ECG Schiller Cardiovit MS-2010 et MS-2015",
+    "price_ht": 129.897864,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      89,
+      104,
+      106,
+      120
+    ],
+    "cover_image": "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-large_default.jpg"
+  },
+  {
+    "id": 84,
+    "slug": "defibrillateur-schiller-fred-easyport",
+    "active": true,
+    "name": "Défibrillateur Schiller FRED Easyport",
+    "price_ht": 2301.76416,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      67,
+      68
+    ],
+    "cover_image": "assets/products/84__defibrillateur-schiller-fred-easyport/images/232-large_default.jpg"
+  },
+  {
+    "id": 85,
+    "slug": "defibrillateur-schiller-fred-easy-life",
+    "active": false,
+    "name": "Défibrillateur Schiller FRED Easy Life",
+    "price_ht": 1958.21727,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      67,
+      68
+    ],
+    "cover_image": "assets/products/85__defibrillateur-schiller-fred-easy-life/images/234-large_default.jpg"
+  },
+  {
+    "id": 86,
+    "slug": "defibrillateur-schiller-fred-easy-semi-automatique",
+    "active": false,
+    "name": "Défibrillateur Schiller FRED Easy semi-automatique",
+    "price_ht": 2153.203343,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      67,
+      68
+    ],
+    "cover_image": "assets/products/86__defibrillateur-schiller-fred-easy-semi-automatique/images/236-large_default.jpg"
+  },
+  {
+    "id": 87,
+    "slug": "cardio-first-angel",
+    "active": false,
+    "name": "Cardio First Angel",
+    "price_ht": 147.632312,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      69,
+      107,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/87__cardio-first-angel/images/238-large_default.jpg"
+  },
+  {
+    "id": 88,
+    "slug": "spirometre-schiller-sp-250",
+    "active": false,
+    "name": "Spiromètre Schiller SP-250",
+    "price_ht": 1948.932219,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      94,
+      91,
+      137,
+      114,
+      65,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/88__spirometre-schiller-sp-250/images/239-large_default.jpg"
+  },
+  {
+    "id": 89,
+    "slug": "spirometre-schiller-sp-250-avec-logiciel-et-embouts",
+    "active": false,
+    "name": "Spiromètre Schiller SP-250 avec logiciel et embouts",
+    "price_ht": 2106.778087,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      91,
+      114,
+      137,
+      94,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/89__spirometre-schiller-sp-250-avec-logiciel-et-embouts/images/244-large_default.jpg"
+  },
+  {
+    "id": 90,
+    "slug": "embout-pour-spirometre-de-buehl-riester",
+    "active": false,
+    "name": "Embout pour spiromètre de Bühl Riester",
+    "price_ht": 23.119777,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      95,
+      116,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/90__embout-pour-spirometre-de-buehl-riester/images/242-large_default.jpg"
+  },
+  {
+    "id": 92,
+    "slug": "electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult",
+    "active": false,
+    "name": "Électrodes pour FRED Easy, FRED Easy Life, DG6002, DG5000, DG4000",
+    "price_ht": 75.208914,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      117,
+      101,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/92__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/245-large_default.jpg"
+  },
+  {
+    "id": 94,
+    "slug": "electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult",
+    "active": false,
+    "name": "Électrodes pour FRED Easyport et Argus Pro",
+    "price_ht": 75.208914,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      117,
+      101,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/94__electrodes-adult-pour-fred-easy-dg6002-dg5000-dg4000-adult/images/247-large_default.jpg"
+  },
+  {
+    "id": 96,
+    "slug": "tensiometre-boso-tm-2430",
+    "active": false,
+    "name": "Tensiomètre Boso TM-2430",
+    "price_ht": 2338.904364,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      173,
+      185,
+      152,
+      149,
+      70
+    ],
+    "cover_image": "assets/products/96__tensiometre-boso-tm-2430/images/250-large_default.jpg"
+  },
+  {
+    "id": 97,
+    "slug": "tensiometre-riester-minimus-iii",
+    "active": false,
+    "name": "Tensiomètre Riester minimus III",
+    "price_ht": 119.777159,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      70,
+      71
+    ],
+    "cover_image": "assets/products/97__tensiometre-riester-minimus-iii/images/251-large_default.jpg"
+  },
+  {
+    "id": 98,
+    "slug": "tensiometre-riester-minimus-ii",
+    "active": false,
+    "name": "Tensiomètre Riester minimus II",
+    "price_ht": 129.06221,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      70,
+      71
+    ],
+    "cover_image": "assets/products/98__tensiometre-riester-minimus-ii/images/254-large_default.jpg"
+  },
+  {
+    "id": 99,
+    "slug": "tensiometre-riester-precisa-n",
+    "active": false,
+    "name": "Tensiomètre Riester Precisa N",
+    "price_ht": 119.777159,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      70,
+      71
+    ],
+    "cover_image": "assets/products/99__tensiometre-riester-precisa-n/images/669-large_default.jpg"
+  },
+  {
+    "id": 101,
+    "slug": "tensiometre-riester-big-ben-muraux",
+    "active": false,
+    "name": "Tensiomètre Riester Big Ben muraux",
+    "price_ht": 175.487465,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      70,
+      71
+    ],
+    "cover_image": "assets/products/101__tensiometre-riester-big-ben-muraux/images/265-large_default.jpg"
+  },
+  {
+    "id": 102,
+    "slug": "tensiometre-riester-big-ben-sur-trepied",
+    "active": false,
+    "name": "Tensiomètre Riester Big Ben sur trépied",
+    "price_ht": 286.908078,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      70,
+      71
+    ],
+    "cover_image": "assets/products/102__tensiometre-riester-big-ben-sur-trepied/images/268-large_default.jpg"
+  },
+  {
+    "id": 103,
+    "slug": "tensiometre-heine-gamma-g5",
+    "active": false,
+    "name": "Tensiomètre HEINE Gamma G5",
+    "price_ht": 91.922006,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      70,
+      71
+    ],
+    "cover_image": "assets/products/103__tensiometre-heine-gamma-g5/images/273-large_default.jpg"
+  },
+  {
+    "id": 104,
+    "slug": "brassard-pour-tensiometre-heine-gamma-g5",
+    "active": false,
+    "name": "Brassard pour tensiomètre HEINE Gamma G5",
+    "price_ht": 41.689879,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      72,
+      108,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/104__brassard-pour-tensiometre-heine-gamma-g5/images/285-large_default.jpg"
+  },
+  {
+    "id": 105,
+    "slug": "tensiometre-schiller-br-102-plus",
+    "active": true,
+    "name": "Tensiomètre Schiller BR-102 plus",
+    "price_ht": 2840.297122,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      184,
+      149,
+      70
+    ],
+    "cover_image": "assets/products/105__tensiometre-schiller-br-102-plus/images/717-large_default.jpg"
+  },
+  {
+    "id": 106,
+    "slug": "ecg-schiller-cardiovit-ms-12-blue",
+    "active": true,
+    "name": "ECG Schiller Cardiovit MS-12 blue",
+    "price_ht": 4511.606314,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      81,
+      82,
+      100,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/106__ecg-schiller-cardiovit-ms-12-blue/images/283-large_default.jpg"
+  },
+  {
+    "id": 107,
+    "slug": "spirometre-riester-spirotest",
+    "active": false,
+    "name": "Spiromètre de Bühl Riester Spirotest",
+    "price_ht": 286.908078,
+    "manufacturer_name": "Rudolf Riester GmbH",
+    "category_ids": [
+      139,
+      65
+    ],
+    "cover_image": "assets/products/107__spirometre-riester-spirotest/images/665-large_default.jpg"
+  },
+  {
+    "id": 108,
+    "slug": "mini-wright-peak-flow-meter-ou-debitmetre-de-pointe",
+    "active": true,
+    "name": "Mini-wright peak flow meter ou débitmètre de pointe",
+    "price_ht": 46.332405,
+    "manufacturer_name": "",
+    "category_ids": [
+      139,
+      65
+    ],
+    "cover_image": "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-large_default.jpg"
+  },
+  {
+    "id": 109,
+    "slug": "ergometre-treadmill-schiller-intertrack-8100",
+    "active": true,
+    "name": "Ergomètre Treadmill Schiller Intertrack 8100",
+    "price_ht": 18476.32312,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      62,
+      87,
+      63
+    ],
+    "cover_image": "assets/products/109__ergometre-treadmill-schiller-intertrack-8100/images/290-large_default.jpg"
+  },
+  {
+    "id": 110,
+    "slug": "ergometre-schiller-mtm-1500-1500-med",
+    "active": true,
+    "name": "Ergomètre Schiller MTM-1500 / 1500 med",
+    "price_ht": 15542.246982,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      87,
+      63,
+      62
+    ],
+    "cover_image": "assets/products/110__ergometre-schiller-mtm-1500-1500-med/images/292-large_default.jpg"
+  },
+  {
+    "id": 111,
+    "slug": "ergometre-schiller-erg-910-s-plus",
+    "active": false,
+    "name": "Ergomètre Schiller ERG 910 S plus",
+    "price_ht": 4019.498607,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      88,
+      62,
+      63
+    ],
+    "cover_image": "assets/products/111__ergometre-schiller-erg-910-s-plus/images/295-large_default.jpg"
+  },
+  {
+    "id": 112,
+    "slug": "ergometre-schiller-erg-911-bp-ls",
+    "active": false,
+    "name": "Ergomètre Schiller ERG 911 LS",
+    "price_ht": 14641.597029,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      88,
+      63,
+      62
+    ],
+    "cover_image": "assets/products/112__ergometre-schiller-erg-911-bp-ls/images/297-large_default.jpg"
+  },
+  {
+    "id": 113,
+    "slug": "ergometre-schiller-erg-911-s-l",
+    "active": false,
+    "name": "Ergomètre Schiller ERG 911 S / L",
+    "price_ht": 8532.033426,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      88,
+      63,
+      62
+    ],
+    "cover_image": "assets/products/113__ergometre-schiller-erg-911-s-l/images/298-large_default.jpg"
+  },
+  {
+    "id": 114,
+    "slug": "signagel-gel-pour-electrode-ecg",
+    "active": true,
+    "name": "SIGNAGEL gel pour électrode ECG",
+    "price_ht": 7.33519,
+    "manufacturer_name": "Parker Laboratories Inc",
+    "category_ids": [
+      115,
+      90,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-large_default.jpg"
+  },
+  {
+    "id": 115,
+    "slug": "skintact-ecg-spray-pour-les-electrodes",
+    "active": true,
+    "name": "SKINTACT ECG spray pour les électrodes",
+    "price_ht": 14.763231,
+    "manufacturer_name": "Leonhard Lang GmbH",
+    "category_ids": [
+      115,
+      84,
+      90,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/115__skintact-ecg-spray-pour-les-electrodes/images/301-large_default.jpg"
+  },
+  {
+    "id": 116,
+    "slug": "signaspray-spray-gel-pour-electrode-ecg",
+    "active": true,
+    "name": "SIGNASPRAY spray gel pour électrode ECG",
+    "price_ht": 8.263695,
+    "manufacturer_name": "Parker Laboratories Inc",
+    "category_ids": [
+      115,
+      84,
+      90,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/116__signaspray-spray-gel-pour-electrode-ecg/images/302-large_default.jpg"
+  },
+  {
+    "id": 117,
+    "slug": "skintact-ultrasonic-gel-de-transmission",
+    "active": false,
+    "name": "SKINTACT ultrasonic gel de transmission",
+    "price_ht": 5.47818,
+    "manufacturer_name": "Leonhard Lang GmbH",
+    "category_ids": [
+      103,
+      113,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-large_default.jpg"
+  },
+  {
+    "id": 118,
+    "slug": "action-neuf-ecg-corscience-bt-12-bluetooth",
+    "active": true,
+    "name": "Action : Neuf : ECG Corscience BT-12 bluetooth",
+    "price_ht": 1578.458682,
+    "manufacturer_name": "Corscience GmbH & Co.",
+    "category_ids": [
+      140,
+      147
+    ],
+    "cover_image": "assets/products/118__action-neuf-ecg-corscience-bt-12-bluetooth/images/307-large_default.jpg"
+  },
+  {
+    "id": 119,
+    "slug": "ecg-cardiolex-ec-sense-rest-lexor",
+    "active": true,
+    "name": "ECG Cardiolex EC Sense Rest Lexor",
+    "price_ht": 2552.460539,
+    "manufacturer_name": "Cardiolex AB",
+    "category_ids": [
+      80,
+      81,
+      64,
+      100,
+      62
+    ],
+    "cover_image": "assets/products/119__ecg-cardiolex-ec-sense-rest-lexor/images/659-large_default.jpg"
+  },
+  {
+    "id": 120,
+    "slug": "logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor",
+    "active": false,
+    "name": "Logiciel pour ECG Cardiolex EC Sense Rest Lexor",
+    "price_ht": 4964.791086,
+    "manufacturer_name": "Cardiolex AB",
+    "category_ids": [
+      83,
+      104,
+      120,
+      106
+    ],
+    "cover_image": "assets/products/120__logiciel-pour-ecg-cardiolex-ec-sense-rest-lexor/images/311-large_default.jpg"
+  },
+  {
+    "id": 121,
+    "slug": "ecg-srm-cardioscout-multi",
+    "active": true,
+    "name": "ECG SRM CardioScout Multi",
+    "price_ht": 1707.520891,
+    "manufacturer_name": "SR-Medizinelektronik",
+    "category_ids": [
+      81,
+      82,
+      64,
+      100,
+      62
+    ],
+    "cover_image": "assets/products/121__ecg-srm-cardioscout-multi/images/312-large_default.jpg"
+  },
+  {
+    "id": 123,
+    "slug": "ergospirometrie-schiller-ganshorn-powercube",
+    "active": true,
+    "name": "Ergospirométrie Schiller Ganshorn PowerCube",
+    "price_ht": 32089.13649,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      123
+    ],
+    "cover_image": "assets/products/123__ergospirometrie-schiller-ganshorn-powercube/images/699-large_default.jpg"
+  },
+  {
+    "id": 124,
+    "slug": "trousse-de-diagnostic-heine-set-beta-200200s",
+    "active": true,
+    "name": "Trousse de diagnostic Heine set beta 200/200S",
+    "price_ht": 1122.562674,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/124__trousse-de-diagnostic-heine-set-beta-200200s/images/707-large_default.jpg"
+  },
+  {
+    "id": 125,
+    "slug": "speculum-pour-otoscopes-beta-400-beta-200-k180-mini3000-fo-et-mini3000-heine",
+    "active": true,
+    "name": "Spéculum pour Otoscopes BETA 400, BETA 200, K180, mini3000 F.O. et mini3000 Heine",
+    "price_ht": 139.182916,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      103,
+      113,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/125__speculum-pour-otoscopes-beta-400-beta-200-k180-mini3000-fo-et-mini3000-heine/images/321-large_default.jpg"
+  },
+  {
+    "id": 126,
+    "slug": "montre-cadio-garmin-vivosmart",
+    "active": false,
+    "name": "Montre Cadio Garmin Vivosmart",
+    "price_ht": 156.917363,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      127,
+      132,
+      126
+    ],
+    "cover_image": null
+  },
+  {
+    "id": 127,
+    "slug": "montre-cardio-garmin-vivoactive",
+    "active": true,
+    "name": "Montre Cardio Garmin Vivoactive",
+    "price_ht": 231.197772,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      127,
+      132,
+      140,
+      126,
+      154,
+      152
+    ],
+    "cover_image": "assets/products/127__montre-cardio-garmin-vivoactive/images/327-large_default.jpg"
+  },
+  {
+    "id": 128,
+    "slug": "montre-cardio-garmin-forerunner-235",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 235",
+    "price_ht": 361.188487,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      154,
+      128,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/128__montre-cardio-garmin-forerunner-235/images/525-large_default.jpg"
+  },
+  {
+    "id": 129,
+    "slug": "montre-cardio-garmin-forerunner-230",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 230",
+    "price_ht": 259.052925,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/129__montre-cardio-garmin-forerunner-230/images/496-large_default.jpg"
+  },
+  {
+    "id": 130,
+    "slug": "montre-cardio-garmin-forerunner-630",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 630",
+    "price_ht": 416.898793,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/130__montre-cardio-garmin-forerunner-630/images/538-large_default.jpg"
+  },
+  {
+    "id": 131,
+    "slug": "montre-cardio-garmin-forerunner-920xt",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 920XT",
+    "price_ht": 481.89415,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/131__montre-cardio-garmin-forerunner-920xt/images/351-large_default.jpg"
+  },
+  {
+    "id": 132,
+    "slug": "montre-cardio-garmin-fenix-3",
+    "active": true,
+    "name": "Montre Cardio Garmin Fēnix 3",
+    "price_ht": 444.753946,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      140,
+      154,
+      152,
+      132,
+      126
+    ],
+    "cover_image": "assets/products/132__montre-cardio-garmin-fenix-3/images/447-large_default.jpg"
+  },
+  {
+    "id": 133,
+    "slug": "electrode-de-diagnostic-ecg-ambu-blue-sensor-vl",
+    "active": true,
+    "name": "Électrode de diagnostic ECG Ambu Blue Sensor VL",
+    "price_ht": 278.458682,
+    "manufacturer_name": "AMBU Sarl",
+    "category_ids": [
+      84,
+      90,
+      105,
+      131,
+      120
+    ],
+    "cover_image": "assets/products/133__electrode-de-diagnostic-ecg-ambu-blue-sensor-vl/images/364-large_default.jpg"
+  },
+  {
+    "id": 134,
+    "slug": "electrode-de-diagnostic-ecg-skintact",
+    "active": true,
+    "name": "Électrode de diagnostic ECG Skintact",
+    "price_ht": 301.671309,
+    "manufacturer_name": "Leonhard Lang GmbH",
+    "category_ids": [
+      84,
+      90,
+      105,
+      131,
+      120
+    ],
+    "cover_image": "assets/products/134__electrode-de-diagnostic-ecg-skintact/images/366-large_default.jpg"
+  },
+  {
+    "id": 135,
+    "slug": "electrode-de-diagnostic-ecg-ambu-blue-sensor-t",
+    "active": true,
+    "name": "Électrode de diagnostic ECG Ambu Blue Sensor T",
+    "price_ht": 250.603528,
+    "manufacturer_name": "AMBU Sarl",
+    "category_ids": [
+      84,
+      90,
+      105,
+      131,
+      120
+    ],
+    "cover_image": "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-large_default.jpg"
+  },
+  {
+    "id": 136,
+    "slug": "pince-crocodile-isolee-ak10-hirschmann",
+    "active": true,
+    "name": "Pince crocodile isolée AK10 Hirschmann",
+    "price_ht": 3.62117,
+    "manufacturer_name": "Hirschmann - Belden Inc",
+    "category_ids": [
+      83,
+      89,
+      104,
+      106,
+      120
+    ],
+    "cover_image": "assets/products/136__pince-crocodile-isolee-ak10-hirschmann/images/370-large_default.jpg"
+  },
+  {
+    "id": 137,
+    "slug": "montre-cardio-polar-a300-hr",
+    "active": false,
+    "name": "Montre Cardio Polar A300 HR",
+    "price_ht": 143.825441,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      129,
+      133,
+      126
+    ],
+    "cover_image": "assets/products/137__montre-cardio-polar-a300-hr/images/413-large_default.jpg"
+  },
+  {
+    "id": 138,
+    "slug": "montre-cardio-polar-a360",
+    "active": false,
+    "name": "Montre Cardio Polar A360",
+    "price_ht": 213.463324,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      128,
+      133,
+      126
+    ],
+    "cover_image": "assets/products/138__montre-cardio-polar-a360/images/1030-large_default.jpg"
+  },
+  {
+    "id": 139,
+    "slug": "montre-cardio-polar-m400-hr",
+    "active": false,
+    "name": "Montre Cardio Polar M400 HR",
+    "price_ht": 213.463324,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      129,
+      133,
+      126
+    ],
+    "cover_image": "assets/products/139__montre-cardio-polar-m400-hr/images/404-large_default.jpg"
+  },
+  {
+    "id": 140,
+    "slug": "montre-cardio-polar-v800-hr",
+    "active": true,
+    "name": "Montre Cardio Polar V800 HR",
+    "price_ht": 482.729805,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      129,
+      133,
+      126
+    ],
+    "cover_image": "assets/products/140__montre-cardio-polar-v800-hr/images/420-large_default.jpg"
+  },
+  {
+    "id": 141,
+    "slug": "montre-cardio-polar-rs300x",
+    "active": false,
+    "name": "Montre Cardio Polar RS300X",
+    "price_ht": 120.612813,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      126,
+      133
+    ],
+    "cover_image": "assets/products/141__montre-cardio-polar-rs300x/images/392-large_default.jpg"
+  },
+  {
+    "id": 142,
+    "slug": "montre-cardio-garmin-vivoactive-hr",
+    "active": false,
+    "name": "Montre Cardio Garmin Vivoactive HR",
+    "price_ht": 277.623027,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      154,
+      152,
+      128,
+      132,
+      126
+    ],
+    "cover_image": "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-large_default.jpg"
+  },
+  {
+    "id": 143,
+    "slug": "montre-cardio-garmin-fenix-3-peformer-bundle",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 3 Peformer Bundle",
+    "price_ht": 481.89415,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/143__montre-cardio-garmin-fenix-3-peformer-bundle/images/445-large_default.jpg"
+  },
+  {
+    "id": 144,
+    "slug": "montre-cardio-garmin-fenix-3-sapphire",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 3 Sapphire",
+    "price_ht": 556.174559,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/144__montre-cardio-garmin-fenix-3-sapphire/images/457-large_default.jpg"
+  },
+  {
+    "id": 145,
+    "slug": "montre-cardio-garmin-fenix-3-sapphire-performer-bundle",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 3 Sapphire Performer Bundle",
+    "price_ht": 602.599814,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/145__montre-cardio-garmin-fenix-3-sapphire-performer-bundle/images/866-large_default.jpg"
+  },
+  {
+    "id": 146,
+    "slug": "montre-cadio-garmin-vivosmart-hr",
+    "active": false,
+    "name": "Montre Cadio Garmin Vivosmart HR",
+    "price_ht": 184.772516,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/146__montre-cadio-garmin-vivosmart-hr/images/489-large_default.jpg"
+  },
+  {
+    "id": 147,
+    "slug": "montre-cardio-garmin-forerunner-230-hr",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 230 HR",
+    "price_ht": 305.47818,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/147__montre-cardio-garmin-forerunner-230-hr/images/522-large_default.jpg"
+  },
+  {
+    "id": 148,
+    "slug": "montre-cardio-garmin-forerunner-630-hr",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 630 HR",
+    "price_ht": 463.324048,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/148__montre-cardio-garmin-forerunner-630-hr/images/557-large_default.jpg"
+  },
+  {
+    "id": 149,
+    "slug": "montre-cardio-garmin-forerunner-920xt-hr",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 920XT HR",
+    "price_ht": 537.604457,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/149__montre-cardio-garmin-forerunner-920xt-hr/images/564-large_default.jpg"
+  },
+  {
+    "id": 150,
+    "slug": "service-ecg-de-24h-mapa-remler",
+    "active": true,
+    "name": "Service MAPA / Remler",
+    "price_ht": 0.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      145,
+      167
+    ],
+    "cover_image": "assets/products/150__service-ecg-de-24h-mapa-remler/images/996-large_default.jpg"
+  },
+  {
+    "id": 151,
+    "slug": "service-ecg-de-7-jours-r-test",
+    "active": true,
+    "name": "Service ECG de 7 jours (R-test)",
+    "price_ht": 0.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      143,
+      135
+    ],
+    "cover_image": "assets/products/151__service-ecg-de-7-jours-r-test/images/567-large_default.jpg"
+  },
+  {
+    "id": 152,
+    "slug": "odim-controle-technique-dispositifs-ecg",
+    "active": true,
+    "name": "ODim contrôle technique dispositifs ECG",
+    "price_ht": 0.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      144,
+      135
+    ],
+    "cover_image": "assets/products/152__odim-controle-technique-dispositifs-ecg/images/993-large_default.jpg"
+  },
+  {
+    "id": 153,
+    "slug": "spirometre-mir-smart-one",
+    "active": false,
+    "name": "Spiromètre MIR Smart One",
+    "price_ht": 0.0,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/153__spirometre-mir-smart-one/images/569-large_default.jpg"
+  },
+  {
+    "id": 154,
+    "slug": "spirometre-mir-spirdoc",
+    "active": true,
+    "name": "Spiromètre MIR Spirdoc",
+    "price_ht": 1521.81987,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/154__spirometre-mir-spirdoc/images/578-large_default.jpg"
+  },
+  {
+    "id": 155,
+    "slug": "spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad",
+    "active": false,
+    "name": "Spiromètre MIR Spirobank II Smart",
+    "price_ht": 1187.558032,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/155__spirometre-mir-spirobank-ii-smart-avec-option-oxymetrie-pour-ipad/images/585-large_default.jpg"
+  },
+  {
+    "id": 156,
+    "slug": "spirometre-mir-spirobank-ii-basic",
+    "active": false,
+    "name": "Spiromètre MIR Spirobank II Basic",
+    "price_ht": 0.0,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/156__spirometre-mir-spirobank-ii-basic/images/597-large_default.jpg"
+  },
+  {
+    "id": 157,
+    "slug": "spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre",
+    "active": true,
+    "name": "Spiromètre MIR Spirobank II Advanced",
+    "price_ht": 1651.810585,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/157__spirometre-mir-spirobank-ii-advanced-avec-option-oxymetre/images/603-large_default.jpg"
+  },
+  {
+    "id": 158,
+    "slug": "spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie",
+    "active": true,
+    "name": "Spiromètre MIR Spirobank II Advanced Plus avec le capteur d'Oxymétrie",
+    "price_ht": 1856.081708,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/158__spirometre-mir-spirobank-ii-advanced-plus-avec-le-capteur-d-oxymetrie/images/611-large_default.jpg"
+  },
+  {
+    "id": 159,
+    "slug": "spirometre-mir-spirotel",
+    "active": false,
+    "name": "Spiromètre MIR Spirotel",
+    "price_ht": 834.726091,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/159__spirometre-mir-spirotel/images/619-large_default.jpg"
+  },
+  {
+    "id": 160,
+    "slug": "spirometre-mir-minispir-new",
+    "active": true,
+    "name": "Spiromètre MIR Minispir New",
+    "price_ht": 1261.83844,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/160__spirometre-mir-minispir-new/images/776-large_default.jpg"
+  },
+  {
+    "id": 161,
+    "slug": "action-neuf-spirometre-mir-minispir-light",
+    "active": false,
+    "name": "Action : Neuf : Spiromètre MIR Minispir Light",
+    "price_ht": 770.659239,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      141,
+      140
+    ],
+    "cover_image": "assets/products/161__action-neuf-spirometre-mir-minispir-light/images/631-large_default.jpg"
+  },
+  {
+    "id": 162,
+    "slug": "spirometre-mir-spirolab-iii",
+    "active": false,
+    "name": "Spiromètre MIR Spirolab III",
+    "price_ht": 1856.081708,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/162__spirometre-mir-spirolab-iii/images/637-large_default.jpg"
+  },
+  {
+    "id": 163,
+    "slug": "turbine-jetable-flowmir",
+    "active": true,
+    "name": "Turbine jetable FlowMIR",
+    "price_ht": 138.347261,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      116,
+      95,
+      105
+    ],
+    "cover_image": "assets/products/163__turbine-jetable-flowmir/images/723-large_default.jpg"
+  },
+  {
+    "id": 164,
+    "slug": "action-neuf-spirometre-mir-spirobank-usb",
+    "active": true,
+    "name": "Action : Neuf : Spiromètre MIR Spirobank USB",
+    "price_ht": 1077.065924,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      141,
+      140
+    ],
+    "cover_image": "assets/products/164__action-neuf-spirometre-mir-spirobank-usb/images/649-large_default.jpg"
+  },
+  {
+    "id": 165,
+    "slug": "turbine-reutilisable-mir",
+    "active": true,
+    "name": "Turbine réutilisable MIR",
+    "price_ht": 287.836583,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      116,
+      95,
+      105
+    ],
+    "cover_image": "assets/products/165__turbine-reutilisable-mir/images/653-large_default.jpg"
+  },
+  {
+    "id": 166,
+    "slug": "actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman",
+    "active": true,
+    "name": "Actio: Neuf : Spiromètre Schiller Spirovit SP-1 avec les touches du clavier allemand",
+    "price_ht": 2321.262767,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      140,
+      141
+    ],
+    "cover_image": "assets/products/166__actio-neuf-spirometre-schiller-spirovit-sp-1-avec-les-touches-du-clavier-alleman/images/655-large_default.jpg"
+  },
+  {
+    "id": 167,
+    "slug": "service-ecg-holter",
+    "active": true,
+    "name": "Service Holter / ECG de 24h",
+    "price_ht": 0.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      135,
+      148
+    ],
+    "cover_image": "assets/products/167__service-ecg-holter/images/661-large_default.jpg"
+  },
+  {
+    "id": 168,
+    "slug": "logiciel-option-interpretation-pour-ecg-cardiovit-schiller-ms",
+    "active": true,
+    "name": "Logiciel option interprétation pour ECG Cardiovit Schiller MS",
+    "price_ht": 899.721448,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/168__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-ms/images/662-large_default.jpg"
+  },
+  {
+    "id": 169,
+    "slug": "logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-cs",
+    "active": true,
+    "name": "Logiciel option interprétation pour ECG Cardiovit Schiller AT / CS",
+    "price_ht": 899.721448,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      89,
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/169__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-cs/images/663-large_default.jpg"
+  },
+  {
+    "id": 170,
+    "slug": "ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport",
+    "active": true,
+    "name": "ECG Schiller DT-100 système d'aspiration universel avec un chariot de transport",
+    "price_ht": 4140.204271,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      85,
+      63,
+      62
+    ],
+    "cover_image": "assets/products/170__ecg-schiller-dt-100-systeme-d-aspiration-universel-avec-un-chariot-de-transport/images/666-large_default.jpg"
+  },
+  {
+    "id": 171,
+    "slug": "defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame",
+    "active": false,
+    "name": "Défibrillateur Schiller Defigard 5000 semi-automatique avec moniteur multiparamétrique",
+    "price_ht": 10770.659239,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      152,
+      153,
+      68,
+      67
+    ],
+    "cover_image": "assets/products/171__defibrillateur-schiller-defigard-5000-semi-automatique-avec-moniteur-multiparame/images/668-large_default.jpg"
+  },
+  {
+    "id": 172,
+    "slug": "ophtalmoscope-heine-beta200",
+    "active": false,
+    "name": "Ophtalmoscope Heine BETA200",
+    "price_ht": 0.0,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/172__ophtalmoscope-heine-beta200/images/676-large_default.jpg"
+  },
+  {
+    "id": 173,
+    "slug": "ophtalmoscope-heine-beta-200-led",
+    "active": false,
+    "name": "Ophtalmoscope Heine BETA200 LED",
+    "price_ht": 0.0,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/173__ophtalmoscope-heine-beta-200-led/images/678-large_default.jpg"
+  },
+  {
+    "id": 174,
+    "slug": "otoscope-heine-beta200-led-fo",
+    "active": false,
+    "name": "Otoscope Heine BETA200 LED F.O.",
+    "price_ht": 0.0,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/174__otoscope-heine-beta200-led-fo/images/681-large_default.jpg"
+  },
+  {
+    "id": 175,
+    "slug": "otoscope-heine-beta200-xhl",
+    "active": false,
+    "name": "Otoscope Heine BETA200 XHL",
+    "price_ht": 0.0,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/175__otoscope-heine-beta200-xhl/images/682-large_default.jpg"
+  },
+  {
+    "id": 176,
+    "slug": "otoscope-heine-mini3000-led-fo",
+    "active": true,
+    "name": "Otoscope HEINE mini3000 LED F.O.",
+    "price_ht": 240.482823,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/176__otoscope-heine-mini3000-led-fo/images/683-large_default.jpg"
+  },
+  {
+    "id": 177,
+    "slug": "otoscope-heine-mini3000-xhl",
+    "active": true,
+    "name": "Otoscope HEINE mini3000 XHL",
+    "price_ht": 184.772516,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/177__otoscope-heine-mini3000-xhl/images/684-large_default.jpg"
+  },
+  {
+    "id": 178,
+    "slug": "ophtalmoscope-heine-mini3000-a-led",
+    "active": true,
+    "name": "Ophtalmoscope HEINE mini3000 à LED",
+    "price_ht": 286.908078,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/178__ophtalmoscope-heine-mini3000-a-led/images/685-large_default.jpg"
+  },
+  {
+    "id": 179,
+    "slug": "ophtalmoscope-heine-mini3000-xhl",
+    "active": true,
+    "name": "Ophtalmoscope HEINE mini3000 XHL",
+    "price_ht": 212.627669,
+    "manufacturer_name": "HEINE Optotechnik GmbH & Co.",
+    "category_ids": [
+      74,
+      125
+    ],
+    "cover_image": "assets/products/179__ophtalmoscope-heine-mini3000-xhl/images/687-large_default.jpg"
+  },
+  {
+    "id": 180,
+    "slug": "tensiometre-boso-medicus-pc",
+    "active": false,
+    "name": "Tensiomètre Boso Medicus PC",
+    "price_ht": 129.06221,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      71,
+      185,
+      70
+    ],
+    "cover_image": "assets/products/180__tensiometre-boso-medicus-pc/images/689-large_default.jpg"
+  },
+  {
+    "id": 181,
+    "slug": "ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test",
+    "active": true,
+    "name": "ECG Cardiolex EC Sense Rest Lexor avec le logiciel stress test",
+    "price_ht": 8216.34169,
+    "manufacturer_name": "Cardiolex AB",
+    "category_ids": [
+      151,
+      63,
+      62
+    ],
+    "cover_image": "assets/products/181__ecg-cardiolex-ec-sense-rest-lexor-avec-le-logiciel-stress-test/images/691-large_default.jpg"
+  },
+  {
+    "id": 183,
+    "slug": "cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100",
+    "active": true,
+    "name": "Câble d'electrodes à brancher pour Schiller DT-80 / DT-100",
+    "price_ht": 129.897864,
+    "manufacturer_name": "",
+    "category_ids": [
+      89,
+      104,
+      106,
+      120
+    ],
+    "cover_image": "assets/products/183__cable-d-electrodes-a-brancher-pour-schiller-dt-80-dt-100/images/693-large_default.jpg"
+  },
+  {
+    "id": 184,
+    "slug": "set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel",
+    "active": true,
+    "name": "Set 4 pinces périphériques ECG avec electrodes et gel",
+    "price_ht": 83.472609,
+    "manufacturer_name": "Hirschmann - Belden Inc",
+    "category_ids": [
+      83,
+      89,
+      104,
+      106,
+      120
+    ],
+    "cover_image": "assets/products/184__set-4-pinces-peripheriques-ecg-avec-electrodes-et-gel/images/694-large_default.jpg"
+  },
+  {
+    "id": 187,
+    "slug": "ecg-schiller-cardiovit-at-104-ergospirometrie",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-104 ergospirométrie",
+    "price_ht": 42617.455896,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      121,
+      122,
+      62
+    ],
+    "cover_image": "assets/products/187__ecg-schiller-cardiovit-at-104-ergospirometrie/images/701-large_default.jpg"
+  },
+  {
+    "id": 188,
+    "slug": "ecg-schiller-cardiovit-cs-200-ergospirometrie",
+    "active": false,
+    "name": "ECG Schiller Cardiovit CS-200 ergospirométrie",
+    "price_ht": 51642.525534,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      121,
+      122,
+      62
+    ],
+    "cover_image": "assets/products/188__ecg-schiller-cardiovit-cs-200-ergospirometrie/images/703-large_default.jpg"
+  },
+  {
+    "id": 189,
+    "slug": "logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170",
+    "active": false,
+    "name": "Logiciel option interprétation pour ECG Cardiovit Schiller AT-170",
+    "price_ht": 952.64624,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      89,
+      83,
+      106,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/189__logiciel-option-interpretation-pour-ecg-cardiovit-schiller-at-170/images/708-large_default.jpg"
+  },
+  {
+    "id": 190,
+    "slug": "ecg-schiller-cardiovit-at-170",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-170",
+    "price_ht": 8022.284123,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      77,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/190__ecg-schiller-cardiovit-at-170/images/715-large_default.jpg"
+  },
+  {
+    "id": 191,
+    "slug": "ecg-schiller-cardiovit-at-170-avec-logiciel-expert",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-170 avec logiciel expert",
+    "price_ht": 11030.640669,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      63,
+      85,
+      62
+    ],
+    "cover_image": "assets/products/191__ecg-schiller-cardiovit-at-170-avec-logiciel-expert/images/713-large_default.jpg"
+  },
+  {
+    "id": 192,
+    "slug": "tensiometre-schiller-br-102-plus",
+    "active": false,
+    "name": "Tensiomètre Schiller BR-102 plus PWA",
+    "price_ht": 3963.788301,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      184,
+      149,
+      70
+    ],
+    "cover_image": "assets/products/192__tensiometre-schiller-br-102-plus/images/720-large_default.jpg"
+  },
+  {
+    "id": 193,
+    "slug": "embout-jetable-adulte-mir",
+    "active": true,
+    "name": "Embouts jetables adulte MIR",
+    "price_ht": 45.125348,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      116,
+      95,
+      105
+    ],
+    "cover_image": "assets/products/193__embout-jetable-adulte-mir/images/725-large_default.jpg"
+  },
+  {
+    "id": 194,
+    "slug": "spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie",
+    "active": false,
+    "name": "Spiromètre MIR Spirolab III avec le capteur d'Oxymétrie",
+    "price_ht": 1996.28598,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/194__spirometre-mir-spirolab-iii-avec-le-capteur-d-oxymetrie/images/735-large_default.jpg"
+  },
+  {
+    "id": 195,
+    "slug": "spirometre-mir-spirolab-new",
+    "active": true,
+    "name": "Spiromètre MIR Spirolab New",
+    "price_ht": 2134.63324,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/195__spirometre-mir-spirolab-new/images/737-large_default.jpg"
+  },
+  {
+    "id": 196,
+    "slug": "spirometre-mir-spirolab-new-avec-le-capteur-d-oxymetrie",
+    "active": true,
+    "name": "Spiromètre MIR Spirolab New avec le capteur d'Oxymétrie",
+    "price_ht": 2301.76416,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/196__spirometre-mir-spirolab-new-avec-le-capteur-d-oxymetrie/images/757-large_default.jpg"
+  },
+  {
+    "id": 197,
+    "slug": "capteur-d-oxymetrie-mir",
+    "active": true,
+    "name": "Capteur d'oxymétrie MIR",
+    "price_ht": 0.0,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      114,
+      94,
+      161,
+      164,
+      159,
+      65,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/197__capteur-d-oxymetrie-mir/images/758-large_default.jpg"
+  },
+  {
+    "id": 198,
+    "slug": "capteur-d-oxymetrie-en-caoutchouc-mir",
+    "active": true,
+    "name": "Capteur d'oxymétrie en caoutchouc MIR",
+    "price_ht": 0.0,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      114,
+      94,
+      161,
+      164,
+      159,
+      65,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/198__capteur-d-oxymetrie-en-caoutchouc-mir/images/759-large_default.jpg"
+  },
+  {
+    "id": 199,
+    "slug": "ecg-beurer-me-90-mobile",
+    "active": true,
+    "name": "ECG Beurer ME 90 mobile",
+    "price_ht": 231.197772,
+    "manufacturer_name": "BEURER France SAS",
+    "category_ids": [
+      64,
+      100,
+      62,
+      81
+    ],
+    "cover_image": "assets/products/199__ecg-beurer-me-90-mobile/images/760-large_default.jpg"
+  },
+  {
+    "id": 200,
+    "slug": "montre-cadio-garmin-vivosmart-hr-plus",
+    "active": false,
+    "name": "Montre Cadio Garmin Vivosmart HR+ (plus)",
+    "price_ht": 277.623027,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      157,
+      154,
+      155,
+      128,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/200__montre-cadio-garmin-vivosmart-hr-plus/images/815-large_default.jpg"
+  },
+  {
+    "id": 201,
+    "slug": "ecg-schiller-cardiovit-at-2-plus",
+    "active": false,
+    "name": "ECG Schiller Cardiovit AT-2 plus",
+    "price_ht": 1504.178273,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      64,
+      77,
+      140,
+      147,
+      62
+    ],
+    "cover_image": "assets/products/201__ecg-schiller-cardiovit-at-2-plus/images/775-large_default.jpg"
+  },
+  {
+    "id": 202,
+    "slug": "spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie",
+    "active": false,
+    "name": "Spiromètre MIR Minispir New avec le capteur d'Oxymétrie",
+    "price_ht": 1263.69545,
+    "manufacturer_name": "MIR",
+    "category_ids": [
+      65,
+      136
+    ],
+    "cover_image": "assets/products/202__spirometre-mir-minispir-new-avec-le-capteur-d-oxymetrie/images/781-large_default.jpg"
+  },
+  {
+    "id": 203,
+    "slug": "oxymetre-de-pouls-nonin-go2-mod-9570",
+    "active": false,
+    "name": "Oxymètre de pouls Nonin GO2 mod. 9570",
+    "price_ht": 165.273909,
+    "manufacturer_name": "",
+    "category_ids": [
+      159,
+      160,
+      188
+    ],
+    "cover_image": "assets/products/203__oxymetre-de-pouls-nonin-go2-mod-9570/images/788-large_default.jpg"
+  },
+  {
+    "id": 204,
+    "slug": "tabouret-pivotant-comfort",
+    "active": true,
+    "name": "Tabouret pivotant comfort",
+    "price_ht": 370.473538,
+    "manufacturer_name": "Schmitz u. Söhne",
+    "category_ids": [
+      169,
+      172,
+      120
+    ],
+    "cover_image": "assets/products/204__tabouret-pivotant-comfort/images/791-large_default.jpg"
+  },
+  {
+    "id": 205,
+    "slug": "chariot-medi-net-1-tiroir",
+    "active": false,
+    "name": "Chariot médi-net 1 tiroir",
+    "price_ht": 583.56546,
+    "manufacturer_name": "Schmitz u. Söhne",
+    "category_ids": [
+      171,
+      169,
+      120
+    ],
+    "cover_image": "assets/products/205__chariot-medi-net-1-tiroir/images/792-large_default.jpg"
+  },
+  {
+    "id": 206,
+    "slug": "divan-d-examen-pour-ecg",
+    "active": true,
+    "name": "Divan d'examen pour ECG",
+    "price_ht": 1057.567317,
+    "manufacturer_name": "Schmitz u. Söhne",
+    "category_ids": [
+      170,
+      169,
+      120
+    ],
+    "cover_image": "assets/products/206__divan-d-examen-pour-ecg/images/793-large_default.jpg"
+  },
+  {
+    "id": 207,
+    "slug": "skintact-ecg-gel-pour-electrode",
+    "active": false,
+    "name": "SKINTACT ECG gel pour électrode",
+    "price_ht": 5.47818,
+    "manufacturer_name": "Leonhard Lang GmbH",
+    "category_ids": [
+      115,
+      84,
+      90,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/207__skintact-ecg-gel-pour-electrode/images/796-large_default.jpg"
+  },
+  {
+    "id": 208,
+    "slug": "defibrillateur-schiller-fred-pa-1",
+    "active": true,
+    "name": "Défibrillateur Schiller FRED PA-1",
+    "price_ht": 2255.338904,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      67,
+      68
+    ],
+    "cover_image": "assets/products/208__defibrillateur-schiller-fred-pa-1/images/801-large_default.jpg"
+  },
+  {
+    "id": 209,
+    "slug": "electrodes-pre-connecte-pour-fred-pa-1",
+    "active": true,
+    "name": "Électrodes pré-connecté pour FRED PA-1",
+    "price_ht": 78.830084,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      101,
+      117,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/209__electrodes-pre-connecte-pour-fred-pa-1/images/807-large_default.jpg"
+  },
+  {
+    "id": 210,
+    "slug": "polar-balance-pese-personne",
+    "active": false,
+    "name": "Polar Balance pèse-personne",
+    "price_ht": 111.327762,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      175,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/210__polar-balance-pese-personne/images/810-large_default.jpg"
+  },
+  {
+    "id": 211,
+    "slug": "montre-cardio-garmin-forerunner-735",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 735XT",
+    "price_ht": 463.324048,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/211__montre-cardio-garmin-forerunner-735/images/819-large_default.jpg"
+  },
+  {
+    "id": 213,
+    "slug": "montre-cardio-garmin-forerunner-35",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 35",
+    "price_ht": 203.342618,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      128,
+      132,
+      126,
+      154,
+      152
+    ],
+    "cover_image": "assets/products/213__montre-cardio-garmin-forerunner-35/images/879-large_default.jpg"
+  },
+  {
+    "id": 214,
+    "slug": "montre-cardio-garmin-forerunner-735xt-hr",
+    "active": false,
+    "name": "Montre Cardio Garmin Forerunner 735XT HR",
+    "price_ht": 509.749304,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/214__montre-cardio-garmin-forerunner-735xt-hr/images/849-large_default.jpg"
+  },
+  {
+    "id": 216,
+    "slug": "montre-cardio-polar-m600",
+    "active": false,
+    "name": "Montre Cardio Polar M600",
+    "price_ht": 389.879294,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      128,
+      133,
+      126
+    ],
+    "cover_image": "assets/products/216__montre-cardio-polar-m600/images/904-large_default.jpg"
+  },
+  {
+    "id": 217,
+    "slug": "montre-cardio-garmin-fenix-3-hr-silver-edition",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 3 HR Silver Edition",
+    "price_ht": 556.174559,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/217__montre-cardio-garmin-fenix-3-hr-silver-edition/images/916-large_default.jpg"
+  },
+  {
+    "id": 218,
+    "slug": "montre-cardio-garmin-fenix-3-sapphire-hr-grey",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 3 Sapphire HR Grey",
+    "price_ht": 602.599814,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/218__montre-cardio-garmin-fenix-3-sapphire-hr-grey/images/920-large_default.jpg"
+  },
+  {
+    "id": 219,
+    "slug": "inogen-one-g3-concentrateur-d-oxygene-portable",
+    "active": true,
+    "name": "Inogen One G3 concentrateur d'oxygène portable",
+    "price_ht": 2970.287837,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      176,
+      159
+    ],
+    "cover_image": "assets/products/219__inogen-one-g3-concentrateur-d-oxygene-portable/images/924-large_default.jpg"
+  },
+  {
+    "id": 220,
+    "slug": "batterie-8-cellules-pour-inogen-one-g3-jusqu-a-4-5-heures-d-autonomie",
+    "active": true,
+    "name": "Batterie 8 cellules pour Inogen One G3 jusqu'à 4,5 heures d'autonomie",
+    "price_ht": 416.898793,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      161,
+      164,
+      159,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/220__batterie-8-cellules-pour-inogen-one-g3-jusqu-a-4-5-heures-d-autonomie/images/929-large_default.jpg"
+  },
+  {
+    "id": 221,
+    "slug": "batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie",
+    "active": true,
+    "name": "Batterie 16 cellules pour Inogen One G3 jusqu'à 9 heures d'autonomie",
+    "price_ht": 584.029712,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      161,
+      164,
+      159,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/221__batterie-16-cellules-pour-inogen-one-g3-jusqu-a-9-heures-d-autonomie/images/930-large_default.jpg"
+  },
+  {
+    "id": 222,
+    "slug": "chargeur-de-batterie-externe-pour-inogen-one-g3",
+    "active": true,
+    "name": "Chargeur de batterie externe pour Inogen One G3",
+    "price_ht": 389.04364,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      161,
+      164,
+      159,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/222__chargeur-de-batterie-externe-pour-inogen-one-g3/images/931-large_default.jpg"
+  },
+  {
+    "id": 223,
+    "slug": "sac-a-dos-pour-inogen-one-g3",
+    "active": true,
+    "name": "Sac à dos pour Inogen One G3",
+    "price_ht": 203.342618,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      161,
+      164,
+      159,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/223__sac-a-dos-pour-inogen-one-g3/images/933-large_default.jpg"
+  },
+  {
+    "id": 224,
+    "slug": "sac-a-bandouliere-pour-inogen-one-g3",
+    "active": true,
+    "name": "Sac à bandoulière pour Inogen One G3",
+    "price_ht": 119.777159,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      161,
+      164,
+      159,
+      104,
+      120
+    ],
+    "cover_image": "assets/products/224__sac-a-bandouliere-pour-inogen-one-g3/images/936-large_default.jpg"
+  },
+  {
+    "id": 225,
+    "slug": "respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires",
+    "active": false,
+    "name": "RespiCare fauteuil de Spiropraxy pour les exercices ventilatoires",
+    "price_ht": 13025.998143,
+    "manufacturer_name": "Inogen",
+    "category_ids": [
+      178,
+      179,
+      159,
+      169,
+      120
+    ],
+    "cover_image": "assets/products/225__respicare-fauteuil-de-spiropraxy-pour-les-exercices-ventilatoires/images/937-large_default.jpg"
+  },
+  {
+    "id": 226,
+    "slug": "montre-cardio-garmin-fenix-5",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 5",
+    "price_ht": 611.884865,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/226__montre-cardio-garmin-fenix-5/images/941-large_default.jpg"
+  },
+  {
+    "id": 227,
+    "slug": "montre-cardio-garmin-fenix-5s",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 5S",
+    "price_ht": 611.884865,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/227__montre-cardio-garmin-fenix-5s/images/962-large_default.jpg"
+  },
+  {
+    "id": 228,
+    "slug": "montre-cardio-garmin-fenix-5x",
+    "active": false,
+    "name": "Montre Cardio Garmin Fēnix 5X",
+    "price_ht": 769.730734,
+    "manufacturer_name": "Garmin - Bucher Walt SA",
+    "category_ids": [
+      129,
+      128,
+      154,
+      132,
+      152,
+      126
+    ],
+    "cover_image": "assets/products/228__montre-cardio-garmin-fenix-5x/images/983-large_default.jpg"
+  },
+  {
+    "id": 229,
+    "slug": "odim-controle-technique-tensiometres",
+    "active": true,
+    "name": "ODim contrôle technique Tensiomètres",
+    "price_ht": 27.855153,
+    "manufacturer_name": "",
+    "category_ids": [
+      146,
+      145
+    ],
+    "cover_image": "assets/products/229__odim-controle-technique-tensiometres/images/994-large_default.jpg"
+  },
+  {
+    "id": 230,
+    "slug": "odim-controle-technique-spirometres",
+    "active": true,
+    "name": "ODim contrôle technique Spiromètres",
+    "price_ht": 0.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      180,
+      181
+    ],
+    "cover_image": "assets/products/230__odim-controle-technique-spirometres/images/995-large_default.jpg"
+  },
+  {
+    "id": 231,
+    "slug": "spirometre-medikro-pro",
+    "active": false,
+    "name": "Spiromètre Medikro Pro",
+    "price_ht": 2181.058496,
+    "manufacturer_name": "",
+    "category_ids": [
+      139,
+      65
+    ],
+    "cover_image": "assets/products/231__spirometre-medikro-pro/images/997-large_default.jpg"
+  },
+  {
+    "id": 232,
+    "slug": "embout-jetable-medikro-spirosafe-90-pieces",
+    "active": false,
+    "name": "Embout jetable Medikro SpiroSafe 90 pieces",
+    "price_ht": 144.846797,
+    "manufacturer_name": "",
+    "category_ids": [
+      95,
+      116,
+      105
+    ],
+    "cover_image": "assets/products/232__embout-jetable-medikro-spirosafe-90-pieces/images/1001-large_default.jpg"
+  },
+  {
+    "id": 233,
+    "slug": "stethoscope-double-pavillon-cardiologie-bososcope-cardio",
+    "active": true,
+    "name": "Stéthoscope double pavillon cardiologie Bososcope Cardio",
+    "price_ht": 119.777159,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      182,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/233__stethoscope-double-pavillon-cardiologie-bososcope-cardio/images/1002-large_default.jpg"
+  },
+  {
+    "id": 234,
+    "slug": "thermometre-infrarouge-bosotherm-diagnostic",
+    "active": false,
+    "name": "Thermomètre infrarouge Bosotherm Diagnostic",
+    "price_ht": 99.350046,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      189,
+      183,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/234__thermometre-infrarouge-bosotherm-diagnostic/images/1004-large_default.jpg"
+  },
+  {
+    "id": 235,
+    "slug": "thermometre-infrarouge-bosotherm-medical",
+    "active": false,
+    "name": "Thermomètre infrarouge Bosotherm Médical",
+    "price_ht": 50.139276,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      189,
+      183,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/235__thermometre-infrarouge-bosotherm-medical/images/1006-large_default.jpg"
+  },
+  {
+    "id": 236,
+    "slug": "thermometre-avec-sonde-flexible-bosotherm-flex",
+    "active": false,
+    "name": "Thermomètre avec sonde flexible Bosotherm Flex",
+    "price_ht": 9.285051,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      189,
+      183,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/236__thermometre-avec-sonde-flexible-bosotherm-flex/images/1008-large_default.jpg"
+  },
+  {
+    "id": 237,
+    "slug": "thermometre-bosotherm-basic",
+    "active": false,
+    "name": "Thermomètre Bosotherm Basic",
+    "price_ht": 8.356546,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      189,
+      183,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/237__thermometre-bosotherm-basic/images/1012-large_default.jpg"
+  },
+  {
+    "id": 238,
+    "slug": "thermometre-avec-sonde-rigide-bosotherm-primus",
+    "active": false,
+    "name": "Thermomètre avec sonde rigide Bosotherm Primus",
+    "price_ht": 4.642526,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      189,
+      183,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/238__thermometre-avec-sonde-rigide-bosotherm-primus/images/1014-large_default.jpg"
+  },
+  {
+    "id": 239,
+    "slug": "tensiometre-professionnel-boso-carat-professional",
+    "active": false,
+    "name": "Tensiomètre professionnel Boso Carat Professional",
+    "price_ht": 253.667595,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      71,
+      185,
+      70
+    ],
+    "cover_image": "assets/products/239__tensiometre-professionnel-boso-carat-professional/images/1016-large_default.jpg"
+  },
+  {
+    "id": 240,
+    "slug": "tensiometre-pour-bras-boso-medicus-vital",
+    "active": true,
+    "name": "Tensiomètre pour bras Boso Medicus Vital",
+    "price_ht": 101.207057,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      70,
+      71,
+      185
+    ],
+    "cover_image": "assets/products/240__tensiometre-pour-bras-boso-medicus-vital/images/1019-large_default.jpg"
+  },
+  {
+    "id": 241,
+    "slug": "tensiometre-boso-medicus-x",
+    "active": true,
+    "name": "Tensiomètre Boso Medicus X",
+    "price_ht": 82.636955,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      70,
+      71,
+      185
+    ],
+    "cover_image": "assets/products/241__tensiometre-boso-medicus-x/images/1021-large_default.jpg"
+  },
+  {
+    "id": 242,
+    "slug": "occasion-neuf-spirometre-schiller-sp-250-avec-connexion-serielle-et-usb",
+    "active": false,
+    "name": "Action : Neuf: Spiromètre Schiller SP-250 avec connexion sérielle et USB",
+    "price_ht": 2321.262767,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      141,
+      140
+    ],
+    "cover_image": "assets/products/242__occasion-neuf-spirometre-schiller-sp-250-avec-connexion-serielle-et-usb/images/1025-large_default.jpg"
+  },
+  {
+    "id": 243,
+    "slug": "thermometre-professionelle-braun-thermoscan-7",
+    "active": false,
+    "name": "Thermomètre professionelle Braun ThermoScan 7",
+    "price_ht": 78.922934,
+    "manufacturer_name": "",
+    "category_ids": [
+      189,
+      183,
+      120,
+      174
+    ],
+    "cover_image": "assets/products/243__thermometre-professionelle-braun-thermoscan-7/images/1026-large_default.jpg"
+  },
+  {
+    "id": 244,
+    "slug": "montre-cardio-polar-loop2",
+    "active": false,
+    "name": "Montre Cardio Polar Loop2",
+    "price_ht": 102.042711,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      126,
+      133
+    ],
+    "cover_image": "assets/products/244__montre-cardio-polar-loop2/images/1043-large_default.jpg"
+  },
+  {
+    "id": 245,
+    "slug": "montre-cardio-polar-ft1",
+    "active": true,
+    "name": "Montre Cardio Polar FT1",
+    "price_ht": 74.187558,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      126,
+      133
+    ],
+    "cover_image": "assets/products/245__montre-cardio-polar-ft1/images/1052-large_default.jpg"
+  },
+  {
+    "id": 246,
+    "slug": "montre-cardio-polar-ft7",
+    "active": false,
+    "name": "Montre Cardio Polar FT7",
+    "price_ht": 106.685237,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      126,
+      133
+    ],
+    "cover_image": "assets/products/246__montre-cardio-polar-ft7/images/1056-large_default.jpg"
+  },
+  {
+    "id": 247,
+    "slug": "montre-cardio-polar-m200",
+    "active": true,
+    "name": "Montre Cardio Polar M200",
+    "price_ht": 167.038069,
+    "manufacturer_name": "Polar Electro Europe AG",
+    "category_ids": [
+      128,
+      133,
+      126
+    ],
+    "cover_image": "assets/products/247__montre-cardio-polar-m200/images/1062-large_default.jpg"
+  },
+  {
+    "id": 248,
+    "slug": "defibrillateur-schiller-argus-pro-lifecare-2",
+    "active": false,
+    "name": "Défibrillateur Schiller Argus Pro LifeCare 2",
+    "price_ht": 13760.445682,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      152,
+      153,
+      67,
+      68
+    ],
+    "cover_image": "assets/products/248__defibrillateur-schiller-argus-pro-lifecare-2/images/1068-large_default.jpg"
+  },
+  {
+    "id": 249,
+    "slug": "ecg-schiller-cardiovit-ft-1-avec-le-wi-fi",
+    "active": true,
+    "name": "ECG Schiller Cardiovit FT-1 avec le Wi-Fi",
+    "price_ht": 5347.26091,
+    "manufacturer_name": "SCHILLER Reomed AG",
+    "category_ids": [
+      77,
+      64,
+      62
+    ],
+    "cover_image": "assets/products/249__ecg-schiller-cardiovit-ft-1-avec-le-wi-fi/images/1072-large_default.jpg"
+  },
+  {
+    "id": 250,
+    "slug": "1-masques-protection-kn95-testes-ffp2",
+    "active": false,
+    "name": "20 Masques protection KN95 testés FFP2",
+    "price_ht": 3.806871,
+    "manufacturer_name": "",
+    "category_ids": [
+      155,
+      187,
+      120,
+      174,
+      186
+    ],
+    "cover_image": "assets/products/250__1-masques-protection-kn95-testes-ffp2/images/1091-large_default.jpg"
+  },
+  {
+    "id": 251,
+    "slug": "masques-protection-masques-3-ply",
+    "active": false,
+    "name": "50 Masques protection Masques 3 Ply",
+    "price_ht": 0.687094,
+    "manufacturer_name": "",
+    "category_ids": [
+      155,
+      187,
+      120,
+      174,
+      186
+    ],
+    "cover_image": "assets/products/251__masques-protection-masques-3-ply/images/1077-large_default.jpg"
+  },
+  {
+    "id": 252,
+    "slug": "thermometre-infrarouge-frontal-landwind",
+    "active": false,
+    "name": "Thermomètre Infrarouge Frontal Landwind",
+    "price_ht": 69.637883,
+    "manufacturer_name": "",
+    "category_ids": [
+      189,
+      183,
+      120,
+      174
+    ],
+    "cover_image": "assets/products/252__thermometre-infrarouge-frontal-landwind/images/1080-large_default.jpg"
+  },
+  {
+    "id": 253,
+    "slug": "oxymetre-de-pouls-spengler-oxystart",
+    "active": true,
+    "name": "Oxymètre de pouls Spengler Oxystart",
+    "price_ht": 82.636955,
+    "manufacturer_name": "",
+    "category_ids": [
+      159,
+      160,
+      188
+    ],
+    "cover_image": "assets/products/253__oxymetre-de-pouls-spengler-oxystart/images/1084-large_default.jpg"
+  },
+  {
+    "id": 254,
+    "slug": "thermometre-infrarouge-spengler-tempo-duo",
+    "active": true,
+    "name": "Thermomètre Infrarouge Spengler Tempo Duo",
+    "price_ht": 60.259981,
+    "manufacturer_name": "",
+    "category_ids": [
+      189,
+      183,
+      120,
+      174
+    ],
+    "cover_image": "assets/products/254__thermometre-infrarouge-spengler-tempo-duo/images/1088-large_default.jpg"
+  },
+  {
+    "id": 255,
+    "slug": "masques-protection-kn95-testes-ffp3",
+    "active": false,
+    "name": "Masques protection KN95 testés FFP3",
+    "price_ht": 6.035283,
+    "manufacturer_name": "",
+    "category_ids": [
+      120,
+      174,
+      186,
+      187,
+      155
+    ],
+    "cover_image": "assets/products/255__masques-protection-kn95-testes-ffp3/images/1092-large_default.jpg"
+  },
+  {
+    "id": 256,
+    "slug": "thermometre-axillaire-spengler-tempo-10",
+    "active": true,
+    "name": "Thermomètre Axillaire Spengler Tempo 10",
+    "price_ht": 9.192201,
+    "manufacturer_name": "",
+    "category_ids": [
+      183,
+      189,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/256__thermometre-axillaire-spengler-tempo-10/images/1102-large_default.jpg"
+  },
+  {
+    "id": 257,
+    "slug": "thermometre-sans-contact-spengler-tempo-easy",
+    "active": true,
+    "name": "Thermomètre Sans Contact Spengler Tempo Easy",
+    "price_ht": 69.545032,
+    "manufacturer_name": "",
+    "category_ids": [
+      183,
+      189,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/257__thermometre-sans-contact-spengler-tempo-easy/images/1097-large_default.jpg"
+  },
+  {
+    "id": 259,
+    "slug": "50-masques-3-plis-type-ii-topclean",
+    "active": true,
+    "name": "50 Masques 3 Plis Type II TOPCLEAN",
+    "price_ht": 18.477252,
+    "manufacturer_name": "",
+    "category_ids": [
+      186,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/259__50-masques-3-plis-type-ii-topclean/images/1106-large_default.jpg"
+  },
+  {
+    "id": 260,
+    "slug": "thermometre-sans-contact-spengler-tempo-easy",
+    "active": true,
+    "name": "Thermomètre Sans Contact Spengler Tempo Easy",
+    "price_ht": 46.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      183,
+      189,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/260__thermometre-sans-contact-spengler-tempo-easy/images/1107-large_default.jpg"
+  },
+  {
+    "id": 261,
+    "slug": "thermometre-infrarouge-spengler-tempo-duo",
+    "active": true,
+    "name": "Thermomètre Infrarouge Spengler Tempo Duo",
+    "price_ht": 30.0,
+    "manufacturer_name": "",
+    "category_ids": [
+      183,
+      189,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/261__thermometre-infrarouge-spengler-tempo-duo/images/1109-large_default.jpg"
+  },
+  {
+    "id": 262,
+    "slug": "thermometre-axillaire-spengler-tempo-10",
+    "active": true,
+    "name": "Thermomètre Axillaire Spengler Tempo 10",
+    "price_ht": 4.3,
+    "manufacturer_name": "",
+    "category_ids": [
+      183,
+      189,
+      174,
+      120
+    ],
+    "cover_image": "assets/products/262__thermometre-axillaire-spengler-tempo-10/images/1112-large_default.jpg"
+  },
+  {
+    "id": 263,
+    "slug": "defibrillateur-cardiaid-semi-automatique",
+    "active": true,
+    "name": "Défibrillateur CARDIAID Semi-automatique",
+    "price_ht": 1763.231198,
+    "manufacturer_name": "CARDIAID",
+    "category_ids": [
+      67,
+      68,
+      155
+    ],
+    "cover_image": "assets/products/263__defibrillateur-cardiaid-semi-automatique/images/1120-large_default.jpg"
+  },
+  {
+    "id": 264,
+    "slug": "defibrillateur-cardiaid-entierement-automatique",
+    "active": true,
+    "name": "Défibrillateur CARDIAID Entièrement automatique",
+    "price_ht": 1856.081708,
+    "manufacturer_name": "CARDIAID",
+    "category_ids": [
+      67,
+      68,
+      155
+    ],
+    "cover_image": "assets/products/264__defibrillateur-cardiaid-entierement-automatique/images/1124-large_default.jpg"
+  },
+  {
+    "id": 265,
+    "slug": "tensiometre-boso-tm-2450",
+    "active": true,
+    "name": "Tensiomètre Boso TM-2450",
+    "price_ht": 1670.380687,
+    "manufacturer_name": "Boso",
+    "category_ids": [
+      149,
+      185,
+      155,
+      70
+    ],
+    "cover_image": "assets/products/265__tensiometre-boso-tm-2450/images/1128-large_default.jpg"
+  },
+  {
+    "id": 266,
+    "slug": "papier-pour-ecg-schiller-cardiovit-at-1",
+    "active": true,
+    "name": "Papier pour ECG Schiller Cardiovit AT-1 G2",
+    "price_ht": 10.120706,
+    "manufacturer_name": "Diagramma Dietikon AG",
+    "category_ids": [
+      130,
+      84,
+      105,
+      120
+    ],
+    "cover_image": "assets/products/266__papier-pour-ecg-schiller-cardiovit-at-1/images/1140-large_default.jpg"
+  }
+]

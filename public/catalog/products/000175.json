@@ -1,0 +1,105 @@
+{
+  "id": 175,
+  "slug": "otoscope-heine-beta200-xhl",
+  "active": false,
+  "reference": "",
+  "name": "Otoscope Heine BETA200 XHL",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Otoscope <strong>Heine BETA200</strong>, précision, netteté, rendu des couleurs et luminosité avec XHL. Otoscope de qualité avec boîtier en métal solide et illumination distale à fibres optiques, le choix idéal pour le cabinet médical. Boîtier en métal chromé mat...</p>",
+    "long_html": "<p>Otoscope <strong>Heine BETA200</strong>, précision, netteté, rendu des couleurs et luminosité avec XHL. Otoscope de qualité avec boîtier en métal solide et illumination distale à fibres optiques, le choix idéal pour le cabinet médical. Boîtier en métal chromé mat. Robuste et grande longévité, facile à nettoyer. Intérieur noir mat pour éliminer les reflets. Illumination distale F.O. avec ampoule Technologie XHL Xénon Halogène. Illumination homogène sans reflet du canal auriculaire et du tympan. Grande fenêtre d’observation résistante aux rayures, en verre optique spécial, grossissement 3 fois. Vision sans entrave. L’image est exempte de distorsion, même en périphérie. Fermeture hermétique de la fenêtre d’observation. Test pneumatique du tympan fiable avec soufflerie. Fenêtre d’observation intégrée mais pouvant pivoter sur le côté. Optimal pour intervention avec grossissement.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 0.0,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 682,
+        "files": [
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-cart_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-home_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-large_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-medium_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-small_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-standard_default .jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-thickbox_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-tm_cart_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-tm_home_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-tm_large_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-tm_medium_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-tm_small_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682-tm_thickbox_default.jpg",
+          "assets/products/175__otoscope-heine-beta200-xhl/images/682.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 88,
+        "name": "Medilec-FR-Beta-200-200S-Use-Oto",
+        "mime": "application/pdf",
+        "file": "c88aa3db191a13bf95a9b520dcf9cfbd78729f70"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      125
+    ]
+  }
+}

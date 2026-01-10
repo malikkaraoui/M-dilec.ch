@@ -1,0 +1,174 @@
+{
+  "id": 114,
+  "slug": "signagel-gel-pour-electrode-ecg",
+  "active": true,
+  "reference": "6.0040",
+  "name": "SIGNAGEL gel pour électrode ECG",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>SIGNAGEL </strong>est un gel électroconducteur recommandé pour ECG à usage professionnel uniquement. Cet électrolyte polyvalent hautement conductible satisfait tous les critères du gel salin idéal pour électrode. Recommandé pour les ECG, défibrillations, rétroactions biologiques et EMG.</p>\r\n<p>En flacons de 250 ml.</p>",
+    "long_html": "<p>Le <strong>SIGNAGEL </strong>est un gel électroconducteur recommandé pour ECG à usage professionnel uniquement. Cet électrolyte polyvalent hautement conductible satisfait tous les critères du gel salin idéal pour électrode. Recommandé pour les ECG, défibrillations, rétroactions biologiques et EMG.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Hautement conductible.</li>\r\n<li>Bactériostatique.</li>\r\n<li>Grâce au tube transparent à bouchon socle, vous savez ce qu'’il vous reste de SIGNAGEL.</li>\r\n<li>Soluble dans l’eau, ne tache pas, non granuleux.</li>\r\n</ul><p>En flacons de 250 ml.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 7.33519,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 28,
+    "name": "Parker Laboratories Inc"
+  },
+  "categories": [
+    {
+      "id": 115,
+      "name": "ECG autre"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 115,
+        "name": "ECG autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 795,
+        "files": [
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-cart_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-home_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-large_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-medium_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-small_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-standard_default .jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-thickbox_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-tm_cart_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-tm_home_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-tm_large_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-tm_medium_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-tm_small_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795-tm_thickbox_default.jpg",
+          "assets/products/114__signagel-gel-pour-electrode-ecg/images/795.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

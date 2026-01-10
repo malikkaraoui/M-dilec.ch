@@ -1,0 +1,322 @@
+{
+  "id": 142,
+  "slug": "montre-cardio-garmin-vivoactive-hr",
+  "active": false,
+  "reference": "PNVAHR",
+  "name": "Montre Cardio Garmin Vivoactive HR",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong>Montre connectée multisports avec cardio poignet</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Montre connectée avec GPS et écran tactile couleur haute résolution et antireflet</li>\r\n<li>Applications sportives intégrées : running, vélo, golf, natation, ski, snowboard, paddle…</li>\r\n<li>Montre personnalisable via Connect IQ™ : fonds d’écran, applications et bien plus encore...</li>\r\n</ul>",
+    "long_html": "<p><strong>Montre connectée multisports avec cardio poignet</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Montre connectée avec GPS et écran tactile couleur haute résolution et antireflet</li>\r\n<li>Applications sportives intégrées : running, vélo, golf, natation, ski, snowboard, paddle…</li>\r\n<li>Montre personnalisable via Connect IQ™ : fonds d’écran, applications et bien plus encore</li>\r\n<li>Réception de Smart Notifications¹ et de conseils de santé/bien-être depuis Garmin Connect™</li>\r\n<li>Autonomie de 8 jours² (13 heures en mode GPS)</li>\r\n</ul><p><strong>Chaque battement compte</strong></p>\r\n<p>Avec la technologie Garmin Elevate™, vous mesurez votre fréquence cardiaque directement à votre poignet3. Vívoactive HR vous fournit des informations sur les calories brûlées et quantifie l'intensité de vos activités sportives, pour une meilleure évaluation de vos efforts.</p>\r\n<p><strong>Faites du sport et restez connecté</strong></p>\r\n<p>Courez, pédalez, nagez, jouez au golf et skiez avec vívoactive HR.<br />Grâce à son GPS, les applications sportives vous permettent d'enregistrer vos performances et les Smart Notifications vous permettent de rester connecté à vos amis et réseaux sociaux.<br />Tout au long de la journée, vívoactive HR suit vos activités³ en comptant le nombre de pas, le nombre d'étages gravis et en surveillant votre sommeil.<br />La batterie est dotée d'une autonomie de 8 jours (ou de 13 heures en mode GPS).</p>\r\n<p><strong>Analysez et partagez avec Garmin Connect</strong></p>\r\n<p>vívoactive HR se synchronise automatiquement¹ avec Garmin Connect, tout au long de la journée.<br />Garmin Connect est la seule application gratuite qui apprend à vous connaître au fil des jours et qui vous offre des informations pour vous aider à vous améliorer.<br />Vous bénéficiez en plus de conseils santé proposés par des experts, vous bénéficiez d’un véritable coach personnalisé au poignet.</p>\r\n<p><strong>Une vie au pas de course</strong></p>\r\n<p>Avec son accéléromètre et son GPS intégrés, vívoactive HR vous accompagne lorsque vous courez, que ce soit en intérieur ou en extérieur. Vous pouvez configurer des alertes vibrantes basées sur la fréquence cardiaque et l'allure, ou pour vos entraînements fractionnés course/marche, par exemple. Elle comprend d'autres fonctions telles qu'Auto Lap® et Auto Pause®. Elle vous offre un récapitulatif d'après-séance avec des statistiques comme le kilométrage total, les calories brûlées, l'allure moyenne et le temps total.</p>\r\n<p><strong>Chaque coup de pédale compte</strong></p>\r\n<p>L'application vélo mesure votre temps, distance, vitesse et vos calories brûlées. Couplée à des capteurs4 de vitesse et de cadence vívoactive HR peut ainsi mesurer vos progrès lors de vos entraînements comme lors de vos trajets quotidiens. Elle est aussi compatible avec les feux et les radars Varia® pour vous assurer une conduite plus sûre.</p>\r\n<p><strong>Chaque plongeon compte</strong></p>\r\n<p>Enchaînez les longueurs et profitez de données comme la distance totale et par intervalle, le nombre et le type de mouvements et bien plus encore. Laissez l'application de natation calculer votre efficacité grâce au score SWOLF, qui additionne le temps et le nombre de mouvements nécessaires pour effectuer une longueur de bassin.<br />Une fois votre entraînement terminé, vous pouvez consulter un récapitulatif de vos données, notamment vos moyennes, votre temps et vos records personnels.</p>\r\n<p><strong>Ca va swinguer !</strong></p>\r\n<p>Découvrez tous les jours de nouveaux parcours de golf en téléchargeant des cartes de parcours parmi les 40 000 disponibles dans notre base de données. L'application de golf affiche une vue simplifiée du green et vous aide à suivre votre score en vous indiquant si vous êtes au-dessus ou en-dessous du par. La fonction PinPointer vous indique la bonne direction lorsque le green n'est pas visible, elle vous permet aussi de mesurer la distance de tir.</p>\r\n<p><strong>Chaque coup de pagaie compte</strong></p>\r\n<p>Que vous vous pratiquiez le paddle, le canoë ou le rameur, cette application enregistre et affiche vos performances. Vous pouvez ainsi consulter le temps, la distance et le nombre de coups de rame en un clin d’œil.</p>\r\n<p><strong>Chaque planté de bâton compte !</strong></p>\r\n<p>Lors de vos séjours au ski, vívoactive HR mesure votre vitesse et votre distance. Pas besoin d’enlever vos moufles, la fonction Auto Pause stoppe le chronomètre automatiquement lorsque vous vous arrêtez ou lorsque vous empruntez les remontrées mécaniques.</p>\r\n<p><strong>Une montre toujours connectée</strong></p>\r\n<p>Vívoactive HR vibre pour vous avertir lorsque vous recevez des notifications sur votre smartphone¹ (appels téléphoniques, alertes de réseaux sociaux, SMS).<br />Elle indique aussi la météo et la température.<br />De plus, elle vous permet de contrôler la musique de votre téléphone, de contrôler à distance votre caméra VIRB® et de partager en direct vos activités avec vos proches via LiveTrack.<br />Personnalisez votre montre vívoactive HR à l'aide de fonds d’écran, d'applications, et de widgets téléchargeables sur le store Connect IQ™.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 277.623027,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 33,
+    "name": "Garmin - Bucher Walt SA"
+  },
+  "categories": [
+    {
+      "id": 154,
+      "name": "Cardio Montres"
+    },
+    {
+      "id": 152,
+      "name": "Promotions"
+    },
+    {
+      "id": 128,
+      "name": "Montres + Cardio au poignet"
+    },
+    {
+      "id": 132,
+      "name": "Garmin"
+    },
+    {
+      "id": 126,
+      "name": "Cardio Montres"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      },
+      {
+        "id": 154,
+        "name": "Cardio Montres"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 152,
+        "name": "Promotions"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 128,
+        "name": "Montres + Cardio au poignet"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      },
+      {
+        "id": 132,
+        "name": "Garmin"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 126,
+        "name": "Cardio Montres"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 395,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/395.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 396,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/396.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 397,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/397.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 398,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/398.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 399,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/399.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 400,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/400.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 401,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/401.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 402,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/402.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 403,
+        "files": [
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-tm_cart_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-tm_home_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-tm_large_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-tm_medium_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-tm_small_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403-tm_thickbox_default.jpg",
+          "assets/products/142__montre-cardio-garmin-vivoactive-hr/images/403.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 45,
+        "name": "Medilec-Vívoactive-HR-Info",
+        "mime": "application/pdf",
+        "file": "9773aed84c2e1cd7f935bccdbbcac02e08520e7f"
+      },
+      {
+        "id_attachment": 74,
+        "name": "Medilec-FR-Vívoactive-HR-Manuel",
+        "mime": "application/pdf",
+        "file": "bea9fe6a046df5bd0ac93aafb5256b467d68847c"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

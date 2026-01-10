@@ -1,0 +1,204 @@
+{
+  "id": 135,
+  "slug": "electrode-de-diagnostic-ecg-ambu-blue-sensor-t",
+  "active": true,
+  "reference": "13.0043",
+  "name": "Électrode de diagnostic ECG Ambu Blue Sensor T",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>L'électrode <strong>Ambu Blue Sensor T</strong> se caractérise par un gel liquide hautement conducteur et un connecteur excentré.<br />Le connecteur excentré permet la stabilité du capteur, évite l'appui sur le patient et maintien le gel sous le capteur.</p>",
+    "long_html": "<p>L'électrode <strong>Ambu Blue Sensor T</strong> se caractérise par un gel liquide hautement conducteur et un connecteur excentré.<br />Le connecteur excentré permet la stabilité du capteur, évite l'appui sur le patient et maintien le gel sous le capteur.<br /> L'électrode dispose d'une large surface de mesure (zone de capteur).<br /> Sa forme spécifique permet l'application de 6 électrodes sur le thorax du patient.<br />Son support mousse n'agresse pas la peau du patient.<br />Les caractéristiques essentielles en font une électrode de choix pour les tests d'effort grâce a une adhésivité supérieure destinée à transmettre un signal de qualité optimale.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 250.603528,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 35,
+    "name": "AMBU Sarl"
+  },
+  "categories": [
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 131,
+      "name": "ECG électrodes"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 131,
+        "name": "ECG électrodes"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 367,
+        "files": [
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-cart_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-home_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-large_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-medium_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-small_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-thickbox_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-tm_cart_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-tm_home_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-tm_large_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-tm_medium_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-tm_small_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367-tm_thickbox_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/367.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 368,
+        "files": [
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-cart_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-home_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-large_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-medium_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-small_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-thickbox_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-tm_cart_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-tm_home_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-tm_large_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-tm_medium_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-tm_small_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368-tm_thickbox_default.jpg",
+          "assets/products/135__electrode-de-diagnostic-ecg-ambu-blue-sensor-t/images/368.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      28,
+      30,
+      32,
+      39,
+      49,
+      55,
+      59,
+      64,
+      68,
+      76,
+      106
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": 108,
+  "slug": "mini-wright-peak-flow-meter-ou-debitmetre-de-pointe",
+  "active": true,
+  "reference": "30.0033",
+  "name": "Mini-wright peak flow meter ou débitmètre de pointe",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le <strong>débitmètre de pointe</strong> ou <strong>peak flow meter</strong> (en anglais), est un appareil destiné à mesurer la vitesse maximale du souffle (débit expiratoire de pointe ou DEP) d'un patient asthmatique lors d'une expiration forcée. Il permet de suivre ainsi l'évolution de sa maladie, l'efficacité d'un traitement ou de prévoir la survenue de crise.</p>",
+    "long_html": "<p>Le <strong>débitmètre de pointe</strong> ou <strong>peak flow meter</strong> (en anglais), est un appareil destiné à mesurer la vitesse maximale du souffle (débit expiratoire de pointe ou DEP) d'un patient asthmatique lors d'une expiration forcée. Il permet de suivre ainsi l'évolution de sa maladie, l'efficacité d'un traitement ou de prévoir la survenue de crise.</p>\r\n<p><span id=\"result_box\" class=\"short_text\" xml:lang=\"fr\" lang=\"fr\"><span>Disponible</span> <span>pour les adultes</span> <span>et les enfants</span></span>.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 46.332405,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 0,
+    "name": ""
+  },
+  "categories": [
+    {
+      "id": 139,
+      "name": "Autre"
+    },
+    {
+      "id": 65,
+      "name": "Spirométrie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      },
+      {
+        "id": 139,
+        "name": "Autre"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 65,
+        "name": "Spirométrie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 299,
+        "files": [
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-cart_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-home_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-large_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-medium_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-small_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-thickbox_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-tm_cart_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-tm_home_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-tm_large_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-tm_medium_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-tm_small_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299-tm_thickbox_default.jpg",
+          "assets/products/108__mini-wright-peak-flow-meter-ou-debitmetre-de-pointe/images/299.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

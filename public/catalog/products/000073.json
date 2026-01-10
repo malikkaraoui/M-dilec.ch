@@ -1,0 +1,175 @@
+{
+  "id": 73,
+  "slug": "papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc",
+  "active": false,
+  "reference": "22.0016",
+  "name": "Papier pour ECG Schiller Cardiovit AT-4 et AT-104 PC",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Papier ECG pour appareil ECG <strong>Cardiovit AT-4</strong> et<strong> AT-104 PC</strong>.<br />Dimensions : 90mm x 90mm.<br />Longueur : 20.70.</p>",
+    "long_html": "<p>Papier ECG pour appareil ECG <strong>Cardiovit AT-4</strong> et<strong> AT-104 PC</strong>.<br />Dimensions : 90mm x 90mm.<br />Longueur : 20.70.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 11.049211,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 24,
+    "name": "Diagramma Dietikon AG"
+  },
+  "categories": [
+    {
+      "id": 130,
+      "name": "ECG papier"
+    },
+    {
+      "id": 90,
+      "name": "Consommables"
+    },
+    {
+      "id": 84,
+      "name": "Consommables"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 130,
+        "name": "ECG papier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 90,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 84,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 219,
+        "files": [
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-cart_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-home_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-large_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-medium_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-small_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-thickbox_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-tm_cart_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-tm_home_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-tm_large_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-tm_medium_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-tm_small_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219-tm_thickbox_default.jpg",
+          "assets/products/73__papier-pour-ecg-schiller-cardiovit-at-4-et-at-104-pc/images/219.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      72
+    ]
+  }
+}

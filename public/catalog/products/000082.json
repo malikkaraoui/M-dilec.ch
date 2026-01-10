@@ -1,0 +1,177 @@
+{
+  "id": 82,
+  "slug": "chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015",
+  "active": true,
+  "reference": "11.0137",
+  "name": "Chargeur ECG Schiller Cardiovit MS-2010 et MS-2015",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Changeur pour ECG <strong>Cardiovit MS-2010</strong> et<strong> MS 2015</strong><br />Input: 100-240Vac, 1.0-0.6A, 50-60Hz<br />Output: 12V, 2.5A max (30W max)</p>",
+    "long_html": "<p>Changeur pour ECG <strong>Cardiovit MS-2010</strong> et<strong> MS 2015 </strong>:</p>\r\n<ul style=\"margin-left:14px;\"><li>Input: 100-240Vac, 1.0-0.6A, 50-60Hz</li>\r\n<li>Output: 12V, 2.5A max (30W max)</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 129.897864,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 22,
+    "name": "SCHILLER Reomed AG"
+  },
+  "categories": [
+    {
+      "id": 83,
+      "name": "Accessoires"
+    },
+    {
+      "id": 89,
+      "name": "Accessoires"
+    },
+    {
+      "id": 104,
+      "name": "Accessoires"
+    },
+    {
+      "id": 106,
+      "name": "ECG"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 64,
+        "name": "ECG de repos"
+      },
+      {
+        "id": 83,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 62,
+        "name": "ECG"
+      },
+      {
+        "id": 63,
+        "name": "ECG d'effort"
+      },
+      {
+        "id": 89,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 104,
+        "name": "Accessoires"
+      },
+      {
+        "id": 106,
+        "name": "ECG"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 992,
+        "files": [
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-cart_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-home_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-large_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-medium_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-small_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-standard_default .jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-thickbox_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-tm_cart_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-tm_home_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-tm_large_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-tm_medium_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-tm_small_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992-tm_thickbox_default.jpg",
+          "assets/products/82__chargeur-ecg-schiller-cardiovit-ms-2010-et-ms-2015/images/992.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": [
+      30,
+      32
+    ]
+  }
+}

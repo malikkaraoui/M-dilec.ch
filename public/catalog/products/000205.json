@@ -1,0 +1,129 @@
+{
+  "id": 205,
+  "slug": "chariot-medi-net-1-tiroir",
+  "active": false,
+  "reference": "21.0011",
+  "name": "Chariot médi-net 1 tiroir",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Chariot médi-net pour appareils médicaux.</p>\r\n<p>Châssis en tube d'acier de section carrée, démontable, thermolaqué en couleur blanc gris. Tiroir sur rails de précision zingués (noir) préassemblés avec roulements à biles. Plateaux et façade de tiroir plastifiés par laminage, blanc perle. 4 doubles roulettes de 75 mm de diamètre.</p>",
+    "long_html": "<p>Chariot médi-net pour appareils médicaux.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques chariot médi-net</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Châssis en tube d'acier de section carrée, démontable, thermolaqué en couleur blanc gris RAL 9002.</li>\r\n<li>Aluminium blanc RAL 9006 ou en aluminium gris RAL 9007.</li>\r\n<li>Tiroir sur rails de précision zingués (noir) préassemblés avec roulements à biles.</li>\r\n<li>Plateaux et façade de tiroir plastifiés par laminage, blanc perle 60</li>\r\n<li>Poignée de tiroir en couleur blanc gris RAL 9002, aluminium blanc RAL 9006 ou en aluminium gris RAL 9007.</li>\r\n<li>4 doubles roulettes de 75 mm de diamètre.</li>\r\n<li>Hauteur 750 mm.</li>\r\n</ul>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 583.56546,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 39,
+    "name": "Schmitz u. Söhne"
+  },
+  "categories": [
+    {
+      "id": 171,
+      "name": "Chariots"
+    },
+    {
+      "id": 169,
+      "name": "Mobilier"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      },
+      {
+        "id": 171,
+        "name": "Chariots"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 169,
+        "name": "Mobilier"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 792,
+        "files": [
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-cart_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-home_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-large_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-medium_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-small_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-standard_default .jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-thickbox_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-tm_cart_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-tm_home_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-tm_large_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-tm_medium_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-tm_small_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792-tm_thickbox_default.jpg",
+          "assets/products/205__chariot-medi-net-1-tiroir/images/792.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 99,
+        "name": "Medilec-FR-Schmitz-Mobilier",
+        "mime": "application/pdf",
+        "file": "b0f53a49a8bd13d294a5e901df616baa6d208f24"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

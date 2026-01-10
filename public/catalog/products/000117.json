@@ -1,0 +1,162 @@
+{
+  "id": 117,
+  "slug": "skintact-ultrasonic-gel-de-transmission",
+  "active": false,
+  "reference": "6.0005",
+  "name": "SKINTACT ultrasonic gel de transmission",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p><strong></strong><strong></strong><strong>Ultrasonic Gel </strong>est un gel de transmission Ultrasonic.</p>\r\n<p>En flacon de 250 ml et en contenants de 5 litres.</p>",
+    "long_html": "<p><strong></strong><strong>Ultrasonic Gel </strong>est un gel de transmission Ultrasonic.</p>\r\n<p style=\"margin-top:10px;\"><strong>Caractéristiques :</strong></p>\r\n<ul style=\"margin-left:14px;\"><li>Applications thérapeutiques et diagnostiques des ultrasons.</li>\r\n<li>Biocompatible, inodore, viscosité optimale.</li>\r\n<li>Eliminable sans retard de la peau et des vêtements.</li>\r\n<li>Unique méthode de fabrication évite la formation de soufflage.</li>\r\n<li>Signale et transmission sont claires et libres d'artefact.</li>\r\n</ul><p>En flacon de 250 ml et en contenants de 5 litres.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 5.47818,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 29,
+    "name": "Leonhard Lang GmbH"
+  },
+  "categories": [
+    {
+      "id": 103,
+      "name": "Consommables"
+    },
+    {
+      "id": 113,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 105,
+      "name": "Consommables"
+    },
+    {
+      "id": 120,
+      "name": "Fournitures"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 103,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      },
+      {
+        "id": 113,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      },
+      {
+        "id": 105,
+        "name": "Consommables"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 120,
+        "name": "Fournitures"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 304,
+        "files": [
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-cart_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-home_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-large_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-medium_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-small_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-thickbox_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-tm_cart_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-tm_home_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-tm_large_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-tm_medium_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-tm_small_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304-tm_thickbox_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/304.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 305,
+        "files": [
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-cart_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-home_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-large_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-medium_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-small_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-thickbox_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-tm_cart_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-tm_home_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-tm_large_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-tm_medium_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-tm_small_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305-tm_thickbox_default.jpg",
+          "assets/products/117__skintact-ultrasonic-gel-de-transmission/images/305.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [],
+    "pdfs_missing": false
+  },
+  "relations": {
+    "accessories": []
+  }
+}

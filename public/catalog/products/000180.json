@@ -1,0 +1,145 @@
+{
+  "id": 180,
+  "slug": "tensiometre-boso-medicus-pc",
+  "active": false,
+  "reference": "5.0015",
+  "name": "Tensiomètre Boso Medicus PC",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Le tensiomètre<strong> Boso Medicus PC</strong> est doté d'une possibilité de réglage du degré de gonflage et d'une vaste plage de mesure.</p>\r\n<p>Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Tensiomètre entièrement automatique pour la mesure au bras.</li>\r\n<li>Degré de gonflage réglable de façon personnalisée jusqu'à 240 mmHg...</li>\r\n</ul>",
+    "long_html": "<p>Le tensiomètre<strong> Boso Medicus PC</strong> est doté d'une possibilité de réglage du degré de gonflage et d'une vaste plage de mesure.</p>\r\n<p>Caractéristiques :</p>\r\n<ul style=\"margin-left:14px;\"><li>Tensiomètre entièrement automatique pour la mesure au bras.</li>\r\n<li>Degré de gonflage réglable de façon personnalisée jusqu'à 240 mmHg.</li>\r\n<li>Grand écran avec triple affichage des valeurs.</li>\r\n<li>Avec brassard standard pour une circonférence de bras de 22-32 cm.</li>\r\n<li>Avec étui, piles et carnet pour la tension.</li>\r\n<li>Poids: 345 g.</li>\r\n<li>Dimensions: 16 x 7 x 10 cm.</li>\r\n</ul><p>Il est possible de connecter à l'appareil un bloc d'alimentation et un brassard XL pour une circonférence de bras de 32-48 cm.</p>\r\n<p>Application</p>\r\n<p>L'hypertension est dangereuse pour la santé et il est important de savoir la déceler immédiatement. Une tension artérielle faible représente également un risque. Elle peut être la cause de vertiges, qui dans certaines circonstances - par exemple sur la route - peuvent être mortels.<br />Certains facteurs tels que l'alimentation ou la surcharge pondérale favorisent l'hypertension. Pour éviter de graves conséquences telles que l'infarctus, l'attaque cérébrale ou des dommages aux vaisseaux sanguins, il est important de contrôler régulièrement les valeurs de la tension artérielle et de corriger ses habitudes en suivant les conseils du médecin.</p>\r\n<p></p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 129.06221,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 41,
+    "name": "Boso"
+  },
+  "categories": [
+    {
+      "id": 71,
+      "name": "Tension artérielle"
+    },
+    {
+      "id": 185,
+      "name": "Boso"
+    },
+    {
+      "id": 70,
+      "name": "Tension artérielle"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 71,
+        "name": "Tension artérielle"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      },
+      {
+        "id": 185,
+        "name": "Boso"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 70,
+        "name": "Tension artérielle"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 689,
+        "files": [
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-cart_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-home_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-large_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-medium_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-small_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-standard_default .jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-thickbox_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-tm_cart_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-tm_home_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-tm_large_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-tm_medium_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-tm_small_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689-tm_thickbox_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/689.jpg"
+        ]
+      },
+      {
+        "type": "prestashop",
+        "source_id_image": 690,
+        "files": [
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-cart_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-home_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-large_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-medium_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-small_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-standard_default .jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-thickbox_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-tm_cart_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-tm_home_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-tm_large_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-tm_medium_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-tm_small_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690-tm_thickbox_default.jpg",
+          "assets/products/180__tensiometre-boso-medicus-pc/images/690.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 89,
+        "name": "Medilec-Boso-Medicus-PC",
+        "mime": "application/pdf",
+        "file": "f679c33fe275f4e97cdede5ecc82826d862b212d"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": []
+  }
+}

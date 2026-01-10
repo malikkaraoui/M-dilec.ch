@@ -1,0 +1,105 @@
+{
+  "id": 177,
+  "slug": "otoscope-heine-mini3000-xhl",
+  "active": true,
+  "reference": "4.0768",
+  "name": "Otoscope HEINE mini3000 XHL",
+  "specs": [],
+  "descriptions": {
+    "short_html": "<p>Otoscope <strong>HEINE mini3000 XHL</strong>, otoscope de poche compact avec éclairage direct. Otoscope de poche moderne avec un design unique et compact. Uniquement combinable avec le système de poignée mini3000. Livrable en noir ou bleu. Intérieur noir mat. Elimine les reflets...</p>",
+    "long_html": "<p>Otoscope <strong>HEINE mini3000 XHL</strong>, otoscope de poche compact avec éclairage direct. Otoscope de poche moderne avec un design unique et compact. Uniquement combinable avec le système de poignée mini3000. Livrable en noir ou bleu. Intérieur noir mat. Elimine les reflets. Technologie XHL Xénon Halogène, qui apporte 100 % de lumière en plus comparée avec les ampoules classiques. Lumière concentrée, blanche, très claire pour une illumination optimale. Poignée et tête indépendantes. Utilisation simple, poignée combinable avec l’ensemble de la gamme mini3000. Fenêtre d’observation avec un grossissement de 3 fois et surface du boîtier optimisée pour des images des plus précises et des reflets minimisés. Fenêtre d’observation intégrée mais pouvant pivoter sur le côté. Optimal pour intervention avec grossissement. Clip de fixation avec interrupteur intégré. Bonne prise en main de l’instrument. S’éteint automatiquement quand on le remet en poche. 20.000 cycles marche / arrêt garantis. Poignée de haute qualité : Finition chromée / plastique inégalable. Résistant aux chocs, robuste, anti-dérapant. Piles de rechange. Type AA, ou batterie rechargeable avec chargeur mini NT en option.</p>\r\n<p><strong>Otoscope mini3000</strong> : sur poignée à piles mini3000, avec 5 spéculums à usage unique AllSpec (2.5 mm et 4 mm), avec piles.</p>"
+  },
+  "pricing": {
+    "currency": "CHF",
+    "price_ht": 184.772516,
+    "price_ttc": null,
+    "promo": null
+  },
+  "manufacturer": {
+    "id": 27,
+    "name": "HEINE Optotechnik GmbH & Co."
+  },
+  "categories": [
+    {
+      "id": 74,
+      "name": "Diagnostique"
+    },
+    {
+      "id": 125,
+      "name": "Ophtalmologie"
+    }
+  ],
+  "category_paths": [
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Root"
+      },
+      {
+        "id": 2,
+        "name": "Home"
+      },
+      {
+        "id": 74,
+        "name": "Diagnostique"
+      },
+      {
+        "id": 125,
+        "name": "Ophtalmologie"
+      }
+    ]
+  ],
+  "media": {
+    "images": [
+      {
+        "type": "prestashop",
+        "source_id_image": 684,
+        "files": [
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-cart_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-home_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-large_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-medium_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-small_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-standard_default .jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-thickbox_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-tm_cart_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-tm_home_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-tm_large_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-tm_medium_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-tm_small_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684-tm_thickbox_default.jpg",
+          "assets/products/177__otoscope-heine-mini3000-xhl/images/684.jpg"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "attachments_meta": [
+      {
+        "id_attachment": 85,
+        "name": "Medilec-FR-Heine-Mini-3000",
+        "mime": "application/pdf",
+        "file": "4293a5a153e109fa3e470bbaf6ef4c6287ba3e97"
+      }
+    ],
+    "pdfs_missing": true
+  },
+  "relations": {
+    "accessories": [
+      125
+    ]
+  }
+}
