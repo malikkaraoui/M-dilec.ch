@@ -11,6 +11,10 @@ import { rtdb } from '../lib/db.js'
 import { composePhone, looksLikePhone, parsePhoneParts } from '../lib/phone.js'
 import { isShippingAddressComplete, normalizeShippingAddress } from '../lib/shippingAddress.js'
 import { slugify } from '../lib/slug.js'
+import { assetUrl } from '../lib/catalog.js'
+import { Button } from '../ui/Button.jsx'
+import { Card } from '../ui/Card.jsx'
+import { Input } from '../ui/Input.jsx'
 
 function formatPrice(priceCents) {
   if (typeof priceCents !== 'number') return null
@@ -71,6 +75,9 @@ export function CartPage() {
     const subTotalCents = totalKnownCents
     const shippingCents = SHIPPING_CENTS
     const baseCents = subTotalCents + shippingCents
+    // TVA is usually included in B2C prices in Switzerland, or added. 
+    // Assuming here we add it on top of subtotal + shipping based on previous logic.
+    // If prices are HT, this is correct for invoice estimation.
     const vatCents = Math.round(baseCents * VAT_RATE)
     const totalCents = baseCents + vatCents
 
@@ -92,24 +99,27 @@ export function CartPage() {
     const nextAddress = normalizeShippingAddress(shippingAddress)
 
     if (!String(phoneParts?.national || '').trim()) {
-      setSendError('Veuillez renseigner votre numéro de téléphone pour envoyer une demande.')
+      setSendError('Veuillez renseigner votre numéro de téléphone.')
       return
     }
 
     if (!looksLikePhone(nextPhone)) {
-      setSendError('Numéro de téléphone invalide (au moins 8 chiffres).')
+      setSendError('Numéro de téléphone invalide.')
       return
     }
 
+    if (!isAuthenticated) {
+      // Double check separate form visual logic if needed
+    }
+
+    // Checking Address
     if (!isShippingAddressComplete(nextAddress)) {
-      setSendError('Pour toute envoi de commande, veuillez remplir votre adresse de livraison.')
+      setSendError('Veuillez remplir votre adresse de livraison complète.')
       return
     }
 
     if (!rtdb) {
-      setSendError(
-        'Realtime Database non configurée. Vérifiez VITE_FIREBASE_DATABASE_URL dans `.env.local`.',
-      )
+      setSendError('Erreur configuration DB.')
       return
     }
 
@@ -118,9 +128,8 @@ export function CartPage() {
 
       const orderRef = push(ref(rtdb, 'orders'))
       const orderId = orderRef.key
-      if (!orderId) throw new Error('Impossible de générer un identifiant de commande.')
+      if (!orderId) throw new Error('Erreur ID commande.')
 
-      // Sauvegarde aussi dans le profil pour la prochaine fois (fail-soft)
       try {
         await update(ref(rtdb, `users/${user.uid}`), {
           email: user.email || null,
@@ -128,24 +137,19 @@ export function CartPage() {
           shippingAddress: nextAddress,
           updatedAt: serverTimestamp(),
         })
-      } catch {
-        // fail-soft: l’envoi doit rester possible si l’update profil échoue
-      }
+      } catch { /* ignore */ }
 
       const payload = {
         id: orderId,
         createdAt: Date.now(),
         status: 'new',
         source: 'web',
-
         user: {
           uid: user.uid,
           email: user.email || null,
           phone: nextPhone,
         },
-
         shippingAddress: nextAddress,
-
         note: note.trim() || null,
         items: cart.items.map((x) => ({
           id: x.id,
@@ -162,200 +166,222 @@ export function CartPage() {
       setSentOrderId(orderId)
       cart.clear()
       setNote('')
+      window.scrollTo(0, 0)
     } catch (err) {
-      setSendError(err?.message || 'Envoi impossible.')
+      setSendError(err?.message || 'Une erreur est survenue.')
     } finally {
       setSending(false)
     }
   }
 
-  return (
-    <section className="space-y-4">
-      <div className="flex items-center justify-between gap-4">
-        <h1 className="text-2xl font-semibold tracking-tight">Panier</h1>
-        <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/catalog">
-          ← Continuer mes achats
-        </Link>
+  // --- UI Render ---
+
+  if (sentOrderId) {
+    return (
+      <div className="mx-auto max-w-lg pt-12 text-center">
+        <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-green-100 text-green-600">
+          <svg className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <h1 className="text-3xl font-bold text-swiss-neutral-900">Demande Envoyée !</h1>
+        <p className="mt-4 text-swiss-neutral-600">
+          Merci pour votre commande. Votre numéro de référence est <span className="font-mono font-medium text-swiss-neutral-900">{sentOrderId}</span>.
+        </p>
+        <p className="mt-2 text-sm text-swiss-neutral-500">
+          Nous vous recontacterons très prochainement pour confirmer la disponibilité.
+        </p>
+        <div className="mt-8 flex justify-center gap-4">
+          <Button variant="secondary" onClick={() => navigate('/catalog')}>Retour au catalogue</Button>
+          <Button onClick={() => navigate('/my-orders')}>Voir mes commandes</Button>
+        </div>
       </div>
+    )
+  }
 
-      {sentOrderId ? (
-        <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
-          Demande envoyée. Référence: <span className="font-mono">{sentOrderId}</span>
-          <div className="mt-2">
-            <Link className="text-blue-700 hover:underline" to="/my-orders">
-              Voir mes demandes
-            </Link>
-          </div>
+  if (cart.items.length === 0) {
+    return (
+      <div className="mx-auto max-w-2xl py-20 text-center">
+        <div className="mb-6 inline-flex h-24 w-24 items-center justify-center rounded-full bg-swiss-neutral-50 text-swiss-neutral-400">
+          <svg className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
         </div>
-      ) : null}
+        <h1 className="text-2xl font-semibold text-swiss-neutral-900">Votre panier est vide</h1>
+        <p className="mt-2 text-swiss-neutral-500">Explorez notre catalogue pour trouver le matériel médical dont vous avez besoin.</p>
+        <div className="mt-8">
+          <Button size="lg" onClick={() => navigate('/catalog')}>Découvrir le catalogue</Button>
+        </div>
+      </div>
+    )
+  }
 
-      {cart.syncError ? (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-          Synchronisation panier (serveur) : {cart.syncError}
-        </div>
-      ) : null}
+  return (
+    <section className="animate-in fade-in slide-in-from-bottom-4 duration-700">
+      <h1 className="mb-8 text-3xl font-bold tracking-tight text-swiss-neutral-900">Mon Panier</h1>
 
-      {cart.items.length === 0 ? (
-        <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
-          Votre panier est vide.
-          <div className="mt-2">
-            <Link className="text-blue-600 hover:underline" to="/catalog">
-              Aller au catalogue
-            </Link>
-          </div>
-        </div>
-      ) : (
-        <div className="grid gap-4 lg:grid-cols-[1fr,360px]">
-          <div className="space-y-3">
-            <ul className="space-y-2">
-              {cart.items.map((item) => (
-                <li key={item.id} className="rounded-2xl border border-neutral-200 bg-white p-4">
-                  <div className="flex items-start justify-between gap-4">
+      <div className="grid gap-8 lg:grid-cols-[1fr,400px]">
+        {/* Left Column: Items */}
+        <div className="space-y-6">
+          <Card className="divide-y divide-swiss-neutral-100 overflow-hidden" padding="p-0">
+            {cart.items.map((item) => {
+              // Try to get an image?
+              // Note: item in cart only has id, name, brand, priceCents. No image URL stored by default currently?
+              // Should have updated cart.add to store image... 
+              // For now, we don't have image in 'item', but we can try to guess or just show clear text.
+              // Ideally we'd update useCart to store image url.
+              // Let's assume we might fetch or just use a placeholder icon.
+
+              return (
+                <div key={item.id} className="flex gap-4 p-6 transition-colors hover:bg-swiss-neutral-50/50">
+                  {/* Placeholder for Image - or upgrade cart to store it */}
+                  <div className="h-20 w-20 flex-shrink-0 overflow-hidden rounded-lg border border-swiss-neutral-100 bg-swiss-neutral-50">
+                    {/* If we had item.cover, we would use it. For now a generic icon. */}
+                    <div className="flex h-full w-full items-center justify-center text-swiss-neutral-300">
+                      <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-1 flex-col justify-between">
                     <div>
-                      <div className="text-sm font-semibold text-neutral-900">
-                        {item.name || item.id}
+                      <div className="flex justify-between">
+                        <h3 className="font-semibold text-swiss-neutral-900">
+                          <Link to={`/product/${item.id}/${slugify(item.name || '')}`} className="hover:text-medilec-accent transition-colors">
+                            {item.name || 'Produit Inconnu'}
+                          </Link>
+                        </h3>
+                        <div className="font-medium text-swiss-neutral-900">
+                          {formatPrice(item.priceCents * item.qty) || 'Sur demande'}
+                        </div>
                       </div>
-                      {item.brand ? <div className="mt-1 text-xs text-neutral-500">{item.brand}</div> : null}
-                      <div className="mt-2 text-xs text-neutral-500">
-                        {formatPrice(item.priceCents) || 'Prix sur demande'}
-                      </div>
+                      <p className="text-sm text-swiss-neutral-500">{item.brand}</p>
                     </div>
 
-                    <div className="flex items-center gap-2">
-                      <label className="sr-only" htmlFor={`qty-${item.id}`}>
-                        Quantité
-                      </label>
-                      <input
-                        id={`qty-${item.id}`}
-                        className="w-20 rounded-lg border border-neutral-200 bg-white px-2 py-1 text-sm"
-                        min={1}
-                        value={item.qty}
-                        onChange={(e) => cart.setQty(item.id, Number(e.target.value))}
-                        type="number"
-                      />
+                    <div className="mt-4 flex items-center justify-between">
+                      <div className="flex items-center rounded-lg border border-swiss-neutral-200">
+                        <button
+                          className="px-3 py-1 text-swiss-neutral-500 hover:bg-swiss-neutral-50 hover:text-swiss-neutral-900"
+                          onClick={() => cart.setQty(item.id, Math.max(1, item.qty - 1))}
+                        >-</button>
+                        <span className="min-w-[2rem] text-center text-sm font-medium">{item.qty}</span>
+                        <button
+                          className="px-3 py-1 text-swiss-neutral-500 hover:bg-swiss-neutral-50 hover:text-swiss-neutral-900"
+                          onClick={() => cart.setQty(item.id, item.qty + 1)}
+                        >+</button>
+                      </div>
+
                       <button
-                        className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-sm hover:bg-neutral-50"
                         onClick={() => cart.remove(item.id)}
-                        type="button"
+                        className="text-xs font-medium text-swiss-neutral-400 hover:text-red-600 transition-colors"
                       >
-                        Retirer
+                        Supprimer
                       </button>
                     </div>
                   </div>
-
-                  <div className="mt-3">
-                    <Link
-                      className="text-xs text-blue-600 hover:underline"
-                      to={`/product/${item.id}/${slugify(item.name || item.id)}`}
-                    >
-                      Voir la fiche
-                    </Link>
-                  </div>
-                </li>
-              ))}
-            </ul>
-
-            <button
-              className="text-sm text-neutral-700 hover:text-neutral-900"
-              onClick={() => cart.clear()}
-              type="button"
-            >
-              Vider le panier
-            </button>
-          </div>
-
-          <aside className="rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm">
-            <h2 className="text-base font-semibold">Envoyer une demande</h2>
-            <p className="mt-1 text-sm text-neutral-600">
-              MVP: pas de paiement. Nous vous recontactons pour confirmer disponibilité/prix.
-            </p>
-
-            {totalKnownCents != null ? (
-              <div className="mt-4 space-y-2 text-sm">
-                <div className="flex items-center justify-between gap-4">
-                  <span className="text-neutral-700">Sous-total</span>
-                  <span className="font-medium text-neutral-900">{formatPrice(totals?.subTotalCents)}</span>
                 </div>
-                <div className="flex items-center justify-between gap-4">
-                  <span className="text-neutral-700">Frais de port</span>
-                  <span className="font-medium text-neutral-900">{formatPrice(totals?.shippingCents)}</span>
-                </div>
-                <div className="flex items-center justify-between gap-4">
-                  <span className="text-neutral-700">TVA (7.7%)</span>
-                  <span className="font-medium text-neutral-900">{formatPrice(totals?.vatCents)}</span>
-                </div>
+              )
+            })}
+          </Card>
 
-                <div className="my-2 h-px bg-neutral-200" aria-hidden="true" />
+          {/* Delivery Details Section */}
+          <div className="space-y-6">
+            <h2 className="text-xl font-semibold text-swiss-neutral-900">Livraison & Contact</h2>
 
-                <div className="flex items-center justify-between gap-4">
-                  <span className="font-semibold text-neutral-900">Total</span>
-                  <span className="text-base font-semibold" style={{ color: 'var(--medilec-accent)' }}>
-                    {formatPrice(totals?.totalCents)}
-                  </span>
-                </div>
-              </div>
-            ) : (
-              <div className="mt-3 text-xs text-neutral-500">Total à confirmer (prix sur demande possible).</div>
-            )}
+            <div className="grid gap-6 md:grid-cols-2">
+              <Card>
+                <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-swiss-neutral-500">Coordonnées</h3>
+                <PhoneInput
+                  idPrefix="cart-phone"
+                  label="Téléphone (requis)"
+                  dialCode={phoneParts.dialCode}
+                  national={phoneParts.national}
+                  onChange={setPhoneParts}
+                  placeholder="79 123 45 67"
+                />
+              </Card>
 
-            <div className="mt-4 space-y-1">
-              <label className="text-sm font-medium" htmlFor="order-note">
-                Note (optionnel)
-              </label>
-              <textarea
-                id="order-note"
-                className="min-h-20 w-full resize-y rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-                style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-                value={note}
-                onChange={(e) => setNote(e.target.value)}
-                placeholder="Ex: urgent / remplacer un modèle / compatibilité année…"
-              />
-            </div>
-
-            <div className="mt-4 space-y-3">
-              <PhoneInput
-                idPrefix="order-phone"
-                label="Téléphone"
-                dialCode={phoneParts.dialCode}
-                national={phoneParts.national}
-                onChange={setPhoneParts}
-                placeholder="79 123 45 67"
-              />
-
-              <div className="rounded-xl border border-neutral-200 bg-white p-4">
+              <Card>
+                <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-swiss-neutral-500">Adresse de livraison</h3>
                 <ShippingAddressForm
                   variant="plain"
                   value={shippingAddress}
                   onChange={setShippingAddress}
-                  requiredNotice={
-                    'Pour toute envoi de commande, veuillez remplir votre adresse de livraison.'
-                  }
                 />
-              </div>
+              </Card>
             </div>
 
-            {sendError ? (
-              <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+            <Card>
+              <label htmlFor="note" className="mb-2 block text-sm font-medium text-swiss-neutral-700">Note pour la commande (optionnel)</label>
+              <textarea
+                id="note"
+                className="min-h-[100px] w-full rounded-lg border border-swiss-neutral-200 p-3 text-sm focus:border-medilec-accent focus:ring-1 focus:ring-medilec-accent outline-none transition-all"
+                placeholder="Instructions spéciales, urgence, références internes..."
+                value={note}
+                onChange={(e) => setNote(e.target.value)}
+              />
+            </Card>
+          </div>
+        </div>
+
+        {/* Right Column: Summary */}
+        <div>
+          <div className="sticky top-24 space-y-4">
+            <Card className="bg-swiss-neutral-50/50 backdrop-blur-sm">
+              <h2 className="mb-6 text-lg font-bold text-swiss-neutral-900">Résumé</h2>
+
+              {totalKnownCents != null ? (
+                <div className="space-y-3 text-sm">
+                  <div className="flex justify-between text-swiss-neutral-600">
+                    <span>Sous-total</span>
+                    <span>{formatPrice(totals?.subTotalCents)}</span>
+                  </div>
+                  <div className="flex justify-between text-swiss-neutral-600">
+                    <span>Livraison estimée</span>
+                    <span>{formatPrice(totals?.shippingCents)}</span>
+                  </div>
+                  <div className="flex justify-between text-swiss-neutral-600">
+                    <span>TVA (7.7%)</span>
+                    <span>{formatPrice(totals?.vatCents)}</span>
+                  </div>
+
+                  <div className="my-4 border-t border-swiss-neutral-200" />
+
+                  <div className="flex justify-between items-end">
+                    <span className="font-bold text-lg text-swiss-neutral-900">Total</span>
+                    <span className="font-bold text-2xl text-medilec-accent">{formatPrice(totals?.totalCents)}</span>
+                  </div>
+                </div>
+              ) : (
+                <p className="text-sm text-swiss-neutral-500 italic">
+                  Le prix total sera confirmé sur devis car certains articles sont sur demande.
+                </p>
+              )}
+
+              <div className="mt-8">
+                <Button
+                  className="w-full h-12 text-base shadow-swiss-md hover:shadow-swiss-lg transition-all transform hover:-translate-y-0.5"
+                  onClick={onSend}
+                  isLoading={sending}
+                  disabled={cart.items.length === 0}
+                >
+                  Envoyer la demande
+                </Button>
+                <p className="mt-3 text-center text-xs text-swiss-neutral-500">
+                  Aucun paiement immédiat requis.
+                </p>
+              </div>
+            </Card>
+
+            {sendError && (
+              <div className="animate-in fade-in slide-in-from-top-2 rounded-lg bg-red-50 p-4 text-sm text-red-600 border border-red-100">
                 {sendError}
               </div>
-            ) : null}
-
-            <button
-              className="mt-4 w-full rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
-              style={{ backgroundColor: 'var(--medilec-accent)' }}
-              disabled={sending || cart.items.length === 0}
-              onClick={onSend}
-              type="button"
-            >
-              {sending ? 'Envoi…' : 'Envoyer la demande'}
-            </button>
-
-            <div className="mt-3 text-xs text-neutral-500">
-              Si vous n’êtes pas connecté, vous serez invité à vous connecter. Téléphone et adresse sont requis.
-            </div>
-          </aside>
+            )}
+          </div>
         </div>
-      )}
+      </div>
     </section>
   )
 }

@@ -1,86 +1,57 @@
-import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { Button } from '../../ui/Button.jsx'
+import { HeroSection } from './HeroSection.jsx'
+import { FeaturesSection } from './FeaturesSection.jsx'
+import { ScrollyTelling } from './ScrollyTelling.jsx'
+
+function CtaSection() {
+  return (
+    <section className="relative isolate overflow-hidden bg-swiss-neutral-900 px-6 py-24 shadow-2xl sm:px-24 xl:py-32">
+      <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        Prêt à équiper votre cabinet ?
+      </h2>
+      <p className="mx-auto mt-6 max-w-xl text-center text-lg leading-8 text-gray-300">
+        Rejoignez des centaines de professionnels de santé suisses qui font confiance à Medilec pour leur matériel.
+      </p>
+      <div className="mt-10 flex items-center justify-center gap-x-6">
+        <Link to="/catalog">
+          <Button size="lg" className="rounded-full px-8 text-base">Voir le catalogue</Button>
+        </Link>
+        <Link to="/contact" className="text-sm font-semibold leading-6 text-white hover:text-medilec-accent transition-colors">
+          Contacter le support <span aria-hidden="true">→</span>
+        </Link>
+      </div>
+      <svg
+        viewBox="0 0 1024 1024"
+        className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+        aria-hidden="true"
+      >
+        <circle cx={512} cy={512} r={512} fill="url(#gradient-cta)" fillOpacity="0.7" />
+        <defs>
+          <radialGradient id="gradient-cta">
+            <stop stopColor="#D52B1E" />
+            <stop offset={1} stopColor="#E93F33" />
+          </radialGradient>
+        </defs>
+      </svg>
+    </section>
+  )
+}
 
 export function HomePage() {
-  const navigate = useNavigate()
-  const [q, setQ] = useState('')
-
-  function onSubmitSearch(e) {
-    e.preventDefault()
-    const trimmed = String(q || '').trim()
-    if (!trimmed) {
-      navigate('/catalog')
-      return
-    }
-    navigate(`/catalog?q=${encodeURIComponent(trimmed)}`)
-  }
-
   return (
-    <section className="grid gap-8 lg:grid-cols-[1.2fr,0.8fr]">
-      <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-        <p className="text-sm font-medium" style={{ color: 'var(--medilec-accent)' }}>
-          Matériel médical — Suisse
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight text-neutral-900">
-          Catalogue clair. Panier simple. Devis rapide.
-        </h1>
-        <p className="mt-3 text-base text-neutral-600">
-          Ajoutez vos produits au panier, puis envoyez votre demande : nous vous recontactons pour valider votre
-          besoin et finaliser la commande.
-        </p>
+    <div className="flex flex-col">
+      {/* 1. Hero Section (Apple Style) */}
+      <HeroSection />
 
-        <form className="mt-6 space-y-3" onSubmit={onSubmitSearch}>
-          <div className="flex flex-wrap gap-3">
-            <div className="min-w-0 flex-1">
-              <label className="sr-only" htmlFor="home-search">
-                Rechercher dans le catalogue
-              </label>
-              <input
-                id="home-search"
-                className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-                style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-                placeholder="Rechercher un produit (nom, marque…)"
-                type="search"
-                value={q}
-                onChange={(e) => setQ(e.target.value)}
-              />
-            </div>
+      {/* 2. Features Grid */}
+      <FeaturesSection />
 
-            <button
-              className="rounded-lg px-4 py-2 text-sm font-medium text-white"
-              style={{ backgroundColor: 'var(--medilec-accent)' }}
-              type="submit"
-            >
-              Rechercher
-            </button>
-          </div>
+      {/* 3. ScrollyTelling Experience */}
+      <ScrollyTelling />
 
-          <div className="flex flex-wrap gap-3">
-            <Link
-              className="rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
-              to="/catalog"
-            >
-              Voir le catalogue
-            </Link>
-            <Link
-              className="rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
-              to="/cart"
-            >
-              Ouvrir le panier
-            </Link>
-          </div>
-        </form>
-      </div>
-
-      <aside className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-        <h2 className="text-lg font-semibold tracking-tight">MVP — Prochaines étapes</h2>
-        <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-neutral-600">
-          <li>Recherche + filtres (URLs partageables)</li>
-          <li>Connexion (email + Google)</li>
-          <li>Panier localStorage + envoi à Alain</li>
-          <li>Admin sécurisé (/admin)</li>
-        </ul>
-      </aside>
-    </section>
+      {/* 4. Call To Action */}
+      <CtaSection />
+    </div>
   )
 }

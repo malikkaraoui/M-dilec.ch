@@ -20,12 +20,17 @@
     "test:rules": "firebase emulators:exec --only database,storage \"vitest run\""
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
     "@tailwindcss/vite": "^4.1.18",
     "firebase": "^12.7.0",
+    "maath": "^0.10.8",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.12.0",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "three": "^0.182.0",
+    "valtio": "^2.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

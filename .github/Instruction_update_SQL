@@ -1,0 +1,348 @@
+INSTRUCTIONS_COPILOT_LOCALHOST_CATALOG_PUBLISH.txt
+
+OBJECTIF GLOBAL
+- Toute création / modification / suppression de produits se fait UNIQUEMENT en localhost.
+- L’admin s’identifie sur le front, puis agit depuis:
+  http://localhost:5173/admin/products
+- Quand l’admin clique “Publier”, la base catalogue (fichiers statiques) est mise à jour automatiquement:
+  public/catalog/products/000XYZ.json
+  public/catalog/assets/products/<id>__<slug>/images/...
+  public/catalog/index.products.json
+  public/catalog/index.search.json
+  public/catalog/catalog.json (counts si besoin)
+  public/catalog/reports/publish_*.log
+- Aucun “copier-coller de commande” côté admin. Tout est automatique via le bouton Publier.
+
+CONTRAINTES IMPORTANTES (A RESPECTER)
+1) Source de vérité = fichiers du catalogue dans public/catalog (Option A).
+2) Le front (navigateur) NE DOIT JAMAIS essayer d’écrire dans public/catalog.
+3) Toute écriture disque est faite par un service local “publisher” (Python) accessible uniquement en localhost.
+4) Le publisher doit refuser si le contrat minimum n’est pas respecté.
+5) Le publisher doit fournir un suivi: progression (%) + logs + statut (success/error).
+6) Le site et la base public/catalog doivent être sur la même machine (localhost) et idéalement le même disque (même FS).
+7) On commence avec 1 image “grande” seulement. Pas de génération de tailles pour l’instant.
+8) Le format JSON produit généré doit être compatible avec les produits existants exportés.
+
+ETAT ACTUEL (NE PAS CASSER)
+- Le catalogue front lit:
+  /catalog/index.products.json
+  /catalog/index.search.json
+  /catalog/products/000028.json
+  /catalog/assets/...
+- Le module src/lib/catalog.js est déjà en place avec BASE="/catalog" et cache.
+- Les pages CatalogPage/ProductPage fonctionnent en “index = DB”.
+
+NOUVELLE ARCHITECTURE A IMPLEMENTER
+A) Un service Python local (publisher) tourne sur 127.0.0.1:8787
+B) Le front appelle /api/catalog/... (proxy Vite vers 127.0.0.1:8787)
+C) Le publisher écrit dans public/catalog (dossier du projet) en lecture/écriture
+
+CHEMIN DU CATALOGUE
+- Le publisher doit détecter automatiquement le chemin du catalogue:
+  <racine projet>/public/catalog
+- Il doit refuser de démarrer si ce dossier n’existe pas.
+
+SECURITE LOCALE
+- Le publisher écoute uniquement sur 127.0.0.1
+- Auth obligatoire via header X-ADMIN-TOKEN
+- Le front doit envoyer ce token seulement en localhost (dev)
+- Le token est défini dans .env.local côté Vite: VITE_ADMIN_TOKEN=...
+- Le token côté publisher est défini via variable d’environnement ADMIN_TOKEN=...
+
+CONTRAT PRODUIT (MINIMUM)
+Champs requis pour publier:
+- name: string non vide
+- manufacturer_id: entier existant dans public/catalog/taxonomies/manufacturers.json
+- category_ids: tableau avec au moins 1 id existant dans public/catalog/taxonomies/categories.json
+- price_ht: nombre >= 0 (CHF)
+- short_html: string non vide (si texte brut fourni, le front doit envelopper en <p>…</p>)
+- long_html: string non vide
+- image_file: obligatoire (1 image)
+Champs optionnels:
+- reference: string
+- specs: array [{name,value}] optionnel
+- weight_kg: number optionnel
+- pdf_file: optionnel
+- active: bool (default false)
+- accessories: optionnel (liste d’ids existants)
+
+REGLES DE GENERATION
+- slug = slugify(name) (ascii, lower, tirets)
+- id = max(index.products.id) + 1
+- fichier produit = public/catalog/products/{pad6(id)}.json
+- dossier assets = public/catalog/assets/products/{id}__{slug}/
+- image = public/catalog/assets/products/{id}__{slug}/images/cover-large_default.<ext>
+- pdf si présent = public/catalog/assets/products/{id}__{slug}/pdf/fiche.pdf
+- index.products.json: ajouter un item minimal
+- index.search.json: ajouter haystack = name + manufacturer + categories + stripped(short_html)
+
+FORMAT JSON PRODUIT FINAL (DOIT MATCHER L’EXISTANT)
+Le publisher doit écrire un JSON produit avec les clés suivantes:
+- id
+- slug
+- active
+- reference
+- name
+- descriptions: { short_html, long_html }
+- pricing: { currency:"CHF", price_ht, price_ttc:null, promo:null }
+- manufacturer: { id, name }
+- categories: [ {id, name}, ... ]
+- category_paths: liste de chemins breadcrumbs (liste de listes de {id,name}) calculés depuis taxonomie
+- specs: [ {name,value}, ... ] (peut être [])
+- media:
+  - images: [ { type:"admin", source_id_image:null, files:[ "assets/products/.../images/cover-large_default.ext" ] } ]
+  - pdfs: [] ou [ "assets/products/.../pdf/fiche.pdf" ]
+  - attachments_meta: [] (on ne gère pas les attachments prestashop ici)
+  - pdfs_missing: false (si pas de pdf, c’est normal)
+- relations: { accessories: [] }
+
+OPERATIONS A SUPPORTER
+1) CREATE produit (nouveau)
+2) UPDATE produit existant (modifier)
+3) DELETE produit (supprimer)
+
+Pour UPDATE:
+- Identifiant cible = id (ou slug -> id via index)
+- On réécrit products/000XYZ.json en conservant l’id
+- Si le nom change, slug peut changer:
+  - Option recommandée v1: slug immuable une fois publié (simple). Donc si name change, on ne change pas slug.
+  - Si vous choisissez de changer slug, il faut renommer le dossier assets et mettre à jour index + redirections. Eviter en v1.
+- On met à jour index.products et index.search pour cet id (remplacement)
+- Si une nouvelle image est fournie: remplacer cover-large_default.*
+- Si pdf fourni: remplacer fiche.pdf, sinon si admin coche “supprimer pdf”: delete fiche.pdf et pdfs=[]
+
+Pour DELETE:
+- Retirer l’item de index.products et index.search
+- Supprimer le fichier produit products/000XYZ.json
+- Supprimer le dossier assets/products/{id}__{slug}/
+- Loguer toutes les actions
+
+PROGRESSION + LOGS
+- Toute action publish doit créer un job (jobId) et retourner immédiatement jobId.
+- Le front suit la progression via polling:
+  GET /api/catalog/jobs/{jobId}
+- Le job expose:
+  status: queued|running|success|error
+  progress: 0..100
+  last_log: string
+  result: {id, slug} si success
+  error: {code, message} si error
+- Le publisher doit écrire un log fichier:
+  public/catalog/reports/publish_<timestamp>_<jobId>.log
+
+ECRITURE ATOMIQUE (INTEGRITE INDEX)
+- index.products.json et index.search.json doivent être écrits en mode atomique:
+  écrire d’abord dans *.tmp puis rename
+- En cas d’erreur à mi-parcours:
+  - ne pas laisser les index dans un état partiel
+  - si le produit a été écrit mais index non: rollback (supprimer produit + assets) OU finaliser proprement
+  - loguer la décision
+
+IMPLEMENTATION: PARTIE PYTHON (publisher)
+Créer dans le repo un dossier:
+publisher/
+  app.py
+  publish_core.py
+  utils.py
+  models.py
+  requirements.txt
+
+requirements.txt:
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+pydantic==2.8.2
+
+Endpoints (FastAPI):
+1) GET /api/catalog/ping -> {"ok":true}
+2) POST /api/catalog/products (CREATE) multipart/form-data
+   fields:
+     payload: JSON string (DraftProduct)
+     image: file required
+     pdf: file optional
+   returns: {jobId}
+3) PUT /api/catalog/products/{id} (UPDATE) multipart/form-data
+   fields:
+     payload: JSON string (DraftProduct + id)
+     image: file optional (si absent, ne change pas l’image)
+     pdf: file optional
+     remove_pdf: "true" optional
+   returns: {jobId}
+4) DELETE /api/catalog/products/{id} (DELETE)
+   returns: {jobId}
+5) GET /api/catalog/jobs/{jobId} -> job status (polling)
+6) GET /api/catalog/jobs/{jobId}/log -> log complet
+
+Auth:
+- vérifier header X-ADMIN-TOKEN == ADMIN_TOKEN env
+- sinon 401
+
+catalog_root detection:
+- si env CATALOG_ROOT défini, l’utiliser
+- sinon, calculer automatiquement:
+  repo_root = parent du dossier publisher
+  catalog_root = repo_root/public/catalog
+- vérifier existence de catalog_root, sinon error au démarrage
+
+publish_core.py:
+- functions:
+  create_product(catalog_root, draft, image_file, pdf_file, log, progress)
+  update_product(catalog_root, id, draft, image_file_opt, pdf_file_opt, remove_pdf, log, progress)
+  delete_product(catalog_root, id, log, progress)
+- Must load:
+  index.products.json
+  index.search.json (fallback [])
+  taxonomies/manufacturers.json
+  taxonomies/categories.json
+- Must compute:
+  manufacturer_name
+  categories names
+  category_paths breadcrumbs
+
+utils.py:
+- pad6
+- slugify_ascii (normalize + ascii + hyphens)
+- strip_html (simple regex + whitespace normalize)
+- read_json / atomic_write_json
+- ensure_dir
+- safe_copy_file
+- now_stamp
+- file_ext_from_upload
+
+jobs in memory:
+- dict jobId -> {status, progress, logs[], result, error}
+- background thread runs core operation
+
+IMPLEMENTATION: PARTIE FRONT (admin)
+1) Assurer login admin (déjà existant):
+- Toute page /admin/* nécessite auth.
+- Si pas auth -> redirect login.
+
+2) Créer/adapter page:
+http://localhost:5173/admin/products
+- Liste des produits existants (depuis index.products.json) + bouton:
+  - Ajouter
+  - Editer
+  - Supprimer
+
+3) Page ajout:
+http://localhost:5173/admin/products/new
+Form conforme au contrat minimum:
+- name
+- manufacturer select (fetch /catalog/taxonomies/manufacturers.json)
+- categories multiselect (fetch /catalog/taxonomies/categories.json)
+- price_ht
+- short_html (textarea + auto wrap <p>)
+- long_html
+- specs editor (rows)
+- weight_kg (optional)
+- reference (optional)
+- image file required
+- pdf file optional
+Buttons:
+- Publier (automatique, appelle Python)
+- Sauver brouillon (optionnel, local storage)
+
+4) Edit:
+http://localhost:5173/admin/products/:id/edit
+- charger le produit via /catalog/products/000XYZ.json
+- pré-remplir form
+- Publier update (PUT /api/catalog/products/{id})
+
+5) Delete:
+- bouton Supprimer dans la liste admin:
+  - confirmation
+  - DELETE /api/catalog/products/{id}
+
+6) Appels API:
+- Utiliser proxy Vite (voir section VITE PROXY)
+- Chaque call envoie header:
+  X-ADMIN-TOKEN: import.meta.env.VITE_ADMIN_TOKEN
+- CREATE:
+  POST /api/catalog/products  (multipart)
+- UPDATE:
+  PUT /api/catalog/products/{id}
+- DELETE:
+  DELETE /api/catalog/products/{id}
+- Poll job:
+  GET /api/catalog/jobs/{jobId} toutes les 500ms
+
+7) UI progress:
+- afficher progress % + logs
+- quand status=success:
+  - invalider cache index (catalog.js):
+    ajouter une fonction clearCatalogCache() + l’appeler
+  - recharger index en bypass cache:
+    listProductsIndex({cacheBust:jobId}) or fetch with ?v=jobId
+  - naviguer vers /p/:slug
+- quand status=error:
+  - afficher error message + logs
+
+VITE PROXY
+Dans vite.config.*:
+server.proxy:
+  "/api": "http://127.0.0.1:8787"
+
+DEMARRAGE DEV (1 commande possible)
+On veut 2 serveurs en local:
+- Vite (5173)
+- Publisher Python (8787)
+
+Option A: deux terminaux.
+Option B (mieux): script npm "dev:full" qui lance les deux (si vous avez déjà une solution). Sinon rester simple.
+
+Pour publisher:
+cd publisher
+source .venv/bin/activate
+export ADMIN_TOKEN="dev-token"
+uvicorn app:app --host 127.0.0.1 --port 8787 --reload
+
+Pour vite:
+npm run dev -- --port 5173 --strictPort
+
+TESTS (OBLIGATOIRES ENTRE ETAPES)
+1) API up:
+curl http://127.0.0.1:8787/api/catalog/ping
+
+2) Front admin:
+- login
+- ouvrir /admin/products
+- liste s’affiche
+
+3) Create:
+- remplir form + image
+- Publier
+- vérifier progress + logs
+- vérifier fichiers écrits:
+  public/catalog/products/000XYZ.json
+  public/catalog/index.products.json contient l’id
+  public/catalog/index.search.json contient l’id
+  public/catalog/assets/... image existe
+
+4) Catalogue:
+- ouvrir /catalog
+- produit visible + recherche OK
+- click -> /p/:slug -> fiche OK + image OK
+
+5) Update:
+- edit produit -> changer prix + description -> Publier
+- vérifier fichiers update + index updated
+
+6) Delete:
+- supprimer produit -> Publier delete
+- vérifier suppression fichier produit + assets + index
+
+POINTS DE VIGILANCE
+- Cache navigateur: après publish, ajouter cache bust ?v=jobId sur fetch des index.
+- Slug immuable v1 recommandé (ne pas renommer assets et routes).
+- Ecriture atomique index indispensable.
+- Le publisher ne doit jamais accepter requêtes externes: host 127.0.0.1 uniquement.
+- Si une erreur survient, logs explicites + aucun index cassé.
+
+DONE CRITERIA
+- En localhost, depuis /admin/products, CREATE/UPDATE/DELETE modifie immédiatement public/catalog.
+- Le catalogue /catalog reflète le changement après refresh (ou auto refresh via reload index).
+- Progression et logs visibles dans l’UI.
+- Contrat strict: impossible de publier incomplet.
+- Aucun copier-coller de commande par l’admin.
+FIN

@@ -23,7 +23,7 @@ const MyOrderDetailsPage = lazyNamed(() => import('../pages/MyOrderDetails.jsx')
 const ProfilePage = lazyNamed(() => import('../pages/Profile.jsx'), 'ProfilePage')
 
 const AdminDashboardPage = lazyNamed(() => import('../pages/admin/AdminDashboard.jsx'), 'AdminDashboardPage')
-const AdminProductsPage = lazyNamed(() => import('../pages/admin/AdminProductsCatalog.jsx'), 'AdminProductsPage')
+const AdminProductsPage = lazyNamed(() => import('../pages/admin/AdminProducts.jsx'), 'AdminProductsPage')
 const AdminProductNewPage = lazyNamed(() => import('../pages/admin/AdminProductNew.jsx'), 'AdminProductNewPage')
 const AdminProductEditPage = lazyNamed(() => import('../pages/admin/AdminProductEdit.jsx'), 'AdminProductEditPage')
 const AdminOrdersPage = lazyNamed(() => import('../pages/admin/AdminOrders.jsx'), 'AdminOrdersPage')

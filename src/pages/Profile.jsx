@@ -8,9 +8,13 @@ import { PhoneInput } from '../components/PhoneInput.jsx'
 import { ShippingAddressForm } from '../components/ShippingAddressForm.jsx'
 import { signOutUser } from '../lib/auth.js'
 import { rtdb } from '../lib/db.js'
-import { composePhone, dialCodeForCountry, looksLikePhone, parsePhoneParts } from '../lib/phone.js'
+import { dialCodeForCountry, looksLikePhone, parsePhoneParts, composePhone } from '../lib/phone.js'
 import { isShippingAddressComplete } from '../lib/shippingAddress.js'
 import { normalizeCountryCode } from '../lib/countries.js'
+import { Button } from '../ui/Button.jsx'
+import { Card } from '../ui/Card.jsx'
+import { Input } from '../ui/Input.jsx'
+import { Badge } from '../ui/Badge.jsx'
 
 function normalizeText(value) {
   return String(value || '').trim().replace(/\s+/g, ' ')
@@ -36,6 +40,8 @@ export function ProfilePage() {
   const userPath = user?.uid ? `/users/${user.uid}` : null
   const { data: profileData, status: profileStatus, error: profileError } = useRtdbValue(userPath)
 
+  const [activeTab, setActiveTab] = useState('general') // 'general', 'orders'
+
   const initialFirstName = useMemo(() => normalizeText(profileData?.firstName || ''), [profileData?.firstName])
   const initialLastName = useMemo(() => normalizeText(profileData?.lastName || ''), [profileData?.lastName])
   const initialPhoneParts = useMemo(() => parsePhoneParts(profileData?.phone || ''), [profileData?.phone])
@@ -52,9 +58,9 @@ export function ProfilePage() {
 
   const [phoneParts, setPhoneParts] = useState(() => ({ dialCode: '+41', national: '' }))
   const lastAutoDialRef = useRef('+41')
-  const [saving, setSaving] = useState(false)
-  const [saveError, setSaveError] = useState('')
-  const [saveOk, setSaveOk] = useState(false)
+  const [savingPhone, setSavingPhone] = useState(false)
+  const [savePhoneError, setSavePhoneError] = useState('')
+  const [savePhoneOk, setSavePhoneOk] = useState(false)
 
   const [shippingAddress, setShippingAddress] = useState(() => ({
     name: '',
@@ -79,19 +85,13 @@ export function ProfilePage() {
 
   useEffect(() => {
     setShippingAddress(initialAddress)
-    // Initialise la référence "auto" sur le pays de l'adresse (sans forcer le téléphone).
     lastAutoDialRef.current = dialCodeForCountry(initialAddress?.country || 'CH')
   }, [initialAddress])
 
-  // Liaison Pays (adresse) -> indicatif (téléphone)
+  // Phone/Country Sync Logic
   useEffect(() => {
     const country = normalizeCountryCode(shippingAddress?.country || 'CH')
     const nextAuto = dialCodeForCountry(country)
-
-    // On auto-change uniquement si:
-    // - le numéro n'a pas encore été saisi (national vide), OU
-    // - l'indicatif actuel est celui qu'on avait auto-appliqué précédemment
-    //   (donc l'utilisateur ne l'a pas explicitement "décorrélé").
     const national = String(phoneParts?.national || '').trim()
     const dial = String(phoneParts?.dialCode || '').trim() || '+41'
 
@@ -102,43 +102,29 @@ export function ProfilePage() {
         national: String(prev?.national || ''),
       }))
     }
-
-    // On met à jour la référence même si on n'a pas auto-changé:
-    // si l'utilisateur aligne manuellement l'indicatif sur le pays, l'auto redeviendra naturelle.
     lastAutoDialRef.current = nextAuto
   }, [phoneParts.dialCode, phoneParts.national, shippingAddress?.country])
 
   async function onSavePhone(e) {
     e.preventDefault()
-    setSaveOk(false)
-    setSaveError('')
+    setSavePhoneOk(false)
+    setSavePhoneError('')
 
-    if (!user?.uid) return
-    if (!rtdb) {
-      setSaveError(
-        'Realtime Database non configurée. Vérifiez VITE_FIREBASE_DATABASE_URL dans `.env.local`.',
-      )
-      return
-    }
-
+    if (!rtdb || !user?.uid) return
     const nextPhone = composePhone(phoneParts)
     if (!looksLikePhone(nextPhone)) {
-      setSaveError('Numéro invalide (au moins 8 chiffres).')
+      setSavePhoneError('Numéro invalide (8 chiffres min).')
       return
     }
 
     try {
-      setSaving(true)
-      await update(ref(rtdb, `users/${user.uid}`), {
-        email: user.email || null,
-        phone: nextPhone,
-        updatedAt: serverTimestamp(),
-      })
-      setSaveOk(true)
+      setSavingPhone(true)
+      await update(ref(rtdb, `users/${user.uid}`), { phone: nextPhone, updatedAt: serverTimestamp() })
+      setSavePhoneOk(true)
     } catch (err) {
-      setSaveError(err?.message || 'Enregistrement impossible.')
+      setSavePhoneError('Erreur sauvegarde.')
     } finally {
-      setSaving(false)
+      setSavingPhone(false)
     }
   }
 
@@ -147,32 +133,20 @@ export function ProfilePage() {
     setSaveIdentityOk(false)
     setSaveIdentityError('')
 
-    if (!user?.uid) return
-    if (!rtdb) {
-      setSaveIdentityError(
-        'Realtime Database non configurée. Vérifiez VITE_FIREBASE_DATABASE_URL dans `.env.local`.',
-      )
-      return
-    }
-
+    if (!rtdb || !user?.uid) return
     const fn = normalizeText(firstName)
     const ln = normalizeText(lastName)
     if (!fn || !ln) {
-      setSaveIdentityError('Veuillez renseigner votre prénom et votre nom.')
+      setSaveIdentityError('Prénom et nom requis.')
       return
     }
 
     try {
       setSavingIdentity(true)
-      await update(ref(rtdb, `users/${user.uid}`), {
-        email: user.email || null,
-        firstName: fn,
-        lastName: ln,
-        updatedAt: serverTimestamp(),
-      })
+      await update(ref(rtdb, `users/${user.uid}`), { firstName: fn, lastName: ln, updatedAt: serverTimestamp() })
       setSaveIdentityOk(true)
     } catch (err) {
-      setSaveIdentityError(err?.message || 'Enregistrement impossible.')
+      setSaveIdentityError('Erreur sauvegarde.')
     } finally {
       setSavingIdentity(false)
     }
@@ -183,298 +157,161 @@ export function ProfilePage() {
     setSaveAddressOk(false)
     setSaveAddressError('')
 
-    if (!user?.uid) return
-    if (!rtdb) {
-      setSaveAddressError(
-        'Realtime Database non configurée. Vérifiez VITE_FIREBASE_DATABASE_URL dans `.env.local`.',
-      )
-      return
-    }
-
+    if (!rtdb || !user?.uid) return
     const next = normalizeAddress(shippingAddress)
     if (!isShippingAddressComplete(next)) {
-      setSaveAddressError('Veuillez compléter tous les champs de l’adresse de livraison.')
+      setSaveAddressError('Adresse incomplète.')
       return
     }
 
     try {
       setSavingAddress(true)
-      await update(ref(rtdb, `users/${user.uid}`), {
-        email: user.email || null,
-        shippingAddress: next,
-        updatedAt: serverTimestamp(),
-      })
+      await update(ref(rtdb, `users/${user.uid}`), { shippingAddress: next, updatedAt: serverTimestamp() })
       setSaveAddressOk(true)
     } catch (err) {
-      setSaveAddressError(err?.message || 'Enregistrement impossible.')
+      setSaveAddressError('Erreur sauvegarde.')
     } finally {
       setSavingAddress(false)
     }
   }
 
-  async function onSignOut() {
-    await signOutUser()
-    navigate('/', { replace: true })
-  }
-
-  if (!isAuthConfigured) {
-    return (
-      <section className="space-y-3">
-        <h1 className="text-2xl font-semibold tracking-tight">Compte</h1>
-        <p className="text-sm text-neutral-600">
-          L’authentification Firebase n’est pas configurée sur cet environnement.
-        </p>
-        <p className="text-sm text-neutral-600">
-          Ajoutez vos variables dans <code className="rounded bg-neutral-100 px-1">.env.local</code> (voir{' '}
-          <code className="rounded bg-neutral-100 px-1">.env.example</code>).
-        </p>
-        <Link className="text-sm text-blue-600 hover:underline" to="/">
-          Retour à l’accueil
-        </Link>
-      </section>
-    )
-  }
-
-  if (authLoading) {
-    return (
-      <section className="space-y-2">
-        <h1 className="text-2xl font-semibold tracking-tight">Compte</h1>
-        <p className="text-sm text-neutral-600">Chargement…</p>
-      </section>
-    )
-  }
+  if (!isAuthConfigured || authLoading) return <div className="p-8 text-center text-swiss-neutral-500">Chargement...</div>
 
   if (!user) {
     return (
-      <section className="space-y-3">
-        <h1 className="text-2xl font-semibold tracking-tight">Compte</h1>
-        <p className="text-sm text-neutral-600">Vous n’êtes pas connecté.</p>
-        <div className="flex flex-wrap gap-3">
-          <Link
-            className="rounded-lg px-3 py-2 text-sm font-medium text-white"
-            style={{ backgroundColor: 'var(--medilec-accent)' }}
-            to="/login"
-          >
-            Se connecter
-          </Link>
-          <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/">
-            Retour à l’accueil
-          </Link>
-        </div>
-      </section>
+      <div className="mx-auto max-w-md py-20 text-center">
+        <h1 className="text-xl font-bold">Connexion requise</h1>
+        <p className="mt-2 text-swiss-neutral-500">Veuillez vous connecter pour accéder à votre profil.</p>
+        <Button className="mt-4" onClick={() => navigate('/login')}>Se connecter</Button>
+      </div>
     )
   }
 
   return (
-    <section className="mx-auto max-w-2xl space-y-6">
-      <header className="space-y-1">
-        <h1 className="text-2xl font-semibold tracking-tight">Mon compte</h1>
-        <p className="text-sm text-neutral-600">Gérez vos informations et vos demandes (MVP).</p>
+    <div className="animate-in fade-in slide-in-from-bottom-2 duration-700">
+      <header className="mb-8 border-b border-swiss-neutral-200 pb-6">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="h-16 w-16 overflow-hidden rounded-full bg-medilec-accent/10 flex items-center justify-center text-medilec-accent text-xl font-bold">
+              {user.email ? user.email[0].toUpperCase() : 'U'}
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold tracking-tight text-swiss-neutral-900">
+                {firstName || 'Utilisateur'} {lastName}
+              </h1>
+              <p className="text-sm text-swiss-neutral-500 shadow-sm">{user.email}</p>
+            </div>
+          </div>
+
+          <Button variant="secondary" onClick={() => signOutUser().then(() => navigate('/'))}>
+            Déconnexion
+          </Button>
+        </div>
+
+        {role === 'admin' && (
+          <div className="mt-4">
+            <Badge variant="brand">Mode Administrateur</Badge>
+          </div>
+        )}
       </header>
 
-      {location?.state?.reason === 'phone-required' ? (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-          Pour envoyer une demande depuis le panier, nous avons besoin de votre numéro de téléphone.
-        </div>
-      ) : null}
-
-      {location?.state?.reason === 'address-required' ? (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-          Pour envoyer une demande depuis le panier, veuillez renseigner votre adresse de livraison.
-        </div>
-      ) : null}
-
-      {!isShippingAddressComplete(profileData?.shippingAddress) ? (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-          Astuce: complétez votre <span className="font-medium">adresse de livraison</span> pour pouvoir envoyer
-          une demande rapidement depuis le panier.
-        </div>
-      ) : null}
-
-      {!String(profileData?.firstName || '').trim() || !String(profileData?.lastName || '').trim() ? (
-        <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-          Astuce: renseignez votre <span className="font-medium">prénom</span> et votre{' '}
-          <span className="font-medium">nom</span>.
-        </div>
-      ) : null}
-
-      <div className="rounded-xl border border-neutral-200 bg-white p-4">
-        <div className="text-sm text-neutral-600">Connecté en tant que</div>
-        <div className="mt-1 font-medium">{user.email || user.uid}</div>
-        <div className="mt-2 text-xs text-neutral-500">UID: {user.uid}</div>
-
-
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-          <div className="text-sm text-neutral-700">
-            Rôle:{' '}
-            <span className="font-mono text-xs">{role ? `role="${role}"` : 'role=(absent)'}</span>
-          </div>
+      <div className="grid gap-8 lg:grid-cols-[240px,1fr]">
+        {/* Sidebar */}
+        <nav className="space-y-1">
           <button
-            className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50 disabled:opacity-60"
-            onClick={async () => {
-              try {
-                await refreshClaims()
-              } catch {
-                // fail-soft
-              }
-            }}
-            disabled={claimsLoading}
-            type="button"
+            onClick={() => setActiveTab('general')}
+            className={`w-full rounded-lg px-4 py-3 text-left text-sm font-medium transition-colors ${activeTab === 'general' ? 'bg-swiss-neutral-100 text-swiss-neutral-900' : 'text-swiss-neutral-600 hover:bg-swiss-neutral-50'}`}
           >
-            {claimsLoading ? 'Rafraîchissement…' : 'Rafraîchir mes droits'}
+            Informations Générales
           </button>
+          <button
+            onClick={() => navigate('/my-orders')}
+            className={`w-full rounded-lg px-4 py-3 text-left text-sm font-medium transition-colors text-swiss-neutral-600 hover:bg-swiss-neutral-50`}
+          >
+            Mes Commandes
+          </button>
+          {role === 'admin' && (
+            <button
+              onClick={() => navigate('/admin')}
+              className={`w-full rounded-lg px-4 py-3 text-left text-sm font-medium transition-colors text-medilec-accent hover:bg-red-50`}
+            >
+              Interface Admin
+            </button>
+          )}
+        </nav>
+
+        {/* Content */}
+        <div className="space-y-6">
+          {/* General Info Tab */}
+          {activeTab === 'general' && (
+            <>
+              <Card>
+                <div className="flex items-center justify-between mb-4">
+                  <div>
+                    <h2 className="text-lg font-bold text-swiss-neutral-900">Identité</h2>
+                    <p className="text-sm text-swiss-neutral-500">Mettez à jour vos informations personnelles.</p>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-xs text-swiss-neutral-400">UID: {user.uid.slice(0, 8)}...</span>
+                  </div>
+                </div>
+
+                <form onSubmit={onSaveIdentity} className="space-y-4">
+                  <div className="grid gap-4 md:grid-cols-2">
+                    <Input label="Prénom" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
+                    <Input label="Nom" value={lastName} onChange={(e) => setLastName(e.target.value)} />
+                  </div>
+
+                  <div className="flex items-center justify-between">
+                    <div className="text-sm">
+                      {saveIdentityOk && <span className="text-green-600">Enregistré !</span>}
+                      {saveIdentityError && <span className="text-red-600">{saveIdentityError}</span>}
+                    </div>
+                    <Button type="submit" isLoading={savingIdentity} disabled={!firstName || !lastName}>Enregistrer</Button>
+                  </div>
+                </form>
+              </Card>
+
+              <Card>
+                <h2 className="mb-4 text-lg font-bold text-swiss-neutral-900">Coordonnées</h2>
+
+                <form onSubmit={onSavePhone} className="space-y-6">
+                  <PhoneInput
+                    label="Téléphone"
+                    dialCode={phoneParts.dialCode}
+                    national={phoneParts.national}
+                    onChange={setPhoneParts}
+                  />
+                  <div className="flex items-center justify-between">
+                    <div className="text-sm">
+                      {savePhoneOk && <span className="text-green-600">Enregistré !</span>}
+                      {savePhoneError && <span className="text-red-600">{savePhoneError}</span>}
+                    </div>
+                    <Button type="submit" isLoading={savingPhone}>Sauvegarder</Button>
+                  </div>
+                </form>
+              </Card>
+
+              <Card>
+                <h2 className="mb-4 text-lg font-bold text-swiss-neutral-900">Adresse de livraison par défaut</h2>
+                <form onSubmit={onSaveAddress} className="space-y-6">
+                  <ShippingAddressForm
+                    value={shippingAddress}
+                    onChange={setShippingAddress}
+                  />
+                  <div className="flex items-center justify-between">
+                    <div className="text-sm">
+                      {saveAddressOk && <span className="text-green-600">Enregistré !</span>}
+                      {saveAddressError && <span className="text-red-600">{saveAddressError}</span>}
+                    </div>
+                    <Button type="submit" isLoading={savingAddress}>Sauvegarder l'adresse</Button>
+                  </div>
+                </form>
+              </Card>
+            </>
+          )}
         </div>
       </div>
-
-      <div className="rounded-xl border border-neutral-200 bg-white p-4">
-        <h2 className="text-base font-semibold">Identité</h2>
-        <p className="mt-1 text-sm text-neutral-600">Votre prénom et votre nom.</p>
-
-        <form className="mt-4 space-y-3" onSubmit={onSaveIdentity}>
-          <div className="grid gap-3 sm:grid-cols-2">
-            <div className="space-y-1">
-              <label className="text-sm font-medium" htmlFor="profile-firstName">
-                Prénom
-              </label>
-              <input
-                id="profile-firstName"
-                className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-                style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-                value={firstName}
-                onChange={(e) => setFirstName(e.target.value)}
-                type="text"
-                autoComplete="given-name"
-              />
-            </div>
-
-            <div className="space-y-1">
-              <label className="text-sm font-medium" htmlFor="profile-lastName">
-                Nom
-              </label>
-              <input
-                id="profile-lastName"
-                className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-                style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-                value={lastName}
-                onChange={(e) => setLastName(e.target.value)}
-                type="text"
-                autoComplete="family-name"
-              />
-            </div>
-          </div>
-
-          {saveIdentityError ? (
-            <div className="rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
-              {saveIdentityError}
-            </div>
-          ) : null}
-
-          {saveIdentityOk ? (
-            <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
-              Identité enregistrée.
-            </div>
-          ) : null}
-
-          <button
-            className="rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
-            style={{ backgroundColor: 'var(--medilec-accent)' }}
-            disabled={savingIdentity}
-            type="submit"
-          >
-            {savingIdentity ? 'Enregistrement…' : 'Enregistrer'}
-          </button>
-        </form>
-      </div>
-
-      <div className="rounded-xl border border-neutral-200 bg-white p-4">
-        <h2 className="text-base font-semibold">Téléphone</h2>
-        <p className="mt-1 text-sm text-neutral-600">
-          Nous en aurons besoin pour vous recontacter lors d’une demande.
-        </p>
-
-        {profileError ? (
-          <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-800">
-            Lecture profil: {profileError?.message || 'Erreur'}
-          </div>
-        ) : null}
-
-        <form className="mt-4 space-y-3" onSubmit={onSavePhone}>
-          <PhoneInput
-            idPrefix="profile-phone"
-            label="Numéro de téléphone"
-            dialCode={phoneParts.dialCode}
-            national={phoneParts.national}
-            onChange={setPhoneParts}
-            placeholder="79 123 45 67"
-          />
-            <div className="text-xs text-neutral-500">
-              {profileStatus === 'loading' ? 'Chargement…' : null}
-            </div>
-
-          {saveError ? (
-            <div className="rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
-              {saveError}
-            </div>
-          ) : null}
-
-          {saveOk ? (
-            <div className="rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
-              Téléphone enregistré.
-            </div>
-          ) : null}
-
-          <button
-            className="rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
-            style={{ backgroundColor: 'var(--medilec-accent)' }}
-            disabled={saving}
-            type="submit"
-          >
-            {saving ? 'Enregistrement…' : 'Enregistrer'}
-          </button>
-        </form>
-      </div>
-
-      <form onSubmit={onSaveAddress}>
-        <ShippingAddressForm
-          value={shippingAddress}
-          onChange={setShippingAddress}
-          description="Adresse utilisée pour la livraison (si nécessaire)."
-        />
-
-        {saveAddressError ? (
-          <div className="mt-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
-            {saveAddressError}
-          </div>
-        ) : null}
-
-        {saveAddressOk ? (
-          <div className="mt-3 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
-            Adresse enregistrée.
-          </div>
-        ) : null}
-
-        <button
-          className="mt-3 rounded-lg px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
-          style={{ backgroundColor: 'var(--medilec-accent)' }}
-          disabled={savingAddress}
-          type="submit"
-        >
-          {savingAddress ? 'Enregistrement…' : 'Enregistrer l’adresse'}
-        </button>
-      </form>
-
-      <div className="flex flex-wrap items-center gap-3">
-        <button
-          className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
-          onClick={onSignOut}
-          type="button"
-        >
-          Se déconnecter
-        </button>
-        <Link className="text-sm text-neutral-700 hover:text-neutral-900" to="/catalog">
-          Aller au catalogue
-        </Link>
-      </div>
-    </section>
+    </div>
   )
 }

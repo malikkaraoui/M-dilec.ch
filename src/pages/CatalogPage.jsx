@@ -3,6 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
 import { assetUrl, listCategories, listProductsIndex, listSearchIndex } from '../lib/catalog.js'
+import { ProductTile } from '../features/catalog/ProductTile.jsx'
 
 const SECTION_DEFS = [
   { key: 'ecg', label: 'ECG', slugs: ['ecg', 'ergospirometrie'] },
@@ -15,7 +16,6 @@ const SECTION_DEFS = [
 ]
 
 function normalizeForSearch(v) {
-  // "cable" doit matcher "câble" (insensible aux accents/diacritiques)
   return String(v || '')
     .toLowerCase()
     .normalize('NFD')
@@ -38,36 +38,34 @@ export function CatalogPage() {
   useEffect(() => {
     let alive = true
 
-    ;(async () => {
-      try {
-        // Important: on ne bloque pas l'affichage des produits si le search index échoue.
-        // On n'utilise pas AbortController ici: un AbortError « silencieux » peut laisser l'UI à 0.
-        const pIdx = await listProductsIndex()
-        if (!alive) return
-        setProductsIndex(Array.isArray(pIdx) ? pIdx : [])
+      ; (async () => {
+        try {
+          const pIdx = await listProductsIndex()
+          if (!alive) return
+          setProductsIndex(Array.isArray(pIdx) ? pIdx : [])
 
-        const catIdx = await listCategories()
-          .then((d) => d?.categories)
-          .catch((e) => {
-            console.warn('Categories load failed (non-bloquant):', e)
+          const catIdx = await listCategories()
+            .then((d) => d?.categories)
+            .catch((e) => {
+              console.warn('Categories load failed (non-bloquant):', e)
+              return []
+            })
+          if (!alive) return
+          setCategoriesIndex(Array.isArray(catIdx) ? catIdx : [])
+
+          const sIdx = await listSearchIndex().catch((e) => {
+            console.warn('Search index load failed (non-bloquant):', e)
             return []
           })
-        if (!alive) return
-        setCategoriesIndex(Array.isArray(catIdx) ? catIdx : [])
-
-        const sIdx = await listSearchIndex().catch((e) => {
-          console.warn('Search index load failed (non-bloquant):', e)
-          return []
-        })
-        if (!alive) return
-        setSearchIndex(Array.isArray(sIdx) ? sIdx : [])
-      } catch (e) {
-        console.error('Catalog load failed:', e)
-        if (alive) setError(String(e?.message || e))
-      } finally {
-        if (alive) setLoading(false)
-      }
-    })()
+          if (!alive) return
+          setSearchIndex(Array.isArray(sIdx) ? sIdx : [])
+        } catch (e) {
+          console.error('Catalog load failed:', e)
+          if (alive) setError(String(e?.message || e))
+        } finally {
+          if (alive) setLoading(false)
+        }
+      })()
 
     return () => {
       alive = false
@@ -98,7 +96,6 @@ export function CatalogPage() {
   }, [searchIndex])
 
   const products = useMemo(() => {
-    // index.products.json = la “DB”. On ne charge pas les 213 fichiers ici.
     return Array.isArray(productsIndex) ? productsIndex : []
   }, [productsIndex])
 
@@ -113,7 +110,6 @@ export function CatalogPage() {
   }, [categoriesIndex])
 
   const homeCategoryId = useMemo(() => {
-    // On préfère la catégorie slug "home"; fallback = premier enfant de Root.
     const all = Array.isArray(categoriesIndex) ? categoriesIndex : []
     const home = all.find((c) => String(c?.slug || '') === 'home')
     if (home?.id != null) return Number(home.id)
@@ -141,7 +137,6 @@ export function CatalogPage() {
 
     return SECTION_DEFS.map((def) => {
       const rootIds = def.slugs.flatMap((s) => homeChildIdsBySlug(s))
-      // dédoublonnage
       const unique = Array.from(new Set(rootIds))
       return { ...def, rootIds: unique }
     }).filter((x) => x.rootIds.length > 0)
@@ -204,7 +199,6 @@ export function CatalogPage() {
       .filter((n) => Number.isFinite(n))
 
     if (!ids.length || !categoryById.size) return []
-    // Validation basique: tous les ids doivent exister.
     const existing = ids.filter((id) => categoryById.has(id))
     if (!existing.length) return []
     return existing
@@ -219,7 +213,6 @@ export function CatalogPage() {
 
   const effectivePath = useMemo(() => {
     if (!selectedCategoryId || !categoryById.size) return []
-    // Reconstruit le chemin depuis Home vers la catégorie sélectionnée (robuste si URL "bizarre").
     const chain = []
     let cur = selectedCategoryId
     const guard = new Set()
@@ -237,7 +230,6 @@ export function CatalogPage() {
       }
     }
     chain.reverse()
-    // On retire Home du breadcrumb (on affiche "Catalogue" à la place).
     if (chain.length && homeCategoryId != null && chain[0] === Number(homeCategoryId)) return chain.slice(1)
     return chain
   }, [categoryById, homeCategoryId, selectedCategoryId])
@@ -248,15 +240,12 @@ export function CatalogPage() {
       const id = String(p?.id ?? '')
       const h = haystackById.get(id)
       if (typeof h === 'string' && h.includes(qNorm)) return true
-
-      // Fallback si le search index est vide/incomplet: on cherche dans des champs basiques.
       const basic = normalizeForSearch(`${p?.name || ''} ${p?.manufacturer_name || ''}`)
       return basic.includes(qNorm)
     })
   }, [products, qNorm, haystackById])
 
   const sectionCounts = useMemo(() => {
-    // Compte de produits par section (après filtre de recherche uniquement).
     const m = new Map()
     for (const s of sections) {
       const set = new Set()
@@ -284,7 +273,6 @@ export function CatalogPage() {
   }, [searched, selectedSectionIdSet])
 
   const facetCounts = useMemo(() => {
-    // Compte de produits par catégorie, après filtre de recherche + section.
     const m = new Map()
     for (const p of baseFiltered) {
       const ids = Array.isArray(p?.category_ids) ? p.category_ids : []
@@ -306,9 +294,6 @@ export function CatalogPage() {
   }, [baseFiltered, selectedCategoryId])
 
   const duplicateMinPriceIds = useMemo(() => {
-    // Objectif: si un produit existe en doublon avec des prix différents,
-    // on met en rouge LA tuile qui a le prix le plus bas.
-    // Critère de doublon: (name + manufacturer) normalisés.
     const groups = new Map()
 
     for (const p of filtered) {
@@ -331,7 +316,6 @@ export function CatalogPage() {
       const prices = items.map((x) => x.price).filter((x) => typeof x === 'number' && Number.isFinite(x))
       if (prices.length < 2) continue
 
-      // Prix différents ?
       const min = Math.min(...prices)
       const max = Math.max(...prices)
       if (min === max) continue
@@ -345,7 +329,6 @@ export function CatalogPage() {
   }, [filtered])
 
   const browseCategoryId = useMemo(() => {
-    // Pour l'affichage de la liste de catégories: si on est sur une feuille, on affiche les "soeurs".
     if (!selectedCategoryId) return homeCategoryId
     const sel = categoryById.get(selectedCategoryId)
     const children = Array.isArray(sel?.children_ids) ? sel.children_ids : []
@@ -362,7 +345,6 @@ export function CatalogPage() {
     const b = Number(browseCategoryId)
     if (!Number.isFinite(b)) return browseCategoryId
     if (selectedSectionIdSet.has(b)) return b
-    // Fallback: première racine de section.
     const first = selectedSection?.rootIds?.[0]
     return Number.isFinite(Number(first)) ? Number(first) : browseCategoryId
   }, [browseCategoryId, selectedSection, selectedSectionIdSet])
@@ -370,10 +352,8 @@ export function CatalogPage() {
   const browseCategories = useMemo(() => {
     if (!categoryById.size) return []
 
-    // Mode "sections": pas de sec et pas de cat => on ne liste pas les catégories.
     if (!selectedSectionKey && !selectedCategoryIdRaw) return []
 
-    // Racines de section (quand sec choisi mais pas de catégorie spécifique)
     if (selectedSection && !selectedCategoryId) {
       const roots = selectedSection.rootIds
         .map((id) => categoryById.get(Number(id)))
@@ -403,7 +383,6 @@ export function CatalogPage() {
         id: Number(x.id),
         count: facetCounts.get(Number(x.id)) || 0,
       }))
-      // On n'affiche que les catégories "possibles" (au moins un produit après recherche+section).
       .filter((x) => x.count > 0)
       .sort((a, b) => String(a.name || '').localeCompare(String(b.name || ''), 'fr'))
 
@@ -442,7 +421,6 @@ export function CatalogPage() {
     const k = String(nextSectionKey || '').trim().toLowerCase()
     if (!k) next.delete('sec')
     else next.set('sec', k)
-    // Quand on change de section, on repart propre sur les catégories.
     next.delete('cat')
     setSearchParams(next, opts)
   }
@@ -457,7 +435,6 @@ export function CatalogPage() {
   function openCategory(id) {
     const n = Number(id)
     if (!Number.isFinite(n)) return
-    // Chemin robuste depuis Home
     const chain = []
     let cur = n
     const guard = new Set()
@@ -504,14 +481,7 @@ export function CatalogPage() {
       {!loading && !error ? (
         <div className="text-xs text-neutral-500">
           Index: <span className="font-medium text-neutral-700">{productsIndex.length}</span> produits,{' '}
-          <span className="font-medium text-neutral-700">{searchIndex.length}</span> entrées recherche —{' '}
-          <a className="underline" href="/catalog/index.products.json" target="_blank" rel="noreferrer">
-            ouvrir index.products.json
-          </a>{' '}
-          /{' '}
-          <a className="underline" href="/catalog/index.search.json" target="_blank" rel="noreferrer">
-            ouvrir index.search.json
-          </a>
+          <span className="font-medium text-neutral-700">{searchIndex.length}</span> entrées recherche
         </div>
       ) : null}
 
@@ -617,9 +587,8 @@ export function CatalogPage() {
                     return (
                       <li key={String(c.id)}>
                         <button
-                          className={`flex w-full items-center justify-between gap-2 rounded-lg px-2 py-2 text-left text-sm transition-colors ${
-                            isActive ? 'bg-neutral-100 text-neutral-900' : 'hover:bg-neutral-50 text-neutral-800'
-                          }`}
+                          className={`flex w-full items-center justify-between gap-2 rounded-lg px-2 py-2 text-left text-sm transition-colors ${isActive ? 'bg-neutral-100 text-neutral-900' : 'hover:bg-neutral-50 text-neutral-800'
+                            }`}
                           type="button"
                           onClick={() => openCategory(c.id)}
                         >
@@ -669,94 +638,31 @@ export function CatalogPage() {
             ) : null}
 
             {!loading && !error && filtered.length > 0 ? (
-              <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                {filtered.map((p) => {
-                  const id = p?.id
-                  const slug = p?.slug
-                  const name = p?.name || String(id ?? '')
-                  const manufacturer = p?.manufacturer_name
-                  const priceCents = typeof p?.price_ht === 'number' ? Math.round(p.price_ht * 100) : null
-
-                  const isDuplicateMin = duplicateMinPriceIds.has(String(id ?? ''))
-
-                  const cover = typeof p?.cover_image === 'string' && p.cover_image ? assetUrl(p.cover_image) : ''
-
-                  const href = slug ? `/p/${slug}` : id != null ? `/product/${id}` : '/catalog'
+              <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 auto-rows-[280px] grid-dense">
+                {filtered.map((p, i) => {
+                  const pattern = [
+                    'col-span-2 row-span-2',
+                    'col-span-1 row-span-1',
+                    'col-span-1 row-span-1',
+                    'col-span-1 row-span-2',
+                    'col-span-1 row-span-1',
+                    'col-span-1 row-span-1',
+                    'col-span-2 row-span-1',
+                    'col-span-1 row-span-1',
+                    'col-span-1 row-span-1',
+                  ]
+                  const spanClass = pattern[i % pattern.length]
 
                   return (
-                    <li
-                      key={String(id ?? slug ?? name)}
-                      className={`group cursor-pointer rounded-2xl border bg-white p-4 shadow-sm transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-lg ${
-                        isDuplicateMin
-                          ? 'border-red-300 bg-red-50/40 hover:border-red-400'
-                          : 'border-neutral-200 hover:border-neutral-300'
-                      }`}
-                      role="button"
-                      tabIndex={0}
-                      onClick={() => navigate(href)}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter') navigate(href)
-                      }}
-                    >
-                      {isDuplicateMin ? (
-                        <div className="mb-2 inline-flex items-center rounded-full border border-red-200 bg-red-50 px-2 py-0.5 text-[11px] font-medium text-red-700">
-                          Doublon — prix le plus bas
-                        </div>
-                      ) : null}
-                      {cover ? (
-                        <img
-                          alt={name}
-                          className="mb-3 h-36 w-full rounded-xl border border-neutral-200 object-cover"
-                          src={cover}
-                          loading="lazy"
-                        />
-                      ) : null}
-
-                      <div className="text-sm font-semibold text-neutral-900">{name}</div>
-                      {manufacturer ? <div className="mt-1 text-xs text-neutral-500">{manufacturer}</div> : null}
-
-                      {priceCents != null ? (
-                        <div className="mt-3 text-sm font-medium" style={{ color: 'var(--medilec-accent)' }}>
-                          {(priceCents / 100).toFixed(2)} CHF
-                        </div>
-                      ) : (
-                        <div className="mt-3 text-xs text-neutral-500">Prix sur demande</div>
-                      )}
-
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        <Link
-                          className="rounded-lg border border-neutral-200 bg-white px-3 py-2 text-xs font-medium text-neutral-900 hover:bg-neutral-50"
-                          to={href}
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          Détails
-                        </Link>
-
-                        <button
-                          className={
-                            recentlyAddedId === String(id)
-                              ? 'rounded-lg px-3 py-2 text-xs font-medium text-white ring-2 ring-offset-2 transition-transform active:scale-[0.98]'
-                              : 'rounded-lg px-3 py-2 text-xs font-medium text-white transition-transform active:scale-[0.98]'
-                          }
-                          style={{
-                            backgroundColor: 'var(--medilec-accent)',
-                            '--tw-ring-color': 'rgba(213, 43, 30, 0.28)',
-                          }}
-                          type="button"
-                          disabled={id == null}
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            cart.add({ id: String(id ?? ''), name, brand: manufacturer, priceCents })
-                            setRecentlyAddedId(String(id ?? ''))
-                          }}
-                        >
-                          {recentlyAddedId === String(id) ? 'Ajouté' : 'Ajouter'}
-                        </button>
-                      </div>
-                    </li>
+                    <ProductTile
+                      key={p.id || i}
+                      product={p}
+                      index={i}
+                      className={spanClass}
+                    />
                   )
                 })}
-              </ul>
+              </div>
             ) : null}
 
             {cart.count > 0 ? (
@@ -770,8 +676,6 @@ export function CatalogPage() {
           </div>
         </div>
       ) : null}
-
-      {/* La grille produits est maintenant rendue dans la colonne de droite, avec les catégories à gauche. */}
     </section>
   )
 }

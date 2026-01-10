@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom'
 
 import { useRtdbValue } from '../../hooks/useRtdbValue.js'
 import { rtdb } from '../../lib/db.js'
+import { Card } from '../../ui/Card.jsx'
+import { Badge } from '../../ui/Badge.jsx'
+import { Input } from '../../ui/Input.jsx'
+import { Button } from '../../ui/Button.jsx'
 
 function formatDate(value) {
   if (typeof value !== 'number') return '—'
@@ -17,19 +21,20 @@ function formatDate(value) {
   }
 }
 
-function formatStatus(status) {
-  switch (status) {
-    case 'new':
-      return 'Nouvelle'
-    case 'processing':
-      return 'En traitement'
-    case 'done':
-      return 'Terminée'
-    case 'cancelled':
-      return 'Annulée'
-    default:
-      return status || '—'
+function StatusBadge({ status }) {
+  const variants = {
+    new: 'brand',
+    processing: 'warning',
+    done: 'success',
+    cancelled: 'error'
   }
+  const labels = {
+    new: 'Nouvelle',
+    processing: 'En traitement',
+    done: 'Terminée',
+    cancelled: 'Annulée'
+  }
+  return <Badge variant={variants[status] || 'neutral'}>{labels[status] || status || 'Inconnu'}</Badge>
 }
 
 function normalizeText(value) {
@@ -175,7 +180,7 @@ export function AdminOrdersPage() {
 
     if (!rtdb) {
       setUpdateError(
-        'Realtime Database non configurée. Vérifiez VITE_FIREBASE_DATABASE_URL dans `.env.local`.',
+        'Realtime Database non configurée.',
       )
       return
     }
@@ -193,142 +198,108 @@ export function AdminOrdersPage() {
   }
 
   return (
-    <section className="space-y-4">
-      <div className="flex flex-wrap items-end justify-between gap-3">
+    <section className="space-y-6">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight">Commandes (demandes)</h1>
-          <p className="mt-1 text-sm text-neutral-600">MVP: liste simple + changement de statut.</p>
+          <h1 className="text-2xl font-bold tracking-tight text-swiss-neutral-900">Commandes</h1>
+          <p className="text-sm text-swiss-neutral-500">Gestion des demandes et suivis.</p>
         </div>
 
-        <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:items-end sm:gap-3">
-          <div className="w-full sm:w-80">
-            <label className="sr-only" htmlFor="admin-orders-search">
-              Rechercher
-            </label>
-            <input
-              id="admin-orders-search"
-              className="w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm outline-none focus:border-neutral-300 focus:ring-2"
-              style={{ '--tw-ring-color': 'rgba(213, 43, 30, 0.18)' }}
-              placeholder="Recherche (réf, email, statut…)"
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <div className="w-full sm:w-64">
+            <Input
+              placeholder="Rechercher..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              type="search"
+              className="h-10"
             />
           </div>
 
-          <div className="w-full sm:w-48">
-            <label className="block text-xs font-medium text-neutral-600" htmlFor="admin-orders-status-filter">
-              Statut
-            </label>
-            <select
-              id="admin-orders-status-filter"
-              className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm"
-              value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value)}
-            >
-              <option value="all">Tous</option>
-              <option value="new">Nouvelle</option>
-              <option value="processing">En traitement</option>
-              <option value="done">Terminée</option>
-              <option value="cancelled">Annulée</option>
-            </select>
-          </div>
-
-          <button
-            type="button"
-            className="h-10 w-full rounded-lg border border-neutral-200 bg-white px-3 text-sm text-neutral-800 hover:bg-neutral-50 sm:w-auto"
-            onClick={onResetFilters}
+          <select
+            className="h-10 rounded-lg border border-swiss-neutral-200 bg-white px-3 text-sm focus:border-medilec-accent focus:ring-1 focus:ring-medilec-accent outline-none"
+            value={statusFilter}
+            onChange={(e) => setStatusFilter(e.target.value)}
           >
-            Réinitialiser
-          </button>
+            <option value="all">Tous les statuts</option>
+            <option value="new">Nouvelle</option>
+            <option value="processing">En traitement</option>
+            <option value="done">Terminée</option>
+            <option value="cancelled">Annulée</option>
+          </select>
+
+          <Button variant="secondary" onClick={onResetFilters}>Reset</Button>
         </div>
       </div>
 
-      {status === 'loading' ? (
-        <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
-          Chargement…
-        </div>
-      ) : null}
+      {status === 'loading' && <div className="py-8 text-center text-swiss-neutral-500">Chargement des commandes...</div>}
 
-      {status === 'error' || error ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
-          Lecture des commandes impossible (droits admin requis).
+      {status === 'error' && (
+        <div className="rounded-lg bg-red-50 p-4 text-sm text-red-600 border border-red-100">
+          Erreur de chargement: {error?.message || 'Accès refusé'}
         </div>
-      ) : null}
+      )}
 
-      {updateError ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
-          {updateError}
+      {status === 'success' && orders.length === 0 && (
+        <div className="rounded-lg bg-swiss-neutral-50 p-8 text-center text-swiss-neutral-500 border border-swiss-neutral-100">
+          Aucune commande trouvée pour ces critères.
         </div>
-      ) : null}
+      )}
 
-      {status === 'success' && orders.length === 0 ? (
-        <div className="rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700">
-          Aucune commande trouvée.
-        </div>
-      ) : null}
-
-      {status === 'success' && orders.length > 0 ? (
-        <div className="space-y-3">
+      {status === 'success' && orders.length > 0 && (
+        <div className="space-y-6">
           {grouped.map((g) => (
-            <div key={g.key} className="overflow-hidden rounded-2xl border border-neutral-200 bg-white">
-              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-neutral-200 bg-neutral-50 px-4 py-3">
-                <div className="min-w-0">
-                  <div className="text-sm font-semibold text-neutral-900">
-                    {g.email || 'Client (email inconnu)'}
-                  </div>
-                  <div className="mt-1 text-xs text-neutral-600">
-                    {g.phone ? <span>{g.phone}</span> : <span>—</span>}
-                    {g.uid ? (
-                      <span className="ml-2 font-mono text-[11px] text-neutral-500">UID: {g.uid}</span>
-                    ) : null}
+            <Card key={g.key} padding="p-0" className="overflow-hidden">
+              <div className="border-b border-swiss-neutral-100 bg-swiss-neutral-50/50 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h3 className="font-semibold text-swiss-neutral-900">{g.email || 'Client Inconnu'}</h3>
+                  <div className="flex gap-3 text-xs text-swiss-neutral-500 mt-1">
+                    <span>{g.phone || 'Pas de téléphone'}</span>
+                    {g.uid && <span className="font-mono opacity-50">UID: {g.uid.slice(0, 8)}...</span>}
                   </div>
                 </div>
-
-                <div className="text-xs text-neutral-500">{g.orders.length} commande(s)</div>
+                <Badge variant="neutral">{g.orders.length} commande(s)</Badge>
               </div>
 
               <div className="overflow-x-auto">
-                <table className="min-w-full text-left text-sm">
-                  <thead className="border-b border-neutral-200 text-xs uppercase tracking-wide text-neutral-500">
+                <table className="w-full text-left text-sm">
+                  <thead className="bg-white text-xs uppercase tracking-wider text-swiss-neutral-400">
                     <tr>
-                      <th className="px-4 py-3">Référence</th>
-                      <th className="px-4 py-3">Créée le</th>
-                      <th className="px-4 py-3">Articles</th>
-                      <th className="px-4 py-3">Statut</th>
-                      <th className="px-4 py-3">Actions</th>
+                      <th className="px-6 py-3 font-semibold">Réf</th>
+                      <th className="px-6 py-3 font-semibold">Date</th>
+                      <th className="px-6 py-3 font-semibold">Articles</th>
+                      <th className="px-6 py-3 font-semibold">Statut</th>
+                      <th className="px-6 py-3 font-semibold text-right">Actions</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-neutral-200">
+                  <tbody className="divide-y divide-swiss-neutral-100">
                     {g.orders.map((o) => (
-                      <tr key={o.id} className="align-top">
-                        <td className="px-4 py-3">
-                          <div className="font-mono text-xs text-neutral-900">{o.id}</div>
+                      <tr key={o.id} className="hover:bg-swiss-neutral-50/30 transition-colors">
+                        <td className="px-6 py-4 font-mono text-xs font-medium text-swiss-neutral-600">{o.id}</td>
+                        <td className="px-6 py-4 text-swiss-neutral-600">{formatDate(o.createdAt)}</td>
+                        <td className="px-6 py-4 font-medium text-swiss-neutral-900">{o.itemCount || 0}</td>
+                        <td className="px-6 py-4">
+                          <div className="flex items-center gap-2">
+                            <StatusBadge status={o.status} />
+                            <select
+                              value={o.status}
+                              onChange={(e) => onChangeStatus(o.id, e.target.value)}
+                              disabled={updatingId === o.id}
+                              className="h-6 w-4 opacity-0 hover:opacity-100 focus:opacity-100 cursor-pointer absolute ml-2"
+                              title="Changer le statut"
+                            >
+                              <option value="new">Nouvelle</option>
+                              <option value="processing">En traitement</option>
+                              <option value="done">Terminée</option>
+                              <option value="cancelled">Annulée</option>
+                            </select>
+                          </div>
                         </td>
-                        <td className="px-4 py-3 text-neutral-700">{formatDate(o.createdAt)}</td>
-                        <td className="px-4 py-3 text-neutral-700">
-                          {typeof o.itemCount === 'number' ? o.itemCount : '—'}
-                        </td>
-                        <td className="px-4 py-3">
-                          <div className="text-xs text-neutral-500">{formatStatus(o.status)}</div>
-                          <select
-                            className="mt-1 w-full rounded-lg border border-neutral-200 bg-white px-2 py-2 text-sm"
-                            value={o.status || 'new'}
-                            disabled={updatingId === o.id}
-                            onChange={(e) => onChangeStatus(o.id, e.target.value)}
+                        <td className="px-6 py-4 text-right">
+                          <Link
+                            to={`/admin/orders/${o.id}`}
+                            className="text-medilec-accent hover:text-red-700 font-medium text-xs transition-colors"
                           >
-                            <option value="new">new</option>
-                            <option value="processing">processing</option>
-                            <option value="done">done</option>
-                            <option value="cancelled">cancelled</option>
-                          </select>
-                          {updatingId === o.id ? (
-                            <div className="mt-1 text-xs text-neutral-500">Mise à jour…</div>
-                          ) : null}
-                        </td>
-                        <td className="px-4 py-3">
-                          <Link className="text-sm text-blue-600 hover:underline" to={`/admin/orders/${o.id}`}>
-                            Détail
+                            Voir Détails
                           </Link>
                         </td>
                       </tr>
@@ -336,14 +307,10 @@ export function AdminOrdersPage() {
                   </tbody>
                 </table>
               </div>
-            </div>
+            </Card>
           ))}
         </div>
-      ) : null}
-
-      <p className="text-xs text-neutral-500">
-        Affichage limité à 50 résultats (tri par date décroissante).
-      </p>
+      )}
     </section>
   )
 }
