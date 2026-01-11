@@ -293,40 +293,7 @@ export function CatalogPage() {
     })
   }, [baseFiltered, selectedCategoryId])
 
-  const duplicateMinPriceIds = useMemo(() => {
-    const groups = new Map()
 
-    for (const p of filtered) {
-      const name = normalizeForSearch(p?.name || '')
-      const man = normalizeForSearch(p?.manufacturer_name || '')
-      const key = `${name}|${man}`
-      const id = String(p?.id ?? '')
-      const price = typeof p?.price_ht === 'number' && Number.isFinite(p.price_ht) ? p.price_ht : null
-      if (!id) continue
-      const arr = groups.get(key) || []
-      arr.push({ id, price })
-      groups.set(key, arr)
-    }
-
-    const flagged = new Set()
-
-    for (const [, items] of groups) {
-      if (!Array.isArray(items) || items.length < 2) continue
-
-      const prices = items.map((x) => x.price).filter((x) => typeof x === 'number' && Number.isFinite(x))
-      if (prices.length < 2) continue
-
-      const min = Math.min(...prices)
-      const max = Math.max(...prices)
-      if (min === max) continue
-
-      for (const it of items) {
-        if (it.price === min) flagged.add(it.id)
-      }
-    }
-
-    return flagged
-  }, [filtered])
 
   const browseCategoryId = useMemo(() => {
     if (!selectedCategoryId) return homeCategoryId
