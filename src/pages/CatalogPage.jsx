@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 
 import { useCart } from '../hooks/useCart.js'
-import { assetUrl, listCategories, listProductsIndex, listSearchIndex } from '../lib/catalog.js'
+import { listCategories, listProductsIndex, listSearchIndex } from '../lib/catalog.js'
 import { ProductTile } from '../features/catalog/ProductTile.jsx'
 
 const SECTION_DEFS = [
@@ -23,7 +23,6 @@ function normalizeForSearch(v) {
 }
 
 export function CatalogPage() {
-  const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
 
   const cart = useCart()

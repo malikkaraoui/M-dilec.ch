@@ -174,14 +174,10 @@ export function AdminOrdersPage() {
   }
 
   async function onChangeStatus(orderId, nextStatus) {
-    setUpdateError('')
-
     if (!orderId) return
 
     if (!rtdb) {
-      setUpdateError(
-        'Realtime Database non configurée.',
-      )
+      console.error('Realtime Database non configurée.')
       return
     }
 
@@ -191,7 +187,7 @@ export function AdminOrdersPage() {
         status: nextStatus,
       })
     } catch (err) {
-      setUpdateError(err?.message || 'Mise à jour impossible.')
+      console.error(err?.message || 'Mise à jour impossible.')
     } finally {
       setUpdatingId('')
     }

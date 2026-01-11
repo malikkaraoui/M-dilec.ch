@@ -1,6 +1,6 @@
 import { ref, serverTimestamp, update } from 'firebase/database'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import { useAuth } from '../hooks/useAuth.js'
 import { useRtdbValue } from '../hooks/useRtdbValue.js'
@@ -34,11 +34,10 @@ function normalizeAddress(value) {
 
 export function ProfilePage() {
   const navigate = useNavigate()
-  const location = useLocation()
-  const { user, loading: authLoading, isAuthConfigured, role, refreshClaims, claimsLoading } = useAuth()
+  const { user, loading: authLoading, isAuthConfigured, role } = useAuth()
 
   const userPath = user?.uid ? `/users/${user.uid}` : null
-  const { data: profileData, status: profileStatus, error: profileError } = useRtdbValue(userPath)
+  const { data: profileData } = useRtdbValue(userPath)
 
   const [activeTab, setActiveTab] = useState('general') // 'general', 'orders'
 
@@ -121,7 +120,7 @@ export function ProfilePage() {
       setSavingPhone(true)
       await update(ref(rtdb, `users/${user.uid}`), { phone: nextPhone, updatedAt: serverTimestamp() })
       setSavePhoneOk(true)
-    } catch (err) {
+    } catch {
       setSavePhoneError('Erreur sauvegarde.')
     } finally {
       setSavingPhone(false)
@@ -145,7 +144,7 @@ export function ProfilePage() {
       setSavingIdentity(true)
       await update(ref(rtdb, `users/${user.uid}`), { firstName: fn, lastName: ln, updatedAt: serverTimestamp() })
       setSaveIdentityOk(true)
-    } catch (err) {
+    } catch {
       setSaveIdentityError('Erreur sauvegarde.')
     } finally {
       setSavingIdentity(false)
@@ -168,7 +167,7 @@ export function ProfilePage() {
       setSavingAddress(true)
       await update(ref(rtdb, `users/${user.uid}`), { shippingAddress: next, updatedAt: serverTimestamp() })
       setSaveAddressOk(true)
-    } catch (err) {
+    } catch {
       setSaveAddressError('Erreur sauvegarde.')
     } finally {
       setSavingAddress(false)
