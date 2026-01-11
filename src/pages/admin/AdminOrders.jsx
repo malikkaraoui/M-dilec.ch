@@ -80,7 +80,7 @@ export function AdminOrdersPage() {
     return isValidStatusFilter(value) ? value : 'all'
   })
   const [updatingId, setUpdatingId] = useState('')
-  const [updateError, setUpdateError] = useState('')
+
 
   useEffect(() => {
     if (typeof window === 'undefined') return

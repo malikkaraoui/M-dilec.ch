@@ -11,7 +11,7 @@ import { rtdb } from '../lib/db.js'
 import { composePhone, looksLikePhone, parsePhoneParts } from '../lib/phone.js'
 import { isShippingAddressComplete, normalizeShippingAddress } from '../lib/shippingAddress.js'
 import { slugify } from '../lib/slug.js'
-import { assetUrl } from '../lib/catalog.js'
+
 import { Button } from '../ui/Button.jsx'
 import { Card } from '../ui/Card.jsx'
 import { Input } from '../ui/Input.jsx'
